@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/AvengeMedia/dms-plugins",
+  "rev": "8fa7c5286171c66a209dd74e9a47d6e72ccfdad6",
+  "date": "2025-12-18T16:13:03-05:00",
+  "path": "/nix/store/346r4z686i05350mn8l6bxarvrv7fg0j-dms-plugins",
+  "sha256": "0qavgxharx8z1775ra366w4sn7cgl72ax7dgsa17z8fp8n0x25fi",
+  "hash": "sha256-0RXRgUXXoX+C0q+drsShjx2rCTdmqFzOCR/1rGB/W2E=",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}

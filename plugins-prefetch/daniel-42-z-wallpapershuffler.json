@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler",
+  "rev": "2b2e63e1831d6e184eecbcad8a2794734bd5d4ae",
+  "date": "2025-12-17T15:51:26+08:00",
+  "path": "/nix/store/8icasj2zyd0dh9gn4kzzqg2qry29cl23-dms-wallpaper-shuffler",
+  "sha256": "1zi3brh75pyins6kf3798rvpcnigl9h2wwis1qyqjb2dabl3ypwa",
+  "hash": "sha256-il8/6FJNLIk9DjpyLmCiL1p2d0bpDDeNttHfcmBeI/4=",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}

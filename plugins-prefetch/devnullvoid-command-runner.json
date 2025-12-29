@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/devnullvoid/dms-command-runner",
+  "rev": "d89a09413e2fc041089b595a06c0fb316b12e17a",
+  "date": "2025-11-05T00:25:56-05:00",
+  "path": "/nix/store/gki6m3kbbqa8vpbcncq0hiz7p0617hhq-dms-command-runner",
+  "sha256": "0zsfz5k1ws7vcxxdbz30clb9i1ivwv6mp9bcsn1iqmkmb92q6ymm",
+  "hash": "sha256-tXqDRVp1VhyD1WylW83mO4aYFmVg/NV6Z/toHmb5Tn8=",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}

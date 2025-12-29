@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/Daniel-42-z/dms-power-usage",
+  "rev": "04b7da69b98be23d6f6bbc0430461680b43809e0",
+  "date": "2025-12-24T16:18:27+08:00",
+  "path": "/nix/store/30hc41c136ci2zf6n04ax57bizm3iynl-dms-power-usage",
+  "sha256": "0sv30zx9jbpmipg33q3zvpqrzvhkl5qpby4h04gysnw051a1clzn",
+  "hash": "sha256-9lMWVCiAW+0fAZD4dXGhE+6f8d1/4DHejfUumfoHY2s=",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}

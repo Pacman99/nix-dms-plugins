@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/arrifat346afs/mediaPlayer",
+  "rev": "71006dc92ae16e3eeb29870cedaa85a2caf08de0",
+  "date": "2025-12-26T20:12:50+06:00",
+  "path": "/nix/store/f9wk8ygd1657c9wyld3lna3hr253a9j4-mediaPlayer",
+  "sha256": "00534zw71gr3yrj2jzg2m4a450n9zinq3dykylxb3a6by4g9ackx",
+  "hash": "sha256-fTKVHvHLqLE69dO3gW38yYJCFKnifSlk9iO/cPgnowA=",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}

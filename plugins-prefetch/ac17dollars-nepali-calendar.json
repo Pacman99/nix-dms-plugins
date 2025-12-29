@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/AC17dollars/dms-nepali-calendar",
+  "rev": "78b8bc553a238600d787aa38d5a105403bd576ee",
+  "date": "2025-12-27T10:10:51+05:45",
+  "path": "/nix/store/aqzws8drvr5m842yk297vg8q284q92fg-dms-nepali-calendar",
+  "sha256": "0pxcbpzy0m5nqfnx54r71hd4nxdd0kbpyssi0nh829197w0ywcjg",
+  "hash": "sha256-TzLuAT8pJIGgBVFrf9cErXVLGgwnk9Ktw7ZU4P9drF8=",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}

@@ -1,0 +1,15 @@
+{
+    "id": "dankActions",
+    "name": "Dank Actions",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/AvengeMedia/dms-plugins",
+    "path": "DankActions",
+    "author": "Avenge Media",
+    "firstParty": true,
+    "description": "Add customizable, scriptable actions to your bar.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-actions.png"
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/jonkristian/dms-easyeffects",
+  "rev": "f50fdb7a110ddb90b7625bc143884fd773c3d5c7",
+  "date": "2025-12-15T09:52:12+01:00",
+  "path": "/nix/store/lgx12sqg7l1fs6anl5dmgw3x29gpzimf-dms-easyeffects",
+  "sha256": "11w7rki6kf87h57qjivw4c7r4bhi92436i26nph42xy73khyjidb",
+  "hash": "sha256-q0Xp4RzHd0HgtUZEM4hIES6SDyN8R4lPgQe5aeLMh4c=",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}

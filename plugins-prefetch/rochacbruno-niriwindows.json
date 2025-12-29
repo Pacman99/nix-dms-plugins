@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/rochacbruno/DankNiriWindows",
+  "rev": "b845277ad505556caff828241ec6a80a75f0e034",
+  "date": "2025-10-16T10:50:43+01:00",
+  "path": "/nix/store/3layxb7mbn7scg9mfxlds5ab3n17ykmn-DankNiriWindows",
+  "sha256": "14347bkxfwrs8wlbqabkiwii2355kql8vc5dv442fzvj8jg41mmd",
+  "hash": "sha256-rdZAnkRyfycI2a2wjSiepQwRI49zKbwoRzpz1+c6ZJA=",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}

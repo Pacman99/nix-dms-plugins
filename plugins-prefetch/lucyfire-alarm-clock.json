@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/lucyfire/dms-plugins",
+  "rev": "b9b5b28ed868e06706d3f24c694bb79e6c8197c5",
+  "date": "2025-12-26T20:25:25+02:00",
+  "path": "/nix/store/2x7h4wswf3m98pjrnr1aqid66h75ggkz-dms-plugins",
+  "sha256": "1dsw5pjzzw12na5wj87az71wzn8374dw7abgrawjd29zglcg53rm",
+  "hash": "sha256-NY/yGH0/iSa5ym+pwxs5A9nPw/nqIMmLsiLw/+UtXLc=",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}

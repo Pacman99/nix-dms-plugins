@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/devnullvoid/dms-web-search",
+  "rev": "81ccd9fd8249b3c9ef40dde42549f807e36ae3e3",
+  "date": "2025-11-10T15:54:03-05:00",
+  "path": "/nix/store/38ck68kk8lg4sq6iwiz9q3a8bbsgzzxn-dms-web-search",
+  "sha256": "062nj0ki7h07zk96jm1axdfj0a1b3cb5gnw3zir8i1d3x12fd9lq",
+  "hash": "sha256-mKbmROijhYhy/IPbVxYbKyggXesqVGnS/AfAEyeQVhg=",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}

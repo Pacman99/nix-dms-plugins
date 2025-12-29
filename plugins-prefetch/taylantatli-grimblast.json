@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/TaylanTatli/dms-plugins",
+  "rev": "2fa71a37f7ba411991a9e76baa3637351830ec6a",
+  "date": "2025-10-27T04:32:31+03:00",
+  "path": "/nix/store/6ddvdpn5lz64wyzd04ayz4prk5maz6qd-dms-plugins",
+  "sha256": "16xrvih3v17qyi88lizhjs2lqcvnbpnxfrhzg9bm16la3n65y3h8",
+  "hash": "sha256-CA5fjB2KmlBXeh9m1+1ddjNMhZbwR4pQ9PiEPWDcuZs=",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}

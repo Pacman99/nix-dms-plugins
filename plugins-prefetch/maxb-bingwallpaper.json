@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/max72bra/DankPluginBingWallpaper",
+  "rev": "bb06dbff5d2ababd1b675ad4bcc3cad36d7be42c",
+  "date": "2025-12-13T18:51:24+01:00",
+  "path": "/nix/store/qpvn64pximlx9ijnzqyk9by525df497y-DankPluginBingWallpaper",
+  "sha256": "0pfrpb5ylzlqbfz6zf0qgj8n183rli92d9qpd3dz58js84khrv3r",
+  "hash": "sha256-eewMJ0FaovLbaBenJlKkeaBgkXwYuG++W5h+6su62V0=",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/antonjah/nix-monitor",
+  "rev": "bd941a0e71b8f7763b45c22281a44ff554f82666",
+  "date": "2025-12-20T16:21:39+01:00",
+  "path": "/nix/store/rzkgk7472g2fwh1svyiywzl1r8giax4h-nix-monitor",
+  "sha256": "07p99cy9zdxgygybvgnilv970l1hp4jbf1vv7bnc4jz7f8dm12ry",
+  "hash": "sha256-PotQG3LnS8LsOnsHtyS5MFBw0qbRvr3886+3nzxL6R4=",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}
