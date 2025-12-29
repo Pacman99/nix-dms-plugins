@@ -1,0 +1,35 @@
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: cachix/install-nix-action@v31
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.head_ref }}
+          path: nix-dms-plugins
+      - uses: actions/checkout@v5
+        with:
+          repository: "AvengeMedia/dms-plugin-registry"
+          path: dms-plugin-registry
+      - name: Generate plugin data
+        run: |
+          rm -rf nix-dms-plugins/{plugins,plugins-prefetch}
+          mkdir -p nix-dms-plugins/{plugins,plugins-prefetch}
+          cd dms-plugin-registry/plugins
+          for plugin in *; do
+              nix shell nixpkgs#nix-prefetch-git \
+                --command nix-prefetch-git "$(jq -r '.repo' $plugin)" \
+                > "../../nix-dms-plugins/plugins-prefetch/$plugin"
+              cp $plugin "../../nix-dms-plugins/plugins/$plugin"
+          done
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: Update plugin data
+          repository: nix-dms-plugins
