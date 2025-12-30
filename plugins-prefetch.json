@@ -67,11 +67,11 @@
   },
   "mediaPlayer": {
     "url": "https://github.com/arrifat346afs/mediaPlayer",
-    "rev": "71006dc92ae16e3eeb29870cedaa85a2caf08de0",
-    "date": "2025-12-26T20:12:50+06:00",
-    "path": "/nix/store/f9wk8ygd1657c9wyld3lna3hr253a9j4-mediaPlayer",
-    "sha256": "00534zw71gr3yrj2jzg2m4a450n9zinq3dykylxb3a6by4g9ackx",
-    "hash": "sha256-fTKVHvHLqLE69dO3gW38yYJCFKnifSlk9iO/cPgnowA=",
+    "rev": "4d73e6c810f85093339eb6cc6dad251ea6c15b04",
+    "date": "2025-12-29T19:44:05+06:00",
+    "path": "/nix/store/sjjydzj4712h35pi4c7frpdnpffrj5j7-mediaPlayer",
+    "sha256": "0zckq8g3nkh9s7yha01hk0hrssfbp076xlm0gvgc9prxg1fn58fg",
+    "hash": "sha256-z6FiXXg938TefqDSbg64y2mdIZgwAAX90QlOOx7Ck30=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -98,6 +98,41 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/arrifat346afs/mediaPlayer/refs/heads/main/screenshot_8.png"
+    }
+  },
+  "tailscale": {
+    "url": "https://github.com/cglavin50/dms-tailscale",
+    "rev": "f035c3a0923e5872f912fc9bd4cc0c7f161fbe2a",
+    "date": "2025-12-28T23:10:04-05:00",
+    "path": "/nix/store/j4riay3djbpy0carn3px7y6fz5w9m226-dms-tailscale",
+    "sha256": "0qh4pssfqc75br7wzxpj7wj9rnxn7y5w1wdyf6ws7wa80f6aayvi",
+    "hash": "sha256-cXuljANI8aO5cb7xwIs/ttucJD/y9s9PXuUw7LS+BGI=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "tailscale",
+      "name": "Tailscale Manager",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/cglavin50/dms-tailscale",
+      "author": "cglavin50",
+      "description": "Tailscale-toggle plugin for DankBar",
+      "dependencies": [
+        "tailscale"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/cglavin50/dms-tailscale/raw/main/plugin-notif.png"
     }
   },
   "powerUsagePlugin": {
@@ -827,7 +862,40 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://github.com/mesteryui/DMS_HyprlandSubmap/raw/main/image_2025-12-24_20-47-31.png"
+      "screenshot": "https://raw.githubusercontent.com/mesteryui/DMS_HyprlandSubmap/refs/heads/main/assets/hyprlandSubmapPassthroughExample.png"
+    }
+  },
+  "prayerTimes": {
+    "url": "https://github.com/muadzmo/prayertimes",
+    "rev": "b63f9297a4990034ec7014233f3289601e54cd8b",
+    "date": "2025-12-29T13:31:50+07:00",
+    "path": "/nix/store/8krwvfrqmdpgm5brcvhjdnvsvp2ihl4g-prayertimes",
+    "sha256": "0r9jsqg1ph7ccl7kjai06l08hsvda1c0l9n8vwjmy4hg9lrjz126",
+    "hash": "sha256-RoQvM00PEl8l38gmClhQbWuIADUgKjkPZezAGx7WMmU=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "prayerTimes",
+      "name": "Prayer Times",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/muadzmo/prayertimes",
+      "author": "muadz",
+      "description": "Display Islamic prayer times from Aladhan API",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/muadzmo/prayertimes/refs/heads/main/screenshot.png"
     }
   },
   "appShortcut": {
