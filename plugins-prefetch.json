@@ -1213,5 +1213,40 @@
       ],
       "screenshot": "https://raw.githubusercontent.com/TaylanTatli/dms-plugins/refs/heads/master/grimblast/screenshot.png"
     }
+  },
+  "desktopCommand": {
+    "url": "https://github.com/yayuuu/desktopCommand",
+    "rev": "39c4fdf72a6817312ab9bf98376f1b4cbe209818",
+    "date": "2026-01-03T05:02:21+01:00",
+    "path": "/nix/store/rfa8s4676pq05pwqgp0s2c1zsxm47wr9-desktopCommand",
+    "sha256": "06rpyh67hgzd146y7ls18lmi7hql16z4hr9b3ighr2nr7svrhp4i",
+    "hash": "sha256-kVyYtz7ZigxfHCtlSL4JFMMTK0VB0+MNCe0/eAz0Nxs=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "desktopCommand",
+      "name": "Desktop Command",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/yayuuu/desktopCommand",
+      "author": "yayuuu",
+      "description": "A widget that displays a command output on your desktop",
+      "dependencies": [
+        "python3"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/yayuuu/desktopCommand/raw/main/assets/screenshot.jpg"
+    }
   }
 }
