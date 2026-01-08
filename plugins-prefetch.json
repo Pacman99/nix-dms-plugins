@@ -203,11 +203,11 @@
   },
   "dankActions": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "052310bbb5d4d9a90d2630014172f33221ac2c2c",
-    "date": "2026-01-06T17:04:59-05:00",
-    "path": "/nix/store/vmr3by9pm3r25gr348gf6n0gnx8j3m3c-dms-plugins",
-    "sha256": "0dzn23smns938s6sid48fm0jvk0f1j0jgikydjc0hrn4gk3hh6xk",
-    "hash": "sha256-sxsIx3zEZgiYbH7GJ4EMDswtQXWItKiNRiNpW/UQ9jc=",
+    "rev": "86c1e03fd8aa106728b46fe3fe4cb085c33fd698",
+    "date": "2026-01-07T12:14:56-05:00",
+    "path": "/nix/store/ccjpw5d0s7qs7zcd6z28zn5lkm6vz9ml-dms-plugins",
+    "sha256": "1gf7j60xrbbyx0cq9j7bkk2y1q8sgz16mw3d7a68xkxim4xfys5j",
+    "hash": "sha256-smjvOqmxz46MOm3wasJ/GuHgxZzryIQZ6H6t3IGRx70=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -238,11 +238,11 @@
   },
   "dankBatteryAlerts": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "052310bbb5d4d9a90d2630014172f33221ac2c2c",
-    "date": "2026-01-06T17:04:59-05:00",
-    "path": "/nix/store/vmr3by9pm3r25gr348gf6n0gnx8j3m3c-dms-plugins",
-    "sha256": "0dzn23smns938s6sid48fm0jvk0f1j0jgikydjc0hrn4gk3hh6xk",
-    "hash": "sha256-sxsIx3zEZgiYbH7GJ4EMDswtQXWItKiNRiNpW/UQ9jc=",
+    "rev": "86c1e03fd8aa106728b46fe3fe4cb085c33fd698",
+    "date": "2026-01-07T12:14:56-05:00",
+    "path": "/nix/store/ccjpw5d0s7qs7zcd6z28zn5lkm6vz9ml-dms-plugins",
+    "sha256": "1gf7j60xrbbyx0cq9j7bkk2y1q8sgz16mw3d7a68xkxim4xfys5j",
+    "hash": "sha256-smjvOqmxz46MOm3wasJ/GuHgxZzryIQZ6H6t3IGRx70=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -274,11 +274,11 @@
   },
   "dankDesktopWeather": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "052310bbb5d4d9a90d2630014172f33221ac2c2c",
-    "date": "2026-01-06T17:04:59-05:00",
-    "path": "/nix/store/vmr3by9pm3r25gr348gf6n0gnx8j3m3c-dms-plugins",
-    "sha256": "0dzn23smns938s6sid48fm0jvk0f1j0jgikydjc0hrn4gk3hh6xk",
-    "hash": "sha256-sxsIx3zEZgiYbH7GJ4EMDswtQXWItKiNRiNpW/UQ9jc=",
+    "rev": "86c1e03fd8aa106728b46fe3fe4cb085c33fd698",
+    "date": "2026-01-07T12:14:56-05:00",
+    "path": "/nix/store/ccjpw5d0s7qs7zcd6z28zn5lkm6vz9ml-dms-plugins",
+    "sha256": "1gf7j60xrbbyx0cq9j7bkk2y1q8sgz16mw3d7a68xkxim4xfys5j",
+    "hash": "sha256-smjvOqmxz46MOm3wasJ/GuHgxZzryIQZ6H6t3IGRx70=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -304,16 +304,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-desktop-weather.png"
+      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-desktop-weather.png",
+      "requires_dms": ">=1.2.0"
     }
   },
   "dankHooks": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "052310bbb5d4d9a90d2630014172f33221ac2c2c",
-    "date": "2026-01-06T17:04:59-05:00",
-    "path": "/nix/store/vmr3by9pm3r25gr348gf6n0gnx8j3m3c-dms-plugins",
-    "sha256": "0dzn23smns938s6sid48fm0jvk0f1j0jgikydjc0hrn4gk3hh6xk",
-    "hash": "sha256-sxsIx3zEZgiYbH7GJ4EMDswtQXWItKiNRiNpW/UQ9jc=",
+    "rev": "86c1e03fd8aa106728b46fe3fe4cb085c33fd698",
+    "date": "2026-01-07T12:14:56-05:00",
+    "path": "/nix/store/ccjpw5d0s7qs7zcd6z28zn5lkm6vz9ml-dms-plugins",
+    "sha256": "1gf7j60xrbbyx0cq9j7bkk2y1q8sgz16mw3d7a68xkxim4xfys5j",
+    "hash": "sha256-smjvOqmxz46MOm3wasJ/GuHgxZzryIQZ6H6t3IGRx70=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -344,11 +345,11 @@
   },
   "dankLauncherKeys": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "052310bbb5d4d9a90d2630014172f33221ac2c2c",
-    "date": "2026-01-06T17:04:59-05:00",
-    "path": "/nix/store/vmr3by9pm3r25gr348gf6n0gnx8j3m3c-dms-plugins",
-    "sha256": "0dzn23smns938s6sid48fm0jvk0f1j0jgikydjc0hrn4gk3hh6xk",
-    "hash": "sha256-sxsIx3zEZgiYbH7GJ4EMDswtQXWItKiNRiNpW/UQ9jc=",
+    "rev": "86c1e03fd8aa106728b46fe3fe4cb085c33fd698",
+    "date": "2026-01-07T12:14:56-05:00",
+    "path": "/nix/store/ccjpw5d0s7qs7zcd6z28zn5lkm6vz9ml-dms-plugins",
+    "sha256": "1gf7j60xrbbyx0cq9j7bkk2y1q8sgz16mw3d7a68xkxim4xfys5j",
+    "hash": "sha256-smjvOqmxz46MOm3wasJ/GuHgxZzryIQZ6H6t3IGRx70=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -374,16 +375,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankLauncherKeys/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankLauncherKeys/screenshot.png",
+      "requires_dms": ">=1.2.0"
     }
   },
   "dankPomodoroTimer": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "052310bbb5d4d9a90d2630014172f33221ac2c2c",
-    "date": "2026-01-06T17:04:59-05:00",
-    "path": "/nix/store/vmr3by9pm3r25gr348gf6n0gnx8j3m3c-dms-plugins",
-    "sha256": "0dzn23smns938s6sid48fm0jvk0f1j0jgikydjc0hrn4gk3hh6xk",
-    "hash": "sha256-sxsIx3zEZgiYbH7GJ4EMDswtQXWItKiNRiNpW/UQ9jc=",
+    "rev": "86c1e03fd8aa106728b46fe3fe4cb085c33fd698",
+    "date": "2026-01-07T12:14:56-05:00",
+    "path": "/nix/store/ccjpw5d0s7qs7zcd6z28zn5lkm6vz9ml-dms-plugins",
+    "sha256": "1gf7j60xrbbyx0cq9j7bkk2y1q8sgz16mw3d7a68xkxim4xfys5j",
+    "hash": "sha256-smjvOqmxz46MOm3wasJ/GuHgxZzryIQZ6H6t3IGRx70=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -414,11 +416,11 @@
   },
   "hueManager": {
     "url": "https://github.com/derethil/dms-hue-manager",
-    "rev": "7fbc5008dbdead25146dd3c7325fd8dc75973061",
-    "date": "2026-01-05T16:16:07-07:00",
-    "path": "/nix/store/a51s1ilrn0sjvl861i8kgbs22ad5j9fr-dms-hue-manager",
-    "sha256": "0l743aafyjfmy3wj5bmd2iiwdc1fnl20j5n9dd0xvpmgkf38ldm1",
-    "hash": "sha256-oTaKhpuv3t1Ba8kWCQS1LrDGYxStriL58NVJ75Qa5FA=",
+    "rev": "efd63c611694a17bd61e35e6947056e3525a4c98",
+    "date": "2026-01-07T10:55:08-07:00",
+    "path": "/nix/store/n6krrr2d9xpc8chhs8r294009b7064yw-dms-hue-manager",
+    "sha256": "1835zmq0sbi73izc2f7kiw9xqdq179x0i11mvqhw2v9lmxyzr8mi",
+    "hash": "sha256-saL8fa80bcEh3jWECHo6ATfcE4/zOMF+HCcuDXD9ZaA=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -720,7 +722,8 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/LuckShiba/DmsDockerManager/main/assets/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/LuckShiba/DmsDockerManager/main/assets/screenshot.png",
+      "requires_dms": ">=0.3.0"
     }
   },
   "alarmClock": {
@@ -756,7 +759,8 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://github.com/Lucyfire/dms-plugins/blob/master/alarmClock/alarms.png?raw=true"
+      "screenshot": "https://github.com/Lucyfire/dms-plugins/blob/master/alarmClock/alarms.png?raw=true",
+      "requires_dms": ">=0.2.4"
     }
   },
   "displaySettings": {
@@ -790,7 +794,8 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://github.com/Lucyfire/dms-plugins/blob/master/displaySettings/screenshot.png?raw=true"
+      "screenshot": "https://github.com/Lucyfire/dms-plugins/blob/master/displaySettings/screenshot.png?raw=true",
+      "requires_dms": ">=0.6.2"
     }
   },
   "gitmojiLauncher": {
@@ -826,7 +831,8 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://github.com/Lucyfire/dms-plugins/blob/master/gitmojiLauncher/screenshot.png?raw=true"
+      "screenshot": "https://github.com/Lucyfire/dms-plugins/blob/master/gitmojiLauncher/screenshot.png?raw=true",
+      "requires_dms": ">=0.2.4"
     }
   },
   "wallpaperDiscovery": {
@@ -862,7 +868,8 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://github.com/Lucyfire/dms-plugins/blob/master/wallpaperDiscovery/screenshot.png?raw=true"
+      "screenshot": "https://github.com/Lucyfire/dms-plugins/blob/master/wallpaperDiscovery/screenshot.png?raw=true",
+      "requires_dms": ">=0.2.4"
     }
   },
   "wallpaperBing": {
@@ -999,7 +1006,8 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://github.com/oabragh/AppShortcut/raw/main/assets/preview.png"
+      "screenshot": "https://github.com/oabragh/AppShortcut/raw/main/assets/preview.png",
+      "requires_dms": ">=1.2.0"
     }
   },
   "asusControlCenter": {
@@ -1282,7 +1290,8 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/TaylanTatli/dms-plugins/refs/heads/master/grimblast/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/TaylanTatli/dms-plugins/refs/heads/master/grimblast/screenshot.png",
+      "requires_dms": ">=0.1.18"
     }
   },
   "desktopCommand": {
@@ -1317,7 +1326,8 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://github.com/yayuuu/desktopCommand/raw/main/assets/screenshot.jpg"
+      "screenshot": "https://github.com/yayuuu/desktopCommand/raw/main/assets/screenshot.jpg",
+      "requires_dms": ">=1.2.0"
     }
   }
 }
