@@ -911,11 +911,11 @@
   },
   "hyprlandSubmap": {
     "url": "https://github.com/mesteryui/DMS_HyprlandSubmap",
-    "rev": "88476a68b70a37d8e6162c7d1e4cb6e115087ef1",
-    "date": "2026-01-06T20:50:40+01:00",
-    "path": "/nix/store/7gl7k44n26jvm0z6wybfpbq974bad4x5-DMS_HyprlandSubmap",
-    "sha256": "0inxhc2jvmphbp6p3il7ddbvpbgqa3l8n48jsq3xs8qpi5zj553f",
-    "hash": "sha256-bpQif4kXI90H1hIRi+hQ+K27V2uHxnHNXfDWLQWD3UY=",
+    "rev": "b9a289a8239ea8651876cc38aa936181b8e1d313",
+    "date": "2026-01-08T09:47:36+01:00",
+    "path": "/nix/store/qdrd0rfb0g014kn8rr9pg15b05ryfj2y-DMS_HyprlandSubmap",
+    "sha256": "1jxpr4pjyw7wbmh2jpakp4flzj1pp90yq7y5f5afdzf0345hr7qh",
+    "hash": "sha256-EJ8MCxnA/eZUccUf7EG6N8hPHblTXSlgXfxwLy/Jt8s=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1113,6 +1113,42 @@
         "any"
       ],
       "screenshot": "https://github.com/psyreactor/dms-kubernetes/raw/main/screenshot.png",
+      "requires_dms": ">0.0.28"
+    }
+  },
+  "voxtype": {
+    "url": "https://github.com/psyreactor/dms-voxtype",
+    "rev": "6debdff675065a384ae58e23c745df43461d47f1",
+    "date": "2026-01-08T16:28:08-03:00",
+    "path": "/nix/store/kn0yz0gglb8hzni3dcaxp2r3k6y3s4dl-dms-voxtype",
+    "sha256": "00nnj2kc92zhi8sh8pwml3gw5f6035flkpb9n32sy9sir6hk56az",
+    "hash": "sha256-X5kyoclRJ6/FsGndSV0ZwLjC36CVXwQ1ivCLxKaQ1gI=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "voxtype",
+      "name": "Voxtype",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/psyreactor/dms-voxtype",
+      "author": "psyreactor",
+      "description": "voxtype status plugin for DankBar",
+      "dependencies": [
+        "voxtype"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/psyreactor/dms-voxtype/raw/main/screenshot.png",
       "requires_dms": ">0.0.28"
     }
   },
