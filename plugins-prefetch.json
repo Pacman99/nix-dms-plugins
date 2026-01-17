@@ -724,6 +724,44 @@
       "screenshot": "https://github.com/KangweiZhu/lyrics-on-panel/raw/main/img/image-panel-onlythiswidget.png"
     }
   },
+  "stockManager": {
+    "url": "https://github.com/leemeng0x61/stockManager",
+    "rev": "caa5545a4ee416871d1ff2a94cc22234c839ff70",
+    "date": "2026-01-15T19:24:55+08:00",
+    "path": "/nix/store/7v32zsmmr6s1ixh343q3zplp1i67fcfj-stockManager",
+    "sha256": "01cw5fmz1w721prc6wcixcgv6dyvfafqc5w58ficvags4pnybk0q",
+    "hash": "sha256-GMzl7SX6qc2iQ4UXhp1y2zezH+uRccPyDeLw8KsrnAU=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "stockManager",
+      "name": "Stock Manager",
+      "capabilities": [
+        "dank-widget"
+      ],
+      "category": "Stock",
+      "repo": "https://github.com/leemeng0x61/stockManager",
+      "author": "LeeMeng",
+      "firstParty": true,
+      "description": "Simple Chinese A-share stock market monitoring plugin",
+      "dependencies": [
+        "curl",
+        "iconv"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/leemeng0x61/stockManager/raw/main/screenshot/sc.png",
+      "requires_dms": ">=1.2.0"
+    }
+  },
   "dockerManager": {
     "url": "https://github.com/LuckShiba/DmsDockerManager",
     "rev": "860457bbb043a6651a2cbafe6e77d443123a0b07",
