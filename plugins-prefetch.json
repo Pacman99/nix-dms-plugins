@@ -1049,6 +1049,41 @@
       "screenshot": "https://raw.githubusercontent.com/muadzmo/prayertimes/refs/heads/main/screenshot.png"
     }
   },
+  "amdGpuMonitor": {
+    "url": "https://github.com/navidagz/dms-amd-gpu-monitor",
+    "rev": "7369f0d6c8c243d7d8dc3792e51d2bd537352339",
+    "date": "2026-01-17T17:47:33+01:00",
+    "path": "/nix/store/jk1lja3242mn5dnn49djkwlb8pg18kg6-dms-amd-gpu-monitor",
+    "sha256": "0crfnq25fvkd58khzfanq29kyz5pivafw0li76n1pmfsb1q6hzj7",
+    "hash": "sha256-R35ocFja1RusOZEC7tSOt3w/k8BWuQ8nKm1uVwS2LjM=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "amdGpuMonitor",
+      "name": "AMD GPU Monitor",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/navidagz/dms-amd-gpu-monitor",
+      "author": "navidagz",
+      "description": "Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.",
+      "dependencies": [
+        "amdgpu_top"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshot.png"
+    }
+  },
   "appShortcut": {
     "url": "https://github.com/oabragh/AppShortcut",
     "rev": "373400a84e40b0fb73d6c809ea33c425b529c35f",
@@ -1367,11 +1402,11 @@
   },
   "sathiAi": {
     "url": "https://github.com/ss44/sathi.ai",
-    "rev": "f1b320f78e007974d1cfe7ad0582e7540db0b3d2",
-    "date": "2026-01-11T14:52:00-05:00",
-    "path": "/nix/store/aqmb1lj2hwag5fxq7lq8i2fya63nza6h-sathi.ai",
-    "sha256": "0g9w929mwsazkg7aw9dk93jgf6frc7k10sci9lkzvx51dmqirnzy",
-    "hash": "sha256-/tsccW2h9P0nTZFpEOZh2Rn35EizJa7Om19pXpNIPD0=",
+    "rev": "e8df6acae59d65c69b2287eba6219ba36666497e",
+    "date": "2026-01-17T14:05:02-05:00",
+    "path": "/nix/store/3srnznjg954f1bw963idqdlid0cldm7b-sathi.ai",
+    "sha256": "0ddzpxx8362av52v17zc2s33yn3m74vi28g6k620b6bnpqd6nrsx",
+    "hash": "sha256-XWdrGr52mQWEmeYhETc5dVg/hhbsn7BF2UqYgXq/vzU=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
