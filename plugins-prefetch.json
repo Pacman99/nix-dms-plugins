@@ -135,6 +135,40 @@
       "screenshot": "https://github.com/cglavin50/dms-tailscale/raw/main/plugin-notif.png"
     }
   },
+  "mediaFrame": {
+    "url": "https://codeberg.org/claymorwan/dms-plugins",
+    "rev": "667eb8906412595367d9190556d1bbdfffc9d4a2",
+    "date": "2026-01-18T20:29:04Z",
+    "path": "/nix/store/3czxyc4lfhv1f4i92b0jffn603i06vf4-dms-plugins",
+    "sha256": "1y1f8bshj2f27jvvf1q3nv73c5m3s7ca9d6a0hsp3qw9yq4mpd26",
+    "hash": "sha256-RrRbCfaJ43E1BMq0pNjRoxY2zrYDB7e3PMIJCfVCLvg=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "mediaFrame",
+      "name": "Media Frame",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "appearance",
+      "repo": "https://codeberg.org/claymorwan/dms-plugins",
+      "path": "mediaFrame",
+      "author": "claymorwan",
+      "description": "Desktop plugin to display a picture on your desktop",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://codeberg.org/claymorwan/dms-plugins/raw/branch/master/mediaFrame/screenshot.png"
+    }
+  },
   "powerUsagePlugin": {
     "url": "https://github.com/Daniel-42-z/dms-power-usage",
     "rev": "04b7da69b98be23d6f6bbc0430461680b43809e0",
@@ -1123,6 +1157,42 @@
       "screenshot": "https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshot.png"
     }
   },
+  "dmsLenovoBatterySettings": {
+    "url": "https://github.com/neoscaler/dms-lenovo-battery-settings",
+    "rev": "3cbed7f4d0c944eba1b05ed55d5ad88709bcae0d",
+    "date": "2026-01-20T12:32:28+01:00",
+    "path": "/nix/store/yrlcvv6cd5hrn7fqr0mwal34sbzw2ypz-dms-lenovo-battery-settings",
+    "sha256": "0qz7avg1h0gb8dkahcn0cry0yrz0zkk7h1ivv7vh96mfci8w9hbm",
+    "hash": "sha256-dcHEUWSumgT32TsGeOb84GcPfGbAMqhmQ+sBGN5W52M=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dmsLenovoBatterySettings",
+      "name": "Lenovo Battery Settings",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "repo": "https://github.com/neoscaler/dms-lenovo-battery-settings",
+      "author": "neoscaler",
+      "description": "Manage Lenovo battery settings like conservation mode",
+      "dependencies": [
+        "ideapad_laptop",
+        "polkit-agent"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/neoscaler/dms-lenovo-battery-settings/refs/heads/main/screenshot.png"
+    }
+  },
   "appShortcut": {
     "url": "https://github.com/oabragh/AppShortcut",
     "rev": "373400a84e40b0fb73d6c809ea33c425b529c35f",
@@ -1401,6 +1471,42 @@
       ],
       "screenshot": "https://github.com/rochacbruno/WorldClock/raw/main/screenshot.png",
       "requires_dms": ">0.0.28"
+    }
+  },
+  "sessionPower": {
+    "url": "https://github.com/ronmurphy/dms-contrib",
+    "rev": "ca7d321538cd83915ee0c8256b5f8a3b908f938e",
+    "date": "2025-12-10T00:52:02-05:00",
+    "path": "/nix/store/vkvswg4mk7a2mvwmxmwiri1pgn4vsrs3-dms-contrib",
+    "sha256": "12a8zimgsynll3fvbw5a0la6dw3zw6f9hk9cdx0q7a289fx7378p",
+    "hash": "sha256-F51xuktIqINBbyxNmJzhf/BmFAWq8LXdoNR6/Wr8SIk=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "sessionPower",
+      "name": "Session Power Menu",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/ronmurphy/dms-contrib",
+      "path": "SessionPowerMenu",
+      "author": "RonMurphy",
+      "description": "Puts the Power menu in the Bar",
+      "dependencies": [],
+      "compositors": [
+        "niri",
+        "hyprland",
+        "labwc"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/ronmurphy/dms-contrib/refs/heads/main/screenshot_session_power_menu.png"
     }
   },
   "linuxWallpaperEngine": {
