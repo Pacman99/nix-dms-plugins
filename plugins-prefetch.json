@@ -237,11 +237,11 @@
   },
   "dankActions": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "6d2b5511ea952f39921dc3e1145825c17638ef5c",
-    "date": "2026-01-19T18:31:07-05:00",
-    "path": "/nix/store/9b24852ms7mjmkdy40jkp0zyqniymkmz-dms-plugins",
-    "sha256": "0x5rsk68wdzx26fipy7g42bi20y7j0my78hmp0rl06jbfggarqiz",
-    "hash": "sha256-P+Ks3nNLGkAzuBWi4yuQxwMRlyDv+BudEf03jszUuXQ=",
+    "rev": "1c40d7570178285df8f6d0430cf152dfc198218a",
+    "date": "2026-01-21T15:56:16-05:00",
+    "path": "/nix/store/5sxc3gi7yvkfgr2278wv62wkcpj6dr6a-dms-plugins",
+    "sha256": "0lr8gsw7184kwz88mw01q9nflf3hi18x66bxzg63adv045fz9s08",
+    "hash": "sha256-COj0XSFgNzXM+30Z01GIcDjqbMIB8IrQ55OgcLh+KFM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -272,11 +272,11 @@
   },
   "dankBatteryAlerts": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "6d2b5511ea952f39921dc3e1145825c17638ef5c",
-    "date": "2026-01-19T18:31:07-05:00",
-    "path": "/nix/store/9b24852ms7mjmkdy40jkp0zyqniymkmz-dms-plugins",
-    "sha256": "0x5rsk68wdzx26fipy7g42bi20y7j0my78hmp0rl06jbfggarqiz",
-    "hash": "sha256-P+Ks3nNLGkAzuBWi4yuQxwMRlyDv+BudEf03jszUuXQ=",
+    "rev": "1c40d7570178285df8f6d0430cf152dfc198218a",
+    "date": "2026-01-21T15:56:16-05:00",
+    "path": "/nix/store/5sxc3gi7yvkfgr2278wv62wkcpj6dr6a-dms-plugins",
+    "sha256": "0lr8gsw7184kwz88mw01q9nflf3hi18x66bxzg63adv045fz9s08",
+    "hash": "sha256-COj0XSFgNzXM+30Z01GIcDjqbMIB8IrQ55OgcLh+KFM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -306,13 +306,52 @@
       "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-batteryalerts.png"
     }
   },
+  "dankClight": {
+    "url": "https://github.com/AvengeMedia/dms-plugins",
+    "rev": "1c40d7570178285df8f6d0430cf152dfc198218a",
+    "date": "2026-01-21T15:56:16-05:00",
+    "path": "/nix/store/5sxc3gi7yvkfgr2278wv62wkcpj6dr6a-dms-plugins",
+    "sha256": "0lr8gsw7184kwz88mw01q9nflf3hi18x66bxzg63adv045fz9s08",
+    "hash": "sha256-COj0XSFgNzXM+30Z01GIcDjqbMIB8IrQ55OgcLh+KFM=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankClight",
+      "name": "Clight",
+      "description": "Ambient light sensor control - automatic brightness and screen dimming",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "path": "DankClight",
+      "author": "Avenge Media",
+      "firstParty": true,
+      "dependencies": [
+        "clight"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankClight/screenshot.png",
+      "requires_dms": ">=1.4.0"
+    }
+  },
   "dankDesktopWeather": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "6d2b5511ea952f39921dc3e1145825c17638ef5c",
-    "date": "2026-01-19T18:31:07-05:00",
-    "path": "/nix/store/9b24852ms7mjmkdy40jkp0zyqniymkmz-dms-plugins",
-    "sha256": "0x5rsk68wdzx26fipy7g42bi20y7j0my78hmp0rl06jbfggarqiz",
-    "hash": "sha256-P+Ks3nNLGkAzuBWi4yuQxwMRlyDv+BudEf03jszUuXQ=",
+    "rev": "1c40d7570178285df8f6d0430cf152dfc198218a",
+    "date": "2026-01-21T15:56:16-05:00",
+    "path": "/nix/store/5sxc3gi7yvkfgr2278wv62wkcpj6dr6a-dms-plugins",
+    "sha256": "0lr8gsw7184kwz88mw01q9nflf3hi18x66bxzg63adv045fz9s08",
+    "hash": "sha256-COj0XSFgNzXM+30Z01GIcDjqbMIB8IrQ55OgcLh+KFM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -344,11 +383,11 @@
   },
   "dankHooks": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "6d2b5511ea952f39921dc3e1145825c17638ef5c",
-    "date": "2026-01-19T18:31:07-05:00",
-    "path": "/nix/store/9b24852ms7mjmkdy40jkp0zyqniymkmz-dms-plugins",
-    "sha256": "0x5rsk68wdzx26fipy7g42bi20y7j0my78hmp0rl06jbfggarqiz",
-    "hash": "sha256-P+Ks3nNLGkAzuBWi4yuQxwMRlyDv+BudEf03jszUuXQ=",
+    "rev": "1c40d7570178285df8f6d0430cf152dfc198218a",
+    "date": "2026-01-21T15:56:16-05:00",
+    "path": "/nix/store/5sxc3gi7yvkfgr2278wv62wkcpj6dr6a-dms-plugins",
+    "sha256": "0lr8gsw7184kwz88mw01q9nflf3hi18x66bxzg63adv045fz9s08",
+    "hash": "sha256-COj0XSFgNzXM+30Z01GIcDjqbMIB8IrQ55OgcLh+KFM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -379,11 +418,11 @@
   },
   "dankKDEConnect": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "6d2b5511ea952f39921dc3e1145825c17638ef5c",
-    "date": "2026-01-19T18:31:07-05:00",
-    "path": "/nix/store/9b24852ms7mjmkdy40jkp0zyqniymkmz-dms-plugins",
-    "sha256": "0x5rsk68wdzx26fipy7g42bi20y7j0my78hmp0rl06jbfggarqiz",
-    "hash": "sha256-P+Ks3nNLGkAzuBWi4yuQxwMRlyDv+BudEf03jszUuXQ=",
+    "rev": "1c40d7570178285df8f6d0430cf152dfc198218a",
+    "date": "2026-01-21T15:56:16-05:00",
+    "path": "/nix/store/5sxc3gi7yvkfgr2278wv62wkcpj6dr6a-dms-plugins",
+    "sha256": "0lr8gsw7184kwz88mw01q9nflf3hi18x66bxzg63adv045fz9s08",
+    "hash": "sha256-COj0XSFgNzXM+30Z01GIcDjqbMIB8IrQ55OgcLh+KFM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -418,11 +457,11 @@
   },
   "dankLauncherKeys": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "6d2b5511ea952f39921dc3e1145825c17638ef5c",
-    "date": "2026-01-19T18:31:07-05:00",
-    "path": "/nix/store/9b24852ms7mjmkdy40jkp0zyqniymkmz-dms-plugins",
-    "sha256": "0x5rsk68wdzx26fipy7g42bi20y7j0my78hmp0rl06jbfggarqiz",
-    "hash": "sha256-P+Ks3nNLGkAzuBWi4yuQxwMRlyDv+BudEf03jszUuXQ=",
+    "rev": "1c40d7570178285df8f6d0430cf152dfc198218a",
+    "date": "2026-01-21T15:56:16-05:00",
+    "path": "/nix/store/5sxc3gi7yvkfgr2278wv62wkcpj6dr6a-dms-plugins",
+    "sha256": "0lr8gsw7184kwz88mw01q9nflf3hi18x66bxzg63adv045fz9s08",
+    "hash": "sha256-COj0XSFgNzXM+30Z01GIcDjqbMIB8IrQ55OgcLh+KFM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -452,13 +491,51 @@
       "requires_dms": ">=1.2.0"
     }
   },
+  "dankNotepadModule": {
+    "url": "https://github.com/AvengeMedia/dms-plugins",
+    "rev": "1c40d7570178285df8f6d0430cf152dfc198218a",
+    "date": "2026-01-21T15:56:16-05:00",
+    "path": "/nix/store/5sxc3gi7yvkfgr2278wv62wkcpj6dr6a-dms-plugins",
+    "sha256": "0lr8gsw7184kwz88mw01q9nflf3hi18x66bxzg63adv045fz9s08",
+    "hash": "sha256-COj0XSFgNzXM+30Z01GIcDjqbMIB8IrQ55OgcLh+KFM=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankNotepadModule",
+      "name": "Dank Notepad Syntax Module",
+      "capabilities": [
+        "notepad-syntax"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "path": "DankNotepadModule",
+      "author": "Avenge Media",
+      "firstParty": true,
+      "description": "Inline preview and chroma-based syntax highlighting for Notepad",
+      "dependencies": [
+        "notepad"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankNotepadModule/screenshot.png",
+      "requires_dms": ">=1.4.0"
+    }
+  },
   "dankPomodoroTimer": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "6d2b5511ea952f39921dc3e1145825c17638ef5c",
-    "date": "2026-01-19T18:31:07-05:00",
-    "path": "/nix/store/9b24852ms7mjmkdy40jkp0zyqniymkmz-dms-plugins",
-    "sha256": "0x5rsk68wdzx26fipy7g42bi20y7j0my78hmp0rl06jbfggarqiz",
-    "hash": "sha256-P+Ks3nNLGkAzuBWi4yuQxwMRlyDv+BudEf03jszUuXQ=",
+    "rev": "1c40d7570178285df8f6d0430cf152dfc198218a",
+    "date": "2026-01-21T15:56:16-05:00",
+    "path": "/nix/store/5sxc3gi7yvkfgr2278wv62wkcpj6dr6a-dms-plugins",
+    "sha256": "0lr8gsw7184kwz88mw01q9nflf3hi18x66bxzg63adv045fz9s08",
+    "hash": "sha256-COj0XSFgNzXM+30Z01GIcDjqbMIB8IrQ55OgcLh+KFM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -799,11 +876,11 @@
   },
   "stockManager": {
     "url": "https://github.com/leemeng0x61/stockManager",
-    "rev": "caa5545a4ee416871d1ff2a94cc22234c839ff70",
-    "date": "2026-01-15T19:24:55+08:00",
-    "path": "/nix/store/7v32zsmmr6s1ixh343q3zplp1i67fcfj-stockManager",
-    "sha256": "01cw5fmz1w721prc6wcixcgv6dyvfafqc5w58ficvags4pnybk0q",
-    "hash": "sha256-GMzl7SX6qc2iQ4UXhp1y2zezH+uRccPyDeLw8KsrnAU=",
+    "rev": "005f1dd5b6855d0c87d0b2993976106b12230a7a",
+    "date": "2026-01-21T17:10:15+08:00",
+    "path": "/nix/store/r38car4fg2r1z9cp2lps1lrfd1l9n1vj-stockManager",
+    "sha256": "0xdivhf6lfgjpn1nknff1xsq9y79y187fvc0chanjyrhgg1j5gz7",
+    "hash": "sha256-578iw3swe2kVZIBtd1Dw6fiEdQ/O2WmDvfI5ahzcsXU=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -819,7 +896,6 @@
       "category": "Stock",
       "repo": "https://github.com/leemeng0x61/stockManager",
       "author": "LeeMeng",
-      "firstParty": true,
       "description": "Simple Chinese A-share stock market monitoring plugin",
       "dependencies": [
         "curl",
