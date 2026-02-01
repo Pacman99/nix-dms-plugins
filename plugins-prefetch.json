@@ -892,6 +892,39 @@
       "screenshot": "https://raw.githubusercontent.com/felri/display-manager-plugin-niri-dank-linux/refs/heads/main/assets/screenshot.png"
     }
   },
+  "customRunningApps": {
+    "url": "https://github.com/heyitsmikey128/DankCustomRunningApps",
+    "rev": "4c353c982dff7b71a229ea881137cf6f9e921f86",
+    "date": "2026-01-30T14:48:44-08:00",
+    "path": "/nix/store/qc2bcrvwfpsnmgf1z2hcl5nswp5fk9f7-DankCustomRunningApps",
+    "sha256": "1x9756q7xjbaldr5fji7n07bc3imc2gk7gcn41y4m6856nckckm1",
+    "hash": "sha256-oU42mTUFmUp8IJa9M59gNQ62DrAnSldyo2rJfrApJ/U=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "customRunningApps",
+      "name": "Custom Running Apps",
+      "description": "Flexible Custom Widget for Showing Running Apps on Dank Bar",
+      "category": "utilities",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "compositors": [
+        "niri"
+      ],
+      "distro": [
+        "any"
+      ],
+      "dependencies": [],
+      "repo": "https://github.com/heyitsmikey128/DankCustomRunningApps",
+      "screenshot": "https://raw.githubusercontent.com/heyitsmikey128/DankCustomRunningApps/refs/heads/main/screenshot.png",
+      "author": "Michael Kushma"
+    }
+  },
   "displayMirror": {
     "url": "https://github.com/jfchenier/dms-display-mirror",
     "rev": "92cd44c4fb67834bf71fdd78f83c29df5e0750b2",
@@ -1888,6 +1921,41 @@
       "screenshot": "https://raw.githubusercontent.com/sgtaziz/dms-wallpaperengine/refs/heads/main/screenshot.png"
     }
   },
+  "polyglot": {
+    "url": "https://github.com/Silzinc/Polyglot",
+    "rev": "206e86a5156c07040563f3933e856f1484eea7a6",
+    "date": "2026-01-31T21:31:43+01:00",
+    "path": "/nix/store/d9x3jk8ip05lznkrls5vkgcjs6rax6ic-Polyglot",
+    "sha256": "096y9rg4xnpziqmb2zj0p3v7z5wkbvpqm8w9bfw2ln58bbqa1xh3",
+    "hash": "sha256-A/ag8FqoWCq4W4mjiu9ek5d/9rhAfrEqjv/aTl5O3iQ=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "polyglot",
+      "name": "Polyglot",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/Silzinc/Polyglot",
+      "author": "Silzinc",
+      "description": "A WIP translation plugin. Currently supports DeepL's free API.",
+      "dependencies": [
+        "curl"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Silzinc/Polyglot/refs/heads/main/screenshot1.png"
+    }
+  },
   "vscodeLauncher": {
     "url": "https://github.com/sr-tream/dms-vscode-launcher",
     "rev": "e8e8c60012e824ac8681afa28a57c645f68eb1fc",
@@ -1995,11 +2063,11 @@
   },
   "homeAssistantMonitor": {
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass",
-    "rev": "d557f42461b31e12ccd857e26a2676d391432175",
-    "date": "2026-01-27T22:11:12+08:00",
-    "path": "/nix/store/app3a2p6wd4wrs9c2q5nv20wq4d8mx8f-dms-plugin-hass",
-    "sha256": "08v0k2h5z52ny3qv9px6xk2jd7hz1xaf8n71b880nl01278n9qpm",
-    "hash": "sha256-9eJk0REBUAsQWuFY5FQPH54mxeym37Tx8FaUX6CYYCM=",
+    "rev": "59a09c5d7bd17af012ef246c37cf1c7a1da0ae6b",
+    "date": "2026-01-31T15:36:37+08:00",
+    "path": "/nix/store/8zhjrb4d74p6vjn4rkg3bki2v6cb6wj0-dms-plugin-hass",
+    "sha256": "02672vlk8zc06ngzhniz17mrnw3iplzv09bj5007xyh2lm6r2a2h",
+    "hash": "sha256-UCiRTaUC+n4AKHIlsD+9cXCb6wk/WvifNYB9NOkWxwg=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
