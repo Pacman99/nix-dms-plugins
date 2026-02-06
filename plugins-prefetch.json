@@ -1139,6 +1139,41 @@
       "screenshot": "https://raw.githubusercontent.com/leonardofranco01/dms-sessionizer/refs/heads/main/assets/screenshot.png"
     }
   },
+  "dmsPass": {
+    "url": "https://github.com/LouisKottmann/dms-pass",
+    "rev": "1b01949c0e8d2433bfad4d52f5af466723a504d5",
+    "date": "2026-02-05T16:45:02+01:00",
+    "path": "/nix/store/38vpd35b70hnjc24s8p32xl45mq504vq-dms-pass",
+    "sha256": "16f1qsw9kgkprqcx30spxa6zz24xmfxw06sfq2qyclmfs3fign2r",
+    "hash": "sha256-WdgX3dCuUuaxwE4bwLurnYj/jepXg9EZzne+mbjGwZk=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dmsPass",
+      "name": "Pass",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/LouisKottmann/dms-pass",
+      "author": "LouisKottmann",
+      "description": "DMS Launcher plugin to fuzzy-search Pass entries and copy them to the clipboard.",
+      "dependencies": [
+        "pass"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/LouisKottmann/dms-pass/1b01949c0e8d2433bfad4d52f5af466723a504d5/screenshot.png"
+    }
+  },
   "dockerManager": {
     "url": "https://github.com/LuckShiba/DmsDockerManager",
     "rev": "860457bbb043a6651a2cbafe6e77d443123a0b07",
