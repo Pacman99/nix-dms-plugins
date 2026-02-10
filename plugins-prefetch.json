@@ -100,6 +100,120 @@
       "screenshot": "https://raw.githubusercontent.com/arrifat346afs/mediaPlayer/refs/heads/main/screenshot_8.png"
     }
   },
+  "githubHeatmap": {
+    "url": "https://github.com/boutabong/dms-plugins",
+    "rev": "019b3784f60bdc0b5e6eb6ab66f3a32a00b8312f",
+    "date": "2026-02-09T13:50:22-08:00",
+    "path": "/nix/store/31f6qrwkxq8cdc8lz21x52395d1i6nyb-dms-plugins",
+    "sha256": "0mmw9zlgnnl88qysxn6nsknz5ha3nngx0m7civzlgvwhwf31rs4f",
+    "hash": "sha256-jugchuOQ70f/juxU0J+1Q8Hy7dTW2K49Roha++hPvFY=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "githubHeatmap",
+      "name": "GitHub Heatmap",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/boutabong/dms-plugins",
+      "path": "GitHubHeatMap",
+      "author": "Deppes",
+      "description": "Display weekly GitHub contribution heatmap with color-coded activity levels",
+      "dependencies": [
+        "curl",
+        "jq",
+        "fish",
+        "libnotify",
+        "xdg-utils"
+      ],
+      "compositors": [
+        "niri"
+      ],
+      "distro": [
+        "arch"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/GitHubHeatMap-popout.png"
+    }
+  },
+  "screenshotToggle": {
+    "url": "https://github.com/boutabong/dms-plugins",
+    "rev": "019b3784f60bdc0b5e6eb6ab66f3a32a00b8312f",
+    "date": "2026-02-09T13:50:22-08:00",
+    "path": "/nix/store/31f6qrwkxq8cdc8lz21x52395d1i6nyb-dms-plugins",
+    "sha256": "0mmw9zlgnnl88qysxn6nsknz5ha3nngx0m7civzlgvwhwf31rs4f",
+    "hash": "sha256-jugchuOQ70f/juxU0J+1Q8Hy7dTW2K49Roha++hPvFY=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "screenshotToggle",
+      "name": "Screenshot Toggle",
+      "capabilities": [
+        "control-center"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/boutabong/dms-plugins",
+      "path": "ScreenShot-Toggle",
+      "author": "Deppes",
+      "description": "Toggle niri screenshot mode between disk save and clipboard only",
+      "dependencies": [
+        "fish"
+      ],
+      "compositors": [
+        "niri"
+      ],
+      "distro": [
+        "arch"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/screenshot-toggle-control-center.png"
+    }
+  },
+  "sshMonitor": {
+    "url": "https://github.com/boutabong/dms-plugins",
+    "rev": "019b3784f60bdc0b5e6eb6ab66f3a32a00b8312f",
+    "date": "2026-02-09T13:50:22-08:00",
+    "path": "/nix/store/31f6qrwkxq8cdc8lz21x52395d1i6nyb-dms-plugins",
+    "sha256": "0mmw9zlgnnl88qysxn6nsknz5ha3nngx0m7civzlgvwhwf31rs4f",
+    "hash": "sha256-jugchuOQ70f/juxU0J+1Q8Hy7dTW2K49Roha++hPvFY=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "sshMonitor",
+      "name": "SSH Monitor",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/boutabong/dms-plugins",
+      "path": "SSH-Monitor",
+      "author": "Deppes",
+      "description": "Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution",
+      "dependencies": [
+        "fish",
+        "procps-ng",
+        "net-tools"
+      ],
+      "compositors": [
+        "niri"
+      ],
+      "distro": [
+        "arch"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/sshmonitor-popout.png"
+    }
+  },
   "tailscale": {
     "url": "https://github.com/cglavin50/dms-tailscale",
     "rev": "f035c3a0923e5872f912fc9bd4cc0c7f161fbe2a",
@@ -1032,11 +1146,11 @@
   },
   "lyricsOnPanel": {
     "url": "https://github.com/KangweiZhu/lyrics-on-panel",
-    "rev": "1a2f22842234248f50f3b91b5f5ceecf5ae91496",
-    "date": "2026-01-22T03:52:33-06:00",
-    "path": "/nix/store/ckhzi6gv97m9b9000z2wlk5c6viv37ix-lyrics-on-panel",
-    "sha256": "1kbkcrhb4857baq2abnsawikqph0fg21jkm1vhsqbsph8wsrycq2",
-    "hash": "sha256-AjOfNUfw6oU13KFOGcRzAF48I1faLiWwWqcgsmBmc80=",
+    "rev": "3d0d75603bbd05d8e96f4128bbe14dbcb53de6b0",
+    "date": "2026-02-09T10:44:16-06:00",
+    "path": "/nix/store/ajmwms4pg5f495agqj2bp3iz2yj3fj5n-lyrics-on-panel",
+    "sha256": "17rld29r2049w1hw5qpn58558lrrx92irrsi0dkpgrglv2zs3187",
+    "hash": "sha256-B4Whv9j05XdnA1HnHEXqOVNUCir24sJh4IkAkZNoNJ8=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1067,11 +1181,11 @@
   },
   "stockManager": {
     "url": "https://github.com/leemeng0x61/stockManager",
-    "rev": "a27c000f1890ad1013ae7cd0ea1341c5671b8f29",
-    "date": "2026-02-04T10:54:41+08:00",
-    "path": "/nix/store/zwdjgwlizpsh7hswz3y12k98pdbn8f7j-stockManager",
-    "sha256": "0pfb1y37imdfqp5b4f99h4246n7f667dn54b9jm7ac71a574b7wr",
-    "hash": "sha256-mZ9FTlHhMHWqTIsU244x7lhDBIEpObLKxa7VeIYPy10=",
+    "rev": "19ba6b73eb44487f7f4705d5c9d36ce8c970c314",
+    "date": "2026-02-09T09:24:27+08:00",
+    "path": "/nix/store/7rqsblfpwyipl1bqiax5b3w1zrsi05kg-stockManager",
+    "sha256": "08cmrxjrzpz5c363vrh0p05hds24h48bfn9lkjdrkamqbxf3jfg4",
+    "hash": "sha256-5Dk5XF+4qpmbnDRZtxCBROgGC7gA5j3MYOXfn2XPlSE=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1431,11 +1545,11 @@
   },
   "prayerTimes": {
     "url": "https://github.com/muadzmo/prayertimes",
-    "rev": "df15a8a27f7e04f9d65306bacce23a69dd79bdac",
-    "date": "2026-01-14T08:18:54+07:00",
-    "path": "/nix/store/pi07870qpm73mzsch14qnf571dscrm4p-prayertimes",
-    "sha256": "1dzwwxbg0vj4fnxgf68a1myak557sdph74ba2li6s588rn8z57qc",
-    "hash": "sha256-DJ/ykc0IFW0iFWqRA2/Tp5SpfA0KGfe6dURu8Fbn/Lc=",
+    "rev": "5e77293ce6a30ce12a244fe6ed980222af3a1d00",
+    "date": "2026-02-09T15:31:25+07:00",
+    "path": "/nix/store/6nx56r6f7k64hld21kh10pd09w7f80b3-prayertimes",
+    "sha256": "1ga6yl88q63mj673p1zszk2i1xb68y5vna25606fjp8nc0k9bx7h",
+    "hash": "sha256-8PSVJmAWXekMMEUou4tHZvUQxfz6hzuOkXUYjBD1Rr0=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2169,11 +2283,11 @@
   },
   "homeAssistantMonitor": {
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass",
-    "rev": "2af0fafaf55e32f379890e06dfa5d9466b55c33d",
-    "date": "2026-02-07T17:19:21+08:00",
-    "path": "/nix/store/5lr71qnbws418xw1byzf10az1s653v4b-dms-plugin-hass",
-    "sha256": "1gvhicz8bxn3syi3wna4ddmb4a1a8fmp299063pz8r945jl0v76n",
-    "hash": "sha256-1pwNqCwkZfTvMCAlcatDKiiyamtEWT6i18P2hT6LcL8=",
+    "rev": "b2bdcc9997b0a2f7129e65bb9511bdeef6cd636f",
+    "date": "2026-02-09T19:06:55+08:00",
+    "path": "/nix/store/zahz7n3ynn7mlrl419nx0768fx3p372f-dms-plugin-hass",
+    "sha256": "1qhfjnkn15xhlaw5blfb2fxvf09bb5ckqsvnqhsh6gprz7qda2vp",
+    "hash": "sha256-dwvV8Pn5PgM1xHZrPFlZKwG3uxPL0VW4orCXYKeVDuI=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
