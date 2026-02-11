@@ -214,6 +214,39 @@
       "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/sshmonitor-popout.png"
     }
   },
+  "dankRssWidget": {
+    "url": "https://github.com/BrendonJL/dms-rss-widget",
+    "rev": "dcfe5a638ef2143fc18efdd09ef0b80eacbf35f4",
+    "date": "2026-02-09T21:01:21-05:00",
+    "path": "/nix/store/3hjvzm32a308rffdp0ax0fadn5bgcw9b-dms-rss-widget",
+    "sha256": "073jw5bp7xi1332g57xbd1303ikwa41lj3c7lgyip3c1ii0sqfi3",
+    "hash": "sha256-IzqsQYyBjRv9o4cNSQNRfMYBRmirn/LEGCH2c1fhchw=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankRssWidget",
+      "name": "Dank RSS Widget",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/BrendonJL/dms-rss-widget",
+      "author": "BrendonJL",
+      "description": "Desktop widget that displays RSS/Atom feeds with auto-refresh",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/BrendonJL/dms-rss-widget/main/screenshot.png"
+    }
+  },
   "tailscale": {
     "url": "https://github.com/cglavin50/dms-tailscale",
     "rev": "f035c3a0923e5872f912fc9bd4cc0c7f161fbe2a",
@@ -319,11 +352,11 @@
   },
   "wallpaperShufflerPlugin": {
     "url": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler",
-    "rev": "2b2e63e1831d6e184eecbcad8a2794734bd5d4ae",
-    "date": "2025-12-17T15:51:26+08:00",
-    "path": "/nix/store/8icasj2zyd0dh9gn4kzzqg2qry29cl23-dms-wallpaper-shuffler",
-    "sha256": "1zi3brh75pyins6kf3798rvpcnigl9h2wwis1qyqjb2dabl3ypwa",
-    "hash": "sha256-il8/6FJNLIk9DjpyLmCiL1p2d0bpDDeNttHfcmBeI/4=",
+    "rev": "1c375270ec89e54f33c7ec7060241e70480ca55e",
+    "date": "2026-02-10T13:10:39+08:00",
+    "path": "/nix/store/7jzzrvghlr5wx98n2v3k2zfy7hgz3l6v-dms-wallpaper-shuffler",
+    "sha256": "13486s9brxra026m5jbrwkyhd3vcdgsfrlfassmdg42mqgjv1d33",
+    "hash": "sha256-Y7Sw5cNVkNeq1srR7PRrbI8G/eR5yVKNACr3vJI2iIw=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1146,11 +1179,11 @@
   },
   "lyricsOnPanel": {
     "url": "https://github.com/KangweiZhu/lyrics-on-panel",
-    "rev": "3d0d75603bbd05d8e96f4128bbe14dbcb53de6b0",
-    "date": "2026-02-09T10:44:16-06:00",
-    "path": "/nix/store/ajmwms4pg5f495agqj2bp3iz2yj3fj5n-lyrics-on-panel",
-    "sha256": "17rld29r2049w1hw5qpn58558lrrx92irrsi0dkpgrglv2zs3187",
-    "hash": "sha256-B4Whv9j05XdnA1HnHEXqOVNUCir24sJh4IkAkZNoNJ8=",
+    "rev": "b52bf15aa44c0f2d05d011a8b1b6c255ddfcd2d5",
+    "date": "2026-02-10T06:49:49-06:00",
+    "path": "/nix/store/9s7bwgd9ial6rmsp7vgpfbxp7a78k2sb-lyrics-on-panel",
+    "sha256": "1r22gc2mf4jpv89l8sj36j4h2ijjmf8a1l0gsgza23bnzd6lgdvf",
+    "hash": "sha256-brdHTft2DaH+0w/QoJCrUkYBiTRDakQT2lcSVwV7QuQ=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1181,11 +1214,11 @@
   },
   "stockManager": {
     "url": "https://github.com/leemeng0x61/stockManager",
-    "rev": "19ba6b73eb44487f7f4705d5c9d36ce8c970c314",
-    "date": "2026-02-09T09:24:27+08:00",
-    "path": "/nix/store/7rqsblfpwyipl1bqiax5b3w1zrsi05kg-stockManager",
-    "sha256": "08cmrxjrzpz5c363vrh0p05hds24h48bfn9lkjdrkamqbxf3jfg4",
-    "hash": "sha256-5Dk5XF+4qpmbnDRZtxCBROgGC7gA5j3MYOXfn2XPlSE=",
+    "rev": "3844d642f176b413ed0ba3794ea862f67534bcd8",
+    "date": "2026-02-10T19:10:53+08:00",
+    "path": "/nix/store/r1b68l0qn324bah2fg29xirkl27g0n85-stockManager",
+    "sha256": "1g0a3i5ikhpl9bwlq4zfi82gh84i9mypzslfp9489ddcfyajgdbq",
+    "hash": "sha256-eLUnlXestYRIuo7qf31NkSD4BIruE0z5SvTCGUscCrw=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
