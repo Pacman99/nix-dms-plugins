@@ -2000,11 +2000,11 @@
   },
   "calculator": {
     "url": "https://github.com/rochacbruno/DankCalculator",
-    "rev": "2f08bd47d8cb0caec7496aebc70b0b65c52e943b",
-    "date": "2026-01-28T22:06:26Z",
-    "path": "/nix/store/0z69vwx8bj6gznrh8jwxzggkhzvm5jdf-DankCalculator",
-    "sha256": "0qz5w30w89l9l68bi6vl67ym8i3ic4yziv4iqh78hn4cp684zznx",
-    "hash": "sha256-3f5PkLmMWIgOxJHs+D1hcURU/TF0m7iQoYkmxMHg5WM=",
+    "rev": "07d7c123a5aee9ac4fd4347bbae36d5957b021f9",
+    "date": "2026-02-12T18:45:29Z",
+    "path": "/nix/store/gnf7wv9wrrplf5a6lvf58fav99dy4gd9-DankCalculator",
+    "sha256": "1sb26kc9k9jcgkssx4xf35im2h5h7hkb8g66wxlj5w7pnbcpc5bf",
+    "hash": "sha256-bhV22bL38CJp58Y8tCY8sEBRYxmuk671fEymmdg0Yuk=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2025,11 +2025,12 @@
       "compositors": [
         "any"
       ],
+      "featured": true,
       "distro": [
         "any"
       ],
       "screenshot": "https://github.com/rochacbruno/DankCalculator/raw/main/screenshot.png",
-      "requires_dms": ">0.1.18"
+      "requires_dms": ">=1.2.0"
     }
   },
   "niriWindows": {
@@ -2312,6 +2313,44 @@
       ],
       "screenshot": "https://raw.githubusercontent.com/TaylanTatli/dms-plugins/refs/heads/master/grimblast/screenshot.png",
       "requires_dms": ">=0.1.18"
+    }
+  },
+  "chineseCalendar": {
+    "url": "https://github.com/xxyangyoulin/dms-plugin-ccal",
+    "rev": "f2dfb90956d675b7493af22288c12bdbdc72f056",
+    "date": "2026-02-12T23:26:44+08:00",
+    "path": "/nix/store/bzklhb55v2ivl0r7m1vcszjcs7nbq50b-dms-plugin-ccal",
+    "sha256": "03kmf3a2lc7yidiras5r50jv860jm7j816dnr57zk61fz3jgh3k8",
+    "hash": "sha256-aA745PgumPlPybaZgOSpEhi0JSi5aJVji/4wKtRwdQ4=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "chineseCalendar",
+      "name": "Chinese Calendar",
+      "capabilities": [
+        "calendar",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/xxyangyoulin/dms-plugin-ccal",
+      "author": "xxyangyoulin",
+      "description": "Display Chinese lunar calendar with holiday information in the status bar",
+      "dependencies": [
+        "ccal",
+        "curl"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-ccal/master/assets/screenshot.png",
+      "requires_dms": ">=1.4.0"
     }
   },
   "homeAssistantMonitor": {
