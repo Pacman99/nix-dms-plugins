@@ -907,11 +907,11 @@
   },
   "commandRunner": {
     "url": "https://github.com/devnullvoid/dms-command-runner",
-    "rev": "548b7d79aa8967443d44e57293a2e0fe16d65f36",
-    "date": "2026-02-16T01:01:42-05:00",
-    "path": "/nix/store/5abygvfzqhj2flz48iagl8619zwznafx-dms-command-runner",
-    "sha256": "0aqkk5v9xwrgbj8d8k5fdb06hy6z585c8fzds3x9c8sdfzl06pvh",
-    "hash": "sha256-cF8D6HdNI5b60O07xAoq33howGquTNSQXC/znnaZEys=",
+    "rev": "f5f676fe49d2cde86054a28ed06f824319cd5193",
+    "date": "2026-02-18T20:23:42-05:00",
+    "path": "/nix/store/5nr8mi3sjf8x1znkyr3v5iaqg5dvffsm-dms-command-runner",
+    "sha256": "04h1jz4y0dhsy83n1r694h583svsnxmjmzx1xk4ka3xc1fif3350",
+    "hash": "sha256-oIzhogusDzXJ7KH/Kmu3euuBCiTJ5GAH8ho24MmXARI=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -940,11 +940,11 @@
   },
   "emojiLauncher": {
     "url": "https://github.com/devnullvoid/dms-emoji-launcher",
-    "rev": "15d8ea655bbec7854883ea5e9b8b367494a1daf4",
-    "date": "2026-02-16T01:01:49-05:00",
-    "path": "/nix/store/n9hh7fj77wvqnsrm5q9jnisw4jihl9w3-dms-emoji-launcher",
-    "sha256": "1p27yn6s5ni95jhh25qjs76614pfp5bv6lvgny09krcxws36zw4k",
-    "hash": "sha256-k/Bvhuad5ZmAt29Ts1e57pJgzNESFwGhLCnaoo31R9w=",
+    "rev": "9b0e368471a6bb83900a4210359cab570c99c147",
+    "date": "2026-02-18T20:36:03-05:00",
+    "path": "/nix/store/949kydl2kqbsxwyypb1djk6pmrihcbaj-dms-emoji-launcher",
+    "sha256": "1ibsmcwvxaraam9ccyx55cwflzn0fwd3yg4fc4mzgswbjkp9m953",
+    "hash": "sha256-o6Sa7pSL6/crYY48Pxp3wH7qOCule8ZSVSqrvjmresU=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -973,11 +973,11 @@
   },
   "webSearch": {
     "url": "https://github.com/devnullvoid/dms-web-search",
-    "rev": "34dc01f2d3eabcc7f6e6bc2908f64be787d396c5",
-    "date": "2026-02-16T00:52:02-05:00",
-    "path": "/nix/store/wjxi29wcji3vb9yf13fjglmmqmi6srp8-dms-web-search",
-    "sha256": "0bp5sfw8kjwidlrhpvafnjj0aqlpy94g1z85zq026iyqk096pvn3",
-    "hash": "sha256-w+5rEpjYRyMA/gX98Ejyl2IFpLRO7QszbZHLibjT5S4=",
+    "rev": "a8319d1866b9a0444d351412a67d44068fb4899b",
+    "date": "2026-02-18T20:08:24-05:00",
+    "path": "/nix/store/glfkq34f16xq4sfh7d0hlxh1fpb1ln2q-dms-web-search",
+    "sha256": "1chbq04spqhwffbbda3ipvimrms8mp9p19nw9rpr8x9mjiz73apz",
+    "hash": "sha256-/6pxfpQ1dZRvTtymcNOtSNdc475xqLaWcxziqwnAC7I=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1542,6 +1542,43 @@
       "screenshot": "https://raw.githubusercontent.com/max72bra/DankPluginBingWallpaper/refs/heads/main/screenshot.png"
     }
   },
+  "flatpakUpdates": {
+    "url": "https://github.com/merdely/dms-plugins",
+    "rev": "eb5f631a32e311e175eaa01fdd177ac5078a05cc",
+    "date": "2026-02-17T18:04:10-05:00",
+    "path": "/nix/store/55yjlqgdlh83fczpkcidb4a0gx15qqaj-dms-plugins",
+    "sha256": "143rlsdf8kkgznc7511zwwi0q35nygi8yppb1r95aqjdv1lr69gz",
+    "hash": "sha256-/yWTadhNYlVSDutej+LztgwMIuc/hHKY/W9O5JqmeZA=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "flatpakUpdates",
+      "name": "Flatpak Updates",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/merdely/dms-plugins",
+      "path": "FlatpakUpdates",
+      "author": "Michael Erdely",
+      "description": "Check for and install Flatpak Updates",
+      "dependencies": [
+        "flatpak"
+      ],
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/flatpakupdates-popout.png"
+    }
+  },
   "hyprlandSubmap": {
     "url": "https://github.com/mesteryui/DMS_HyprlandSubmap",
     "rev": "b9a289a8239ea8651876cc38aa936181b8e1d313",
@@ -1614,11 +1651,11 @@
   },
   "prayerTimes": {
     "url": "https://github.com/muadzmo/prayertimes",
-    "rev": "3875eab8dc007af81b419800323fb84deb1248fe",
-    "date": "2026-02-18T20:31:42+07:00",
-    "path": "/nix/store/25y5lnfsmykhjna34pzdj9cyzfbk4cks-prayertimes",
-    "sha256": "0wbvhspk128kbwaccgg4y5cqw4h86i4qyrvg2ybaixcd9nqkb11p",
-    "hash": "sha256-N4Q1sU2N9aiWF29nj0k0CBKOWfHkPcYUXxOJMK+Ge3E=",
+    "rev": "c6dac9d6310580cecc9d2eb8b8e87100cceeb866",
+    "date": "2026-02-19T10:37:18+07:00",
+    "path": "/nix/store/jiw7yyj550xyxlhw2f2kwdqc6b1dkbc8-prayertimes",
+    "sha256": "01ws7rp2ycvsnkb444z4z9a2769dnq4z95g7jgjy0qwq217932j5",
+    "hash": "sha256-RYqRThCYY+Dlk+eV9Am2LZkjVPrkE0LWtHozL24+mgc=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2281,11 +2318,11 @@
   },
   "sathiAi": {
     "url": "https://github.com/ss44/sathi.ai",
-    "rev": "d9fde553905346893a4a29ef889163bd8df330c9",
-    "date": "2026-02-11T16:05:40-05:00",
-    "path": "/nix/store/cvbxph7cxvlhnfkifcqbsj0qimf0syvz-sathi.ai",
-    "sha256": "0pj8na22ndqxad3n3jfxxcjyphnlhz2isb55l6k55ihqhv3vnqg2",
-    "hash": "sha256-4mG7x4YYxlKmoaUsHcWH1MLrJevdyWFHUx03K4SySF4=",
+    "rev": "92ffa151fd4780e904bda9f3e6d336c046f61fd5",
+    "date": "2026-02-18T21:29:24-05:00",
+    "path": "/nix/store/063r6p8zdjvqinhrdnr0wkpn66kpn28m-sathi.ai",
+    "sha256": "1w11pddiq2rs7slc14n599vrgiyn9xhdrf0zgmn4hcf7ndpxr5zx",
+    "hash": "sha256-/Zfcb7PHMUhsfR+43GBP1seXd0rFksCoPjoLHFu7IfA=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2349,6 +2386,76 @@
       ],
       "screenshot": "https://raw.githubusercontent.com/TaylanTatli/dms-plugins/refs/heads/master/grimblast/screenshot.png",
       "requires_dms": ">=0.1.18"
+    }
+  },
+  "claudeCodeUsage": {
+    "url": "https://github.com/titeya/dms-claudecode",
+    "rev": "0b4853c153f13bb8010f5171419fd2096d3916fb",
+    "date": "2026-02-19T09:43:30+01:00",
+    "path": "/nix/store/bja3sf3pv79vkbc7idvy3p929v1p7bhn-dms-claudecode",
+    "sha256": "15a91zhsp23g6r74qz77p300vgsv4h9k69wprnx5vghyjgc0xf4v",
+    "hash": "sha256-m7gO2JMevl26zZcnMxMkW78NwLjnfExONm+Iq+EPSZU=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "claudeCodeUsage",
+      "name": "Claude Code Usage",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/titeya/dms-claudecode",
+      "author": "Nicolas Bellamy",
+      "description": "Monitor your Claude Code subscription usage with token tracking, rate limits, and daily activity charts",
+      "dependencies": [
+        "jq"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/titeya/dms-claudecode/raw/master/screenshot.png"
+    }
+  },
+  "markets": {
+    "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin",
+    "rev": "4babf553841bf92d268e989c2e8662bbc9d1ee8c",
+    "date": "2026-02-17T17:39:53+01:00",
+    "path": "/nix/store/p4cc9yz9p3qf14x8mbnlxw1l1csv1a9r-DMS-Markets-Plugin",
+    "sha256": "0dcla0lwg843k81a96l5d8fnpb281bcnhjd3c5xjj4d9n1svm3mp",
+    "hash": "sha256-t466dbCpESl7YaNJaNkKSKxrHWqFmqQCmoOgxylQlDU=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "markets",
+      "name": "Markets",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "finance",
+      "repo": "https://github.com/TMS-Namespace/DMS-Markets-Plugin",
+      "author": "TMS-Namespace",
+      "description": "Semi-Live market prices for currencies, stocks, and commodities with charts",
+      "dependencies": [
+        "curl"
+      ],
+      "compositors": [
+        "niri"
+      ],
+      "distro": [
+        "fedora"
+      ],
+      "screenshot": "https://github.com/TMS-Namespace/DMS-Markets-Plugin/blob/main/Images/Dark-Popup.png"
     }
   },
   "chineseCalendar": {
@@ -2460,6 +2567,39 @@
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
       "requires_dms": ">=1.2.0",
       "featured": true
+    }
+  },
+  "displayOutput": {
+    "url": "https://github.com/xyzsteven/dms-displayoutput",
+    "rev": "fe3be209d1ca1e286535de4f52a130de08de5e15",
+    "date": "2026-02-19T22:51:36+07:00",
+    "path": "/nix/store/skrl5sj7p5w1basw5mfvbn8w5k2q8qbl-dms-displayoutput",
+    "sha256": "1030c8rz6rp9xx6kfyn9vv5qqjl2xslbmyzw87m2f2wnr47fx9y7",
+    "hash": "sha256-x6fuDsmWCyfqQfz7uqjugkqMy97JejdN7+lm8zNiYIA=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "displayOutput",
+      "name": "Display Output",
+      "capabilities": [
+        "manage-displays"
+      ],
+      "category": "system",
+      "repo": "https://github.com/xyzsteven/dms-displayoutput",
+      "author": "xyzsteven",
+      "description": "A Hyprland DankMaterialShell plugin that allows you to manage your display outputs (PC Only, Mirror, Extend, Second Screen Only).",
+      "dependencies": [],
+      "compositors": [
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/xyzsteven/dms-displayoutput/refs/heads/main/screenshot.png"
     }
   },
   "desktopCommand": {
