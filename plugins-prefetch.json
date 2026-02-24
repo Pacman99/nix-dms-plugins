@@ -100,6 +100,40 @@
       "screenshot": "https://raw.githubusercontent.com/arrifat346afs/mediaPlayer/refs/heads/main/screenshot_8.png"
     }
   },
+  "steamfriends": {
+    "url": "https://github.com/banicans/DMS-SteamFriends",
+    "rev": "b85bb1b7312cbda4aa8715c0bd67d83bb3a23b53",
+    "date": "2026-02-21T11:41:16Z",
+    "path": "/nix/store/s92gwlmri8xv6mfh6jwzhgnhzp2wrb35-DMS-SteamFriends",
+    "sha256": "1rbnrcwmpli8l2b14zd0kz7vrnqzmpaf1mv73lsnq7bniv9fyv3v",
+    "hash": "sha256-e2zv0o52HWw1HWfX4NStH9u8z5+gfRKWoCjSWznLduU=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "steamfriends",
+      "name": "Steam Friends",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/banicans/DMS-SteamFriends",
+      "author": "Banicnas",
+      "description": "Shows how many Steam friends are online, and whos online playing what.",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/banicans/DMS-SteamFriends/main/Screenshot.png"
+    }
+  },
   "githubHeatmap": {
     "url": "https://github.com/boutabong/dms-plugins",
     "rev": "c73781f32c20dd9904bbde0aa40ab135b7c13fbd",
@@ -1039,6 +1073,40 @@
       "screenshot": "https://raw.githubusercontent.com/felri/display-manager-plugin-niri-dank-linux/refs/heads/main/assets/screenshot.png"
     }
   },
+  "musicLyrics": {
+    "url": "https://github.com/gasiyu/dms-plugin-musiclyrics",
+    "rev": "c11d7db35e35ebd07de582ce4d2d8f064c2227a7",
+    "date": "2026-02-24T04:26:17+07:00",
+    "path": "/nix/store/pb4xmif0nc55rx4l9l7n2fri659rqlck-dms-plugin-musiclyrics",
+    "sha256": "1c57qf6lyms6x07qhkygkz00rhw85wcv94wrr9pm1vn3qc39vb5c",
+    "hash": "sha256-rKydBsPD7lBvypmTtBkviMMMwJ/PT4gP6EZXT43Dp7A=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "musicLyrics",
+      "name": "Music Lyrics",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/gasiyu/dms-plugin-musiclyrics",
+      "author": "gasiyu",
+      "description": "Display synced music lyrics from multiple sources.",
+      "dependencies": [],
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Gasiyu/dms-plugin-musiclyrics/main/screenshots.png"
+    }
+  },
   "customRunningApps": {
     "url": "https://github.com/heyitsmikey128/DankCustomRunningApps",
     "rev": "74ca50c0beb7ad1afcc95d6f6219c880dc8165a5",
@@ -1355,6 +1423,39 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/LouisKottmann/dms-pass/1b01949c0e8d2433bfad4d52f5af466723a504d5/screenshot.png"
+    }
+  },
+  "mediaControlsPlus": {
+    "url": "https://github.com/lpv11/dms-media-controls-plus",
+    "rev": "9bd8ba6e6d668b778d7eaeb04d3222fd2d6ff867",
+    "date": "2026-02-23T22:55:15+02:00",
+    "path": "/nix/store/xf43rxynny8sapl86sqr6l6jmxqdrqfj-dms-media-controls-plus",
+    "sha256": "1dq7xbnc05n52xyni0x8crxb6aq2zx9vawgh9dd6y2wpx4ib7vkh",
+    "hash": "sha256-cO6zIumXC29aS/BxtVP/Aiuzemaog2h9F8UWwOzqB7c=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "mediaControlsPlus",
+      "name": "Media Controls Plus",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/lpv11/dms-media-controls-plus",
+      "author": "lpv11",
+      "description": "Media controls with full bar volume scroll. Disables workspace scroll.",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/lpv11/dms-media-controls-plus/main/screenshot.png"
     }
   },
   "dockerManager": {
@@ -1724,11 +1825,11 @@
   },
   "prayerTimes": {
     "url": "https://github.com/muadzmo/prayertimes",
-    "rev": "c6dac9d6310580cecc9d2eb8b8e87100cceeb866",
-    "date": "2026-02-19T10:37:18+07:00",
-    "path": "/nix/store/jiw7yyj550xyxlhw2f2kwdqc6b1dkbc8-prayertimes",
-    "sha256": "01ws7rp2ycvsnkb444z4z9a2769dnq4z95g7jgjy0qwq217932j5",
-    "hash": "sha256-RYqRThCYY+Dlk+eV9Am2LZkjVPrkE0LWtHozL24+mgc=",
+    "rev": "660cd8e59c8e28b87403323967b02542bd4bf729",
+    "date": "2026-02-23T11:07:47+07:00",
+    "path": "/nix/store/an4rqcs6ynx6cqx58ayl8wsjwddxjrg7-prayertimes",
+    "sha256": "0p5s5zfbny8wp5l304ad0vm2d22jcm036a3pbfb6qsgsbpx44l8s",
+    "hash": "sha256-GlFC+l36aWyWW3coM0BlUogm6gZNETBouRx5u9wvulw=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2285,6 +2386,42 @@
       "screenshot": "https://raw.githubusercontent.com/ronmurphy/dms-contrib/refs/heads/main/screenshot_session_power_menu.png"
     }
   },
+  "dankObsidian": {
+    "url": "https://github.com/Samoggino/dankObsidian",
+    "rev": "449398eed17e24bb78cca1691c711ab1d9cfcf71",
+    "date": "2026-02-21T20:18:37+01:00",
+    "path": "/nix/store/vvq24jl3dqf72fc5i3nc6aaaikfbrp94-dankObsidian",
+    "sha256": "0vkvbs4pjqp1lnn5klddr1xcy4k80zqkd73c0lf2m6v3wi44mqq3",
+    "hash": "sha256-A+NKSORjmyocBWycNvEHaBLPesit0VmspeFieYlee24=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankObsidian",
+      "name": "Dank Obsidian",
+      "description": "Quick access to your Obsidian vaults",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/Samoggino/dankObsidian",
+      "author": "Samoggino",
+      "dependencies": [
+        "obsidian"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "requires_dms": ">=1.4.0",
+      "screenshot": "https://raw.githubusercontent.com/Samoggino/dankObsidian/main/screenshot.png"
+    }
+  },
   "linuxWallpaperEngine": {
     "url": "https://github.com/sgtaziz/dms-wallpaperengine",
     "rev": "8b3cd460fd5a401e4b501e59054a1377a7df86b1",
@@ -2606,11 +2743,11 @@
   },
   "homeAssistantMonitor": {
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass",
-    "rev": "b2bdcc9997b0a2f7129e65bb9511bdeef6cd636f",
-    "date": "2026-02-09T19:06:55+08:00",
-    "path": "/nix/store/zahz7n3ynn7mlrl419nx0768fx3p372f-dms-plugin-hass",
-    "sha256": "1qhfjnkn15xhlaw5blfb2fxvf09bb5ckqsvnqhsh6gprz7qda2vp",
-    "hash": "sha256-dwvV8Pn5PgM1xHZrPFlZKwG3uxPL0VW4orCXYKeVDuI=",
+    "rev": "7fffaf30c0a00d47b34d1794ead9ba82983e0916",
+    "date": "2026-02-23T20:49:06+08:00",
+    "path": "/nix/store/67945zp0i79aqkj6r20nj2w6lf0ni86g-dms-plugin-hass",
+    "sha256": "0m6p50f2nphizi24y2fyim5nmmm21yx10zr70098ql0fj247g0l8",
+    "hash": "sha256-iIJ3iJAOUIwSACd/ELoPotZqS43eCU9E/BFeKxwo11Q=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
