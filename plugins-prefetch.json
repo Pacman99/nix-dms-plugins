@@ -1681,11 +1681,11 @@
   },
   "flatpakUpdates": {
     "url": "https://github.com/merdely/dms-plugins",
-    "rev": "b64400001207c2be5c1227f70b11d1a4618bda5d",
-    "date": "2026-02-22T18:08:54-04:00",
-    "path": "/nix/store/f7jn1xgjc9a4wkk05dkv5zicwfl1i8zw-dms-plugins",
-    "sha256": "09r4l1naiiz975295j4f538ch29amsm8hlxnbfh66a8n62px9l0r",
-    "hash": "sha256-GdDUrzAWKWOgW7ZTiKquKgnI0CiOyJJEOenHqGygJCc=",
+    "rev": "f85f6f9c3df1f9ed57c45d579355e1ca7f93abf0",
+    "date": "2026-02-26T17:00:36-05:00",
+    "path": "/nix/store/n1bii8ipkyd4h32x7h1q2apscgpb4kfl-dms-plugins",
+    "sha256": "08ia3yymkd0whv96r8r5pjq1rw7hln7qqkaklwd3gikhdnacm9z2",
+    "hash": "sha256-4qfKlG1wxjcap1NNjI+l8PAcsLwlo2zShhy0Wb0fKiI=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1718,11 +1718,11 @@
   },
   "sshConnections": {
     "url": "https://github.com/merdely/dms-plugins",
-    "rev": "b64400001207c2be5c1227f70b11d1a4618bda5d",
-    "date": "2026-02-22T18:08:54-04:00",
-    "path": "/nix/store/f7jn1xgjc9a4wkk05dkv5zicwfl1i8zw-dms-plugins",
-    "sha256": "09r4l1naiiz975295j4f538ch29amsm8hlxnbfh66a8n62px9l0r",
-    "hash": "sha256-GdDUrzAWKWOgW7ZTiKquKgnI0CiOyJJEOenHqGygJCc=",
+    "rev": "f85f6f9c3df1f9ed57c45d579355e1ca7f93abf0",
+    "date": "2026-02-26T17:00:36-05:00",
+    "path": "/nix/store/n1bii8ipkyd4h32x7h1q2apscgpb4kfl-dms-plugins",
+    "sha256": "08ia3yymkd0whv96r8r5pjq1rw7hln7qqkaklwd3gikhdnacm9z2",
+    "hash": "sha256-4qfKlG1wxjcap1NNjI+l8PAcsLwlo2zShhy0Wb0fKiI=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2211,6 +2211,41 @@
       "requires_dms": ">0.0.28"
     }
   },
+  "pkgUpdate": {
+    "url": "https://github.com/rahulmysore23/dms-pkg-update",
+    "rev": "60fb6583ebc46a834acf3c03fd45b379370b4592",
+    "date": "2026-02-26T09:46:06-05:00",
+    "path": "/nix/store/hafq2s48rhzxwv1v34dlbza0j6wjfv25-dms-pkg-update",
+    "sha256": "1v6j22gvixhdwh6sbs1dypxmj1wp88n11ps9dkj6wf0m7n1zif4z",
+    "hash": "sha256-n7j4gz0VOG7kbEnfECxClwdZ+/Ut6KUN5A32uJ8Q0uw=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "pkgUpdate",
+      "name": "Package Updates",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "repo": "https://github.com/rahulmysore23/dms-pkg-update",
+      "author": "rahulmysore23",
+      "description": "Check and manage DNF and Flatpak package updates from the bar.",
+      "dependencies": [],
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "distro": [
+        "fedora",
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/rahulmysore23/dms-pkg-update/main/screenshot.png"
+    }
+  },
   "animeCalendar": {
     "url": "https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin",
     "rev": "1ce0c348596f55503cfab4300e25f50a4870b553",
@@ -2316,11 +2351,11 @@
   },
   "worldClock": {
     "url": "https://github.com/rochacbruno/WorldClock",
-    "rev": "65a80dbe414251afb907d04b0e85d02516860890",
-    "date": "2026-02-18T11:38:13Z",
-    "path": "/nix/store/gs18jz3fqd58cbpgrc8i75w7hwqi0lnb-WorldClock",
-    "sha256": "1bsrsm0cjraqkba1b5x6d0dc2zv4vbbz2srkzndq9a3i5isjiw2g",
-    "hash": "sha256-T/AodSxxqISb/TNr8dfaZH/BGmimlxXUmlhlyUDVWa8=",
+    "rev": "061752535b5b38f8290edb7108a25cb5f779d405",
+    "date": "2026-02-26T19:29:58Z",
+    "path": "/nix/store/ivc13p36fys26wjdpydzkx5p7q48k28c-WorldClock",
+    "sha256": "0phpf33vcvgvy15a4f4p5sndm8yf02y4k1mvs3kqnhfq1kv02lw3",
+    "hash": "sha256-g1MB9gzYQYvn0LuGSbwAzqParC6XOKJK8PtttsdwF14=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2560,6 +2595,74 @@
       "screenshot": "https://raw.githubusercontent.com/ss44/sathi.ai/refs/heads/master/assets/screenshot-01.png"
     }
   },
+  "airQuality": {
+    "url": "https://github.com/szabolcsf/dms-air-quality",
+    "rev": "aff8f56bc8bce96d6d5bbe9df388b4ea57aa8544",
+    "date": "2026-02-26T10:45:26+08:00",
+    "path": "/nix/store/dcjfbv2pbszlbzrg6xkhfp09kqgka16m-dms-air-quality",
+    "sha256": "1ny8g03py8lpzr7g5qy0j6g89hwqxq69wc372cgc7h4i8k2iq55j",
+    "hash": "sha256-shQcxUSRwMMeE2cwngzumMOEnpHA4/JO/pcifwd4yNs=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "airQuality",
+      "name": "Air Quality",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/szabolcsf/dms-air-quality",
+      "author": "Szabolcs Fazekas",
+      "description": "Display the current Air Quality Index (AQI) on the bar with detailed pollutant breakdown. Supports US and European AQI scales with auto-location.",
+      "dependencies": [
+        "curl"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/szabolcsf/dms-air-quality/raw/main/screenshot.png"
+    }
+  },
+  "magyarNevnapok": {
+    "url": "https://github.com/szabolcsf/dms-nameday",
+    "rev": "619e49f38624a72fbcba6836ea376595de46da08",
+    "date": "2026-02-25T15:06:22+08:00",
+    "path": "/nix/store/9r6hmpbwfhipqmy8ccis4fv8m70dnvfv-dms-nameday",
+    "sha256": "04z100l61x62d586829z8wlbhd9blwbqri67yjj2jxfzvp0m0sj8",
+    "hash": "sha256-SGpQwd3fdSmk9MfEjBenKzW4KEc/CWRQacL0YCgA4RM=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "magyarNevnapok",
+      "name": "Magyar Névnapok",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/szabolcsf/dms-nameday",
+      "author": "Szabolcs Fazekas",
+      "description": "Display the current Hungarian nameday on the DankBar. Shows today's name on the bar, with yesterday/today/tomorrow in the popout panel.",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/szabolcsf/dms-nameday/raw/main/screenshot.png"
+    }
+  },
   "worldClockMulti": {
     "url": "https://github.com/szabolcsf/dms-world-clock-multi",
     "rev": "eb35f2db7efb14b74c21c1e0c7a7cd55c8b7f8b6",
@@ -2703,11 +2806,11 @@
   },
   "chineseCalendar": {
     "url": "https://github.com/xxyangyoulin/dms-plugin-ccal",
-    "rev": "28c109e65edb56bd560d179edc46f5d09ab5088d",
-    "date": "2026-02-25T11:21:17+08:00",
-    "path": "/nix/store/z44dkijdqxpvh4xi8335rkcx57wam2rm-dms-plugin-ccal",
-    "sha256": "03flix3phws4pjza1n9qq6wljbqjmrlnmm1wgi3zkyk58045jas3",
-    "hash": "sha256-QytZCEBl+vlHfDzUammuEi9JucE42aC+vERzeEeP1A0=",
+    "rev": "4477daceab3c6360716a7fe223a6666f794905bc",
+    "date": "2026-02-27T00:02:03+08:00",
+    "path": "/nix/store/zfb65dsxvmsy4swvwxgppnmr2rrv59zk-dms-plugin-ccal",
+    "sha256": "1zp34d1d7j4swbz5vnvfack9p6fjsa8dznkg08dnp7y7zhhb12jm",
+    "hash": "sha256-VYqwIPzHn2sbAm/a35DS0pmbJlNu213+4prI00Ij4/4=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2776,11 +2879,11 @@
   },
   "homeAssistantMonitor": {
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass",
-    "rev": "7fffaf30c0a00d47b34d1794ead9ba82983e0916",
-    "date": "2026-02-23T20:49:06+08:00",
-    "path": "/nix/store/67945zp0i79aqkj6r20nj2w6lf0ni86g-dms-plugin-hass",
-    "sha256": "0m6p50f2nphizi24y2fyim5nmmm21yx10zr70098ql0fj247g0l8",
-    "hash": "sha256-iIJ3iJAOUIwSACd/ELoPotZqS43eCU9E/BFeKxwo11Q=",
+    "rev": "97beccdf732c3dee4560190cbcdad5b190a81295",
+    "date": "2026-02-26T18:57:11+08:00",
+    "path": "/nix/store/fj65bxkwiphn1p42in58clzcw3np7b2c-dms-plugin-hass",
+    "sha256": "12gasfiw4ynapci3488vm5nj6k1fx04x0s4smapnmwk85vskavr9",
+    "hash": "sha256-KW819S5o8mqvqppo0AnoLkwjbakbITIiu8p6wqPT6ok=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
