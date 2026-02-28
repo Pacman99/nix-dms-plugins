@@ -134,6 +134,44 @@
       "screenshot": "https://raw.githubusercontent.com/banicans/DMS-SteamFriends/main/Screenshot.png"
     }
   },
+  "adguardVPplugin": {
+    "url": "https://github.com/bernardopg/dms-adguard-vpn-plugin",
+    "rev": "a27a6ee6891fc46f355776b4d4dda71b8dc4abcb",
+    "date": "2026-02-26T15:08:08-03:00",
+    "path": "/nix/store/hagcxam8d979rjsmc528v2m6cgp5s101-dms-adguard-vpn-plugin",
+    "sha256": "11p9gg764jvzr83y430vkxg8s8qz6b9p5mwvijjh1lngmwv6a86d",
+    "hash": "sha256-zSBlNq/P0gCljJvXctMyHyONXp8bDOIHyn9LYs576YY=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "adguardVPplugin",
+      "name": "AdGuard VPN",
+      "capabilities": [
+        "vpn",
+        "network",
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "repo": "https://github.com/bernardopg/dms-adguard-vpn-plugin",
+      "author": "Bernardo Gomes",
+      "description": "Control, configure, and monitor adguardvpn-cli directly from DankBar",
+      "dependencies": [
+        "adguardvpn-cli"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/bernardopg/dms-adguard-vpn-plugin/main/docs/screenshot.png",
+      "requires_dms": ">=1.4.0"
+    }
+  },
   "githubHeatmap": {
     "url": "https://github.com/boutabong/dms-plugins",
     "rev": "c73781f32c20dd9904bbde0aa40ab135b7c13fbd",
@@ -1038,6 +1076,39 @@
       "screenshot": "https://github.com/devnullvoid/dms-web-search/blob/main/screenshot.png?raw=true"
     }
   },
+  "timeUntil": {
+    "url": "https://github.com/fdmarcin/TimeUntil",
+    "rev": "1b0ec39d375fd79ef13c96af41c0318c56ad658e",
+    "date": "2026-02-27T15:08:17+01:00",
+    "path": "/nix/store/8lgpacbzvxikrazsin1w5hmlz4la7srq-TimeUntil",
+    "sha256": "08xrxnq56a50a4vv134h4d1izn7g445kfksrb2c2jd12w079qwf2",
+    "hash": "sha256-wnGcDuAiNCmYWFlPNwsh79gfQyOQjLA3UaAoU7DtuSM=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "timeUntil",
+      "name": "Time Until",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/fdmarcin/TimeUntil",
+      "author": "Marcin Sędłak-Jakubowski",
+      "description": "Display a customizable countdown timer in the Dankbar. Perfect for tracking important deadlines, goals, or any time-sensitive events.",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/fdmarcin/TimeUntil/refs/heads/main/img/horizontal-pill.png"
+    }
+  },
   "displayManager": {
     "url": "https://github.com/felri/display-manager-plugin-niri-dank-linux",
     "rev": "e95baacf949672b7798873146ecdcebd5a714e95",
@@ -1427,11 +1498,11 @@
   },
   "mediaControlsPlus": {
     "url": "https://github.com/lpv11/dms-media-controls-plus",
-    "rev": "d445a0cb92594c4e4b808e2eb27e6effe697ea4e",
-    "date": "2026-02-26T01:23:06+02:00",
-    "path": "/nix/store/r5bdmiv5q504dmgw1ymkr8qvlkqq78nw-dms-media-controls-plus",
-    "sha256": "08fl0q4kk29nicy4pwclcdfapx82xv41zr17n02770kkjym7qlcc",
-    "hash": "sha256-jFF8qpdzgnMEsCfkH8juAvWrXGOU8Us8izaJOQkG1CE=",
+    "rev": "b687bd87bc6c3a2b2f05c65c05ca13e16093c046",
+    "date": "2026-02-28T01:47:48+02:00",
+    "path": "/nix/store/p81l4biss175fq4ph8fxdflqwkibbmbd-dms-media-controls-plus",
+    "sha256": "08i142gc89pwhgs4m9xgk7na83j8ynircrmli48i1nwkg5jy6mp3",
+    "hash": "sha256-41bjZXmT2xARibRmlqP1SA6k7Jmvp0r0g/wmxJ4gISI=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1681,11 +1752,11 @@
   },
   "flatpakUpdates": {
     "url": "https://github.com/merdely/dms-plugins",
-    "rev": "f85f6f9c3df1f9ed57c45d579355e1ca7f93abf0",
-    "date": "2026-02-26T17:00:36-05:00",
-    "path": "/nix/store/n1bii8ipkyd4h32x7h1q2apscgpb4kfl-dms-plugins",
-    "sha256": "08ia3yymkd0whv96r8r5pjq1rw7hln7qqkaklwd3gikhdnacm9z2",
-    "hash": "sha256-4qfKlG1wxjcap1NNjI+l8PAcsLwlo2zShhy0Wb0fKiI=",
+    "rev": "afefd48be48c6815738141d56d7c9f5d7ea88607",
+    "date": "2026-02-26T21:49:14-05:00",
+    "path": "/nix/store/3iva1hvg8g38mw6yd5n2s1wysxw8aza5-dms-plugins",
+    "sha256": "1nn0i530qkgi9zgdbpnnq8mzhlvd627j9lz54a4716dp0716cx28",
+    "hash": "sha256-SHRmwgG3mXCIIuXTJI8wbVP4K8LW3tXeT/FNDEaJwNo=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1718,11 +1789,11 @@
   },
   "sshConnections": {
     "url": "https://github.com/merdely/dms-plugins",
-    "rev": "f85f6f9c3df1f9ed57c45d579355e1ca7f93abf0",
-    "date": "2026-02-26T17:00:36-05:00",
-    "path": "/nix/store/n1bii8ipkyd4h32x7h1q2apscgpb4kfl-dms-plugins",
-    "sha256": "08ia3yymkd0whv96r8r5pjq1rw7hln7qqkaklwd3gikhdnacm9z2",
-    "hash": "sha256-4qfKlG1wxjcap1NNjI+l8PAcsLwlo2zShhy0Wb0fKiI=",
+    "rev": "afefd48be48c6815738141d56d7c9f5d7ea88607",
+    "date": "2026-02-26T21:49:14-05:00",
+    "path": "/nix/store/3iva1hvg8g38mw6yd5n2s1wysxw8aza5-dms-plugins",
+    "sha256": "1nn0i530qkgi9zgdbpnnq8mzhlvd627j9lz54a4716dp0716cx28",
+    "hash": "sha256-SHRmwgG3mXCIIuXTJI8wbVP4K8LW3tXeT/FNDEaJwNo=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1825,11 +1896,11 @@
   },
   "prayerTimes": {
     "url": "https://github.com/muadzmo/prayertimes",
-    "rev": "9fca2c0fc0f711321843073eedac427d52ebdf76",
-    "date": "2026-02-25T07:48:24+07:00",
-    "path": "/nix/store/8v89cvdkqrq17pqdwcp8k6k9idznncw3-prayertimes",
-    "sha256": "0p659z7n90qnh3hkcnz982sz51z9wnxj9f50krh73yv67lmdgara",
-    "hash": "sha256-KqvXKj1m+3FgnqC4JLvl6YfytUDpWzbhgBaDZM9PxVw=",
+    "rev": "8c53ea678170889b48368b1f79eb68fb6f0aa111",
+    "date": "2026-02-28T06:59:55+07:00",
+    "path": "/nix/store/ppy43w7fax7pa561vhnxmk8a3qd6c5zq-prayertimes",
+    "sha256": "1hidn646igis5121q7bfh47mlm8w238v5viczh1zf63k5ckr5jwb",
+    "hash": "sha256-i8uSJytzGPcD/CzustEQHFVaD4FuHRxEKDq+aIixLcI=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2734,6 +2805,42 @@
       "requires_dms": ">=0.1.18"
     }
   },
+  "nvidiaGpuMonitor": {
+    "url": "https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor",
+    "rev": "58123831e7bbe04a1aa54c11c172d91f08a8a6f9",
+    "date": "2026-02-27T11:48:51+05:30",
+    "path": "/nix/store/q3fzkil17bzm0k73nd451h9ac6fzgh1n-dms-nvidia-gpu-monitor",
+    "sha256": "1g9pvjavdfr36qibrqfi0xs2h8mhg2xykzfh4hxx9jf5zxh7fsj1",
+    "hash": "sha256-QWp3YP/FydQ7JND96bt4sCIodAfR4bwiNiO7tpXcN70=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "nvidiaGpuMonitor",
+      "name": "NVIDIA GPU Monitor",
+      "capabilities": [
+        "dankbar-widget",
+        "monitoring"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor",
+      "author": "Tejas Jondhale",
+      "description": "Monitor NVIDIA GPU usage, VRAM, and temperature.",
+      "dependencies": [
+        "nvidia-smi"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/TEJASJONDHALE/dms-nvidia-gpu-monitor/main/Screenshot.png"
+    }
+  },
   "claudeCodeUsage": {
     "url": "https://github.com/titeya/dms-claudecode",
     "rev": "7154536c4ca60c67238eb61162fd8537e92e3cdb",
@@ -2917,11 +3024,11 @@
   },
   "displayOutput": {
     "url": "https://github.com/xyzsteven/dms-displayoutput",
-    "rev": "fe3be209d1ca1e286535de4f52a130de08de5e15",
-    "date": "2026-02-19T22:51:36+07:00",
-    "path": "/nix/store/skrl5sj7p5w1basw5mfvbn8w5k2q8qbl-dms-displayoutput",
-    "sha256": "1030c8rz6rp9xx6kfyn9vv5qqjl2xslbmyzw87m2f2wnr47fx9y7",
-    "hash": "sha256-x6fuDsmWCyfqQfz7uqjugkqMy97JejdN7+lm8zNiYIA=",
+    "rev": "3bee076c67761aaba2b4b129a7c2d2acc8552545",
+    "date": "2026-02-27T09:38:31+07:00",
+    "path": "/nix/store/l9g6cjhf9rapjahr511mf4clnwzyxvbr-dms-displayoutput",
+    "sha256": "1zlngx6vphpib7mnmnbcxm9wyl6xvhfgycixmaiap7jld70a734w",
+    "hash": "sha256-nIyjwGlUnquiqj0y/xzc3VDPU+1s2WrrWfHCu01/lv4=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2937,8 +3044,10 @@
       "category": "system",
       "repo": "https://github.com/xyzsteven/dms-displayoutput",
       "author": "xyzsteven",
-      "description": "A Hyprland DankMaterialShell plugin that allows you to manage your display outputs (PC Only, Mirror, Extend, Second Screen Only).",
-      "dependencies": [],
+      "description": "Manage display outputs (Single Display, Mirror, Extend).",
+      "dependencies": [
+        "socat"
+      ],
       "compositors": [
         "hyprland"
       ],
