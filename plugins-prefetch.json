@@ -940,11 +940,11 @@
   },
   "aiAssistant": {
     "url": "https://github.com/devnullvoid/dms-ai-assistant",
-    "rev": "dec1f5a3018c057a79b5f8365c74be367e58e220",
-    "date": "2026-02-24T02:00:12-05:00",
-    "path": "/nix/store/mi55aa06fjj7xnwqi33qyrgp5n7rhi2r-dms-ai-assistant",
-    "sha256": "0760krszidf4nd2ij6jc1v4lyd22i472ip5zm30wb0hhayk2z449",
-    "hash": "sha256-iZAvplcQgsXBqL/cKA6JQjRPyQ5MGhlFs8S1+HWewBw=",
+    "rev": "4034489640c85a97c73af4f5bf35411e5a16b5eb",
+    "date": "2026-02-28T15:10:32-05:00",
+    "path": "/nix/store/abczknnny4261glxwmkmpwkhcgb6yinm-dms-ai-assistant",
+    "sha256": "1zz0f123g832jn9mjfg4r2sxc4f48x2wd866jhnfy4qy3s4ic803",
+    "hash": "sha256-AyAWiR4eE+8slMagxkVHxBHWtcjkOVmTlWKgN0Rw4P8=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1012,11 +1012,11 @@
   },
   "emojiLauncher": {
     "url": "https://github.com/devnullvoid/dms-emoji-launcher",
-    "rev": "2fcd667b76271ba6064946fc81feb551cce5ba33",
-    "date": "2026-02-18T20:39:40-05:00",
-    "path": "/nix/store/drgy94d5im12z99wdf8hhhd3dkpyrw2y-dms-emoji-launcher",
-    "sha256": "0dlr77vsm234vp2shdgbg431izzkx0b1fgwq5jvzhyc4ik175kcc",
-    "hash": "sha256-jM1ywoyEefi3LJg/Fxbo8/8YBnnrNajF3WSIqvc5mTY=",
+    "rev": "78d9044296dfd8a7cd46d0224354869a49caee57",
+    "date": "2026-02-28T13:07:59-05:00",
+    "path": "/nix/store/zj1aal108iicfcfh8y4spf22690w6sym-dms-emoji-launcher",
+    "sha256": "04zkhzqh8zbjbzfjm6qjny5vnclcqbm4iyh64ckka344mwxi3lkk",
+    "hash": "sha256-c9IRO6+EDDUnIwb6SOrCjDK7i7cSmyrdX3J9BPGH8xM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1078,11 +1078,11 @@
   },
   "timeUntil": {
     "url": "https://github.com/fdmarcin/TimeUntil",
-    "rev": "1b0ec39d375fd79ef13c96af41c0318c56ad658e",
-    "date": "2026-02-27T15:08:17+01:00",
-    "path": "/nix/store/8lgpacbzvxikrazsin1w5hmlz4la7srq-TimeUntil",
-    "sha256": "08xrxnq56a50a4vv134h4d1izn7g445kfksrb2c2jd12w079qwf2",
-    "hash": "sha256-wnGcDuAiNCmYWFlPNwsh79gfQyOQjLA3UaAoU7DtuSM=",
+    "rev": "857720e02b688e46c207e1f37c0c53b2cdf5a940",
+    "date": "2026-02-28T11:28:45+01:00",
+    "path": "/nix/store/5srnpphq042ifvbh9pf1bbnib3h965vl-TimeUntil",
+    "sha256": "1zziyyin4wkwwbpn1cgmzvm2mbwcjfs38yd67fiiqr882rf4qxyj",
+    "hash": "sha256-0ndMXBYIZRyjO6Z5NLSTjK8q6v71sWDv4nxyYqP38f8=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1498,11 +1498,11 @@
   },
   "mediaControlsPlus": {
     "url": "https://github.com/lpv11/dms-media-controls-plus",
-    "rev": "b687bd87bc6c3a2b2f05c65c05ca13e16093c046",
-    "date": "2026-02-28T01:47:48+02:00",
-    "path": "/nix/store/p81l4biss175fq4ph8fxdflqwkibbmbd-dms-media-controls-plus",
-    "sha256": "08i142gc89pwhgs4m9xgk7na83j8ynircrmli48i1nwkg5jy6mp3",
-    "hash": "sha256-41bjZXmT2xARibRmlqP1SA6k7Jmvp0r0g/wmxJ4gISI=",
+    "rev": "db2b38fdba8b94e4fd0f56f8b82c541547be2447",
+    "date": "2026-02-28T23:00:16+02:00",
+    "path": "/nix/store/1622i5bgbx8s6sjmk9pqqam9wvqnx07r-dms-media-controls-plus",
+    "sha256": "00028xx9bz20kzwygqdgvzifp3hwhrhsbd7n36yqznrxkpzp8c3f",
+    "hash": "sha256-bjB0/50924+9Gfa0pWGGHI7r4t+v4ef5n0D8lXpHAgA=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2033,6 +2033,43 @@
       "screenshot": "https://raw.githubusercontent.com/neoscaler/dms-lenovo-battery-settings/refs/heads/main/screenshot.png"
     }
   },
+  "ephemera": {
+    "url": "https://github.com/nicolasgarcia214/Ephemera",
+    "rev": "01a23ac242913941c48a238549bc22e6f98b508e",
+    "date": "2026-02-27T21:35:39-05:00",
+    "path": "/nix/store/q15a4jaxrscngd7skrn21dnw83smnmqa-Ephemera",
+    "sha256": "1f5sksmkad84iyx46dqld4jk4sc310577307i0byrkx0gcs1xnhw",
+    "hash": "sha256-HNoeNHugz+wXiAeMcwoIg2kyJWkUN0O6jwQ1Naueurg=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "ephemera",
+      "name": "Ephemera",
+      "capabilities": [
+        "slideout",
+        "ai"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/nicolasgarcia214/Ephemera",
+      "author": "nicolasgarcia214",
+      "description": "Ephemeral AI chat — ask quick questions, keep nothing",
+      "dependencies": [
+        "curl",
+        "wl-copy"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/nicolasgarcia214/Ephemera/blob/master/screenshots/screenshot.jpg?raw=true"
+    }
+  },
   "appShortcut": {
     "url": "https://github.com/oabragh/AppShortcut",
     "rev": "373400a84e40b0fb73d6c809ea33c425b529c35f",
@@ -2064,6 +2101,43 @@
         "any"
       ],
       "screenshot": "https://github.com/oabragh/AppShortcut/raw/main/assets/preview.png",
+      "requires_dms": ">=1.2.0"
+    }
+  },
+  "dankAudioVisualizer": {
+    "url": "https://github.com/odtgit/DankAudioVisualizer",
+    "rev": "f8ed8042752794a601113ce1ce6f175b9698010f",
+    "date": "2026-02-28T15:21:58+01:00",
+    "path": "/nix/store/nfsq5njj0bngss489whqh78hl3dnqw5i-DankAudioVisualizer",
+    "sha256": "0d8chapfz5rwjq6nbxgzi3kng6a78maa8jrj8lzygzz9jkaxxcxa",
+    "hash": "sha256-qrPe1ZTp/+c/RTJLpFRFR5ln54j/9WUNljyX766CDDU=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankAudioVisualizer",
+      "name": "Dank Audio Visualizer",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "media",
+      "repo": "https://github.com/odtgit/DankAudioVisualizer",
+      "author": "odtgit",
+      "firstParty": false,
+      "description": "Circular audio visualizer with bars, wave, rings, and bloom effects. Ported from Noctalia's fancy-audiovisualizer by Lemmy / Noctalia Team.",
+      "dependencies": [
+        "cava"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/odtgit/DankAudioVisualizer/main/preview.png",
       "requires_dms": ">=1.2.0"
     }
   },
