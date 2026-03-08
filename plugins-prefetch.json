@@ -422,6 +422,40 @@
       "screenshot": "https://codeberg.org/claymorwan/dms-plugins/raw/branch/master/mediaFrame/screenshot.png"
     }
   },
+  "volumeMixer": {
+    "url": "https://github.com/cwelsys/dms-volume-mixer",
+    "rev": "3996bdfbc11cb7458d9d23e45a69ec2374cf8601",
+    "date": "2026-03-01T01:38:13-05:00",
+    "path": "/nix/store/axmw2x24rsl6g745ybpmymb99v2j42gc-dms-volume-mixer",
+    "sha256": "1apl5lar7xq8mcsgxnfhn2gj65kbvphw5fwsa0spzkyn7g4hf668",
+    "hash": "sha256-yBgHyTvWz381UJq7wuHdaxYjn7DQ2f40qwj3kxUt9Ko=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "volumeMixer",
+      "name": "Volume Mixer",
+      "description": "Standalone volume mixer for your bar",
+      "version": "1.0.0",
+      "author": "cwel",
+      "repo": "https://github.com/cwelsys/dms-volume-mixer",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/cwelsys/dms-volume-mixer/main/assets/screenshot.png"
+    }
+  },
   "powerUsagePlugin": {
     "url": "https://github.com/Daniel-42-z/dms-power-usage",
     "rev": "04b7da69b98be23d6f6bbc0430461680b43809e0",
@@ -1109,6 +1143,41 @@
       "screenshot": "https://github.com/devnullvoid/dms-web-search/blob/main/screenshot.png?raw=true"
     }
   },
+  "cavaVisualizer": {
+    "url": "https://github.com/ernestowgg/cava-visualizer",
+    "rev": "e21703709520ab8401cc3ae9218ebbcc22bb2d2f",
+    "date": "2026-03-02T11:15:42+01:00",
+    "path": "/nix/store/nz2f9rzj3yd5wfk1xfw30fnangp7g3v8-cava-visualizer",
+    "sha256": "0sb3dahpwc0lrsw87kqzba54p9qi7py8c5aw5fc0phjazp8rq3va",
+    "hash": "sha256-ag+c0f1KwguYK1wVhvw9EadLilofz4O4zhQwfqFqY2k=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "cavaVisualizer",
+      "name": "Cava Visualizer",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "appearance",
+      "repo": "https://github.com/ernestowgg/cava-visualizer",
+      "author": "ernestowgg",
+      "description": "A simple, customizable audio visualizer for your desktop",
+      "dependencies": [
+        "cava"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/ernestowgg/cava-visualizer/blob/main/screenshot.png"
+    }
+  },
   "timeUntil": {
     "url": "https://github.com/fdmarcin/TimeUntil",
     "rev": "857720e02b688e46c207e1f37c0c53b2cdf5a940",
@@ -1242,6 +1311,43 @@
       "repo": "https://github.com/heyitsmikey128/DankCustomRunningApps",
       "screenshot": "https://raw.githubusercontent.com/heyitsmikey128/DankCustomRunningApps/refs/heads/main/screenshot.png",
       "author": "Michael Kushma"
+    }
+  },
+  "audioInhibit": {
+    "url": "https://github.com/insecure/dms-audio-inhibit",
+    "rev": "eefccb20299d8d79089d3d976ca1505ae16d3e27",
+    "date": "2026-03-04T20:18:06+01:00",
+    "path": "/nix/store/9hrk4jqs874qldmgcp2vp1z0li0ps3cf-dms-audio-inhibit",
+    "sha256": "02qa59wndwhgw9dpwy1xjvvjmxh2xlwfn1k5d2r4mib2b6hc2yqv",
+    "hash": "sha256-G3vBoFlixUqyaGUG6zjtAvYq95Y9eH5b4g/yZnkqCgs=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "audioInhibit",
+      "name": "Audio Inhibit",
+      "description": "Enables idle inhibitor if audio is playing.",
+      "version": "1.0.0",
+      "author": "Tobias Hommel",
+      "type": "daemon",
+      "component": "./audioInhibit.qml",
+      "capabilities": [
+        "audio",
+        "monitoring"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/insecure/dms-audio-inhibit",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/insecure/dms-audio-inhibit/refs/heads/main/screenshot.png"
     }
   },
   "displayMirror": {
@@ -1529,6 +1635,39 @@
       "screenshot": "https://raw.githubusercontent.com/LouisKottmann/dms-pass/1b01949c0e8d2433bfad4d52f5af466723a504d5/screenshot.png"
     }
   },
+  "showDesktop": {
+    "url": "https://github.com/lpv11/dms-hypr-show-desktop",
+    "rev": "1c5660dc98ee9c3d53fd94b8ea2dbe9ee5085bdd",
+    "date": "2026-03-03T03:23:07+02:00",
+    "path": "/nix/store/ah81r1rrmngkc3618y0zcizvr5nv34jy-dms-hypr-show-desktop",
+    "sha256": "0mp73ca48bl0c0x8hflvbx4hhq5jzrlwrywxpgj1fkfww3w5mdjq",
+    "hash": "sha256-WLZa+ODcTRfku537zGn+smAISV+bOog6YIAuRBQb51Y=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "showDesktop",
+      "name": "Show Desktop",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/lpv11/dms-hypr-show-desktop",
+      "author": "lpv11",
+      "description": "Clickable bar icon that adds windows-life show desktop function. For Hyprland.",
+      "dependencies": [],
+      "compositors": [
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/lpv11/dms-hypr-show-desktop/main/screenshot.png"
+    }
+  },
   "mediaControlsPlus": {
     "url": "https://github.com/lpv11/dms-media-controls-plus",
     "rev": "ded2330603a09076e6d495cf43f0810e423f37bf",
@@ -1781,6 +1920,45 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/max72bra/DankPluginBingWallpaper/refs/heads/main/screenshot.png"
+    }
+  },
+  "canvasGrades": {
+    "url": "https://github.com/mcwiseman97/dms-canvas-plugin",
+    "rev": "ffd0b9f45440e21039a69645ef13d3a8d1d07e00",
+    "date": "2026-03-07T11:27:16-06:00",
+    "path": "/nix/store/jq0kkfl1j5ybsw5zrw17pn5is72nb40i-dms-canvas-plugin",
+    "sha256": "15wd4amcyclpwi3154i2bwgr00724a62661v24spy92wk4jgpqxn",
+    "hash": "sha256-tuP7JJlcJH81ETsYI4wi4gCQH18ikhJG5Jcyz6oijZc=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "canvasGrades",
+      "name": "Canvas Grades",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/mcwiseman97/dms-canvas-plugin",
+      "path": "canvasGrades",
+      "author": "mcwiseman97",
+      "description": "Courses, grades, upcoming assignments, missing work, and announcements from Canvas LMS",
+      "dependencies": [
+        "curl",
+        "jq",
+        "bash"
+      ],
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/mcwiseman97/dms-canvas-plugin/main/screenshots/canvas-popout.png"
     }
   },
   "flatpakUpdates": {
@@ -2068,11 +2246,11 @@
   },
   "ephemera": {
     "url": "https://github.com/nicolasgarcia214/Ephemera",
-    "rev": "bd8ef5a6d95bfcadc6ac97599aeba1d4ce1e69bf",
-    "date": "2026-03-02T21:19:36-05:00",
-    "path": "/nix/store/h79x9wic28xm5s87rq0hxjqh7rlr0gp7-Ephemera",
-    "sha256": "0zc2606c2cfqp5jwdzcs4fbfjhx0nmimz79dmzny1acpasdk9vx7",
-    "hash": "sha256-p+80m1aXqeDtry2dX2O1oEPpliOa/cZludgxwQwwgn0=",
+    "rev": "955609d654257cbbdf6eef451a8b1c70de383735",
+    "date": "2026-03-06T22:10:02-05:00",
+    "path": "/nix/store/hs8vc400kks3srf31dynldqc3m2qp5c1-Ephemera",
+    "sha256": "0rsnjpmivkk2wxhna95nsjj5y62cghamckswlwwm767z3qgyhd54",
+    "hash": "sha256-pDToHx7/mFM5p1xPVhV8TBhfpNS2JGVh52LOHeuVVmc=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2948,6 +3126,41 @@
       "screenshot": "https://raw.githubusercontent.com/TEJASJONDHALE/dms-nvidia-gpu-monitor/main/Screenshot.png"
     }
   },
+  "teamspeakStatus": {
+    "url": "https://github.com/thisilike/dms-plugin-teamspeak",
+    "rev": "98fe1996d8673285e241dcbc895da53e0d746ada",
+    "date": "2026-03-03T21:03:13+01:00",
+    "path": "/nix/store/ywm1jsqpki7aggddf8jhnsr4sd0h5221-dms-plugin-teamspeak",
+    "sha256": "10kiab908dpz6bp5fh7hpxiqrhzddjy8w7d5b3b2a6qdpm2954r5",
+    "hash": "sha256-JZOSRL0NGyXWWKUdjrxs7cOMY7/wQFfuMv82BNJScYI=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "teamspeakStatus",
+      "name": "TeamSpeak Status",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/thisilike/dms-plugin-teamspeak",
+      "author": "thisilike",
+      "description": "Real-time TeamSpeak 6 status display — server, channel, mute, talking, away",
+      "dependencies": [
+        "ts-status"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/thisilike/dms-plugin-teamspeak/master/screenshot.png"
+    }
+  },
   "claudeCodeUsage": {
     "url": "https://github.com/titeya/dms-claudecode",
     "rev": "92cc7c24e6fa526f5ac6870d43f14e0a9f6bd2ab",
@@ -3199,6 +3412,40 @@
       "featured": true,
       "screenshot": "https://github.com/yayuuu/desktopCommand/raw/main/assets/screenshot.jpg",
       "requires_dms": ">=1.2.0"
+    }
+  },
+  "codexBar": {
+    "url": "https://github.com/zakstam/dms-codexbar",
+    "rev": "e6bde0e4ebfa38fedf26038314353e666eb286af",
+    "date": "2026-03-01T10:48:20+02:00",
+    "path": "/nix/store/zrrql7x4dqs21fhaz79sz5gkv7m0l7dz-dms-codexbar",
+    "sha256": "1l3b8c00zimcqj0plh2w01q6sgfppd92wag0vqdiq88gqiq227ls",
+    "hash": "sha256-mh4hcMQPIRwb3uApLlK71z1tcABcQHqBxKzGDwBDa9A=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "codexBar",
+      "name": "CodexBar",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/zakstam/dms-codexbar",
+      "author": "zak",
+      "description": "Monitor AI provider usage quotas",
+      "dependencies": [],
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/zakstam/dms-codexbar/main/screenshot.png"
     }
   }
 }
