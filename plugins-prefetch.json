@@ -1924,11 +1924,11 @@
   },
   "canvasGrades": {
     "url": "https://github.com/mcwiseman97/dms-canvas-plugin",
-    "rev": "ffd0b9f45440e21039a69645ef13d3a8d1d07e00",
-    "date": "2026-03-07T11:27:16-06:00",
-    "path": "/nix/store/jq0kkfl1j5ybsw5zrw17pn5is72nb40i-dms-canvas-plugin",
-    "sha256": "15wd4amcyclpwi3154i2bwgr00724a62661v24spy92wk4jgpqxn",
-    "hash": "sha256-tuP7JJlcJH81ETsYI4wi4gCQH18ikhJG5Jcyz6oijZc=",
+    "rev": "a336a14f4445de636d62de760affbb59842b5801",
+    "date": "2026-03-09T13:41:01-05:00",
+    "path": "/nix/store/85f903yqpm3qz3lyqfvak8gvz26yccss-dms-canvas-plugin",
+    "sha256": "1krd41n8sdkmxiywshcx9x6l2kd7ak0zva1y3w669j17lm51pqx0",
+    "hash": "sha256-oOMbSqUnyGQMHz6o/cFUp01BTU+dQc197HU2jWwgLc8=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2105,6 +2105,41 @@
       "screenshot": "https://raw.githubusercontent.com/MetalCar/dms-dooit-widget/refs/heads/main/screenshots/image.png"
     }
   },
+  "wallpaperCarousel": {
+    "url": "https://github.com/motor-dev/wallpaperCarousel",
+    "rev": "2efba179645912a4b7e4488e5e6d9c9c3c2331ab",
+    "date": "2026-03-09T17:24:09+01:00",
+    "path": "/nix/store/0ifbap2c605jfbad9vnpalw6d68if3bp-wallpaperCarousel",
+    "sha256": "1r61wbsipsk2ss4abdc0qpav8svsfjr9xdr272g636jdwc5hniby",
+    "hash": "sha256-fkULC+NNmmGeOCK3nrJ0emu01cWAtaWI1mLqG/XiweQ=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "wallpaperCarousel",
+      "name": "Wallpaper Carousel",
+      "capabilities": [
+        "wallpaper"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/motor-dev/wallpaperCarousel",
+      "author": "yngwe",
+      "description": "Browse and pick wallpapers with a fullscreen skewed carousel overlay",
+      "dependencies": [],
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/motor-dev/wallpaperCarousel/refs/heads/main/screenshot.png",
+      "requires_dms": ">=1.2.0"
+    }
+  },
   "prayerTimes": {
     "url": "https://github.com/muadzmo/prayertimes",
     "rev": "8c53ea678170889b48368b1f79eb68fb6f0aa111",
@@ -2246,11 +2281,11 @@
   },
   "ephemera": {
     "url": "https://github.com/nicolasgarcia214/Ephemera",
-    "rev": "955609d654257cbbdf6eef451a8b1c70de383735",
-    "date": "2026-03-06T22:10:02-05:00",
-    "path": "/nix/store/hs8vc400kks3srf31dynldqc3m2qp5c1-Ephemera",
-    "sha256": "0rsnjpmivkk2wxhna95nsjj5y62cghamckswlwwm767z3qgyhd54",
-    "hash": "sha256-pDToHx7/mFM5p1xPVhV8TBhfpNS2JGVh52LOHeuVVmc=",
+    "rev": "9adea63de0620bbbf85a196eb09c1f0262f63ccd",
+    "date": "2026-03-09T18:12:39-05:00",
+    "path": "/nix/store/2fg74j90g5cxfsw3k6xp3fsgly23mw0l-Ephemera",
+    "sha256": "1ym3b67hb7416v1q4xcbgzz5y89f4c6shi1dcl3r8cihaa68ljac",
+    "hash": "sha256-TEmKjFIwMpQHZS1EqA0jLiFf/n+LdYLDNoGcBY9Zo/o=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2815,11 +2850,11 @@
   },
   "linuxWallpaperEngine": {
     "url": "https://github.com/sgtaziz/dms-wallpaperengine",
-    "rev": "71773457223ba9bdc5d2f56f69a051cfe1dc0b2d",
-    "date": "2026-03-05T20:31:49+03:00",
-    "path": "/nix/store/f0gdxqziaj1q6j6b05zqnmphi0avnfwf-dms-wallpaperengine",
-    "sha256": "0dg8zicm0ixlhcl5zsszghaspbw8llx7l3xqay2023h6qvhrsian",
-    "hash": "sha256-VkWd4cYGDgGEV7gPejqliK+rFXxf618og7RHUFn86DU=",
+    "rev": "308f236d2ec388d00f08e386383f297f85c816f1",
+    "date": "2026-03-09T16:01:11+03:00",
+    "path": "/nix/store/vqy4pqljxi9dcrn8pcfj4zvqzrrj2v8x-dms-wallpaperengine",
+    "sha256": "1n76b2dg03q59xifb1ksm88sfvvhvcginkzr69n4psm4j66k7pnx",
+    "hash": "sha256-3d4zjZGk6ktsMvlPGx/bcG+nEap6huViTwUP8JpY5tg=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3229,6 +3264,39 @@
         "fedora"
       ],
       "screenshot": "https://github.com/TMS-Namespace/DMS-Markets-Plugin/blob/main/Images/Dark-Popup.png"
+    }
+  },
+  "catWidget": {
+    "url": "https://github.com/xi-ve/cat-dms",
+    "rev": "682c6989362ce4424ea3d3abf1c843d8e7be5aa6",
+    "date": "2026-02-19T21:05:09+01:00",
+    "path": "/nix/store/wjz525ai5jk4nphpndhb7pqy26vxyfyn-cat-dms",
+    "sha256": "1vm2w5rsjpqfb3qdjr78iidwwcfa4awb6i2mhmkvrh6cf1d62vi8",
+    "hash": "sha256-KG5hWnDMwLxnhVVEs7giyjHOW4zoZNnwWA5fqXPhou4=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "catWidget",
+      "name": "Cat Widget",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/xi-ve/cat-dms",
+      "author": "kemo",
+      "description": "An animated running cat for the DankBar whose speed reflects CPU usage. Based on CatWalk by Driglu4it.",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/xi-ve/dms-plugin-registry/blob/add-cat-widget/assets/cat-widget.png"
     }
   },
   "chineseCalendar": {
