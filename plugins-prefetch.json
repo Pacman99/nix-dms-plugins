@@ -1635,6 +1635,44 @@
       "screenshot": "https://raw.githubusercontent.com/LouisKottmann/dms-pass/1b01949c0e8d2433bfad4d52f5af466723a504d5/screenshot.png"
     }
   },
+  "audioSlots": {
+    "url": "https://github.com/lpv11/dms-audio-slots",
+    "rev": "2b57cbc47cc19adfc19abfd40c46cb1704d61ca3",
+    "date": "2026-03-10T19:47:25+02:00",
+    "path": "/nix/store/5lpyakykvwvscrhix4azr690284n945v-dms-audio-slots",
+    "sha256": "1yxjmb89qnmdmvzx78g4hxz67nzcg3dax8basnw954nwx4r1xpbv",
+    "hash": "sha256-e90eMunckpK41Wqhrtp47NtjfofkodP/rq1anNCqsvs=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "audioSlots",
+      "name": "Audio Slots IPC",
+      "capabilities": [
+        "audio",
+        "ipc",
+        "daemon"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/lpv11/dms-audio-slots",
+      "author": "lpv11",
+      "description": "Daemon plugin for cycling saved output/input device slots and toggling focused-app mute via DMS IPC.",
+      "dependencies": [
+        "pactl",
+        "awk"
+      ],
+      "compositors": [
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/lpv11/dms-audio-slots/main/screenshot.png"
+    }
+  },
   "showDesktop": {
     "url": "https://github.com/lpv11/dms-hypr-show-desktop",
     "rev": "1c5660dc98ee9c3d53fd94b8ea2dbe9ee5085bdd",
@@ -1670,11 +1708,11 @@
   },
   "mediaControlsPlus": {
     "url": "https://github.com/lpv11/dms-media-controls-plus",
-    "rev": "9941f5fef8261df713f6bea69f6c547fffb5c758",
-    "date": "2026-03-08T15:01:00+02:00",
-    "path": "/nix/store/3vm5wjafb90nb2fwzmv7jlam4ipvrx9q-dms-media-controls-plus",
-    "sha256": "191b0ab6fv321p7qv7g9ycivmqn6k25irllr90dcfn6ny66lpzl3",
-    "hash": "sha256-g/5LjfHWWMcaSJnSHIuYxuK6I/PpnY3PDWJsZ5YCK6Q=",
+    "rev": "e68ce6beff7f44e6b8335d9d16a72cffebbb0822",
+    "date": "2026-03-11T09:03:11+02:00",
+    "path": "/nix/store/gymp3f02parxsijgcs55j8xrhlmnr1qf-dms-media-controls-plus",
+    "sha256": "1vqmdgap1f60b7znfadwmbm1icl9g0kqcmffczn31pdqn82plwgi",
+    "hash": "sha256-8XF6BbK43TDsZ85Vhid4ibIY6qq8KWf/WcC4cNVrFe8=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2107,11 +2145,11 @@
   },
   "wallpaperCarousel": {
     "url": "https://github.com/motor-dev/wallpaperCarousel",
-    "rev": "4e203bb1555f9443bed634c772466ea46275cfde",
-    "date": "2026-03-10T18:57:29+01:00",
-    "path": "/nix/store/iab4gd2i44bisn9gn6camszx249cw56h-wallpaperCarousel",
-    "sha256": "0j9d524m21grmkw48g1kfk4wxyqkj6lvxjw03z61054zl71fcrc2",
-    "hash": "sha256-gmXmwqGfFBDMH4DLvqmRE/vOyXQzPET4rPkFUYkoLUk=",
+    "rev": "4ef2f866087d5c05830da8f5d5560195a64c15d7",
+    "date": "2026-03-11T18:06:21+01:00",
+    "path": "/nix/store/shx6rqidwg1fdkp9bgc05c0ypf1mb261-wallpaperCarousel",
+    "sha256": "0dalb3n1gd5sxcklm22cqv87dz6avs2bf3bqc6hqhng9a0jz1vwb",
+    "hash": "sha256-i+/wJVDpWYihYXgNt4Teyvx20MZMiEon67q0F+xYVDU=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
