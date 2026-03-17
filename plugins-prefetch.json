@@ -65,6 +65,44 @@
       "screenshot": "https://github.com/antonjah/nix-monitor/raw/master/assets/scrot.png"
     }
   },
+  "screenRecorder": {
+    "url": "https://github.com/arqueon/dms-screen-recorder",
+    "rev": "82622059a7caa8c59d038468fbac7ed7039f477e",
+    "date": "2026-03-15T18:28:36-06:00",
+    "path": "/nix/store/bp348nba5xs39nr46sv3ddh39p4c7jm0-dms-screen-recorder",
+    "sha256": "0wspwm8jgszz0102anby06v0xqsig9vl4dj2m1nv91992hlx4dkf",
+    "hash": "sha256-bjbSKRQphbRtqEI2Qnd6UeMOtgF+WSVAAP/rJ1HlV3M=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "screenRecorder",
+      "name": "Screen Recorder",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/arqueon/dms-screen-recorder",
+      "author": "arqueon",
+      "description": "Start, stop, and configure screen captures with gpu-screen-recorder (Wayland: niri, Hyprland, etc.)",
+      "dependencies": [
+        "gpu-screen-recorder",
+        "xdg-desktop-portal-gnome"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png",
+      "requires_dms": ">=1.2.0"
+    }
+  },
   "mediaPlayer": {
     "url": "https://github.com/arrifat346afs/mediaPlayer",
     "rev": "56ec160ed3fe32ad55b920ff462727d918b6eb51",
@@ -454,6 +492,44 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/cwelsys/dms-volume-mixer/main/assets/screenshot.png"
+    }
+  },
+  "taskwarrior": {
+    "url": "https://github.com/cyrylas/dms-taskwarrior",
+    "rev": "4f9c892d85ba53994e4544a58749d9351ca7d7d8",
+    "date": "2026-03-14T19:13:51+01:00",
+    "path": "/nix/store/g233g24208r78q3k8qw7259lvjbhsqdm-dms-taskwarrior",
+    "sha256": "050vm6g6zq78fk0gjqvm8ynpvmg6vw8s2c2zkr8mgj8p9r6jrhjq",
+    "hash": "sha256-WMIsTU4XyVdRnl8woRHf5tV9rUd1Y/nAdOjgb56pGxQ=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "taskwarrior",
+      "name": "Taskwarrior",
+      "description": "Taskwarrior integration for DMS: see your pending tasks in the status bar, create new tasks using Taskwarrior syntax, and check them off with a single click",
+      "category": "utilities",
+      "repo": "https://github.com/cyrylas/dms-taskwarrior",
+      "author": "Michał Wazgird",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "dependencies": [
+        "taskwarrior"
+      ],
+      "compositors": [
+        "hyprland",
+        "niri",
+        "sway"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/cyrylas/dms-taskwarrior/master/screenshots/screenshot-dark.png",
+      "requires_dms": ">=1.2.0"
     }
   },
   "powerUsagePlugin": {
@@ -1491,6 +1567,39 @@
       "screenshot": "https://github.com/jonkristian/dms-pulsar-x3/blob/main/screenshot.png?raw=true"
     }
   },
+  "unifiedTaskbar": {
+    "url": "https://github.com/jslandau/dms-unified-taskbar",
+    "rev": "4bd35ab2025523f26efe59a6e7780136b78593dd",
+    "date": "2026-03-14T15:50:09-04:00",
+    "path": "/nix/store/0fprg6c05f66fcqgzrp8sra02n8n5mdq-dms-unified-taskbar",
+    "sha256": "0jm1bd65hcikyhv372d6plpz3yj856bap5mm4jh19jyav6jfb0lk",
+    "hash": "sha256-k4LlpNnKyxSgJLWWq5YpSPrxL72miTM29DMyWExboUo=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "unifiedTaskbar",
+      "name": "Unified Taskbar",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/jslandau/dms-unified-taskbar",
+      "author": "Joshua Landau",
+      "description": "Running apps grouped by workspace with per-workspace pills",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/jslandau/dms-unified-taskbar/master/screenshot.png"
+    }
+  },
   "lyricsOnPanel": {
     "url": "https://github.com/KangweiZhu/lyrics-on-panel",
     "rev": "9506069f1a3da96d0df1553e65791c70e19dd7ec",
@@ -2319,11 +2428,11 @@
   },
   "ephemera": {
     "url": "https://github.com/nicolasgarcia214/Ephemera",
-    "rev": "9640646a94e06e51b7b782b113473ce485017bd3",
-    "date": "2026-03-10T17:11:36-05:00",
-    "path": "/nix/store/xcwipc1sdkgpi97hwr6nmz32hc8m9v0w-Ephemera",
-    "sha256": "03qz2d0xqr10ganvrj6lwda15d0w4mbsd1jl173yvjy45g3d94hc",
-    "hash": "sha256-DJLUxivEy+3HCVSGplclHLQSVOPUyLyteiBk3EETHw8=",
+    "rev": "a947c00de4d3c29f04ab315eb98e72947b4cb555",
+    "date": "2026-03-16T14:47:09-05:00",
+    "path": "/nix/store/a2zn6vrlsa8nmwibxzk2213b8yx39qky-Ephemera",
+    "sha256": "0fwzp9fc0117w55gy3plyi8sw2lghf4rf43dm6jzdl291yfmyxfj",
+    "hash": "sha256-0nVfnQ9J0PalqW0Ql4mDjwquUfT0Dv9K4ScEwFy6nzs=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2393,7 +2502,51 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/NordicsSys/dankCleaner/main/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/NordicsSys/dankCleaner/main/Cleanup.png"
+    }
+  },
+  "dankSystemDoctor": {
+    "url": "https://github.com/NordicsSys/DankSystemDoctor",
+    "rev": "0b16dffef267eac553bfe602a7ba53279f43f422",
+    "date": "2026-03-17T01:52:02+07:00",
+    "path": "/nix/store/cigcyhxdqyn7c4j3zmlfdl195mlmya1c-DankSystemDoctor",
+    "sha256": "03hpn4drwvfkqyqx046awcch19aw7jgr2c5i5kfvgajffdk08xrp",
+    "hash": "sha256-N3cEZnNOqrfdLLEwkZ88XKUAGePKENCxx9NtnhuxFw4=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankSystemDoctor",
+      "name": "Dank System Doctor",
+      "capabilities": [
+        "system-monitor",
+        "ai-diagnostics",
+        "log-viewer",
+        "process-manager",
+        "updates",
+        "maintenance"
+      ],
+      "category": "system",
+      "repo": "https://github.com/NordicsSys/DankSystemDoctor",
+      "author": "noxius",
+      "description": "AI-powered system health monitor. Tracks CPU, RAM, disk, GPU & temp; detects pending updates (apt/dnf/pacman/brew); one-click maintenance and snapshot guardrails; Ollama diagnostics with triage playbooks.",
+      "dependencies": [
+        "bash",
+        "journalctl",
+        "ps",
+        "free",
+        "df"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/NordicsSys/DankSystemDoctor/main/screenshots/overview.png"
     }
   },
   "appShortcut": {
