@@ -460,6 +460,39 @@
       "screenshot": "https://codeberg.org/claymorwan/dms-plugins/raw/branch/master/mediaFrame/screenshot.png"
     }
   },
+  "intervalCommand": {
+    "url": "https://github.com/corcoran/dms-interval-command",
+    "rev": "bd17414593ccf31f7557029266c112e17783a3fa",
+    "date": "2026-03-19T18:58:20-04:00",
+    "path": "/nix/store/kli63kwah4w3ysgazswiq3npsqsm02pk-dms-interval-command",
+    "sha256": "14n87kvfxs6h0haw17plj5qdqd2mip7gmqhg1qxhvzs39bv1gqpn",
+    "hash": "sha256-9uIX9kpD/w07Dg/i+s6NVTTccJH0nsAVBNDo7vY8yJI=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "intervalCommand",
+      "name": "Interval Command",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/corcoran/dms-interval-command",
+      "author": "corcoran",
+      "description": "Run a shell command on a configurable interval and display its output in the bar",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/corcoran/dms-interval-command/main/screenshots/screenshot.png"
+    }
+  },
   "volumeMixer": {
     "url": "https://github.com/cwelsys/dms-volume-mixer",
     "rev": "3996bdfbc11cb7458d9d23e45a69ec2374cf8601",
@@ -530,6 +563,40 @@
       ],
       "screenshot": "https://raw.githubusercontent.com/cyrylas/dms-taskwarrior/master/screenshots/screenshot-dark.png",
       "requires_dms": ">=1.2.0"
+    }
+  },
+  "simpleAudioControl": {
+    "url": "https://github.com/Dadangdut33/dms-plugins",
+    "rev": "2f8f76b9ef325ca1e1d0c7b464bf02cdb4e5e660",
+    "date": "2026-03-20T02:41:09+07:00",
+    "path": "/nix/store/48y5sbfx7whbc02p9sn758ggwwijxby1-dms-plugins",
+    "sha256": "0w4aslgxhs80nkmvlxaxzp0b4ns97xbr34qvcny15y7475xkaz47",
+    "hash": "sha256-h3w1eznk+BK8ZRuTkVc/SVuywP1ddbrrtABp2B/VinA=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "simpleAudioControl",
+      "name": "Simple Audio Control",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/Dadangdut33/dms-plugins",
+      "path": "SimpleAudioControl",
+      "author": "Dadangdut33",
+      "description": "A simple widget for controlling audio output and input. Inspired by the audio widget in Noctalia Shell.",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/SimpleAudioControl/preview/tab-1.png"
     }
   },
   "powerUsagePlugin": {
@@ -1188,11 +1255,11 @@
   },
   "webSearch": {
     "url": "https://github.com/devnullvoid/dms-web-search",
-    "rev": "46ba7ec91f0fe3102d8ebb92a7ac943e7d6596f5",
-    "date": "2026-03-17T06:42:26-04:00",
-    "path": "/nix/store/6hnz89cwh36qksp9dx229n1cq2gv99xk-dms-web-search",
-    "sha256": "10cyq47vx5nay83lf6il6qrf6zcx2sr0hrg3ng4z0l0cxx4g0zv7",
-    "hash": "sha256-Z3/wSO8MUPDJs+NlCLIWnX3jMjY0GkcH8sqWvg/BnoE=",
+    "rev": "52f9ec482dc86d9c5ff0110a5d57401112191a38",
+    "date": "2026-03-19T00:04:34-04:00",
+    "path": "/nix/store/ls315ph9v17szy0p2nyvkqb5fps9kpi9-dms-web-search",
+    "sha256": "008v65iq4wzkf24dk6glsq31dqbqqqskwbz36bpxf9b4742rbabk",
+    "hash": "sha256-c6mVBTlkJdfvMuMvPjXGeOEWBtb0mdmIcPNzgmMxGwE=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1387,6 +1454,87 @@
       "repo": "https://github.com/heyitsmikey128/DankCustomRunningApps",
       "screenshot": "https://raw.githubusercontent.com/heyitsmikey128/DankCustomRunningApps/refs/heads/main/screenshot.png",
       "author": "Michael Kushma"
+    }
+  },
+  "gameControllerBattery": {
+    "url": "https://github.com/Hujair/gameControllerBattery",
+    "rev": "b23a996a2f34639c039c4bcbe5adcf5d67730c99",
+    "date": "2026-03-19T23:25:38+03:00",
+    "path": "/nix/store/cmnnyf6jk21qxxcl2a7m3vw6glkz5bxj-gameControllerBattery",
+    "sha256": "03k2gv0ig5n6gv0j26izm1j8sacm11qc0hpc8dxw0zjdwbbbjkrj",
+    "hash": "sha256-Mk+51uJNfsB7Q+xCwHAIlSmNZKg/GiHBfsaWF8F+Yg4=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "gameControllerBattery",
+      "name": "Game Controller Battery",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/Hujair/gameControllerBattery",
+      "author": "Mohammad Hujair",
+      "description": "Shows the battery level of connected game controllers",
+      "dependencies": [
+        "upower"
+      ],
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Hujair/gameControllerBattery/v1.0.0/dms-screenshot-1773854869435.png"
+    }
+  },
+  "formatColorPicker": {
+    "url": "https://github.com/Incognitux/dms-format-color-picker",
+    "rev": "1b4aebad1f92d9edef89296806da7acd38d4a705",
+    "date": "2026-03-16T15:16:51+05:30",
+    "path": "/nix/store/g6818k26fi39nhq1p9cc6kqyxannjihx-dms-format-color-picker",
+    "sha256": "1fvwrisdgz752ka80mz5wfjkg3gi5hmx8q93q4yfq0ky25yw6715",
+    "hash": "sha256-JRzDfRF+Auw8wSNh1Css8Y03pePlV4DUFOX813TMfLs=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "formatColorPicker",
+      "name": "Format Color Picker",
+      "description": "Choose color format before picking",
+      "version": "1.0.0",
+      "author": "Incognitux",
+      "icon": "colorize",
+      "type": "widget",
+      "capabilities": [
+        "control-center",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "component": "./pickerWidget.qml",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "dependencies": [
+        "dms"
+      ],
+      "repo": "https://github.com/Incognitux/dms-format-color-picker",
+      "screenshot": "https://raw.githubusercontent.com/Incognitux/dms-format-color-picker/refs/heads/master/assets/screenshot1.png",
+      "permissions": [
+        "settings_read",
+        "settings_write"
+      ]
     }
   },
   "audioInhibit": {
