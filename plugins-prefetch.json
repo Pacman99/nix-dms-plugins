@@ -462,11 +462,11 @@
   },
   "intervalCommand": {
     "url": "https://github.com/corcoran/dms-interval-command",
-    "rev": "4b936f0e486f1df93d6cff37c2631cc0b50d796c",
-    "date": "2026-03-20T13:37:02-04:00",
-    "path": "/nix/store/58znb587rz253l304277i8kc2gddr2ck-dms-interval-command",
-    "sha256": "11qbvwg88yii4wk43lr6h2cy9nnp6mb0qb6nbhqyw4hjzpkihz70",
-    "hash": "sha256-4HwY5/0SEu4xXNYsDFY119rkmYAm00EmJzF6hB7fC4c=",
+    "rev": "90244aa2801ddae5d7be3604a5f0a98bd2a56309",
+    "date": "2026-03-21T15:03:54-04:00",
+    "path": "/nix/store/d9jfk9ngnv8fv20qkablifzp1isxagh5-dms-interval-command",
+    "sha256": "1qw802bvi9davfrjsgjsvqd3bzds5qy6pl85grvkfw2xnynz0qvm",
+    "hash": "sha256-dWPwrbddcDd3fgXRazwuuv01Gt5aPi2z26qluJcAiOM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -482,7 +482,7 @@
       "category": "utilities",
       "repo": "https://github.com/corcoran/dms-interval-command",
       "author": "corcoran",
-      "description": "Run a shell command on a configurable interval and display its output in the bar",
+      "description": "Run a command on a custom interval and display its output in the bar. Supports multiple instances with different commands.",
       "dependencies": [],
       "compositors": [
         "any"
