@@ -462,11 +462,11 @@
   },
   "intervalCommand": {
     "url": "https://github.com/corcoran/dms-interval-command",
-    "rev": "e8f585807357463929868a2b34f92cce363ac937",
-    "date": "2026-03-22T01:18:10-04:00",
-    "path": "/nix/store/k59d6pmyjir6rqxg6kpsqqw3dciiagj2-dms-interval-command",
-    "sha256": "14cvawqn6lssbhr09zqa10nnv98b3sv917csjqbfsjahb9bvnz0n",
-    "hash": "sha256-Fny7V1pQSe0WlpqdkLYeC6VtLQgK/wQyXFpTYzFXm5E=",
+    "rev": "e4d16e66d717d090569525b4037deadd8b5bfa3f",
+    "date": "2026-03-24T09:36:52-04:00",
+    "path": "/nix/store/zxnhzcf8q87byxfkrfg9vy0zf0h5f7gc-dms-interval-command",
+    "sha256": "0s392i6skhzy9aq75d4mf1564mv2i9akzrdrb0r6sjzz67dca9yw",
+    "hash": "sha256-3CfF2jH/S20yWLnlP1WKYldiSnCVtHKwSv7DqU0UaWg=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -565,13 +565,49 @@
       "requires_dms": ">=1.2.0"
     }
   },
+  "netbirdStatus": {
+    "url": "https://github.com/Dadangdut33/dms-plugins",
+    "rev": "4f6e147e53efe9cd9593ac6798b88c3e8349bfa2",
+    "date": "2026-03-25T03:11:30+07:00",
+    "path": "/nix/store/p5ia3bsf9rf82p6c71r00q5nz8wr4fba-dms-plugins",
+    "sha256": "00lnv20793z8rn547wwgrjkyl3ih262niyhf1zlv6bj8gly8bjy4",
+    "hash": "sha256-xMuFPH1ILrPpDw76aIURMA7qp8yP80OKzeiPdIDYlgI=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "netbirdStatus",
+      "name": "NetBird Status",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/Dadangdut33/dms-plugins",
+      "path": "NetbirdStatus",
+      "author": "Dadangdut33",
+      "description": "A NetBird VPN status plugin for DMS that shows your NetBird connection status and peers in the menu bar widget.",
+      "dependencies": [
+        "netbird"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/NetbirdStatus/preview/widget.png"
+    }
+  },
   "simpleAudioControl": {
     "url": "https://github.com/Dadangdut33/dms-plugins",
-    "rev": "2a3300c00ab5cf4fe2ffc46e3231682d07f4e73d",
-    "date": "2026-03-20T13:23:40+07:00",
-    "path": "/nix/store/5rjrwr84x8a7rlq2w1h6d32jkzk5q88f-dms-plugins",
-    "sha256": "1hk0lijdy4l1s28m0fhrw19h85ic8jyh48334r9mzcnmg2mh8cch",
-    "hash": "sha256-kDEEq3jVsl9TJmMgAr1ELBYEU+AZOlCR0IES32SkYMI=",
+    "rev": "4f6e147e53efe9cd9593ac6798b88c3e8349bfa2",
+    "date": "2026-03-25T03:11:30+07:00",
+    "path": "/nix/store/p5ia3bsf9rf82p6c71r00q5nz8wr4fba-dms-plugins",
+    "sha256": "00lnv20793z8rn547wwgrjkyl3ih262niyhf1zlv6bj8gly8bjy4",
+    "hash": "sha256-xMuFPH1ILrPpDw76aIURMA7qp8yP80OKzeiPdIDYlgI=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1222,11 +1258,11 @@
   },
   "emojiLauncher": {
     "url": "https://github.com/devnullvoid/dms-emoji-launcher",
-    "rev": "ed5caa317b0bda8af1898e6c38199afa69f239cd",
-    "date": "2026-03-23T00:22:16-04:00",
-    "path": "/nix/store/jzsjv39rmiiyjfl4xz6z52p8frhpwq04-dms-emoji-launcher",
-    "sha256": "0ns2jw0qh1qlpy5rzrv5rhay7m36d950zz3hs5wzrb7zmqcycixr",
-    "hash": "sha256-uUfmGa7/rPx50XD8D0pqZtTjFcxl55+LvxQHiAGXQls=",
+    "rev": "18974e94d048ecedfa1c0acea76e21584b05196d",
+    "date": "2026-03-24T18:07:10-04:00",
+    "path": "/nix/store/sxm43i7pcr3adnsxcf0h138xlqpa4glz-dms-emoji-launcher",
+    "sha256": "1rarfrsv7d8z6zp13n8f9mwzxwqfn4jjhp3520ay88nfvliqs06b",
+    "hash": "sha256-ywCNI93OIuQVEGVcKCWxDvP+eU0O2RHuNx+1s3V2WeU=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1421,6 +1457,40 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/Gasiyu/dms-plugin-musiclyrics/main/screenshots.png"
+    }
+  },
+  "hebcalDate": {
+    "url": "https://github.com/hatt-io/dms-hebcal-date",
+    "rev": "dbd56cd0cf7fe97cd23937324aa45e6fe1f3e241",
+    "date": "2026-03-24T11:29:15+01:00",
+    "path": "/nix/store/2pm95s9i21y2j9krj9xskm14yrxn5ijh-dms-hebcal-date",
+    "sha256": "03bisv1k0frb8ahfhnf9a3jxxwx4gfsgzss2dpyxrxz5ylqz4nbr",
+    "hash": "sha256-eVnyMfXl99z9bULr/7R7pPPe5VDJWeigQis7MMPWcQ0=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "hebcalDate",
+      "name": "Hebrew Calendar",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/hatt-io/dms-hebcal-date",
+      "author": "hatt-io",
+      "description": "Display the current Hebrew date and parsha using hebcal",
+      "dependencies": [
+        "hebcal"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ]
     }
   },
   "customRunningApps": {
@@ -1750,11 +1820,11 @@
   },
   "mpvpaperWallpaper": {
     "url": "https://github.com/kanghengliu/dms-mpvpaper",
-    "rev": "7e259c41cc495cef6731ebd4091a646e4ae76117",
-    "date": "2026-03-23T16:28:47-04:00",
-    "path": "/nix/store/jkwm3sbc3hj1zpbnw9q0awdaavxxfg5m-dms-mpvpaper",
-    "sha256": "0iiw4qksypjxx2p6ycia8izlq1q5ax2kgll0f24h2kwppnyrd09y",
-    "hash": "sha256-PoGWvb2XTwGJcIDSN0VXBQdMf0QqMm+u6F1erycmPEY=",
+    "rev": "dcbfa18f552f1e3699a6f1965fe66a93ccec5a28",
+    "date": "2026-03-23T21:45:53-04:00",
+    "path": "/nix/store/1m6w2awmg9mqxlx0dzbhqhrwxpvpja1n-dms-mpvpaper",
+    "sha256": "0in5c179r5lrw8l3mal4ng8jggi5xpxrmy004gm0dq37pmkf57i3",
+    "hash": "sha256-I57iZr1n4AbqIwD4mvvtJb4n0bOEqjoo4pmWnE5gxUY=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2733,6 +2803,50 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/NordicsSys/DankSystemDoctor/main/screenshots/overview.png"
+    }
+  },
+  "usbManager": {
+    "url": "https://github.com/NordicsSys/dms-usb-manager",
+    "rev": "5d5db043e4c11d9a2797908eed9bfdbd230a2bf7",
+    "date": "2026-03-24T13:05:27+07:00",
+    "path": "/nix/store/mabsj0zhmfqsij0y02lrar46a1gm361l-dms-usb-manager",
+    "sha256": "0s4cccn0ihnz9pk1rxkwdnbv3f35wrpn9fq3cfjbh4xdri6hdnb6",
+    "hash": "sha256-ZtkGTcytE7ikYwO7ZG/mZbixl2189hzmTd/CCCxjjGg=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "usbManager",
+      "name": "USB Manager",
+      "capabilities": [
+        "dankbar-widget",
+        "notify"
+      ],
+      "category": "system",
+      "repo": "https://github.com/NordicsSys/dms-usb-manager",
+      "author": "NordicsSys",
+      "description": "Bar widget: monitor removable USB drives, mount/unmount, eject, format (FAT32/exFAT/ext4), resize partitions; notifications on plug/unplug via udisks.",
+      "dependencies": [
+        "udisks2",
+        "bash",
+        "lsblk",
+        "parted",
+        "dosfstools",
+        "e2fsprogs",
+        "exfatprogs",
+        "polkit"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/NordicsSys/dms-usb-manager/main/assets/screenshot.png",
+      "requires_dms": ">=1.2.0"
     }
   },
   "appShortcut": {
