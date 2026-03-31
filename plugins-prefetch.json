@@ -567,11 +567,11 @@
   },
   "clipboardPlus": {
     "url": "https://github.com/Dadangdut33/dms-plugins",
-    "rev": "23d5540639324d2f10383b4f6803ae91b8c5a0e1",
-    "date": "2026-03-28T08:00:55+07:00",
-    "path": "/nix/store/zxig9cnzzxjcp4x94v31kafk9bp0zd5n-dms-plugins",
-    "sha256": "19k84cpa5yygrbb2d5vwjy3jnbzzivcd56vx02gzbvkkja063xz8",
-    "hash": "sha256-6PdhgJJz7vWfAH2b0tiO/y8rh5d8lybWys/7oi4jaKY=",
+    "rev": "d434cb08a9f62c8c9e6804371139e63cd7b91556",
+    "date": "2026-03-31T02:18:41+07:00",
+    "path": "/nix/store/hsq82bv0clrwi86j05i3d9qi8ng2c7vy-dms-plugins",
+    "sha256": "1566j40g3ljpgrdw19y66bzgj1fsfsq457hn0w5ypmvchp4736bp",
+    "hash": "sha256-d5lxyIVs1+sLBxaeQrB22gX5/jLGp8BbflfS8QCRxpQ=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -604,11 +604,11 @@
   },
   "netbirdStatus": {
     "url": "https://github.com/Dadangdut33/dms-plugins",
-    "rev": "23d5540639324d2f10383b4f6803ae91b8c5a0e1",
-    "date": "2026-03-28T08:00:55+07:00",
-    "path": "/nix/store/zxig9cnzzxjcp4x94v31kafk9bp0zd5n-dms-plugins",
-    "sha256": "19k84cpa5yygrbb2d5vwjy3jnbzzivcd56vx02gzbvkkja063xz8",
-    "hash": "sha256-6PdhgJJz7vWfAH2b0tiO/y8rh5d8lybWys/7oi4jaKY=",
+    "rev": "d434cb08a9f62c8c9e6804371139e63cd7b91556",
+    "date": "2026-03-31T02:18:41+07:00",
+    "path": "/nix/store/hsq82bv0clrwi86j05i3d9qi8ng2c7vy-dms-plugins",
+    "sha256": "1566j40g3ljpgrdw19y66bzgj1fsfsq457hn0w5ypmvchp4736bp",
+    "hash": "sha256-d5lxyIVs1+sLBxaeQrB22gX5/jLGp8BbflfS8QCRxpQ=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -640,11 +640,11 @@
   },
   "simpleAudioControl": {
     "url": "https://github.com/Dadangdut33/dms-plugins",
-    "rev": "23d5540639324d2f10383b4f6803ae91b8c5a0e1",
-    "date": "2026-03-28T08:00:55+07:00",
-    "path": "/nix/store/zxig9cnzzxjcp4x94v31kafk9bp0zd5n-dms-plugins",
-    "sha256": "19k84cpa5yygrbb2d5vwjy3jnbzzivcd56vx02gzbvkkja063xz8",
-    "hash": "sha256-6PdhgJJz7vWfAH2b0tiO/y8rh5d8lybWys/7oi4jaKY=",
+    "rev": "d434cb08a9f62c8c9e6804371139e63cd7b91556",
+    "date": "2026-03-31T02:18:41+07:00",
+    "path": "/nix/store/hsq82bv0clrwi86j05i3d9qi8ng2c7vy-dms-plugins",
+    "sha256": "1566j40g3ljpgrdw19y66bzgj1fsfsq457hn0w5ypmvchp4736bp",
+    "hash": "sha256-d5lxyIVs1+sLBxaeQrB22gX5/jLGp8BbflfS8QCRxpQ=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2810,11 +2810,11 @@
   },
   "usbManager": {
     "url": "https://github.com/NordicsSys/dms-usb-manager",
-    "rev": "5d5db043e4c11d9a2797908eed9bfdbd230a2bf7",
-    "date": "2026-03-24T13:05:27+07:00",
-    "path": "/nix/store/mabsj0zhmfqsij0y02lrar46a1gm361l-dms-usb-manager",
-    "sha256": "0s4cccn0ihnz9pk1rxkwdnbv3f35wrpn9fq3cfjbh4xdri6hdnb6",
-    "hash": "sha256-ZtkGTcytE7ikYwO7ZG/mZbixl2189hzmTd/CCCxjjGg=",
+    "rev": "ec2f248cb17511f0c42811c5d97250464c737f11",
+    "date": "2026-03-31T02:58:33+08:00",
+    "path": "/nix/store/pj89jbmri6ffxdjkpql8vg5zrhmk5vhx-dms-usb-manager",
+    "sha256": "1m3p1k92fh7n85wbvslnhmh06wkilkjd98gc30r16s5apys27vsd",
+    "hash": "sha256-Te8jtL+qaBMyGOyh1OSkcXIDYIWW6r14QfZAJ9IMd9Q=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2959,6 +2959,43 @@
       "requires_dms": ">=1.2.0"
     }
   },
+  "discordVoice": {
+    "url": "https://github.com/PandorasFox/dms-discord-widget",
+    "rev": "e06d487d7cc5df878aa8a6a424edfb6fe9efd86d",
+    "date": "2026-03-30T09:31:25-07:00",
+    "path": "/nix/store/vqcaajp1c2746af61gng3426laqf287m-dms-discord-widget",
+    "sha256": "1gprk38ylimn85w3nf2k97nzr2mwarh8lwlx04p1vyyc2h15idbj",
+    "hash": "sha256-crVYAhTM+x0uAZ1yimBWvIr87UlTODt4QbZG6tGY+b4=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "discordVoice",
+      "name": "Discord Voice Widget",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "social",
+      "repo": "https://github.com/PandorasFox/dms-discord-widget",
+      "author": "PandorasFox",
+      "description": "Discord voice call overlay — shows participants as circular avatars with speaking/mute/deafen indicators. Supports mute/deafen keybinds and push-to-talk.",
+      "compositors": [
+        "niri",
+        "hyprland",
+        "sway"
+      ],
+      "dependencies": [
+        "python3"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/PandorasFox/dms-discord-widget/master/screenshot.png"
+    }
+  },
   "asusControlCenter": {
     "url": "https://github.com/pseudofractal/AsusControl",
     "rev": "183cf86b02015cf0467393e8fdb903d81a895166",
@@ -3060,6 +3097,43 @@
         "any"
       ],
       "screenshot": "https://github.com/psyreactor/dms-dolarBlue/raw/main/screenshot.png",
+      "requires_dms": ">0.0.28"
+    }
+  },
+  "githubNotifier": {
+    "url": "https://github.com/psyreactor/dms-githubNotifier",
+    "rev": "ed142b506c9be95dff18c8e29ab8465a450127a9",
+    "date": "2026-03-29T00:44:40-03:00",
+    "path": "/nix/store/7s37p591gpki16m5rwc8xkzj9ifqrk4n-dms-githubNotifier",
+    "sha256": "1b2ndb52kjxhhay1msf6ldi8jjh083hvrhap3pf1zamqkav91b28",
+    "hash": "sha256-SKyQtpq4qh/cHVfBvOFAAEqJYqPG6Rq8grDLKcpqVqw=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "githubNotifier",
+      "name": "GitHub Notifier",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/psyreactor/dms-githubNotifier",
+      "author": "psyreactor",
+      "description": "Shows open PRs authored by you and issues assigned to you from GitHub in the DankBar.",
+      "dependencies": [
+        "github-cli",
+        "font-awesome"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/psyreactor/dms-githubNotifier/raw/main/screenshot.png",
       "requires_dms": ">0.0.28"
     }
   },
