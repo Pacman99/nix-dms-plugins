@@ -82,16 +82,14 @@
       "id": "screenRecorder",
       "name": "Screen Recorder",
       "capabilities": [
-        "dankbar-widget",
-        "control-center"
+        "dankbar-widget"
       ],
       "category": "utilities",
       "repo": "https://github.com/arqueon/dms-screen-recorder",
       "author": "arqueon",
       "description": "Start, stop, and configure screen captures with gpu-screen-recorder (Wayland: niri, Hyprland, etc.)",
       "dependencies": [
-        "gpu-screen-recorder",
-        "xdg-desktop-portal-gnome"
+        "gpu-screen-recorder"
       ],
       "compositors": [
         "any"
@@ -99,8 +97,7 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png",
-      "requires_dms": ">=1.2.0"
+      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png"
     }
   },
   "mediaPlayer": {
@@ -674,11 +671,11 @@
   },
   "powerUsagePlugin": {
     "url": "https://github.com/Daniel-42-z/dms-power-usage",
-    "rev": "04b7da69b98be23d6f6bbc0430461680b43809e0",
-    "date": "2025-12-24T16:18:27+08:00",
-    "path": "/nix/store/30hc41c136ci2zf6n04ax57bizm3iynl-dms-power-usage",
-    "sha256": "0sv30zx9jbpmipg33q3zvpqrzvhkl5qpby4h04gysnw051a1clzn",
-    "hash": "sha256-9lMWVCiAW+0fAZD4dXGhE+6f8d1/4DHejfUumfoHY2s=",
+    "rev": "cac8befec7f9b4e73bfde9f7552d10cb7c5b1828",
+    "date": "2026-04-06T15:02:21+08:00",
+    "path": "/nix/store/clp5pf1cnf8k0zf8i357bapq3dipzfrx-dms-power-usage",
+    "sha256": "03nzd62c6c5nwf7csfc4pv6g7cl9nyxb9rzl61ppjc7f0yv2jdgj",
+    "hash": "sha256-8jUptgfuMHlvMPTntLq3ibLzzL6EOc2O47Yww4Rp3w4=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1683,6 +1680,145 @@
       "screenshot": "https://raw.githubusercontent.com/insecure/dms-audio-inhibit/refs/heads/main/screenshot.png"
     }
   },
+  "amdGpuMonitorRevive": {
+    "url": "https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive",
+    "rev": "17043ef158ade4f360279c09147e178542f3fdec",
+    "date": "2026-04-06T23:34:00+05:30",
+    "path": "/nix/store/4xl6b8b42r68jgysik2i12ds3ddg59ws-DMS-AMD_GPU_Monitor_Revive",
+    "sha256": "0c2bg9hg3di3a13bxcsp40qzzcxanjc4k9dnwkfz9k8l27lawaxc",
+    "hash": "sha256-rCuu6BEUzfTd5LalSZi0qrP/MSBXs75GUCO28WB6SzA=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "amdGpuMonitorRevive",
+      "name": "AMD GPU Monitor Revive",
+      "description": "Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage with updated UI.",
+      "category": "monitoring",
+      "version": "1.2.0",
+      "author": "JDKamalakar.",
+      "icon": "dashboard",
+      "type": "widget",
+      "component": "./AmdGpuMonitorWidget.qml",
+      "settings": "./AmdGpuMonitorSettings.qml",
+      "capabilities": [
+        "dankbar-widget",
+        "monitoring"
+      ],
+      "repo": "https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive",
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "dependencies": [
+        "amdgpu_top"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive/refs/heads/main/assets/DMS_Extended.png",
+      "permissions": [
+        "settings_read",
+        "settings_write",
+        "process"
+      ]
+    }
+  },
+  "dmsScreenshot": {
+    "url": "https://github.com/JDKamalakar/DMS-Screenshot",
+    "rev": "102e3a8cc13af21d7c82be745a53f0ff1bbfd70b",
+    "date": "2026-04-06T23:29:34+05:30",
+    "path": "/nix/store/q00rz2dh0bvvxdnrzn3a9xbjhpn1xxj4-DMS-Screenshot",
+    "sha256": "1045gqm5114l0y8l6psr7071vrkgl64ilvgfw0wz2dchggm6j0nk",
+    "hash": "sha256-0wJp6nuQNfE54O5tGomhb+YdDjhZX0ORB5SEUCp+hYA=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dmsScreenshot",
+      "name": "DMS Screenshot",
+      "description": "Control DMS screenshot actions from the Widget & Control Center",
+      "category": "utilities",
+      "version": "1.0.0",
+      "author": "JDKamalakar",
+      "icon": "screenshot_region",
+      "type": "widget",
+      "component": "./ScreenshotWidget.qml",
+      "settings": "./Settings.qml",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center"
+      ],
+      "repo": "https://github.com/JDKamalakar/DMS-Screenshot",
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "dependencies": [
+        "dms"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Screenshot/refs/heads/main/assets/Dank-Bar_Widget.png",
+      "permissions": [
+        "process",
+        "settings_read",
+        "settings_write"
+      ]
+    }
+  },
+  "liveChartSchedule": {
+    "url": "https://github.com/JDKamalakar/DMS-LiveChart.me",
+    "rev": "4ad143e7093683be75c260a164765b9a7d62be46",
+    "date": "2026-04-06T23:35:02+05:30",
+    "path": "/nix/store/k0vq593ijig253rh7khmw9qd6imd8qdl-DMS-LiveChart.me",
+    "sha256": "1lkfi04sa9avszzyql4r7zpalgj2l8wln88h477fpw8xpcam17am",
+    "hash": "sha256-VZ1QFbsd8evOIRAhSzmiQj6q7j+ZUOz/11slpQmIbtI=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "liveChartSchedule",
+      "name": "LiveChart Schedule",
+      "description": "Displays LiveChart anime schedule data pulled from a local browser session.",
+      "category": "utilities",
+      "version": "1.0.0",
+      "author": "JDKamalakar",
+      "icon": "view_timeline",
+      "type": "widget",
+      "component": "./LiveChartWidget.qml",
+      "settings": "./LiveChartSettings.qml",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "repo": "https://github.com/JDKamalakar/DMS-LiveChart.me",
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "dependencies": [
+        "dms",
+        "python3",
+        "browser_cookie3"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-LiveChart.me/refs/heads/main/assets/POP-Up_UI.png",
+      "permissions": [
+        "settings_read",
+        "settings_write",
+        "process"
+      ]
+    }
+  },
   "displayMirror": {
     "url": "https://github.com/jfchenier/dms-display-mirror",
     "rev": "92cd44c4fb67834bf71fdd78f83c29df5e0750b2",
@@ -2329,11 +2465,11 @@
   },
   "wallpaperBing": {
     "url": "https://github.com/max72bra/DankPluginBingWallpaper",
-    "rev": "4e9b2ee0d211f5c605a53b2d37a99838a153039d",
-    "date": "2026-02-25T16:32:36+01:00",
-    "path": "/nix/store/nvd75fjyj7chlnifnii3zi5bp9qlzww9-DankPluginBingWallpaper",
-    "sha256": "067w3k8yd2nf18gh8xzxzq2npsbqi8k7gn8lav7w316nxkwjwrbw",
-    "hash": "sha256-fGUu+ezWhMHPVhTZdyaKeOlrBf79dwQfCs6K5tEc/Bg=",
+    "rev": "734e976b55e6d3393e2a09b08ad7fa2f218bdfb7",
+    "date": "2026-04-06T10:31:15+02:00",
+    "path": "/nix/store/pgrsnkyamvl9i8xdp8ryy5px9mvl25jf-DankPluginBingWallpaper",
+    "sha256": "05kc35cfp2knf5dcakla6vb3jk3g1qvpwabljbqrnnya301pbj05",
+    "hash": "sha256-Bch1AxjKW5vxknQpfjcOb0w51jaKTsVacXaK61gZbBY=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2545,6 +2681,39 @@
         "arch"
       ],
       "screenshot": "https://raw.githubusercontent.com/MetalCar/dms-dooit-widget/refs/heads/main/screenshots/image.png"
+    }
+  },
+  "quranWidget": {
+    "url": "https://codeberg.org/MezoAhmedII/quranWidget",
+    "rev": "e3bf70bff3095855ca67f3635d10ff585c06468a",
+    "date": "2026-04-06T02:24:55+02:00",
+    "path": "/nix/store/cwvcf4p41j9q7w8axjwxn0j39gcs59mm-quranWidget",
+    "sha256": "1b5pmdmrcgb4f1g41bppg87cpgi9xjabcmw9ndb7w25bbvjl4hfq",
+    "hash": "sha256-2EFC5V6rCH5Ws4lXtpTsKb7LDnr3rkBecGQ9lmurt6w=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "quranWidget",
+      "name": "Quran Widget",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://codeberg.org/MezoAhmedII/quranWidget",
+      "author": "MezoAhmedII",
+      "description": "Shows a random Quranic Ayah / verse on the desktop",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://codeberg.org/MezoAhmedII/quranWidget/raw/branch/main/screenshot.png"
     }
   },
   "wallpaperCarousel": {
