@@ -600,11 +600,11 @@
   },
   "clipboardPlus": {
     "url": "https://github.com/Dadangdut33/dms-plugins",
-    "rev": "d434cb08a9f62c8c9e6804371139e63cd7b91556",
-    "date": "2026-03-31T02:18:41+07:00",
-    "path": "/nix/store/hsq82bv0clrwi86j05i3d9qi8ng2c7vy-dms-plugins",
-    "sha256": "1566j40g3ljpgrdw19y66bzgj1fsfsq457hn0w5ypmvchp4736bp",
-    "hash": "sha256-d5lxyIVs1+sLBxaeQrB22gX5/jLGp8BbflfS8QCRxpQ=",
+    "rev": "846aff653e9492f2907790e1017f723206ea568b",
+    "date": "2026-04-12T00:20:38+07:00",
+    "path": "/nix/store/g8dqbfnyqzsnz37dbcz9sj78mlql4s79-dms-plugins",
+    "sha256": "135cwl3hp4rqsnw1nxldjlryknmj37x0fiig35p3jnrqv4wx9n7j",
+    "hash": "sha256-8tjUOdk4WzluGS9GB/oZstrpM5WNdhu41TiTCwflrIw=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -637,11 +637,11 @@
   },
   "netbirdStatus": {
     "url": "https://github.com/Dadangdut33/dms-plugins",
-    "rev": "d434cb08a9f62c8c9e6804371139e63cd7b91556",
-    "date": "2026-03-31T02:18:41+07:00",
-    "path": "/nix/store/hsq82bv0clrwi86j05i3d9qi8ng2c7vy-dms-plugins",
-    "sha256": "1566j40g3ljpgrdw19y66bzgj1fsfsq457hn0w5ypmvchp4736bp",
-    "hash": "sha256-d5lxyIVs1+sLBxaeQrB22gX5/jLGp8BbflfS8QCRxpQ=",
+    "rev": "846aff653e9492f2907790e1017f723206ea568b",
+    "date": "2026-04-12T00:20:38+07:00",
+    "path": "/nix/store/g8dqbfnyqzsnz37dbcz9sj78mlql4s79-dms-plugins",
+    "sha256": "135cwl3hp4rqsnw1nxldjlryknmj37x0fiig35p3jnrqv4wx9n7j",
+    "hash": "sha256-8tjUOdk4WzluGS9GB/oZstrpM5WNdhu41TiTCwflrIw=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -673,11 +673,11 @@
   },
   "simpleAudioControl": {
     "url": "https://github.com/Dadangdut33/dms-plugins",
-    "rev": "d434cb08a9f62c8c9e6804371139e63cd7b91556",
-    "date": "2026-03-31T02:18:41+07:00",
-    "path": "/nix/store/hsq82bv0clrwi86j05i3d9qi8ng2c7vy-dms-plugins",
-    "sha256": "1566j40g3ljpgrdw19y66bzgj1fsfsq457hn0w5ypmvchp4736bp",
-    "hash": "sha256-d5lxyIVs1+sLBxaeQrB22gX5/jLGp8BbflfS8QCRxpQ=",
+    "rev": "846aff653e9492f2907790e1017f723206ea568b",
+    "date": "2026-04-12T00:20:38+07:00",
+    "path": "/nix/store/g8dqbfnyqzsnz37dbcz9sj78mlql4s79-dms-plugins",
+    "sha256": "135cwl3hp4rqsnw1nxldjlryknmj37x0fiig35p3jnrqv4wx9n7j",
+    "hash": "sha256-8tjUOdk4WzluGS9GB/oZstrpM5WNdhu41TiTCwflrIw=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1531,6 +1531,41 @@
       "screenshot": "https://raw.githubusercontent.com/felri/display-manager-plugin-niri-dank-linux/refs/heads/main/assets/screenshot.png"
     }
   },
+  "dmsAgent": {
+    "url": "https://github.com/Francisdelca/dms-agent",
+    "rev": "926cded9025f1bc981072b7e0f60e3cc9178b379",
+    "date": "2026-04-07T18:03:11-05:00",
+    "path": "/nix/store/fya8f79g0dqa06iwrwhsjnh23j7p57zh-dms-agent",
+    "sha256": "00p33ha0yr87dxw9w30wfsd5v2q3qbcfx9j8b1ax5lqxk88kwqny",
+    "hash": "sha256-3mI+EZod09JVWEim7tjCA4tdmnYcDJ54bwdlDxQc4wI=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dmsAgent",
+      "name": "DMS Agent",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/Francisdelca/dms-agent",
+      "author": "Francisdelca (Francis)",
+      "description": "AI desktop assistant powered by Claude Code. Floating chat panel for controlling your desktop with natural language — open apps, switch windows, play music, search the web, and more.",
+      "dependencies": [
+        "claude"
+      ],
+      "compositors": [
+        "niri"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Francisdelca/dms-agent/main/screenshots/panel.png"
+    }
+  },
   "musicLyrics": {
     "url": "https://github.com/gasiyu/dms-plugin-musiclyrics",
     "rev": "4f7a65475ad3774a38190808729de7e6e4c84d61",
@@ -1801,6 +1836,52 @@
         "dms"
       ],
       "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Screenshot/refs/heads/main/assets/Dank-Bar_Widget.png",
+      "permissions": [
+        "process",
+        "settings_read",
+        "settings_write"
+      ]
+    }
+  },
+  "fullscreenPowerMenu": {
+    "url": "https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu",
+    "rev": "2e845219de72be1e62c6282b268671aa09e448d7",
+    "date": "2026-04-11T15:33:03+05:30",
+    "path": "/nix/store/ir56gs9w8785avnz6lqxiq7lvv5cvvzs-DMS-Fullscreen_Power_Menu",
+    "sha256": "0y1p257fls7jyhb76s49iacb3q0ngaz01z0wczhkkhaxqr9b2jbz",
+    "hash": "sha256-f0mxUsZdwTnhZxz8AL56FuCxmIqJaHMW9PJo6k4RN3g=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "fullscreenPowerMenu",
+      "name": "Fullscreen Power Menu",
+      "description": "Material 3 inspired fullscreen Power Menu triggered via IPC",
+      "category": "utilities",
+      "version": "1.0.0",
+      "author": "JDKamalakar",
+      "icon": "power_settings_new",
+      "type": "daemon",
+      "component": "./PowerMenu.qml",
+      "settings": "./PowerMenuSettings.qml",
+      "capabilities": [
+        "power",
+        "ipc"
+      ],
+      "repo": "https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu",
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "dependencies": [
+        "dms"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Fullscreen_Power_Menu/refs/heads/main/assets/Main_UI.png",
       "permissions": [
         "process",
         "settings_read",
@@ -2818,6 +2899,42 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/muadzmo/prayertimes/refs/heads/main/screenshot.png"
+    }
+  },
+  "imageConverter": {
+    "url": "https://github.com/murilo-gotardo/dms-image-converter",
+    "rev": "5c5ef0d9210ea1a184d7c0911705c910cccc7d19",
+    "date": "2026-04-09T00:18:18-03:00",
+    "path": "/nix/store/7y3z1j9ccf350nq91vkvzvpwv9y8hp0v-dms-image-converter",
+    "sha256": "0zis3glyw8p26igwzb1jgpqynh99ip8q44y8sf4vwcn442c0qqci",
+    "hash": "sha256-kWEMmCDEMr6J08gTgtGNKUHr8X0yrM9fNOIi7ukbOn4=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "imageConverter",
+      "name": "ImageConverter",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/murilo-gotardo/dms-image-converter",
+      "author": "Murilo",
+      "description": "Convert images between formats (PNG, JPG, WEBP, BMP, TIFF) from the DankBar",
+      "dependencies": [
+        "imagemagick",
+        "wl-clipboard"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Murilo-Gotardo/dms-image-converter/refs/heads/main/screenshots/converter.png"
     }
   },
   "amdGpuMonitor": {
