@@ -65,6 +65,43 @@
       "screenshot": "https://github.com/antonjah/nix-monitor/raw/master/assets/scrot.png"
     }
   },
+  "nextBootSelector": {
+    "url": "https://github.com/arcatva/dms-next-boot-selector",
+    "rev": "89e0f38554db8adb6d15f93fa21fbe5c2eecb06e",
+    "date": "2026-04-12T07:01:55+12:00",
+    "path": "/nix/store/x44l0plhy7k97mjywvfa58bhckcmh254-dms-next-boot-selector",
+    "sha256": "1rb8dz2i0ljw821c6bvlzlkfnzkhzv0fhznnqw2kr97hwi0f9nl7",
+    "hash": "sha256-h9rkQOTwpDwFx9Z+6MD+cH7rJv10L8OCQFxSEMVvaOU=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "nextBootSelector",
+      "name": "Next Boot Selector",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "system",
+      "repo": "https://github.com/arcatva/dms-next-boot-selector",
+      "author": "arcatva",
+      "description": "Pick which EFI boot entry to load on next reboot via efibootmgr. Bar pill + Control Center widget with a scrollable picker.",
+      "dependencies": [
+        "efibootmgr",
+        "sudo"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/arcatva/dms-next-boot-selector/main/screenshots/popout.png"
+    }
+  },
   "screenRecorder": {
     "url": "https://github.com/arqueon/dms-screen-recorder",
     "rev": "7206b590d69a165d30b5bbb66b033f1a15b49aff",
@@ -2183,6 +2220,39 @@
       "screenshot": "https://github.com/KangweiZhu/lyrics-on-panel/raw/main/img/image-panel-onlythiswidget.png"
     }
   },
+  "trashBin": {
+    "url": "https://github.com/kerojiang/dms-transBin",
+    "rev": "742355b72f389792a73d180b6967d1f0fca3bf0d",
+    "date": "2026-04-13T20:19:51+08:00",
+    "path": "/nix/store/n6cmwgb94mrxzbyk1996yc5vr6cgjxrn-dms-transBin",
+    "sha256": "044f60qxgaf8pinagdsnjgjb9fvkc0f6hk7dgym4hj6ra86jhssa",
+    "hash": "sha256-SmsoDVLZSEiqf+1MaBxgc7u05JNWt6dsvMip1zEwjhA=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "trashBin",
+      "name": "Trash Bin",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/kerojiang/dms-transBin",
+      "author": "kerojiang",
+      "description": "Monitor and manage your system trash directly from your status bar. Features real-time monitoring, quick access, empty trash button, and auto-clean configuration.",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/kerojiang/dms-transBin/refs/heads/main/images/bin-full.png"
+    }
+  },
   "stockManager": {
     "url": "https://github.com/leemeng0x61/stockManager",
     "rev": "cbba650f97540015ff19fb29be5eb1cf0c8bdd81",
@@ -2835,11 +2905,11 @@
   },
   "wallpaperCarousel": {
     "url": "https://github.com/motor-dev/wallpaperCarousel",
-    "rev": "1029878e896e04d94fb5bb838046493de373b495",
-    "date": "2026-03-31T05:47:23Z",
-    "path": "/nix/store/v3xy18n4j0pp1wqvfm445sv98b7avl7y-wallpaperCarousel",
-    "sha256": "1wxhd532fphjinf4rnnzxlsf6alzxcadrkw7icvwkjavl79a33i8",
-    "hash": "sha256-KI6h0qFbyck3i4fP3BTrnyrjNO3f2kycjRJeJ0ZpsPM=",
+    "rev": "9d558cce3bb544fc6467e26ec450ab8087b2fda2",
+    "date": "2026-04-13T14:02:08Z",
+    "path": "/nix/store/v5q5jzxva50pkspdcs7qaakky5zxzvxn-wallpaperCarousel",
+    "sha256": "0w0ah3klf4cmwc5rx84qyziz40dshsqadq3gsl62xk6x6idhcw3a",
+    "hash": "sha256-anAGWzTdzC4M1W/gprCGugHy4/eYoJ4L45URR+eACnA=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4343,11 +4413,11 @@
   },
   "catWidget": {
     "url": "https://github.com/xi-ve/cat-dms",
-    "rev": "682c6989362ce4424ea3d3abf1c843d8e7be5aa6",
-    "date": "2026-02-19T21:05:09+01:00",
-    "path": "/nix/store/wjz525ai5jk4nphpndhb7pqy26vxyfyn-cat-dms",
-    "sha256": "1vm2w5rsjpqfb3qdjr78iidwwcfa4awb6i2mhmkvrh6cf1d62vi8",
-    "hash": "sha256-KG5hWnDMwLxnhVVEs7giyjHOW4zoZNnwWA5fqXPhou4=",
+    "rev": "eb7b5138b672be3c06445dd80de6bc30c3076030",
+    "date": "2026-04-13T11:27:25+02:00",
+    "path": "/nix/store/scmj36il7n8h6v46b9k4ifn3y6n276ha-cat-dms",
+    "sha256": "1ydhc7202f43vdf3g4xq70m9g39n46p05ggmd2yl5as79vrqcg98",
+    "hash": "sha256-KD2G805Hq0K9aPW9Aq4hNo2XKji4kzdc24M4AcRhsPk=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
