@@ -2940,11 +2940,11 @@
   },
   "prayerTimes": {
     "url": "https://github.com/muadzmo/prayertimes",
-    "rev": "8c53ea678170889b48368b1f79eb68fb6f0aa111",
-    "date": "2026-02-28T06:59:55+07:00",
-    "path": "/nix/store/ppy43w7fax7pa561vhnxmk8a3qd6c5zq-prayertimes",
-    "sha256": "1hidn646igis5121q7bfh47mlm8w238v5viczh1zf63k5ckr5jwb",
-    "hash": "sha256-i8uSJytzGPcD/CzustEQHFVaD4FuHRxEKDq+aIixLcI=",
+    "rev": "82b16b235d3f06101d79f04529a1a32b4d32fe2c",
+    "date": "2026-04-14T11:53:20+07:00",
+    "path": "/nix/store/r72mxh028wjkbqydqdmvlgi6qlb37lkd-prayertimes",
+    "sha256": "0j42h9p3yz9cvcm6j0zcpkggdcvxjg3gsgk1hvp0xazivyw3bw05",
+    "hash": "sha256-BfA1uN/xqw7uhmE+/caTfbP23rzsA2kq2yx9P26Cgkg=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4625,6 +4625,44 @@
       "featured": true,
       "screenshot": "https://github.com/yayuuu/desktopCommand/raw/main/assets/screenshot.jpg",
       "requires_dms": ">=1.2.0"
+    }
+  },
+  "dankRazer": {
+    "url": "https://github.com/zachfi/dms-razer",
+    "rev": "47afb6655b5d09fff358e3849dddc3917d3fba3f",
+    "date": "2026-04-13T16:01:18Z",
+    "path": "/nix/store/w4zicsr3lmb072303kwlihs2158srfcn-dms-razer",
+    "sha256": "1kg8zirnghfkzdkqpw5djpdxqsbwhj1jg9wa3d3r802s5w9sbflr",
+    "hash": "sha256-mbqlEy9aAJRHG4qnJ4OEfGnc25Wt8Itn+9PBZ3P86M0=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankRazer",
+      "name": "Razer Device Manager",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center",
+        "command-execution"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/zachfi/dms-razer",
+      "screenshot": "https://raw.githubusercontent.com/zachfi/dms-razer/main/screenshot.png",
+      "author": "zachfi",
+      "description": "Control Razer peripherals via OpenRazer — lighting effects, brightness, DPI, and battery monitoring",
+      "dependencies": [
+        "openrazer-daemon",
+        "go"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ]
     }
   },
   "codexBar": {
