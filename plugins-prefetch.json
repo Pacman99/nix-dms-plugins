@@ -32,6 +32,41 @@
       "screenshot": "https://raw.githubusercontent.com/AC17dollars/dms-nepali-calendar/main/assets/horizontal.png"
     }
   },
+  "dankUpsMonitor": {
+    "url": "https://github.com/acmagn/DMS-UPS-Monitor",
+    "rev": "d88f68cba29a567ef134512b1c4e6ec55b6fd5d1",
+    "date": "2026-04-16T16:49:41-06:00",
+    "path": "/nix/store/i7rnic104kdqgddyfibhmfr5in4bqg87-DMS-UPS-Monitor",
+    "sha256": "0pkw6a4x5wwihcn3hdbkrfik1s0n4r5hjx97rxh0jl7g3i31ljfd",
+    "hash": "sha256-zUkaRhzvUAlgzyd1CUsmFugwo8tzNTgsg5Hz0okyfF4=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankUpsMonitor",
+      "name": "Dank UPS Monitor",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/acmagn/DMS-UPS-Monitor",
+      "author": "acmagn",
+      "description": "Real-time UPS status widget via NUT (upsc).",
+      "dependencies": [
+        "upsc"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/acmagn/DMS-UPS-Monitor/blob/main/assets/screenshot.png"
+    }
+  },
   "nixMonitor": {
     "url": "https://github.com/antonjah/nix-monitor",
     "rev": "ef3db9d5a525ddf41355e8c456b40d56480a6626",
@@ -2222,11 +2257,11 @@
   },
   "trashBin": {
     "url": "https://github.com/kerojiang/dms-transBin",
-    "rev": "742355b72f389792a73d180b6967d1f0fca3bf0d",
-    "date": "2026-04-13T20:19:51+08:00",
-    "path": "/nix/store/n6cmwgb94mrxzbyk1996yc5vr6cgjxrn-dms-transBin",
-    "sha256": "044f60qxgaf8pinagdsnjgjb9fvkc0f6hk7dgym4hj6ra86jhssa",
-    "hash": "sha256-SmsoDVLZSEiqf+1MaBxgc7u05JNWt6dsvMip1zEwjhA=",
+    "rev": "100b14f27b6c624ab2b8b171bca64a3d0505155b",
+    "date": "2026-04-18T00:08:04+08:00",
+    "path": "/nix/store/h9q5vs2dbvx7s9032r2znxlhq94qnnn6-dms-transBin",
+    "sha256": "0zijg3jawf991h80gwwdq2xr332r1fdywainn3xr3zk1yw0i843i",
+    "hash": "sha256-cRAUAfdh/pH7sDYq7psLWYyRu8CN8wcQDCk5ruR4Mn4=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3039,7 +3074,7 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshots/screenshot.png"
     }
   },
   "powerOptions": {
@@ -3530,11 +3565,11 @@
   },
   "githubNotifier": {
     "url": "https://github.com/psyreactor/dms-githubNotifier",
-    "rev": "ed142b506c9be95dff18c8e29ab8465a450127a9",
-    "date": "2026-03-29T00:44:40-03:00",
-    "path": "/nix/store/7s37p591gpki16m5rwc8xkzj9ifqrk4n-dms-githubNotifier",
-    "sha256": "1b2ndb52kjxhhay1msf6ldi8jjh083hvrhap3pf1zamqkav91b28",
-    "hash": "sha256-SKyQtpq4qh/cHVfBvOFAAEqJYqPG6Rq8grDLKcpqVqw=",
+    "rev": "1321e65701c808a610075367e9bcf7087a10b5f5",
+    "date": "2026-04-17T21:10:20-03:00",
+    "path": "/nix/store/v5av0w4bmnzmlbrzq7di2lqsij5y0f3i-dms-githubNotifier",
+    "sha256": "1ccwfl7agjq4ss5i25xcn5zpdc23a1qijr9d4kgs2hqcwz6588g7",
+    "hash": "sha256-5yFUzOcMQ6HfJC1lGXFQQ7B2f7GsFxGL1gTLpw51nLE=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
