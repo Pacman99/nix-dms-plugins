@@ -672,11 +672,11 @@
   },
   "clipboardPlus": {
     "url": "https://github.com/Dadangdut33/dms-plugins",
-    "rev": "d70e8c4398d9e44e2fdf4f5dc3786faddf32ef53",
-    "date": "2026-04-20T19:49:32+07:00",
-    "path": "/nix/store/23idy1z47756fd4s43sl819dhk6p700z-dms-plugins",
-    "sha256": "088frgw1v58j738qs4gmm3ycv559w0kaicm2dg9saryr7vdp78hr",
-    "hash": "sha256-GaJz2z7ZZ6XTa6KyqCbgqZTN/Kj1EY3ROBKVHfjLDiE=",
+    "rev": "ff2672e8f8c24f46c4041abde0a001274d6f239d",
+    "date": "2026-04-21T22:32:01+07:00",
+    "path": "/nix/store/45r0zzpxlvjs2y4dyxj0vd5d91kf8m46-dms-plugins",
+    "sha256": "1c1nclf76iclfblj2w2gc9zk872nl538yfi74df62ccpaykmp8i4",
+    "hash": "sha256-JKJbp1eXMWFcIyc6j0ahVhw0f2JPcCHpcpRFcxxlNrA=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -709,11 +709,11 @@
   },
   "netbirdStatus": {
     "url": "https://github.com/Dadangdut33/dms-plugins",
-    "rev": "d70e8c4398d9e44e2fdf4f5dc3786faddf32ef53",
-    "date": "2026-04-20T19:49:32+07:00",
-    "path": "/nix/store/23idy1z47756fd4s43sl819dhk6p700z-dms-plugins",
-    "sha256": "088frgw1v58j738qs4gmm3ycv559w0kaicm2dg9saryr7vdp78hr",
-    "hash": "sha256-GaJz2z7ZZ6XTa6KyqCbgqZTN/Kj1EY3ROBKVHfjLDiE=",
+    "rev": "ff2672e8f8c24f46c4041abde0a001274d6f239d",
+    "date": "2026-04-21T22:32:01+07:00",
+    "path": "/nix/store/45r0zzpxlvjs2y4dyxj0vd5d91kf8m46-dms-plugins",
+    "sha256": "1c1nclf76iclfblj2w2gc9zk872nl538yfi74df62ccpaykmp8i4",
+    "hash": "sha256-JKJbp1eXMWFcIyc6j0ahVhw0f2JPcCHpcpRFcxxlNrA=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -745,11 +745,11 @@
   },
   "simpleAudioControl": {
     "url": "https://github.com/Dadangdut33/dms-plugins",
-    "rev": "d70e8c4398d9e44e2fdf4f5dc3786faddf32ef53",
-    "date": "2026-04-20T19:49:32+07:00",
-    "path": "/nix/store/23idy1z47756fd4s43sl819dhk6p700z-dms-plugins",
-    "sha256": "088frgw1v58j738qs4gmm3ycv559w0kaicm2dg9saryr7vdp78hr",
-    "hash": "sha256-GaJz2z7ZZ6XTa6KyqCbgqZTN/Kj1EY3ROBKVHfjLDiE=",
+    "rev": "ff2672e8f8c24f46c4041abde0a001274d6f239d",
+    "date": "2026-04-21T22:32:01+07:00",
+    "path": "/nix/store/45r0zzpxlvjs2y4dyxj0vd5d91kf8m46-dms-plugins",
+    "sha256": "1c1nclf76iclfblj2w2gc9zk872nl538yfi74df62ccpaykmp8i4",
+    "hash": "sha256-JKJbp1eXMWFcIyc6j0ahVhw0f2JPcCHpcpRFcxxlNrA=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1825,11 +1825,11 @@
   },
   "amdGpuMonitorRevive": {
     "url": "https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive",
-    "rev": "e48af16d34127ba2c1a569f99108632a031807bc",
-    "date": "2026-04-20T23:04:36+05:30",
-    "path": "/nix/store/qlmv61iqqq6jv9qnkbbgmj9b00dx00jj-DMS-AMD_GPU_Monitor_Revive",
-    "sha256": "1469pcy9lz80c3rfdhhkznglzj33rxzvlwnycwpy0cx4mgl5msm4",
-    "hash": "sha256-pOpa6KukM+AvZ95yun/PY8hPn/0TwubyYAB9mjy7yZA=",
+    "rev": "a266bb454c3f3657ee53013a5f5c98d676acd641",
+    "date": "2026-04-21T10:33:06+05:30",
+    "path": "/nix/store/2hr7man3bvppshyqrcjb7mi791j2pf7c-DMS-AMD_GPU_Monitor_Revive",
+    "sha256": "163k5d20vrwj045c3h7fm1z544n0yf8amqwzwx59bbdq3935w2w1",
+    "hash": "sha256-gQteRhq4rZVK55/jqpDzwBJSfqjuwMEKAZLnDUQrc5g=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1871,11 +1871,11 @@
   },
   "dmsScreenshot": {
     "url": "https://github.com/JDKamalakar/DMS-Screenshot",
-    "rev": "695a12428b0cc85db0e9cd6b469f776342950fa7",
-    "date": "2026-04-15T22:56:44+05:30",
-    "path": "/nix/store/x724im4ypz0v5dbv3a4ma670yrsn2c20-DMS-Screenshot",
-    "sha256": "03z7ywlx7qcdy3i3rypzya6d7mn0vpz8c69c8adcm5awnli0596w",
-    "hash": "sha256-3KQCIrVclcqaQiwZhv7dwNbTjPL/+jzi8I3h0yn35w8=",
+    "rev": "6632f798b2a933f47d308267bd2fcd5099174962",
+    "date": "2026-04-21T10:33:36+05:30",
+    "path": "/nix/store/dm294048wk8dsmj7b9jda4hc2xp7d6vl-DMS-Screenshot",
+    "sha256": "0gqi6y0741l33bfgnbw3zg52ymvyrwyb1jyy0rws77g3hm3h41wg",
+    "hash": "sha256-jwcCR4XjnaN5Bt7LsDzPflcvyvuDL/vcGoMGcoA3ET8=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1917,11 +1917,11 @@
   },
   "fullscreenPowerMenu": {
     "url": "https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu",
-    "rev": "b97e60f6213cec799b26df31bb98250000f2d57b",
-    "date": "2026-04-15T22:53:28+05:30",
-    "path": "/nix/store/88rx46mm3sr8wnc95ljq880zb7v8z023-DMS-Fullscreen_Power_Menu",
-    "sha256": "1hc9k6yxxjxzis2363nqz9kgkwp2ky2qfkribcpq342z0gh4z3s3",
-    "hash": "sha256-Q49P4ANfkIEvWzFPh4Wf4vL5ZvrYDjOEjr/L3r2ZicE=",
+    "rev": "eef19462dc517e71bf01e68157c8527c4dbd2e6d",
+    "date": "2026-04-21T10:34:25+05:30",
+    "path": "/nix/store/w40v17srk82fkkgdkl14pwj7gk7fhb0f-DMS-Fullscreen_Power_Menu",
+    "sha256": "0yh46z0lqrapx47kr1k80mprn6mk4w4yxaqic94x194mxk9s8pib",
+    "hash": "sha256-K16k0+yVpNBJYhGr7gknsxqbbwVohjwP6VdlTME3BHo=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1963,11 +1963,11 @@
   },
   "liveChartSchedule": {
     "url": "https://github.com/JDKamalakar/DMS-LiveChart.me",
-    "rev": "ca97f21eacf38257e3b475631478fe5a8f746a32",
-    "date": "2026-04-15T23:33:16+05:30",
-    "path": "/nix/store/1p98khivlgpcv3r3695rjmglm4rp9mn6-DMS-LiveChart.me",
-    "sha256": "18xk7l4qzzrif5lgqbg4issgib6836pai5mf5jghg0vsc9xlspcl",
-    "hash": "sha256-lF1Ne2J6gwefLK6WqK4ZyKz4tI7kLfxocTH/jwk9s6M=",
+    "rev": "6e8737d09ca774cdb0ba205d48cc576e28937f26",
+    "date": "2026-04-21T10:34:52+05:30",
+    "path": "/nix/store/22n67ylinngl0g8mfwjdldpx1ryf3ymh-DMS-LiveChart.me",
+    "sha256": "12ylwfjwbg7sjryz2c2yn1yl3jhnb261jf27gjrllnvzwmb31kd6",
+    "hash": "sha256-ps0wVuV/W0qzfEc4GYxYFspBfbBeMPF9lvq8xaXj1Is=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2704,7 +2704,7 @@
       "capabilities": [
         "wallpaper-downloader",
         "wallpaper-set",
-        "dankbar-widget"
+        "daemon"
       ],
       "category": "appearance",
       "repo": "https://github.com/max72bra/DankPluginBingWallpaper",
@@ -2720,6 +2720,39 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/max72bra/DankPluginBingWallpaper/refs/heads/main/screenshot.png"
+    }
+  },
+  "wallpaperBingWidget": {
+    "url": "https://github.com/max72bra/DankPluginBingWallpaperWidget",
+    "rev": "c915635126c5acd19310fa1544df1b86d5f39f43",
+    "date": "2026-04-19T18:36:04+02:00",
+    "path": "/nix/store/v0h2i7fqfi3v0k4kvxrlblvkbhhiv1wd-DankPluginBingWallpaperWidget",
+    "sha256": "1gcw0ji0cwy5xssx6inkg4qdzw98lc53gmq2pa1flyx9mizgavky",
+    "hash": "sha256-fm71fqype+qCugLXNwqjKPHfMHnTRtO17sVzBqIEnL0=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "wallpaperBingWidget",
+      "name": "Wallpaper of the Day (Widget)",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "appearance",
+      "repo": "https://github.com/max72bra/DankPluginBingWallpaperWidget",
+      "author": "maxb",
+      "description": "A new fresh daily wallpaper downloaded from a famous portal (Widget)",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/max72bra/DankPluginBingWallpaperWidget/refs/heads/main/screenshot.png"
     }
   },
   "canvasGrades": {
@@ -3420,6 +3453,42 @@
       ],
       "screenshot": "https://raw.githubusercontent.com/Pacman99/DankBitwarden/refs/heads/master/screenshot.png",
       "requires_dms": ">=1.2.0"
+    }
+  },
+  "dankPinentry": {
+    "url": "https://github.com/pacman99/DankPinentry",
+    "rev": "4c4b520408d65de3591b79af640441fabc06f59e",
+    "date": "2026-04-21T20:08:47-04:00",
+    "path": "/nix/store/7lwpyzl2wyarm2r3kg102dbp6k6rc77k-DankPinentry",
+    "sha256": "1qxqgbzf9zs9b5j0y5simp3hsgkhs5bwywlwd9iv68kfmv9b0ym8",
+    "hash": "sha256-qHqw0q5uIrNjapxyz1fRcD4Nx61RFw9kWUn/5P56uOM=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankPinentry",
+      "name": "DankPinentry",
+      "capabilities": [
+        "authentication",
+        "ipc",
+        "daemon"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/pacman99/DankPinentry",
+      "path": "plugin",
+      "author": "Parthiv Seetharaman",
+      "description": "GPG/SSH passphrase entry with native DMS modal.",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Pacman99/DankPinentry/refs/heads/master/screenshot.png"
     }
   },
   "discordVoice": {
