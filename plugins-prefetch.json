@@ -209,11 +209,11 @@
   },
   "tasks": {
     "url": "https://github.com/AyoItsYas/dms-tasks",
-    "rev": "1f3640b8c6ad79f5e9f4914ee082d39d36ca959a",
-    "date": "2026-04-20T01:39:06+05:30",
-    "path": "/nix/store/s3f7xf0fc8hnafjz5dznhdlmjn4kbdni-dms-tasks",
-    "sha256": "0gki0cj2a5v1zc1wsdgfibk2zmb49gnh88s3c8pxxsg1wjq2izdw",
-    "hash": "sha256-vP0osOTh6d4vYkMjBO1LZNUv5oruNc0D+2EXJSQDcT4=",
+    "rev": "cda181e17123b99e69a3e710b4487bb5f43f30ff",
+    "date": "2026-04-23T20:21:04+05:30",
+    "path": "/nix/store/qs1rxip0hmdrvanlc2hfr3pj6rdj3yfh-dms-tasks",
+    "sha256": "18wvxijn95yi0kd0inwg6aah2izb0yjcxnlliys5rqrhvia523vs",
+    "hash": "sha256-eg9RVNww41y0j5TazqQH60cBlTKP2wjaBNGXZGXsm6M=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1323,6 +1323,39 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/smithyyang/dms-brightness-plugin/main/screenshot_2026-03-27_23-52-26.png"
+    }
+  },
+  "dankTodo": {
+    "url": "https://github.com/deepu105/dms-dank-todo",
+    "rev": "5a1db7e8a33c09aedbf325ba71d9c8bda2a5e54f",
+    "date": "2026-04-23T14:45:47+02:00",
+    "path": "/nix/store/mpady5lc88rlyjzl38kxrlvvz58glzjv-dms-dank-todo",
+    "sha256": "0hsw71bh958643b710vw749zmpfxnn86mnqs33pyk7fysw3dyj1y",
+    "hash": "sha256-PkjfBtfenenvGBrbapC13d36Ezl8g3DWIAaVBFc4XEM=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankTodo",
+      "name": "Dank Todo",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "productivity",
+      "repo": "https://github.com/deepu105/dms-dank-todo",
+      "author": "Deepu K Sasidharan",
+      "description": "A simple locally-saved TODO list widget for the Dank bar.",
+      "dependencies": [],
+      "compositors": [
+        "niri"
+      ],
+      "distro": [
+        "arch"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/deepu105/dms-dank-todo/main/screenshot.png"
     }
   },
   "hueManager": {
@@ -2940,11 +2973,11 @@
   },
   "quranWidget": {
     "url": "https://codeberg.org/MezoAhmedII/quranWidget",
-    "rev": "4ae352c35db217f7641402f827644ba860d683e7",
-    "date": "2026-04-09T08:57:04-04:00",
-    "path": "/nix/store/ajiy8gyilq4pp5976pl6nc3bbljppj4y-quranWidget",
-    "sha256": "093cs4hlp5y859ibkh6b1crr7a0j7x35hw8w3v4awn3v854bwbn7",
-    "hash": "sha256-xy6+SEF7WK7IHhxxWEY/EqiTMwvLwLliKsiXSyHRbCQ=",
+    "rev": "eafc70b60edf8b61b2b0508fb129fd2802112e10",
+    "date": "2026-04-23T08:41:52-04:00",
+    "path": "/nix/store/25cm7ncanv0jw67ch59aw2ynakfhpj9i-quranWidget",
+    "sha256": "0gzmhgfj52i3ni81y9n88xfg3y440aq2m7w85981mrkb613b7pma",
+    "hash": "sha256-qt6zRjBr5hpQKoifKrAChPjxXEfIJh9QtCOKIt2D9T8=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3179,6 +3212,40 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/neoscaler/dms-lenovo-battery-settings/refs/heads/main/screenshot.png"
+    }
+  },
+  "dmsDesktopCountdown": {
+    "url": "https://github.com/nfoert/dms-desktop-countdown",
+    "rev": "6c7dce6e9336d1fcc0b53ed4e9a6e437217fd83c",
+    "date": "2026-04-22T18:43:51-04:00",
+    "path": "/nix/store/5p9wysnxa42rrcmi29fqcrahwlgw3dlr-dms-desktop-countdown",
+    "sha256": "0minqry2lxy6n9lc0000xhik3k9yq9kfmlsljxpkqwjqriqh1g1g",
+    "hash": "sha256-L7wAccxYcjxvl1TT6mbCPs0xI+wAAMBossZ3KnzGNlY=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dmsDesktopCountdown",
+      "name": "DMS Desktop Countdown",
+      "capabilities": [
+        "desktop"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/nfoert/dms-desktop-countdown",
+      "author": "nfoert",
+      "description": "Allows creating desktop widget countdowns with progress, view options, and the ability to only count certain days in a week",
+      "dependencies": [],
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/nfoert/dms-desktop-countdown/blob/main/repo/images/image.png?raw=true"
     }
   },
   "ephemera": {
@@ -3815,11 +3882,11 @@
   },
   "animeCalendar": {
     "url": "https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin",
-    "rev": "1ce0c348596f55503cfab4300e25f50a4870b553",
-    "date": "2026-02-06T20:13:07+02:00",
-    "path": "/nix/store/6qr156ps5a3v2q3b62f2409kk39xxrx0-DMS-AnimeCalendarPlugin",
-    "sha256": "0c8bb98zqnc9as3sz7q636w5pqqbv5g40ppklmqqz7xi0412xxmi",
-    "hash": "sha256-sfYuAgGxn49xpfNeQF7ZC+NbuBkGn6+HVolZ/FFaCzE=",
+    "rev": "25c372ecbd4790cc37bf373ddd6b4bd61261dd5e",
+    "date": "2026-04-23T22:58:38+03:00",
+    "path": "/nix/store/v75fqrbql6i77jxv9gq5cxlzyzawhhfn-DMS-AnimeCalendarPlugin",
+    "sha256": "18g13hx049s57plw005lgd5in057pn72wzd982zycvz0f0kj35hn",
+    "hash": "sha256-FpYhJ3Dgb+a/QKl9Lo69pwAbS3u0AMDpPUUnAjoc4aE=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
