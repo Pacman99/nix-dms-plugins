@@ -1745,6 +1745,43 @@
       "screenshot": "https://github.com/devnullvoid/dms-web-search/blob/main/screenshot.png?raw=true"
     }
   },
+  "dankterminaltheme": {
+    "url": "https://github.com/eduardez/DankTerminalTheme",
+    "rev": "3b8bdec35fd0fe5a3e57056f22666938793833ee",
+    "date": "2026-04-29T18:37:41+02:00",
+    "path": "/nix/store/2hd7d9zwcp7ficl5hc06vf6cik8d75g1-DankTerminalTheme",
+    "sha256": "029gbjyxb253xsw7x6nmahp0cd0rmrvy9x0wivkpfdpmg2alsxzp",
+    "hash": "sha256-93dNlXj1Nnfnjhz05HeuGTQGLlTVmn647qOI1b1cLwk=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankterminaltheme",
+      "name": "Dank Terminal Theme",
+      "capabilities": [
+        "terminal",
+        "dankbar-widget"
+      ],
+      "category": "appearance",
+      "repo": "https://github.com/eduardez/DankTerminalTheme",
+      "author": "EduarD3V",
+      "description": "Real-time Ghostty theme management from the navbar",
+      "dependencies": [
+        "ghostty"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/eduardez/DankTerminalTheme/main/assets/screenshot_2.png",
+      "requires_dms": ">=1.4.0"
+    }
+  },
   "cavaVisualizer": {
     "url": "https://github.com/ernestowgg/cava-visualizer",
     "rev": "e4b65a207652bc3204121401fafd5566b8d22c37",
