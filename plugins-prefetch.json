@@ -601,11 +601,11 @@
   },
   "aiOverviewControl": {
     "url": "https://github.com/bernardopg/AiOverviewControl",
-    "rev": "0bdd6be4576f5d0709688daa3f6ec87a43e9546f",
-    "date": "2026-05-26T19:03:43-03:00",
-    "path": "/nix/store/l5rrp6c5gspqdm66lbsyk49v9d97ywnd-AiOverviewControl",
-    "sha256": "019qqcdjdxvg6i9ingrjjr46lzm32xwqr479rz02yxaf26dy2dkn",
-    "hash": "sha256-djbhmxFOdS/Az+mQjHkXo35qSJYyPxtTNG/3JhvDOAU=",
+    "rev": "46c2d5a20dee1960a8a5d1d16a7bee1cd9d5c37d",
+    "date": "2026-06-02T23:58:36-03:00",
+    "path": "/nix/store/lvmz8fk81p42w5rc5gniqr3790ns4aq4-AiOverviewControl",
+    "sha256": "1kfp8m3hgialki8z06p8lh6lr2im8cfb91rdvcnbix39s3q1lfw6",
+    "hash": "sha256-hjsa8NBp9Lgs2y2HtBxDNYpMDaToGvBRnFTFB0dF180=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -636,7 +636,7 @@
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png"
     }
   },
-  "colorPicker": {
+  "colorPickerDms": {
     "url": "https://github.com/bernardopg/color-picker-dms",
     "rev": "8fae34470097b6c78eeed1ea45d98a572b1acdfd",
     "date": "2026-06-02T20:12:14-03:00",
@@ -650,7 +650,7 @@
     "leaveDotGit": false,
     "rootDir": "",
     "meta": {
-      "id": "colorPicker",
+      "id": "colorPickerDms",
       "name": "Color Picker DMS",
       "capabilities": [
         "dankbar-widget",
@@ -670,7 +670,7 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/assets/screenshot.png"
     }
   },
   "githubHeatmap": {
@@ -2482,11 +2482,11 @@
   },
   "appLauncher": {
     "url": "https://github.com/hthienloc/dms-app-launcher",
-    "rev": "780b506ef2224675941152090b8ad6d1aef15c73",
-    "date": "2026-06-02T22:43:54+07:00",
-    "path": "/nix/store/2jwzcfbaq15wgmgz3xhgdzdrm00m2k00-dms-app-launcher",
-    "sha256": "0y52gq16xnmj9532rgrfr7vnmpk4ycnlnjnk6lvda4bs2m3569aw",
-    "hash": "sha256-XCVTRhV6EdU2NdNKSy3zZN5q98kuvyxGSbLabgJ+ong=",
+    "rev": "9c847520fc9efacefedac4d8ceaea1c0f301ded2",
+    "date": "2026-06-03T20:41:27+07:00",
+    "path": "/nix/store/n0cj7zp4fgdm0m0ydplipl2jdajdlh46-dms-app-launcher",
+    "sha256": "0cld2ijf5wcmvymfvq1kh07yipg19137kdx5ymvpai1gihw79gah",
+    "hash": "sha256-UL10OIwvRHV39aW3eUZI4d3oD4Az4O2q35Xx4mQUjTI=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2517,11 +2517,11 @@
   },
   "bongoCat": {
     "url": "https://github.com/hthienloc/dms-bongo-cat",
-    "rev": "719a53f5426aa973711ecfe20af96f4ba04f7abe",
-    "date": "2026-06-02T22:43:51+07:00",
-    "path": "/nix/store/5wr9pi1vyyl2j30rx1d0gwcslf0ndlf3-dms-bongo-cat",
-    "sha256": "1sply937dkcf15h2vxg2bj3j895a0fi4lms5l8vfm7dyv2vrqi23",
-    "hash": "sha256-Q0Sct9i+neo2okVXSqIDqiQkh1zi9S1gCY7Ndkby9Oo=",
+    "rev": "ff865231a8d4113c93b3e4673133aff5153a644d",
+    "date": "2026-06-03T18:26:20+07:00",
+    "path": "/nix/store/r11kkhyrjzay49l8qsv8azyqrzhjy7bn-dms-bongo-cat",
+    "sha256": "0i2n7isv45vq093x243f68nc3yi68zrnrqp348w829zhxwwkm9rk",
+    "hash": "sha256-M6c6Oe/wJ4E4IuPibPNHJvrBLDJuENFHAngXsnU8VkQ=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2654,11 +2654,11 @@
   },
   "folderView": {
     "url": "https://github.com/hthienloc/dms-folder-view",
-    "rev": "df9bf748060bf41e73f51a0764d9b7ba2f5122fb",
-    "date": "2026-06-02T22:43:54+07:00",
-    "path": "/nix/store/f03sd9fzbb3x1rdm0xz6gxjj48fc0wqz-dms-folder-view",
-    "sha256": "0lxpkmsj6zl3yb6cgg7fbbq866xcwi8zaj3dk6bp7kzxzigbza0m",
-    "hash": "sha256-Fai/Xvz9z3OXmW1I9VHkrBuD8FruvMfM8oN+I3Wdt1M=",
+    "rev": "1af2c2a0b62856e7067d7e89db4b98ed94e58a59",
+    "date": "2026-06-03T21:17:34+07:00",
+    "path": "/nix/store/7m3wym6wzwdf8y0s5fvxrrmhln27s3yb-dms-folder-view",
+    "sha256": "0j6ss72i6dikj5sq4xblirrizmd06m899vhwx67vqyypp423giyz",
+    "hash": "sha256-38c3BLnXe7yP6RzulFA1oNUfc450dYJ1kTM2E8XR2kg=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2861,11 +2861,11 @@
   },
   "niriDS": {
     "url": "https://github.com/hthienloc/dms-niri-display-settings",
-    "rev": "eabc79bd0169054acde614d3aef231c499bbce47",
-    "date": "2026-06-02T22:43:53+07:00",
-    "path": "/nix/store/nyhd0mcgpvf65lapj1jbsy5yfq1yhhn9-dms-niri-display-settings",
-    "sha256": "060kz529xljsbjpiacncskjcqxxc7r41xc4ksapnvx0z10iyx052",
-    "hash": "sha256-ooDuIwgf9G2v0pOwHkg+rHfM5NTMMhWvXFrSnkT5Exg=",
+    "rev": "27b8cc153f10ab8ee083ff0cafd058483d7c8ceb",
+    "date": "2026-06-03T21:06:25+07:00",
+    "path": "/nix/store/cizvmawk0bqd2vk3dsnbnkm8qmv5iilf-dms-niri-display-settings",
+    "sha256": "1w4g2744dzylkmf9jp9bgfgbiyfywa4jyw7hj9b26n7cvx3rx926",
+    "hash": "sha256-RqSeR9/sWCNWkvBwL4ni3vm4nnsrXZlcndT/RsgRj/A=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2969,11 +2969,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "0f025dda93462277fa279268d394a804aaad1c21",
-    "date": "2026-06-03T02:27:24+07:00",
-    "path": "/nix/store/h1md927pi2jr3fhyz9qzzhjy0kldic75-dms-quick-capture",
-    "sha256": "1jrmfnr59gv9q2j0fnhkx9dwpipqxxr0n008as0nkn8lyw518wwq",
-    "hash": "sha256-mHMUCvcU2WmBVggAC3Lv+MbLW+oTWgekwGm/VLJ1Ncs=",
+    "rev": "91b640c407a0a043aaad6c9013a88cba079722d1",
+    "date": "2026-06-03T16:01:10+07:00",
+    "path": "/nix/store/f2iga1yd2f3d500xyqm41g9y9hmc96sx-dms-quick-capture",
+    "sha256": "1agigmrxy21ag21nh3nypik20dp9iahnx8ds4lk6aqi4kkarisyh",
+    "hash": "sha256-0OuY1ZwkYmUmJbqhbqGK6TYgZrzeDmiDeCoI33N98ak=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
