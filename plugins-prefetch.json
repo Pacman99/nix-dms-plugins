@@ -279,6 +279,43 @@
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankVault/main/docs/screenshot.png"
     }
   },
+  "animationRotate": {
+    "url": "https://github.com/pnbarbeito/dms-niri-animation-rotate",
+    "rev": "322fa6bc277d7ef82da166318c90000f31aa68ac",
+    "date": "2026-06-04T15:51:16-03:00",
+    "path": "/nix/store/4aykp6ckg2h7fblp9rm88mi45c6isnff-dms-niri-animation-rotate",
+    "sha256": "1q7ik9yip73mabjlm87aqzhhwc35nb88fkbykffbrgrnv75vyc5v",
+    "hash": "sha256-uzC/y9k2v7ycm35Nh9CyZTAO4cfqoErlUnWcG32a8eA=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "animationRotate",
+      "name": "Animation Rotate",
+      "capabilities": [
+        "control-center",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/pnbarbeito/dms-niri-animation-rotate",
+      "author": "pnbarbeito",
+      "description": "Control niri-animation-rotate from the Control Center: switch animations, change modes, and filter events. Daemon included — batteries included.",
+      "dependencies": [
+        "niri"
+      ],
+      "compositors": [
+        "niri"
+      ],
+      "distro": [
+        "any"
+      ],
+      "requires_dms": ">=1.4.0",
+      "screenshot": "https://raw.githubusercontent.com/pnbarbeito/dms-niri-animation-rotate/f66b0ef7a1bb46e018d57c4cc8acccab17797d84/screenshots/widget.png"
+    }
+  },
   "nixMonitor": {
     "url": "https://github.com/antonjah/nix-monitor",
     "rev": "ef3db9d5a525ddf41355e8c456b40d56480a6626",
@@ -2446,11 +2483,11 @@
   },
   "ambientSound": {
     "url": "https://github.com/hthienloc/dms-ambient-sound",
-    "rev": "f6e650f0e6d47384ee0b3c7ec2b9a4b0fb46413e",
-    "date": "2026-06-06T00:57:49+07:00",
-    "path": "/nix/store/kh4xd58dwdn5rczk6xw0dqhwp3vacf1c-dms-ambient-sound",
-    "sha256": "06lr73133r94vlii562l7lqfj9nzm8nza5bz5511mw24cmsfxz9d",
-    "hash": "sha256-Lf3udGVE8BpCKX8V9S2q3ybpMD1UmBIj3STlMcI4mRo=",
+    "rev": "4da676a6470ce7303cc15a0cafab43bc870b984b",
+    "date": "2026-06-06T10:02:18+07:00",
+    "path": "/nix/store/7q1dfy6mk52v0mj77scbsg3v24fhnqil-dms-ambient-sound",
+    "sha256": "0mws3wiqp5igzl3nbd4x3i1kddl78k9l3h8rwm7c39bm69kah8bh",
+    "hash": "sha256-cCGoZjJ1pcFO5RnBQdNEh7Y2QxydtGUH/S+WiyMfmlc=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2482,11 +2519,11 @@
   },
   "appLauncher": {
     "url": "https://github.com/hthienloc/dms-app-launcher",
-    "rev": "835df109fa91888f8d291562aa15088501113740",
-    "date": "2026-06-05T23:33:54+07:00",
-    "path": "/nix/store/d95vs3c83iksy99q98klkx54mfcrysd3-dms-app-launcher",
-    "sha256": "1qhr5dviyyz8j4wwccjyfa0n4q0k69ifch2q2g4z2pgm1yr0sb3l",
-    "hash": "sha256-dCwNsg/1XfHJE1hA5mIyE2BigXJeMsY5keh7H3crGeI=",
+    "rev": "d72e6861971aaaa55ed3c068e51b9888f9cf0241",
+    "date": "2026-06-06T22:11:31+07:00",
+    "path": "/nix/store/wcb9vfggf206yd73q2kmrb151agxcfd2-dms-app-launcher",
+    "sha256": "062idiph110hbwlvxrbjwx9nzyywpv46s8xj1icklar4zd2y4pv9",
+    "hash": "sha256-aV/iRfskKzpZDLIjbci+3PtvU+dy5b4pXxCEAG9sURg=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2617,13 +2654,48 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-caffeine/master/screenshot.png"
     }
   },
+  "desktopWidgetToggle": {
+    "url": "https://github.com/hthienloc/dms-desktop-widget-toggle",
+    "rev": "07c0fddaa3ab1a59cc4a3ccbbc82b715514a1bce",
+    "date": "2026-06-06T22:41:25+07:00",
+    "path": "/nix/store/ryp76kxsn0plsdwsagns4613bydgk4rl-dms-desktop-widget-toggle",
+    "sha256": "1ibfw32jpbkics4xkxxn25fmka3r37s5pj2l82jpnaggn7dfbd7k",
+    "hash": "sha256-87Tl2rHvKXulQFTIW/QZeahZXRG299mJZnGuK8XgbsU=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "desktopWidgetToggle",
+      "name": "Desktop Widget Toggle",
+      "type": "daemon",
+      "capabilities": [
+        "dankbar-widget",
+        "ipc"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/hthienloc/dms-desktop-widget-toggle",
+      "author": "Loc Huynh",
+      "description": "Toggle visibility of desktop widget groups as overlay",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-desktop-widget-toggle/master/screenshot.png"
+    }
+  },
   "floaty": {
     "url": "https://github.com/hthienloc/dms-floaty",
-    "rev": "d3ee471bc04858b66ab0559d6281e20ea1f64e4e",
-    "date": "2026-06-06T01:00:46+07:00",
-    "path": "/nix/store/351qq6al87i8k2akzw91272r50hc0xy8-dms-floaty",
-    "sha256": "196fyjygv00vf3mhy1xqsk0wsbs76162h98r79gh3ixz7bd90sa8",
-    "hash": "sha256-SGmQ2jq/xwFfOhklKEwwRy/NwdS4Bw/rcBuA/bz0zqQ=",
+    "rev": "114c20e60dfaab06553696b55c8f2f501a4d7fcb",
+    "date": "2026-06-06T22:21:41+07:00",
+    "path": "/nix/store/cakgmjgsg3pnq06agy6h66fspd2mfal2-dms-floaty",
+    "sha256": "0hcvak2rvml2qhjzb1lkyapdggq115sa31l01950javbnpy2gg6q",
+    "hash": "sha256-2Lwn/LVrKwlKCoCGoXQJAb/XrvKThvUlxILWncVUm0E=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2654,11 +2726,11 @@
   },
   "folderView": {
     "url": "https://github.com/hthienloc/dms-folder-view",
-    "rev": "ab36419c6885956c9177ccefc0ef299a5d969659",
-    "date": "2026-06-05T23:33:51+07:00",
-    "path": "/nix/store/hk1c8f4dp4kwrip16c676y9bqlbdib5w-dms-folder-view",
-    "sha256": "00il7f60b01abhkxxjld1hjj8ixl61psbhhwdhmmn1a0aglydjp5",
-    "hash": "sha256-5crm6VNABVsrbBzCpW8wtEckJQyNyt4nXCqABYw7NAI=",
+    "rev": "486a3ec1d01f7198daaa4a32abcf5261739ef0cb",
+    "date": "2026-06-06T22:27:52+07:00",
+    "path": "/nix/store/qz76jm73h2ca86azzw07r7hx4g21vily-dms-folder-view",
+    "sha256": "1z0178c8l7q8mlah6gm142dlvb9m4xrqx1m7zlkprz109aiyfxwz",
+    "hash": "sha256-n3fno0og/Hwn/aeGjnMnNa1NmyChPgMVrQgfihg6Afw=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2897,11 +2969,11 @@
   },
   "ocrScanner": {
     "url": "https://github.com/hthienloc/dms-ocr-scanner",
-    "rev": "8319f2ce206334e32305b3d08c7c8a55147e6d58",
-    "date": "2026-06-05T23:33:13+07:00",
-    "path": "/nix/store/lixnf8dqhx8hb0p9axq7pl1wr5csxar8-dms-ocr-scanner",
-    "sha256": "0h5fc4zzwswbfibylhpwzdys3vy20llq54nhk199qh0ydplh0hz6",
-    "hash": "sha256-5kMA6W0eQJxSmNCSgikFwu+hffv8QupXdItr/j9hrkA=",
+    "rev": "7e0dc5544ae68659f351e258ddfbc022c786e608",
+    "date": "2026-06-06T22:32:25+07:00",
+    "path": "/nix/store/ihsxwih0lna3jgb6qw50cp09ilc2wvss-dms-ocr-scanner",
+    "sha256": "0hlsfcrjp7848fc6nbszbp732z850lx638jyfa79drrxwh1x5vbm",
+    "hash": "sha256-de3SA+Q955aOcl6iYToFBX0xzl1fL2uYQwSdKzNzmkI=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2932,11 +3004,11 @@
   },
   "qrGenerator": {
     "url": "https://github.com/hthienloc/dms-qr-generator",
-    "rev": "66043ec17687a30adc70c8b368f07ef4889787f7",
-    "date": "2026-06-05T23:33:04+07:00",
-    "path": "/nix/store/ny67a86xkjc26zyjvdw4s5gmm5smpad0-dms-qr-generator",
-    "sha256": "12gl80pj9df6z62dafqzd029sd2c90pcgn9n8x90gsgnm93i7lmx",
-    "hash": "sha256-vdITR6r26QdSRzbZxy5ITDSdBGgfO9WE+ca1JC9A9Ik=",
+    "rev": "ee619f7f67906b2b0a9f52e91498f3c1af682d40",
+    "date": "2026-06-06T09:47:14+07:00",
+    "path": "/nix/store/ib3h1zl097inwirjsfzlnz17mc7nfva2-dms-qr-generator",
+    "sha256": "1iawf3ql1fy5miaq8jbdh44i09z0qcr5b2rqc35d327q3rhz1f2d",
+    "hash": "sha256-TbjwYR74iNHKYDiLVTLD4CcQCYFtSYRVrMW7QPFwXMU=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4978,6 +5050,40 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/Nazahim/PowerOptions/edf8a49fceadf61e208151e6f4d38480eb831878/screenshot.png"
+    }
+  },
+  "hyprlandSubmapIndicator": {
+    "url": "https://github.com/nderscore/dms-plugins",
+    "rev": "851e06ca204f17a97414a666728246fd3acad3c6",
+    "date": "2026-06-02T21:42:27-04:00",
+    "path": "/nix/store/i1prwxrrpgkrgs7cwnw7kpy8p4vsnlvd-dms-plugins",
+    "sha256": "0729150fiiphmbdnxa0809zyqbm4izmf4a2p4k8jcmj72llspj7f",
+    "hash": "sha256-7sirKRVHVibRJFco4uqPpC7sfwIIqG7bqvDG6EAJSRw=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "hyprlandSubmapIndicator",
+      "name": "Hyprland Submap Indicator",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/nderscore/dms-plugins",
+      "path": "HyprlandSubmapIndicator",
+      "author": "_nderscore",
+      "description": "Shows a customizable indicator when a Hyprland submap is active",
+      "dependencies": [],
+      "compositors": [
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/nderscore/dms-plugins/main/assets/HyprlandSubmapIndicator-screenshot.png"
     }
   },
   "dmsLenovoBatterySettings": {
