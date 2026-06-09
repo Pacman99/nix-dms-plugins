@@ -2282,11 +2282,11 @@
   },
   "musicLyrics": {
     "url": "https://github.com/gasiyu/dms-plugin-musiclyrics",
-    "rev": "4f7a65475ad3774a38190808729de7e6e4c84d61",
-    "date": "2026-02-24T23:20:07+07:00",
-    "path": "/nix/store/nbd5ch4h5jhwq06fsh587c6i7x3507bj-dms-plugin-musiclyrics",
-    "sha256": "06mcygsg7mpxnfpnwaqk0sfkqphwx8lccr9wk7f68vydcxp8lrfv",
-    "hash": "sha256-22WKbmfNb2TcmTxlxijqHF48nQYTK26vs/3W8/TzrBo=",
+    "rev": "eee104c5107182b6a2caa383bac05d0c11b2974a",
+    "date": "2026-06-08T10:16:17+07:00",
+    "path": "/nix/store/kql32ilpxyq2ql858kxrlniwpaywivyc-dms-plugin-musiclyrics",
+    "sha256": "1xlvjfd1qvc0940v0padwqf976mw7b62brhykaq7312p7155f9z0",
+    "hash": "sha256-4CdXSjhXhHGwmh7mJcw6vJqTHOZNXbABSYBtHJqTm/Y=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -7211,6 +7211,39 @@
       "screenshot": "https://raw.githubusercontent.com/viewerofall-labs/weather-viewer/main/weather.png"
     }
   },
+  "wienerLinien": {
+    "url": "https://github.com/wolfsblu/dms-wiener-linien",
+    "rev": "fac494339b07bf650dc6a9b12cc64e6823131b9d",
+    "date": "2026-06-08T17:24:21+02:00",
+    "path": "/nix/store/ml2zh6mbh4q9hzscl926afqvf0j0kdds-dms-wiener-linien",
+    "sha256": "12dy01v58wpvxlw5rczprabcicq3rgd1amqsvsvkywplwyhw41id",
+    "hash": "sha256-LQbCoef0cj+33hpXFdrLA7PIlsr3s1w47ftyVHYAvok=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "wienerLinien",
+      "name": "Wiener Linien",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/wolfsblu/dms-wiener-linien",
+      "author": "Lukas Wolfsberger",
+      "description": "Track departure times of Wiener Linien public transit",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/wolfsblu/dms-wiener-linien/refs/heads/main/screenshot.png"
+    }
+  },
   "openTrackerBar": {
     "url": "https://github.com/wsmajt/OpenTrackerBar",
     "rev": "6b74a4f0af6f22fb7fb407a7eae0dffa64bcf820",
@@ -7247,6 +7280,40 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/wsmajt/OpenTrackerBar/refs/heads/main/Screenshot.png"
+    }
+  },
+  "dgpuStatus": {
+    "url": "https://github.com/xantrk/dgpu-sleep-monitor",
+    "rev": "1d181198fd312f1557617e9ff544031070accb84",
+    "date": "2026-06-08T01:18:52+01:00",
+    "path": "/nix/store/gdndkldfw1h7mxbc50lizqaxb79gxwg4-dgpu-sleep-monitor",
+    "sha256": "063v2qqaycjls8nhd8kdfyj929cjj77jdlhdbb24x5743g3p6ywb",
+    "hash": "sha256-i3tzxxvklE7EWg3SJs+RkiWRpHdtogYt0lQyrzAWexg=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dgpuStatus",
+      "name": "dGPU Sleep Monitor",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/xantrk/dgpu-sleep-monitor",
+      "author": "xantrk",
+      "description": "Monitor dGPU power state (D0, D3cold) and optionally display battery wattage with toggles for cardwire and/or supergfxctl mode switching.",
+      "dependencies": [],
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/xantrk/dgpu-sleep-monitor/refs/heads/master/screenshots/Screenshot%20from%202026-06-08%2000-50-01.png"
     }
   },
   "catWidget": {
