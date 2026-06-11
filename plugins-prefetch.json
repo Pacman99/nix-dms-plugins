@@ -316,6 +316,43 @@
       "screenshot": "https://raw.githubusercontent.com/pnbarbeito/dms-niri-animation-rotate/f66b0ef7a1bb46e018d57c4cc8acccab17797d84/screenshots/widget.png"
     }
   },
+  "webcamViewer": {
+    "url": "https://github.com/antikytheraton/DankWebcamViewer",
+    "rev": "e571b69211ed901ca3f42a09ccf15fec7ec899b4",
+    "date": "2026-06-06T13:32:17-06:00",
+    "path": "/nix/store/a8b84i12jdj2ahji0l5dng1y2lmh1agx-DankWebcamViewer",
+    "sha256": "0wys3s6082629fpk9rkaqx3npplwc9m347bcf8xpv3xryh0lafsq",
+    "hash": "sha256-WDtFAfS5j307cmwdMmpinN5rR8dq5jSvS8IIBIwe2nM=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "webcamViewer",
+      "name": "Webcam Viewer",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/antikytheraton/DankWebcamViewer",
+      "author": "antikytheraton",
+      "description": "Shows RTSP camera streams via vlc/ffplay/mpv from the DankBar",
+      "dependencies": [
+        "vlc",
+        "mpv",
+        "ffmpeg"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/antikytheraton/DankWebcamViewer/blob/main/assets/screenshot-plugin.png"
+    }
+  },
   "nixMonitor": {
     "url": "https://github.com/antonjah/nix-monitor",
     "rev": "ef3db9d5a525ddf41355e8c456b40d56480a6626",
@@ -638,11 +675,11 @@
   },
   "aiOverviewControl": {
     "url": "https://github.com/bernardopg/AiOverviewControl",
-    "rev": "46c2d5a20dee1960a8a5d1d16a7bee1cd9d5c37d",
-    "date": "2026-06-02T23:58:36-03:00",
-    "path": "/nix/store/lvmz8fk81p42w5rc5gniqr3790ns4aq4-AiOverviewControl",
-    "sha256": "1kfp8m3hgialki8z06p8lh6lr2im8cfb91rdvcnbix39s3q1lfw6",
-    "hash": "sha256-hjsa8NBp9Lgs2y2HtBxDNYpMDaToGvBRnFTFB0dF180=",
+    "rev": "a6c5200e4a6c0d61d7721771f7bb225ab779f23d",
+    "date": "2026-06-10T17:23:08-03:00",
+    "path": "/nix/store/pvmgklphb4mcf4sdclp8qgv2npmy1jjy-AiOverviewControl",
+    "sha256": "0wm0sidml9dgw905l36q0080v292ch2v0r7viy9qiqd6dhz35xf6",
+    "hash": "sha256-xvUyPmym4YiTj/tksAVkIokNEADYDFpA4q8lWlvUoHI=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -708,6 +745,42 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/assets/screenshot.png"
+    }
+  },
+  "claudeUsage": {
+    "url": "https://github.com/bogdan-velicu/DankClaudeUsage",
+    "rev": "1efd20ed6c29c2e2ee2a2dc8a1dd354f46ab0b0c",
+    "date": "2026-06-10T14:40:08+03:00",
+    "path": "/nix/store/a4wp7f74wz8j5ahhswaafis32f9yfbc7-DankClaudeUsage",
+    "sha256": "1ydp2zck0rxbi65d36ynmp29k30lcpyaanndi2zv3p54qm481gd6",
+    "hash": "sha256-pr2ASMWk3LG/iM1apfxlFIyZxK3Wm9GKiatnMNkXt/k=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "claudeUsage",
+      "name": "Claude Usage",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/bogdan-velicu/DankClaudeUsage",
+      "author": "Bogdan Velicu",
+      "description": "Claude Code 5-hour and weekly subscription limits in your bar, as theme-colored rings with a popout. Zero setup.",
+      "dependencies": [
+        "jq",
+        "curl"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/bogdan-velicu/DankClaudeUsage/main/assets/popout.png"
     }
   },
   "githubHeatmap": {
@@ -3041,11 +3114,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "d5ca2081128c3864d91156e4c86f6e22b98534b6",
-    "date": "2026-06-09T17:00:06+07:00",
-    "path": "/nix/store/ak9pcp0bvz88x8z0yw0101pni2rbwl9r-dms-quick-capture",
-    "sha256": "0i0cqrxg11xy52p6k05lq7hxpf8c0jw5yw8sg1kyr1l684qplypv",
-    "hash": "sha256-+3p6MUGGhuxneBpxX7gEDLnb4cG0gGmuKL6H8HrGDEQ=",
+    "rev": "ad16797a2fe1e8f2b5cb9a818f7d4c2e09f1c72b",
+    "date": "2026-06-11T02:06:00+07:00",
+    "path": "/nix/store/6h7zdgnz7ixg345j6l3cc19m26a1qzdj-dms-quick-capture",
+    "sha256": "18jpbnri3v31x9xkcif8kxj52lkp6fh6hackh55s4ap1nvsw8nll",
+    "hash": "sha256-lFrE9bbhKqJLgZMpaKAzd1JRZJ/IRTZ76mHsEbNdV6I=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3103,6 +3176,41 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-stopwatch/main/screenshot.png"
+    }
+  },
+  "takeABreak": {
+    "url": "https://github.com/hthienloc/dms-take-a-break",
+    "rev": "d8d8fd4c3d5f6b9013cea41261071ef8a8ffa86d",
+    "date": "2026-06-09T23:54:39+07:00",
+    "path": "/nix/store/5jn4v9811xcjqsffl89jby5fzp9hqv16-dms-take-a-break",
+    "sha256": "0fnp5w98q10vll33s1v1gxhs6brm87var9yr4vginshw1jhaayn4",
+    "hash": "sha256-xHqloAwcahvfJtmnrPZBNS+jYX9hBz0GpRsEjBIv1zo=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "takeABreak",
+      "name": "Take a Break",
+      "type": "daemon",
+      "capabilities": [
+        "control-center",
+        "ipc"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/hthienloc/dms-take-a-break",
+      "author": "Loc Huynh",
+      "description": "A gentle companion that reminds you to rest your eyes with short and long breaks.",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-take-a-break/master/screenshot.png"
     }
   },
   "timer": {
@@ -4299,11 +4407,11 @@
   },
   "dockerManager": {
     "url": "https://github.com/LuckShiba/DmsDockerManager",
-    "rev": "5f2d35e25ae5aebed3fbe7d913b08517581b8ea3",
-    "date": "2026-06-09T13:33:21-03:00",
-    "path": "/nix/store/x080w59vckz20zlwmbihwn17h46v5c50-DmsDockerManager",
-    "sha256": "0b2sb49m7cyi8k2hyhf7jy4mf5jgw9yg3xblpj1g5i161j0h5miz",
-    "hash": "sha256-P9YCgQwmxPKCvHT18XziTxZXiZfHQQ/FRNGzUxNZWiw=",
+    "rev": "e25fed8ef704620656981ef2f0709f51ca58823d",
+    "date": "2026-06-09T22:51:38-03:00",
+    "path": "/nix/store/sjf3vb4wqz2603qd5ms0g3mmwcjgkk79-DmsDockerManager",
+    "sha256": "0gr88z20869p7lry1fha78ilip5wa48xacbpaj621dhxnghjhk5y",
+    "hash": "sha256-vkwo4bMdtiCMVHcx1RFRvNxIIzoKuuAzPTcZBMRHKD8=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
