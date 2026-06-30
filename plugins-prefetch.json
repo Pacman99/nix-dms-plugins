@@ -1,4 +1,37 @@
 {
+  "digitalClock": {
+    "url": "https://github.com/Kavotax/LCD-Digital-Clock.git",
+    "rev": "4e22b95a6404c88abcdcccfdd095c3c33aa3078a",
+    "date": "2026-06-28T23:42:20-04:00",
+    "path": "/nix/store/jrbhpd1991pagwqycvkhlr74w8drci77-LCD-Digital-Clock",
+    "sha256": "08kyal67pbbf3994skhbcblcilhgw9zff7qbkwwwwkkkjv7i18kw",
+    "hash": "sha256-fKIQz5ZzTs45nwsf537iD9LI6GILTk1SGm6tewxVfiI=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "digitalClock",
+      "name": "LCD Digital Clock",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/Kavotax/LCD-Digital-Clock.git",
+      "author": "Kavotax",
+      "description": "A customizable LCD digital clock desktop widget",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Kavotax/LCD-Digital-Clock/main/LCDClockScreenShot.jpeg"
+    }
+  },
   "nepaliCalendar": {
     "url": "https://github.com/AC17dollars/dms-nepali-calendar",
     "rev": "bf119ea6aa7cdf01dd37226ffa486669643cde85",
@@ -458,6 +491,43 @@
       "screenshot": "https://raw.githubusercontent.com/arcatva/dms-next-boot-selector/main/screenshots/popout.png"
     }
   },
+  "dmsThemeSync": {
+    "url": "https://github.com/arqueon/dms-theme-sync",
+    "rev": "591c94846188cfb3a6118abdbc417e83bc1c77d0",
+    "date": "2026-06-29T09:19:10-06:00",
+    "path": "/nix/store/lp5pl6xyh69agfkmq9qla2zmysybsjpd-dms-theme-sync",
+    "sha256": "053fr9jb2jr7j3siga8bljv290n637zj976ag62n4qb1l3z5rx9w",
+    "hash": "sha256-PPVc/qBhYWKFecqcJP8ZxoIktqQLqRf1kCdLsWTKbhQ=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dmsThemeSync",
+      "name": "DMS Theme Sync",
+      "capabilities": [
+        "dankbar-widget",
+        "daemon",
+        "ipc"
+      ],
+      "category": "appearance",
+      "repo": "https://github.com/arqueon/dms-theme-sync",
+      "author": "arqueon",
+      "description": "Make DMS the source of truth for appearance and propagate it to GTK, Qt, KDE, Fontconfig and XWayland apps — theme, light/dark, fonts, sizes, icons and cursor.",
+      "dependencies": [
+        "bash"
+      ],
+      "compositors": [
+        "niri"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-theme-sync/main/assets/screenshot.png"
+    }
+  },
   "dmsWhisper": {
     "url": "https://github.com/arqueon/dms-whisper",
     "rev": "54b3edb2686e6673737576d9bd45c4fc69c6763c",
@@ -607,43 +677,6 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png"
-    }
-  },
-  "weeklyCalendar": {
-    "url": "https://github.com/arqueon/dms-calendar",
-    "rev": "aa2c02f0652aea24481a147f31e7a6cc6dc704cb",
-    "date": "2026-06-12T11:58:04-06:00",
-    "path": "/nix/store/ragcq6arrl4g3c6rilfiyp4l0rjf971y-dms-calendar",
-    "sha256": "0g5rrbc3xhf66gy5mzsfr0invzbkanagcgway1xj7jxrxd6ak69g",
-    "hash": "sha256-L5mpTOu5yyN78Io/9pRVc/1tI8hO/1r8M8bBPtjKuTw=",
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "deepClone": false,
-    "fetchTags": false,
-    "leaveDotGit": false,
-    "rootDir": "",
-    "meta": {
-      "id": "weeklyCalendar",
-      "name": "Weekly Calendar",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "utilities",
-      "repo": "https://github.com/arqueon/dms-calendar",
-      "author": "arqueon (ported from dodaars)",
-      "description": "A Material 3 weekly calendar with five views (Week, 4 Days, Day, Agenda, Month), Evolution Data Server integration for Google/Nextcloud/CalDAV calendars, event creation from the widget, tooltips, overlap management, and Evolution deep-link on click.",
-      "dependencies": [
-        "evolution-data-server",
-        "python-dateutil",
-        "libical"
-      ],
-      "compositors": [
-        "any"
-      ],
-      "distro": [
-        "any"
-      ],
-      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-calendar/master/assets/screenshot.png"
     }
   },
   "mediaPlayer": {
@@ -2051,11 +2084,11 @@
   },
   "dankTodo": {
     "url": "https://github.com/deepu105/dms-dank-todo",
-    "rev": "5a1db7e8a33c09aedbf325ba71d9c8bda2a5e54f",
-    "date": "2026-04-23T14:45:47+02:00",
-    "path": "/nix/store/mpady5lc88rlyjzl38kxrlvvz58glzjv-dms-dank-todo",
-    "sha256": "0hsw71bh958643b710vw749zmpfxnn86mnqs33pyk7fysw3dyj1y",
-    "hash": "sha256-PkjfBtfenenvGBrbapC13d36Ezl8g3DWIAaVBFc4XEM=",
+    "rev": "ff1b82c3061fce3c32c8f65792fa81b928ab35d1",
+    "date": "2026-06-29T12:29:29+02:00",
+    "path": "/nix/store/649c4y85hcqhhlbwqym8y2rgbj2zfc3f-dms-dank-todo",
+    "sha256": "0hpa454ai4d4xrjvz46kq402rfjpvc2nsybf3jbsrr1akjs6nzyd",
+    "hash": "sha256-zX9rtJwq5KyXHG55bQXbV7osAMHTkL9l7qSRqEgh6kI=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2074,10 +2107,10 @@
       "description": "A simple locally-saved TODO list widget for the Dank bar.",
       "dependencies": [],
       "compositors": [
-        "niri"
+        "any"
       ],
       "distro": [
-        "arch"
+        "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/deepu105/dms-dank-todo/main/screenshot.png"
     }
@@ -2684,11 +2717,11 @@
   },
   "networkIndicator": {
     "url": "https://github.com/gemb0-0/Network-Indicator.git",
-    "rev": "4c222cc334758a674edc2152c9680393fb0560a4",
-    "date": "2026-06-27T23:23:20+03:00",
-    "path": "/nix/store/3b8mysnw28q9nhrr2b8640kh0z1bqaiq-Network-Indicator",
-    "sha256": "1yv5vyxpn2lqivw1pz8p6fh1m3j10yn45432vxd5axqhlx6mlj5w",
-    "hash": "sha256-vEhaTacQd1Va32KQQqwHQY4aoDMX/Rv4jpgKe7vfZfs=",
+    "rev": "f11893de3065d2082e5a6159447aacff2ae067ff",
+    "date": "2026-06-29T14:25:22+03:00",
+    "path": "/nix/store/nz01sn31r3ymim4rpi8pxqkfrn1knz33-Network-Indicator",
+    "sha256": "1v11940blcnvg63c772rxxgphywjhpc12m8xsikffak38l4lb4wc",
+    "hash": "sha256-jJNFCUVjKudm1B1VEdiFknt4X+9ZnMOGedsyugBJIew=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3485,11 +3518,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "99caa94eb76ec5675fefb457f8e401a18bd1eecb",
-    "date": "2026-06-28T11:59:28+07:00",
-    "path": "/nix/store/mw9v6f52h75zil7639yxcj6kp3vrbszx-dms-quick-capture",
-    "sha256": "18rs7ssr7y4aj6937jlfqywpk65gzbq1q0456c1hkrlkp9ax36q5",
-    "hash": "sha256-BZvRVbqT5gkDM4UAHPD6r5h5uceOyjOSkYr4k7U+OqM=",
+    "rev": "bbf0136ce1c7e78a8362059645da1dc5f99ca17e",
+    "date": "2026-06-29T23:24:23+07:00",
+    "path": "/nix/store/lh1qa22z9lipyn7pp0abp903h8n70xd2-dms-quick-capture",
+    "sha256": "02m9f6wxs31i98mmfxanbg1y69d3bqc6la5hmq95rcycy8vp267d",
+    "hash": "sha256-7RhxN/LMs1wSrrAoahheoyXjw1tWdVcrSjEM3blxqQo=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3968,11 +4001,11 @@
   },
   "displayProfileManager": {
     "url": "https://github.com/jankelemen/dank-display-profile-manager",
-    "rev": "92204e68bef4553f7f26e8cd7d29d431f5ae527d",
-    "date": "2026-06-26T17:05:31+02:00",
-    "path": "/nix/store/7ipv7qjdn5ianb76r8xi53f0qv3f038c-dank-display-profile-manager",
-    "sha256": "0ljlyvd9kazqn92y9fa9k26i7j8cykw9zp4mi2sbygv5bjnwhws1",
-    "hash": "sha256-QXPIrVxlP7+0iJXcn/j0DMkTjZhJueRFsvirmdr2VFI=",
+    "rev": "4098824bd7039c46f33d1491ac5961170440eff2",
+    "date": "2026-06-30T01:58:28+02:00",
+    "path": "/nix/store/655bzwwxidlbkja7nd23k28m8q6a0v3n-dank-display-profile-manager",
+    "sha256": "033i2izj0f1ra49fy4q3ghwzpkyah3j4qjfjr8vig9xw6yrkhhrf",
+    "hash": "sha256-LkM4sze8pxc3ytJJTOSAys/7OXwDE+8SUTk4IH8UcQw=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4791,11 +4824,11 @@
   },
   "dcalUpcoming": {
     "url": "https://github.com/leoamaro01/dms-dcal",
-    "rev": "69993a096f772032132ac8ee0cbedc4e7caa06a2",
-    "date": "2026-06-27T20:10:56-04:00",
-    "path": "/nix/store/68wyzj2sw3pfx77dx352ww284qpmqyvi-dms-dcal",
-    "sha256": "03r2dix5mq448xrp0kd16p5z026yj24pqbf50026pxahjaf0nn84",
-    "hash": "sha256-BFkLnJJQ9WsEAMUtfImQ3gjwyzWhTXBzR4TgWnpsIg8=",
+    "rev": "30850946db526d8cac37014ebd627d66de90fae2",
+    "date": "2026-06-29T17:19:16-04:00",
+    "path": "/nix/store/dryfyxwfirfm8xl9972na9bxwl6n9ahr-dms-dcal",
+    "sha256": "02q3r1idd4j90ags0y7yvm6nr7qk0lx1ka32lwiyvn1z5pvzg544",
+    "hash": "sha256-hJT39y0/2O0jp2KoGToFE59sTd3+eKCfAkmS1mLIAws=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5396,8 +5429,7 @@
         "flatpak"
       ],
       "compositors": [
-        "niri",
-        "hyprland"
+        "any"
       ],
       "distro": [
         "any"
