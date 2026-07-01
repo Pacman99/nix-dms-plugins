@@ -493,11 +493,11 @@
   },
   "dmsThemeSync": {
     "url": "https://github.com/arqueon/dms-theme-sync",
-    "rev": "591c94846188cfb3a6118abdbc417e83bc1c77d0",
-    "date": "2026-06-29T09:19:10-06:00",
-    "path": "/nix/store/lp5pl6xyh69agfkmq9qla2zmysybsjpd-dms-theme-sync",
-    "sha256": "053fr9jb2jr7j3siga8bljv290n637zj976ag62n4qb1l3z5rx9w",
-    "hash": "sha256-PPVc/qBhYWKFecqcJP8ZxoIktqQLqRf1kCdLsWTKbhQ=",
+    "rev": "a80dfda4b40b1f871333219f75c45f8ec9b71d06",
+    "date": "2026-06-29T23:30:41-06:00",
+    "path": "/nix/store/z21lr6rqcdcbi9jjjsay803fr461q55m-dms-theme-sync",
+    "sha256": "0xpvaa58lkjvc1jl4yznn79xviy9nkysyaw1i7401hfzp01ia4a2",
+    "hash": "sha256-QhEVA7jfwQDIiYErr/20ycfd07H2e0JlYFtOiopS+3Y=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3518,11 +3518,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "bbf0136ce1c7e78a8362059645da1dc5f99ca17e",
-    "date": "2026-06-29T23:24:23+07:00",
-    "path": "/nix/store/lh1qa22z9lipyn7pp0abp903h8n70xd2-dms-quick-capture",
-    "sha256": "02m9f6wxs31i98mmfxanbg1y69d3bqc6la5hmq95rcycy8vp267d",
-    "hash": "sha256-7RhxN/LMs1wSrrAoahheoyXjw1tWdVcrSjEM3blxqQo=",
+    "rev": "a431d553249abb0948a20aec4b00293f1c7b0ba3",
+    "date": "2026-06-30T18:29:53+07:00",
+    "path": "/nix/store/x49wyn4yv36q4rzy1r6rj47wwy78fhf3-dms-quick-capture",
+    "sha256": "1ds089gs39jjwq16k9w1sf9s3afs4qxrbvqh6x4vxl32db2aj8jb",
+    "hash": "sha256-SyKpxGpi0L5JNxDvlTsm2qmhk9OBp2kC5lKmoV9CQLc=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3952,9 +3952,7 @@
       "repo": "https://github.com/irunatbullets/hostname-widget",
       "author": "irunatbullets",
       "description": "A widget for displaying your hostname",
-      "dependencies": [
-        "dms"
-      ],
+      "dependencies": [],
       "compositors": [
         "any"
       ],
@@ -4001,11 +3999,11 @@
   },
   "displayProfileManager": {
     "url": "https://github.com/jankelemen/dank-display-profile-manager",
-    "rev": "4098824bd7039c46f33d1491ac5961170440eff2",
-    "date": "2026-06-30T01:58:28+02:00",
-    "path": "/nix/store/655bzwwxidlbkja7nd23k28m8q6a0v3n-dank-display-profile-manager",
-    "sha256": "033i2izj0f1ra49fy4q3ghwzpkyah3j4qjfjr8vig9xw6yrkhhrf",
-    "hash": "sha256-LkM4sze8pxc3ytJJTOSAys/7OXwDE+8SUTk4IH8UcQw=",
+    "rev": "a676dabea8b38f3121ef2a0a36aae2071395958d",
+    "date": "2026-06-30T08:31:17+02:00",
+    "path": "/nix/store/ndha1hm394b2miwa9d7r19yxh4vfksij-dank-display-profile-manager",
+    "sha256": "0bphp2brwmqyvqjymjfpf726l04zisdvh12w6kvz10swn2kgd3jn",
+    "hash": "sha256-Vo72prBcg/D3NFwEuJuOnwBqxHHXyeol3h5Xnpe48C4=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4355,11 +4353,11 @@
   },
   "screenCaptureToolbar": {
     "url": "https://github.com/JDKamalakar/DMS-ScreenCapture_Toolbar",
-    "rev": "b49511ccb9941f2931932cddac2bb840fecfbc81",
-    "date": "2026-05-31T19:24:38+05:30",
-    "path": "/nix/store/2iqli6hgczqd6xyg7svcdw4r08mpqj39-DMS-ScreenCapture_Toolbar",
-    "sha256": "1fvv8llyj0yh2w230nw2l2sqwrh8d7vakr93m5wbd70v9ms5s5yg",
-    "hash": "sha256-zxdddE0bnLZ4qSPlqfZpCGaOtaCCWzAEF9AD6SlFe7s=",
+    "rev": "d9699eb9ec2e8344548c644c63b108a6a1aa8743",
+    "date": "2026-06-30T15:55:16+05:30",
+    "path": "/nix/store/dqhv3mxyi399c6yyrzb28r11f4m4dg1n-DMS-ScreenCapture_Toolbar",
+    "sha256": "14477i1g42zyh5ic84j1ajfy3prijwndyw9xjr67w19r4dii2688",
+    "hash": "sha256-CBkRYyM5BX5Mlj1x3yyXMd/hnVRBEsRigf4L8kI8h5A=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5220,11 +5218,11 @@
   },
   "splayerLyrics": {
     "url": "https://github.com/lycbowen/SPlayerLyrics",
-    "rev": "6d7ecbdf507fef6c69a73b098056dab46fdda653",
-    "date": "2026-06-24T16:25:13+08:00",
-    "path": "/nix/store/5v23bfk4r5v4x0rl97bjhcsi2yia44il-SPlayerLyrics",
-    "sha256": "1k324apdb7xkxcfd2k4g7h6c6shpj192n3hby0f6ckhzrirw7xzg",
-    "hash": "sha256-7/fDc8wfTmYc8AsOK1KQF2rDDDyPTNEc67Of1a4iYsw=",
+    "rev": "847421f887030af000d01b5baac16b4bfb8e258d",
+    "date": "2026-06-30T15:53:18+08:00",
+    "path": "/nix/store/0ddw6yzqmxyzg2zwvl9nd8fh3aj836gh-SPlayerLyrics",
+    "sha256": "13w249cs4gycjgsr8pl9mz0nphiqay91ygzxbakap7dpwf3x14ha",
+    "hash": "sha256-CpLQh+O3naumWv0/H5JXOMJrwa+JXpT1k8w/olkigo8=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5615,11 +5613,11 @@
   },
   "wallpaperCarousel": {
     "url": "https://github.com/motor-dev/wallpaperCarousel",
-    "rev": "bca1f457763d51c8001f8edcc89df3e619420163",
-    "date": "2026-05-18T08:55:03+02:00",
-    "path": "/nix/store/6iv155pvpzcqi4y326vansbafcav8mqv-wallpaperCarousel",
-    "sha256": "063xw4rc5pxhj0zc304lgfvffdpjd85df6380w9dib728v57ljzz",
-    "hash": "sha256-/0t6ykbirNgSB2gY1wpq8jbntnuUgME+kLDfwjLhfRg=",
+    "rev": "c08fbb92c39d4d778bb08e520cfd96e395594440",
+    "date": "2026-06-30T13:04:07Z",
+    "path": "/nix/store/icqmhshlgsj79jflmab061wlw86553db-wallpaperCarousel",
+    "sha256": "1l8ldddga6i5x7f5alm1wl41w3vwcwka9kvvykd821c430305gdp",
+    "hash": "sha256-t70CBhiEBYHa9HvPpCZnfA8eCOWhUlXc6SUa9VprFNE=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -6445,6 +6443,41 @@
       ],
       "screenshot": "https://raw.githubusercontent.com/odtgit/DankAudioVisualizer/main/preview.png",
       "requires_dms": ">=1.2.0"
+    }
+  },
+  "audioPortSwitcher": {
+    "url": "https://github.com/osvaldx/Audio-Port-Switcher",
+    "rev": "c09de3433fce36f250625c3ac7ce7dcda8c17fee",
+    "date": "2026-06-29T21:46:26-03:00",
+    "path": "/nix/store/xi7if4ghn9g1bg6vhvcddy4yhkkbx05q-Audio-Port-Switcher",
+    "sha256": "10c79igh2zb748wdp2j9x1xdi878n66k14h8lasvr5rc8kp6m6ss",
+    "hash": "sha256-Wptq7kQsl7y1ogiSMI2x6KDYeuhJits4Imd9AV9Mh4E=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "audioPortSwitcher",
+      "name": "Audio Port Switcher",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "audio",
+      "repo": "https://github.com/osvaldx/Audio-Port-Switcher",
+      "author": "osvaldx",
+      "description": "Switch audio ports on a 3.5mm combo jack (internal mic vs headset mic) dynamically.",
+      "dependencies": [
+        "pactl"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/osvaldx/Audio-Port-Switcher/refs/heads/main/previews/settings.png"
     }
   },
   "dankBitwarden": {
@@ -7444,11 +7477,11 @@
   },
   "dankSchedPicker": {
     "url": "https://github.com/SK-DEV-AI/dankSchedPicker",
-    "rev": "4d5c85995980b01acc0ad195c20a86f616434b4a",
-    "date": "2026-06-23T01:32:10+05:30",
-    "path": "/nix/store/0c0085fl7ahm1wi5pqqny79lllrd4hxp-dankSchedPicker",
-    "sha256": "0rqhbnqgi3syzrqrp7jmfilxydblm82c28chs99s80d3cqlhqns3",
-    "hash": "sha256-Q1sMKWajAaRT0pAhwQSqdDXfaXRVnptx/l6P+LBdEGc=",
+    "rev": "5d9d6063d58cf5f33e8fb36fd19acb7bd05c678d",
+    "date": "2026-06-30T18:41:31+05:30",
+    "path": "/nix/store/fh4rbv8l9yd02yxybgkayblf7z9ph46d-dankSchedPicker",
+    "sha256": "0a3b8mik4xszympfvb5ihz3hsx98gnc3q97b0nadca17lrbr6yvx",
+    "hash": "sha256-fXuTV6YnKNaUBeskPJh9KHUNx4exrO1u9V93MmNFayg=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
