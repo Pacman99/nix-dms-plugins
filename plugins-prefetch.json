@@ -491,6 +491,41 @@
       "screenshot": "https://raw.githubusercontent.com/arcatva/dms-next-boot-selector/main/screenshots/popout.png"
     }
   },
+  "dankmailUnread": {
+    "url": "https://github.com/arqueon/dms-dankmail",
+    "rev": "fe770ea69fff904fc0378dea854fccfb2a76a26c",
+    "date": "2026-07-06T00:48:39-06:00",
+    "path": "/nix/store/cw2hq1ab3y69lyq0s007s6d7bjiz9i66-dms-dankmail",
+    "sha256": "02cai4pk9pnajd9xvmf6k38qmg8fbqxqck527ixw0v4g74g5w76h",
+    "hash": "sha256-0BxeHjmPbMB7PKJMhjteDr2K0ZjG1d1Tk8reNC+Jigk=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankmailUnread",
+      "name": "Dankmail Unread",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/arqueon/dms-dankmail",
+      "author": "arqueon",
+      "description": "Live unread mail badge for dankmail with a triage popout: recent inbox with per-message actions, compose, sync and DND. Requires the dmail daemon.",
+      "dependencies": [
+        "dmail"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-dankmail/main/assets/screenshot.png"
+    }
+  },
   "dmsThemeSync": {
     "url": "https://github.com/arqueon/dms-theme-sync",
     "rev": "c70575ea49fc12bfd69152cdaa72d1d6618841fb",
@@ -520,7 +555,7 @@
         "bash"
       ],
       "compositors": [
-        "niri"
+        "any"
       ],
       "distro": [
         "any"
@@ -530,11 +565,11 @@
   },
   "dmsWhisper": {
     "url": "https://github.com/arqueon/dms-whisper",
-    "rev": "54b3edb2686e6673737576d9bd45c4fc69c6763c",
-    "date": "2026-06-23T11:49:16-06:00",
-    "path": "/nix/store/mlmaj3rnygbdd1vqh61n3znakr66nli2-dms-whisper",
-    "sha256": "0v67dcdvl6zhq4pkmby4kk7impbjlvls6y7x3j8wxnkr8frz1fja",
-    "hash": "sha256-Srrws0N52s6RHP14o+mmct0az5zErzovwfAbuhtrx2w=",
+    "rev": "f2031f8f56422ccd4ac5b037bbb9a8d80270321c",
+    "date": "2026-07-06T18:30:08-06:00",
+    "path": "/nix/store/vmigscx2grhpa422v7dmrn97d7fng2c0-dms-whisper",
+    "sha256": "10zwp9arbhckf2b0qwbb3g6pc9iwc8m0kbdyam0ln7bk0140fg5h",
+    "hash": "sha256-sDwHSABzHUtBVb6tCSpiPCZ2zRtrcQyWcJPBlVW6/IM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -677,6 +712,55 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png"
+    }
+  },
+  "wallabag": {
+    "url": "https://github.com/arqueon/dms-wallabag",
+    "rev": "7a708ff8f2e716f6149f413fa36fbb625fba81b8",
+    "date": "2026-07-06T00:39:05-06:00",
+    "path": "/nix/store/zdh2yc3idp4bazj0fk7jyxyhjsmd1dy0-dms-wallabag",
+    "sha256": "0xis1hffidb15izyv8n2hvgmasl61cqxvpprvpc4q915zxkarqyq",
+    "hash": "sha256-2OOsZv8lJEzY3fne3TELhmpV34bCou1/LGG16BwMOnY=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "wallabag",
+      "name": "Wallabag",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "productivity",
+      "repo": "https://github.com/arqueon/dms-wallabag",
+      "description": "Your Wallabag read-it-later queue in the DankBar: unread badge, entry list with source and excerpt, open links without closing the popout, archive/star/delete/re-fetch, multi-select batch actions, server-side search and quick-add. OAuth2 with secrets in the system keyring.",
+      "version": "0.1.0",
+      "author": "arqueon",
+      "icon": "bookmark",
+      "type": "widget",
+      "component": "./WallabagWidget.qml",
+      "settings": "./Settings.qml",
+      "startupCheck": "./StartupCheck.qml",
+      "permissions": [
+        "settings_read",
+        "settings_write",
+        "network",
+        "process"
+      ],
+      "requires_dms": ">=1.2.0",
+      "dependencies": [
+        "curl",
+        "secret-tool"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-wallabag/main/assets/screenshot.png"
     }
   },
   "mediaPlayer": {
@@ -2326,6 +2410,84 @@
       "screenshot": "https://github.com/devnullvoid/dms-web-search/blob/main/screenshot.png?raw=true"
     }
   },
+  "dankscale": {
+    "url": "https://github.com/dwright134/dms-dankscale",
+    "rev": "bddebf0e2935ba23b0614ff9af5bf8f4ed6d3d9f",
+    "date": "2026-07-06T13:06:47-05:00",
+    "path": "/nix/store/ajh8p1axhhyzj4ad0fsqpr8hg66vjphc-dms-dankscale",
+    "sha256": "1ap5b51r9kl38234zxc8gdpaxg5sxqq9x862mb4n20nmbqair6d3",
+    "hash": "sha256-o5kcFV7VAmHJqsKgnjDuuryubnuI9U+GQIPOlENZ5ao=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankscale",
+      "name": "Dankscale",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center",
+        "vpn",
+        "network"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/dwright134/dms-dankscale",
+      "author": "dwright",
+      "description": "Manage your Tailscale network: connect/disconnect, switch accounts, copy device IPs, pick exit nodes, manage routes, and control DNS",
+      "dependencies": [
+        "tailscale"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/dwright134/dms-dankscale/main/docs/screenshot.png"
+    }
+  },
+  "whisperer": {
+    "url": "https://github.com/dwright134/dms-whisperer",
+    "rev": "12b69528c3c134281b5e8ad7afb4beeddd71ff4a",
+    "date": "2026-07-05T17:34:38-05:00",
+    "path": "/nix/store/gzg9zzly8ihg7x8zlq3cawqny2yawmhw-dms-whisperer",
+    "sha256": "0lix1lbrpnjvqvvyzm73iqma1kbmycp9p1s3b6dsrabn0jmwhaq1",
+    "hash": "sha256-ASvIqwR2qaybWUOHmy7zdc2gKo7j1O/3xlvamxcNPVI=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "whisperer",
+      "name": "Whisperer",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/dwright134/dms-whisperer",
+      "path": "",
+      "author": "dwright134",
+      "description": "Voice dictation: records your voice, transcribes it locally with whisper.cpp, and types the result at the cursor. Optional cloud AI (OpenRouter / Gemini) transcribes and formats in one pass.",
+      "dependencies": [
+        "pipewire",
+        "ffmpeg",
+        "wtype",
+        "whisper.cpp",
+        "libsecret"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/dwright134/dms-whisperer/main/docs/popout.png"
+    }
+  },
   "codeforcesHeatmap": {
     "url": "https://github.com/EchoSingh/codeforces-dms-plugin",
     "rev": "fe1bda0d9891bda3b1e56f2d5a8d4edbe9497f20",
@@ -3518,11 +3680,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "d2007b83df72c7b5ceabf3e7438d1581f351ee8d",
-    "date": "2026-07-02T15:46:42+07:00",
-    "path": "/nix/store/8dg9lz1dp722f1mms5sqgrzh7mr3q7q0-dms-quick-capture",
-    "sha256": "0xzk4v5fq691bdfwdywkyc19cw3ns6gm5dfzgz42dzrhcaybdhdc",
-    "hash": "sha256-rMG2vGIw/ybIf9+1Up/RdnCWAvOT+8ZdWyEZ7Mom83c=",
+    "rev": "178567e1fb8697087a0ef3d7729d93cce130cbfe",
+    "date": "2026-07-07T02:21:03+07:00",
+    "path": "/nix/store/ghzkhh24k9nsamc2qkwnjkqay9p9prk0-dms-quick-capture",
+    "sha256": "0d6h1fpxhs5d2c2p4fz52vc3y9pycxr72nh8j6328y24qccxjikv",
+    "hash": "sha256-e0bZGcNEeCSGkQhacXJn/iY/2BblO3IFE61o2K8L0DQ=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3597,11 +3759,11 @@
   },
   "screenkey": {
     "url": "https://github.com/hthienloc/dms-screenkey",
-    "rev": "f0a414a4cf4c09ac4bc60edccc70e2d48fa3739d",
-    "date": "2026-06-21T12:24:45+07:00",
-    "path": "/nix/store/x621spkxa450nqhqh1rnz1b6wh7ysy1y-dms-screenkey",
-    "sha256": "00hh85b0vc8y9n89s96dn4rx5k823piza73a2m8iw7nlhrfznacv",
-    "hash": "sha256-myn7XYbUHh5RFWoc9eMdAs3SM7HNJJ2QTR6xDVZBEAI=",
+    "rev": "670cac883f9362707132bff4733de9034fee42b0",
+    "date": "2026-07-06T12:14:26+07:00",
+    "path": "/nix/store/z5bcr4qijwh44lwn7rrhb4nilgi5zajw-dms-screenkey",
+    "sha256": "0aqk8fqnmpbbw7hapfiriwwr71whmfby1dnnkcafahljnkqnh61d",
+    "hash": "sha256-LRho8bSSQuUUm9a24JerkIeTOY85uqvg4WvdarFDEys=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8197,11 +8359,11 @@
   },
   "converter": {
     "url": "https://github.com/viewerofall-labs/weather-viewer",
-    "rev": "1900d8293d87b5b04c16b47591cc59613074eb0d",
-    "date": "2026-07-05T11:10:10-07:00",
-    "path": "/nix/store/7wwfrpg3inzmsjxg5pnhaly7yn0y4g70-weather-viewer",
-    "sha256": "05d28xn00n76qqd6348b9cfzzhqyhgpfcq60xwvsi4ac4d1j8p8y",
-    "hash": "sha256-Hl0kQyNMkag378Bg5u6DHsP/HUsLkWEaxuZYAGxHohU=",
+    "rev": "45ab60d67079d23b5c1fbac506aec825e9d3178c",
+    "date": "2026-07-06T11:35:00-07:00",
+    "path": "/nix/store/mwxl1x3bhywbmy4s7kxczclff61h0bnp-weather-viewer",
+    "sha256": "0knydxv052x4qcxqanv6wp6cs03zsv6x2b4zi3s9r2wd47xbygww",
+    "hash": "sha256-nD+/+iGNi5z0iJ8s0c3WfwDNzOVmW4U7w6SLAnZv3k4=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8240,11 +8402,11 @@
   },
   "theGrove": {
     "url": "https://github.com/viewerofall-labs/weather-viewer",
-    "rev": "1900d8293d87b5b04c16b47591cc59613074eb0d",
-    "date": "2026-07-05T11:10:10-07:00",
-    "path": "/nix/store/7wwfrpg3inzmsjxg5pnhaly7yn0y4g70-weather-viewer",
-    "sha256": "05d28xn00n76qqd6348b9cfzzhqyhgpfcq60xwvsi4ac4d1j8p8y",
-    "hash": "sha256-Hl0kQyNMkag378Bg5u6DHsP/HUsLkWEaxuZYAGxHohU=",
+    "rev": "45ab60d67079d23b5c1fbac506aec825e9d3178c",
+    "date": "2026-07-06T11:35:00-07:00",
+    "path": "/nix/store/mwxl1x3bhywbmy4s7kxczclff61h0bnp-weather-viewer",
+    "sha256": "0knydxv052x4qcxqanv6wp6cs03zsv6x2b4zi3s9r2wd47xbygww",
+    "hash": "sha256-nD+/+iGNi5z0iJ8s0c3WfwDNzOVmW4U7w6SLAnZv3k4=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8286,11 +8448,11 @@
   },
   "uptimeBar": {
     "url": "https://github.com/viewerofall-labs/weather-viewer",
-    "rev": "1900d8293d87b5b04c16b47591cc59613074eb0d",
-    "date": "2026-07-05T11:10:10-07:00",
-    "path": "/nix/store/7wwfrpg3inzmsjxg5pnhaly7yn0y4g70-weather-viewer",
-    "sha256": "05d28xn00n76qqd6348b9cfzzhqyhgpfcq60xwvsi4ac4d1j8p8y",
-    "hash": "sha256-Hl0kQyNMkag378Bg5u6DHsP/HUsLkWEaxuZYAGxHohU=",
+    "rev": "45ab60d67079d23b5c1fbac506aec825e9d3178c",
+    "date": "2026-07-06T11:35:00-07:00",
+    "path": "/nix/store/mwxl1x3bhywbmy4s7kxczclff61h0bnp-weather-viewer",
+    "sha256": "0knydxv052x4qcxqanv6wp6cs03zsv6x2b4zi3s9r2wd47xbygww",
+    "hash": "sha256-nD+/+iGNi5z0iJ8s0c3WfwDNzOVmW4U7w6SLAnZv3k4=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8330,11 +8492,11 @@
   },
   "weatherArt": {
     "url": "https://github.com/viewerofall-labs/weather-viewer",
-    "rev": "1900d8293d87b5b04c16b47591cc59613074eb0d",
-    "date": "2026-07-05T11:10:10-07:00",
-    "path": "/nix/store/7wwfrpg3inzmsjxg5pnhaly7yn0y4g70-weather-viewer",
-    "sha256": "05d28xn00n76qqd6348b9cfzzhqyhgpfcq60xwvsi4ac4d1j8p8y",
-    "hash": "sha256-Hl0kQyNMkag378Bg5u6DHsP/HUsLkWEaxuZYAGxHohU=",
+    "rev": "45ab60d67079d23b5c1fbac506aec825e9d3178c",
+    "date": "2026-07-06T11:35:00-07:00",
+    "path": "/nix/store/mwxl1x3bhywbmy4s7kxczclff61h0bnp-weather-viewer",
+    "sha256": "0knydxv052x4qcxqanv6wp6cs03zsv6x2b4zi3s9r2wd47xbygww",
+    "hash": "sha256-nD+/+iGNi5z0iJ8s0c3WfwDNzOVmW4U7w6SLAnZv3k4=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
