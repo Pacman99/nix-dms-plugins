@@ -454,13 +454,49 @@
       "screenshot": "https://github.com/antonjah/nix-monitor/raw/master/assets/scrot.png"
     }
   },
+  "batteryPlus": {
+    "url": "https://github.com/arcatva/dms-battery-plus",
+    "rev": "4e653d09174e1edc260f279c42ec2477b6fb2e24",
+    "date": "2026-07-07T23:49:10+12:00",
+    "path": "/nix/store/4y2lxxmihy5xx720c355islf2l9n4jz7-dms-battery-plus",
+    "sha256": "11h1y8qgadnsx2a404v43fv8jx0xvqh59blzwzn365dc72fjyh2w",
+    "hash": "sha256-XEAvnTisFTPs55+uVCDeHXSJthtkE0CU6No29TDyAYY=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "batteryPlus",
+      "name": "Battery Plus",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/arcatva/dms-battery-plus",
+      "author": "arcatva",
+      "description": "Battery panel with phone-style charge history, detailed stats and power profiles",
+      "dependencies": [
+        "upower"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/arcatva/dms-battery-plus/main/screenshots/popout.png"
+    }
+  },
   "nextBootSelector": {
     "url": "https://github.com/arcatva/dms-next-boot-selector",
-    "rev": "89e0f38554db8adb6d15f93fa21fbe5c2eecb06e",
-    "date": "2026-04-12T07:01:55+12:00",
-    "path": "/nix/store/x44l0plhy7k97mjywvfa58bhckcmh254-dms-next-boot-selector",
-    "sha256": "1rb8dz2i0ljw821c6bvlzlkfnzkhzv0fhznnqw2kr97hwi0f9nl7",
-    "hash": "sha256-h9rkQOTwpDwFx9Z+6MD+cH7rJv10L8OCQFxSEMVvaOU=",
+    "rev": "78e75e8e0555f9a8f860f4be98a39cd22e1c09bf",
+    "date": "2026-07-07T22:21:25+12:00",
+    "path": "/nix/store/whnbfwbvnx64v3pbk1y2hrjlngpa171y-dms-next-boot-selector",
+    "sha256": "0src31yijvp5fqhryizbn1mbb58b1vmcgr9md30c2ydh7b7ldabn",
+    "hash": "sha256-dqlGzzqwecHAaDXlx+oOC5W1arDrR58hduVuGX0YLGs=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -493,11 +529,11 @@
   },
   "dankmailUnread": {
     "url": "https://github.com/arqueon/dms-dankmail",
-    "rev": "fe770ea69fff904fc0378dea854fccfb2a76a26c",
-    "date": "2026-07-06T00:48:39-06:00",
-    "path": "/nix/store/cw2hq1ab3y69lyq0s007s6d7bjiz9i66-dms-dankmail",
-    "sha256": "02cai4pk9pnajd9xvmf6k38qmg8fbqxqck527ixw0v4g74g5w76h",
-    "hash": "sha256-0BxeHjmPbMB7PKJMhjteDr2K0ZjG1d1Tk8reNC+Jigk=",
+    "rev": "48cfe269db2d45186587e80462b122f24e1df3c6",
+    "date": "2026-07-07T13:00:29-06:00",
+    "path": "/nix/store/ib0ckqxbd6xwx151064k3fl8nzd712ff-dms-dankmail",
+    "sha256": "1662bxcpg7v6h7k8b3v1dafvxs81mnpwnlyp0vrazvxqmb3cr9q3",
+    "hash": "sha256-A6fMxqq476/yBtdTy6+tAem+nWphj4XmgWafd1lfwpg=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -565,11 +601,11 @@
   },
   "dmsWhisper": {
     "url": "https://github.com/arqueon/dms-whisper",
-    "rev": "f2031f8f56422ccd4ac5b037bbb9a8d80270321c",
-    "date": "2026-07-06T18:30:08-06:00",
-    "path": "/nix/store/vmigscx2grhpa422v7dmrn97d7fng2c0-dms-whisper",
-    "sha256": "10zwp9arbhckf2b0qwbb3g6pc9iwc8m0kbdyam0ln7bk0140fg5h",
-    "hash": "sha256-sDwHSABzHUtBVb6tCSpiPCZ2zRtrcQyWcJPBlVW6/IM=",
+    "rev": "b63b3f4bd8c11ebae6eef7ab7a07c8c792b27a3b",
+    "date": "2026-07-06T20:28:08-06:00",
+    "path": "/nix/store/kvv47q9l0gkvvsp373wll5d4pzj29i5i-dms-whisper",
+    "sha256": "1plk143gz42dq8hp1mk97rd9blsqcdx8xi541q9s4ib3jhjil37c",
+    "hash": "sha256-7AwaJZRjRaITDqTEjnpjWNOVWj5p1nAhwk2Q/wYJk94=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -716,11 +752,11 @@
   },
   "wallabag": {
     "url": "https://github.com/arqueon/dms-wallabag",
-    "rev": "7a708ff8f2e716f6149f413fa36fbb625fba81b8",
-    "date": "2026-07-06T00:39:05-06:00",
-    "path": "/nix/store/zdh2yc3idp4bazj0fk7jyxyhjsmd1dy0-dms-wallabag",
-    "sha256": "0xis1hffidb15izyv8n2hvgmasl61cqxvpprvpc4q915zxkarqyq",
-    "hash": "sha256-2OOsZv8lJEzY3fne3TELhmpV34bCou1/LGG16BwMOnY=",
+    "rev": "f0f90e8589005461c8c1ef989acbeb5eae5bc326",
+    "date": "2026-07-06T20:35:30-06:00",
+    "path": "/nix/store/v2nh048rgvcpsk9dyqrpyl1flj6a6f1b-dms-wallabag",
+    "sha256": "0am5x6jys2szw38wv9lxhsapg0yhlyg05j706vzd8pvjl0iap7mf",
+    "hash": "sha256-rp6rIqByX9T+NuDIAp6n0IN3lYadps3R4F8L7aXppSo=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2450,11 +2486,11 @@
   },
   "whisperer": {
     "url": "https://github.com/dwright134/dms-whisperer",
-    "rev": "12b69528c3c134281b5e8ad7afb4beeddd71ff4a",
-    "date": "2026-07-05T17:34:38-05:00",
-    "path": "/nix/store/gzg9zzly8ihg7x8zlq3cawqny2yawmhw-dms-whisperer",
-    "sha256": "0lix1lbrpnjvqvvyzm73iqma1kbmycp9p1s3b6dsrabn0jmwhaq1",
-    "hash": "sha256-ASvIqwR2qaybWUOHmy7zdc2gKo7j1O/3xlvamxcNPVI=",
+    "rev": "dfc5517a882467bb43ad1962c7f16850a5ee3102",
+    "date": "2026-07-07T08:28:25-05:00",
+    "path": "/nix/store/i0nk995wa0xjan8vxi4yj77slv2vza8b-dms-whisperer",
+    "sha256": "0whwx1x7azr0nq5gxd7w984f4921gny7kp7wiy5qx4bwnlr2rpff",
+    "hash": "sha256-zt0sMrV8kY6Lj/zcebx9QSTiCEr8tP4KtiB/dXroHHI=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2879,11 +2915,11 @@
   },
   "networkIndicator": {
     "url": "https://github.com/gemb0-0/Network-Indicator.git",
-    "rev": "f11893de3065d2082e5a6159447aacff2ae067ff",
-    "date": "2026-06-29T14:25:22+03:00",
-    "path": "/nix/store/nz01sn31r3ymim4rpi8pxqkfrn1knz33-Network-Indicator",
-    "sha256": "1v11940blcnvg63c772rxxgphywjhpc12m8xsikffak38l4lb4wc",
-    "hash": "sha256-jJNFCUVjKudm1B1VEdiFknt4X+9ZnMOGedsyugBJIew=",
+    "rev": "4439fc4121a2bd6f1ade76c296ee9f77311560c6",
+    "date": "2026-07-07T17:38:59+03:00",
+    "path": "/nix/store/w1hwcsxrf12ykfkb1189svgnq4j8gi89-Network-Indicator",
+    "sha256": "0rkj7hbqp8xxi0q9a69w82g227plcqzvcr3d6wj4xjhp3h6dshpq",
+    "hash": "sha256-+ELdDBwXyk4kN21ktj9m9B4hnkA8GZUwiL2jixc8cmY=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3680,11 +3716,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "178567e1fb8697087a0ef3d7729d93cce130cbfe",
-    "date": "2026-07-07T02:21:03+07:00",
-    "path": "/nix/store/ghzkhh24k9nsamc2qkwnjkqay9p9prk0-dms-quick-capture",
-    "sha256": "0d6h1fpxhs5d2c2p4fz52vc3y9pycxr72nh8j6328y24qccxjikv",
-    "hash": "sha256-e0bZGcNEeCSGkQhacXJn/iY/2BblO3IFE61o2K8L0DQ=",
+    "rev": "655061073d31c5a9c0b04ac533ee371409ddda27",
+    "date": "2026-07-08T07:47:45+07:00",
+    "path": "/nix/store/pa4dr4xb1yli2h8r7swj02dzdq45girz-dms-quick-capture",
+    "sha256": "1x13gmh8wxr5s600x3ffg57n9s4lz9vlc33wmkvl10fblrid83dy",
+    "hash": "sha256-vg3UYqbLgUD3rHwMRnf6lOhkT3nOjQ6A0SV3jmB9I/Q=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3865,11 +3901,11 @@
   },
   "timer": {
     "url": "https://github.com/hthienloc/dms-timer",
-    "rev": "befb7b102a21f1d981b19a49891b4d44b24d15c0",
-    "date": "2026-06-23T11:01:20+07:00",
-    "path": "/nix/store/lm9w7mrzm0f9mxc3sgfdpi8jnm26xkld-dms-timer",
-    "sha256": "1s026a5sqzcd683m14lgb60iwhq53fk17p66a88lilpcygf0mqzn",
-    "hash": "sha256-9uMK3PPs0kgRUsbcE6YbBUMegVmPklAHMo19rIsyAug=",
+    "rev": "eaec24fcf2fdea91bd0c671f3bd0ece0275217d9",
+    "date": "2026-07-07T20:36:23+07:00",
+    "path": "/nix/store/74gsd69448cs7mdj1dcba4wmllch16x4-dms-timer",
+    "sha256": "1qaxh4a29wzx03md1xnplrz2aw4ng0h27hhz5axlghnv10bk35vv",
+    "hash": "sha256-e5cxFwjbwke7Kh/CIyB4lnAlfqbX9tDqAP3zJBSBXeE=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5914,11 +5950,11 @@
   },
   "amdGpuMonitor": {
     "url": "https://github.com/navidagz/dms-amd-gpu-monitor",
-    "rev": "430d783232fe00eb4ba046833021353e63c152ed",
-    "date": "2026-05-15T13:27:39+02:00",
-    "path": "/nix/store/qcx0sjrhq20qmpgm28gj4zd5allz0jk7-dms-amd-gpu-monitor",
-    "sha256": "1zgd1ljmr9ykx40r12cj2srzbpgg2rrjnqkbfviwp1h6bhayqaq4",
-    "hash": "sha256-BCvsFVwGhsvjdmtiK3MW7931sxaSiZAB6dOnXCUN7f0=",
+    "rev": "6f1ac2b7ebe62e22e76721579d12fa946417285c",
+    "date": "2026-07-07T11:08:38Z",
+    "path": "/nix/store/pal69fassv7gx74lycc47a2a8i3na3nf-dms-amd-gpu-monitor",
+    "sha256": "0sv2ql217dk9r1cxdcam9819996w1nw95x7hgl5xf1p6jr765c8x",
+    "hash": "sha256-HbFiTpbmBtcLffD0krgN3KSUAkpVsdZZyGm2EwTFYms=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -7454,6 +7490,109 @@
         "any"
       ],
       "screenshot": "https://github.com/Rocho-EL-Locho/dms-mail-checker/raw/main/docs/screenshot.png"
+    }
+  },
+  "gpuMonitor": {
+    "url": "https://github.com/rollecode/dms-gpu-monitor",
+    "rev": "8ce8003effdc5fd5c47a7a47ab08ee6375223ccf",
+    "date": "2026-07-07T19:12:48+03:00",
+    "path": "/nix/store/fdwdm99y2h9s0qhgmqvcscdi90d6crd0-dms-gpu-monitor",
+    "sha256": "18b0rc5askyd5dc25c5dkaxlq7hvxzy5f281lq65gpqx74va8dpb",
+    "hash": "sha256-6zakNjkd31cMpgEJV/zvGx5Mu5qtsCJYK81PrQrLYKE=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "gpuMonitor",
+      "name": "GPU Monitor",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/rollecode/dms-gpu-monitor",
+      "author": "Rolle Laukkarinen",
+      "description": "NVIDIA GPU load as an animated progress bar in your DankBar, updated every second",
+      "dependencies": [
+        "nvidia-smi"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/rollecode/dms-gpu-monitor/main/Screenshot.png"
+    }
+  },
+  "ramMonitor": {
+    "url": "https://github.com/rollecode/dms-ram-monitor",
+    "rev": "dec31c4dff0bb9e2273a8109d875bfb90c97adbe",
+    "date": "2026-07-07T19:12:44+03:00",
+    "path": "/nix/store/dq1wgdnhbaf2xk9xb7cw9kiryshl1vn7-dms-ram-monitor",
+    "sha256": "0s61aawbpjvr7g7gkw8gwmdwi08rhmlw94cpy0arz8kgk4wydbbp",
+    "hash": "sha256-d63mOZlvop8V8JeRxGmFGYHIW+UP8fnOO3nLu7hSwWg=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "ramMonitor",
+      "name": "RAM Monitor",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/rollecode/dms-ram-monitor",
+      "author": "Rolle Laukkarinen",
+      "description": "RAM usage as an animated progress bar in your DankBar, updated every second",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/rollecode/dms-ram-monitor/main/Screenshot.png"
+    }
+  },
+  "vramMonitor": {
+    "url": "https://github.com/rollecode/dms-vram-monitor",
+    "rev": "e00c64191236db756f375e73bced3227c26035cd",
+    "date": "2026-07-07T19:12:46+03:00",
+    "path": "/nix/store/s8c3n2m077wm0dhdmg788p46my4m3mpb-dms-vram-monitor",
+    "sha256": "0zq8pvfk0z6dq16l9mq7kdjk2gvxda6vd9mqi6vvjds07gpikdrg",
+    "hash": "sha256-L7cZ7ztAN7m3ibimto1qfT8xZZsH10RNwM18MN2+CH8=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "vramMonitor",
+      "name": "VRAM Monitor",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/rollecode/dms-vram-monitor",
+      "author": "Rolle Laukkarinen",
+      "description": "NVIDIA VRAM usage as an animated progress bar in your DankBar, updated every second",
+      "dependencies": [
+        "nvidia-smi"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/rollecode/dms-vram-monitor/main/Screenshot.png"
     }
   },
   "sessionPower": {
