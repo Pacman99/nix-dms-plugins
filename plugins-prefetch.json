@@ -564,11 +564,11 @@
   },
   "dmsThemeSync": {
     "url": "https://github.com/arqueon/dms-theme-sync",
-    "rev": "b4fe69fdca63d71775cb3c9faeab6e143ba917c3",
-    "date": "2026-07-08T15:11:04-06:00",
-    "path": "/nix/store/id3f78hwf12djhjpgzpfpscqjmm60kgv-dms-theme-sync",
-    "sha256": "06ff6hf5vbpfm8msrisxlfgx8j7m6ppcmavx0iphwhww38v9clfh",
-    "hash": "sha256-0FGWNhqcQw5vBH2ryu419UjUn6Ndx6wrqu6uXRw0zhk=",
+    "rev": "c5bed6e0b15e0ec7fed06915f3d10e826afefe81",
+    "date": "2026-07-09T12:45:31-06:00",
+    "path": "/nix/store/h40p004hpi1i1s7pzcq2ll0hkq73ap4p-dms-theme-sync",
+    "sha256": "0n25dmcrgf1rqw1z1w9jngy70csqv1vqh6np1fbvwjxc7f9sixkm",
+    "hash": "sha256-dfaokzusS76XC9caiHfYWDNw/LMy8fADxzm4l1ltRVg=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1468,9 +1468,7 @@
         "taskwarrior"
       ],
       "compositors": [
-        "hyprland",
-        "niri",
-        "sway"
+        "any"
       ],
       "distro": [
         "any"
@@ -3763,11 +3761,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "834e994ee22b694e13ce689f76156aab1b92b1fa",
-    "date": "2026-07-09T01:35:01+07:00",
-    "path": "/nix/store/c58bzypn4pxi07v2mhy206m0b4ngrm79-dms-quick-capture",
-    "sha256": "05vv5cckm371lg38mdwn7aql4q07pyy0ghgn8iiq5kf17id1waib",
-    "hash": "sha256-KyoeWjzBzYJjRPbBB7y/B2BCsTqWt4rGo+GMOhkrexc=",
+    "rev": "e471baa0a5a55e4be4145409b1bf993f3d2de563",
+    "date": "2026-07-10T01:31:32+07:00",
+    "path": "/nix/store/fpz2aal6mbr61cynsgn6zqw438smhzb0-dms-quick-capture",
+    "sha256": "18msrylqw9j3i9fdpvyzlkjy7p7g6rldv7850940cz255y1868jw",
+    "hash": "sha256-XCKDgi9FfAZIAgWd3Wg279zj5aTf79tcikMmjqnPuqI=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8920,11 +8918,11 @@
   },
   "homeAssistantMonitor": {
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass",
-    "rev": "0d3cd45f6a094582db5f9209b3dc1f72c1cfb067",
-    "date": "2026-06-09T17:49:32+08:00",
-    "path": "/nix/store/30wmjhlxirki28jnkj911ch43d0iqi7p-dms-plugin-hass",
-    "sha256": "1whhfzij64hqcclvh346ql2vxqham102bzmpngvpaf7qav1hc9v1",
-    "hash": "sha256-YScGw1b4OHX3s7f+JUCoCuK+BcWGDLgpYxgSI+N3EPI=",
+    "rev": "a90cda73b6e88cbe910fae45d4f12d4d42c17580",
+    "date": "2026-07-09T13:06:19+08:00",
+    "path": "/nix/store/fh1hpsfahfz88zmkbf7b9g7qncab5kx4-dms-plugin-hass",
+    "sha256": "030cqvvkx32jzd6m7zdar6arviljjs9vldc4npc13fxzv1xrcsvk",
+    "hash": "sha256-c2uWe9i/uxHYtYQ1upOWksadlcmq/VNN+1KMPvfGDAw=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
