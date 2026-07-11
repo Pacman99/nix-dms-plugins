@@ -529,11 +529,11 @@
   },
   "dankmailUnread": {
     "url": "https://github.com/arqueon/dms-dankmail",
-    "rev": "48cfe269db2d45186587e80462b122f24e1df3c6",
-    "date": "2026-07-07T13:00:29-06:00",
-    "path": "/nix/store/ib0ckqxbd6xwx151064k3fl8nzd712ff-dms-dankmail",
-    "sha256": "1662bxcpg7v6h7k8b3v1dafvxs81mnpwnlyp0vrazvxqmb3cr9q3",
-    "hash": "sha256-A6fMxqq476/yBtdTy6+tAem+nWphj4XmgWafd1lfwpg=",
+    "rev": "cb0bed1eb8e878c4871ad7c4db8d483c2f0de497",
+    "date": "2026-07-09T22:29:25-06:00",
+    "path": "/nix/store/dy3m6cjpsq990cqf1jwn17qmrsv7xj70-dms-dankmail",
+    "sha256": "03awvc2csscdgc411rfvan4gvg4xbkiqh1j5y12zpbdlxk66c1ly",
+    "hash": "sha256-ngZmzOy0rftF8EUGiONcnbz9iFXb5RAIe41pzQTbXA0=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -564,11 +564,11 @@
   },
   "dmsThemeSync": {
     "url": "https://github.com/arqueon/dms-theme-sync",
-    "rev": "c5bed6e0b15e0ec7fed06915f3d10e826afefe81",
-    "date": "2026-07-09T12:45:31-06:00",
-    "path": "/nix/store/h40p004hpi1i1s7pzcq2ll0hkq73ap4p-dms-theme-sync",
-    "sha256": "0n25dmcrgf1rqw1z1w9jngy70csqv1vqh6np1fbvwjxc7f9sixkm",
-    "hash": "sha256-dfaokzusS76XC9caiHfYWDNw/LMy8fADxzm4l1ltRVg=",
+    "rev": "5450ba1b875447b86f61a6a23e4ab3a211da27e0",
+    "date": "2026-07-10T17:20:58-06:00",
+    "path": "/nix/store/asv85b1h71d74257h7ri9xb0kny577q9-dms-theme-sync",
+    "sha256": "0sbrlqpd5fynrh29gf0kbf9sy6nqvn4npwk1i5yhkvqw016g8mfh",
+    "hash": "sha256-0FX0TAAc7wl9iWHya4nd2Bqvk1sTuJcEzNa70i6meWk=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -941,11 +941,11 @@
   },
   "adguardVPplugin": {
     "url": "https://github.com/bernardopg/dms-adguard-vpn-plugin",
-    "rev": "20c012e2f41e741122c0b961d1c12a4a9549274e",
-    "date": "2026-06-12T00:49:25-03:00",
-    "path": "/nix/store/5fnfzicxd1y1fgfxwk57fp28r2xdi8jr-dms-adguard-vpn-plugin",
-    "sha256": "0acvq8wbqswrv6k9l5f05l680m7yancqzh1xala8gv9sx7ls6klx",
-    "hash": "sha256-nU6j6ek67YcUVT3Aj5lV/lSADC3AFZqm2ZlrvDjCmyk=",
+    "rev": "27016eadaaad1afc05a8b845f1de9df43ffa7172",
+    "date": "2026-07-10T19:02:11-03:00",
+    "path": "/nix/store/z5lircbjvhfrfl0vb9azgfwsg3xx6x9l-dms-adguard-vpn-plugin",
+    "sha256": "0gig9vfimkycy1bk38jipn1y73ngbjqmjkiiabm7kg4gss48b7jj",
+    "hash": "sha256-Up6FiNaPvHnqUjFOWbFcz47jg71RojFX8MzPGt1OLz4=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -979,11 +979,11 @@
   },
   "aiOverviewControl": {
     "url": "https://github.com/bernardopg/AiOverviewControl",
-    "rev": "c33c149274bf583af2379a60f8be4f8fe0c60892",
-    "date": "2026-07-02T01:21:40-03:00",
-    "path": "/nix/store/iv2fgj3lq3fhp2i8jqymyz0bipxvikly-AiOverviewControl",
-    "sha256": "0xxfjjnw537y849jkxy5b00nngdjy4rwx01if18mydkaldwzcca5",
-    "hash": "sha256-RTH2eaNqNl9RcDGAzjPxsj1rAVjF9ykTQf6Mwq2Urnc=",
+    "rev": "b5ef98eb811e0a810ddcab98e67a3973d2bd2a20",
+    "date": "2026-07-10T17:45:55-03:00",
+    "path": "/nix/store/ll8lxnc95b9hbw2zay7p6hi2wa4ir19p-AiOverviewControl",
+    "sha256": "02jz8k6n7qn5w2c2rmpbllpkni9mgzc0ypqz3j0mrrnprdyhry49",
+    "hash": "sha256-ifgMfcvX5lyBHB9fD9h/NUU7L6Xr1iyY4MXiY81EXwo=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2531,11 +2531,11 @@
   },
   "whisperer": {
     "url": "https://github.com/dwright134/dms-whisperer",
-    "rev": "e15a64b193402b9a95bffb8e453ccd672579a336",
-    "date": "2026-07-08T19:13:51-05:00",
-    "path": "/nix/store/fph8lckzbbpc0kjc8mgc4b7mbx4y5qh6-dms-whisperer",
-    "sha256": "0vpphwbr99qnap2mrgas0x07sk88sailjj3w0xybysnx3b7y793k",
-    "hash": "sha256-c6Tjzxrdar98B3xISaPSCE19QAdavVzFVRanlBeH924=",
+    "rev": "f54b20a41128500134c3947ad9929bc78e019de3",
+    "date": "2026-07-10T12:29:00-05:00",
+    "path": "/nix/store/7nwpla4239jf1m3s8r2yn91rdj04hhdw-dms-whisperer",
+    "sha256": "0xhbakwk0q0j6vml3i9bp6hvyzs5ygkhbanpgfwq4jjrn06hmhzi",
+    "hash": "sha256-8cMKDbBZSoK5e9eqBefzRX+/obkrxUHrNhJgMPlUC3Y=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2960,11 +2960,11 @@
   },
   "networkIndicator": {
     "url": "https://github.com/gemb0-0/Network-Indicator.git",
-    "rev": "4439fc4121a2bd6f1ade76c296ee9f77311560c6",
-    "date": "2026-07-07T17:38:59+03:00",
-    "path": "/nix/store/w1hwcsxrf12ykfkb1189svgnq4j8gi89-Network-Indicator",
-    "sha256": "0rkj7hbqp8xxi0q9a69w82g227plcqzvcr3d6wj4xjhp3h6dshpq",
-    "hash": "sha256-+ELdDBwXyk4kN21ktj9m9B4hnkA8GZUwiL2jixc8cmY=",
+    "rev": "a5af70063faff52ceb0701701a41e4dd83081868",
+    "date": "2026-07-11T02:38:36+03:00",
+    "path": "/nix/store/da3hx7ynxl9j0zj92ry2yqjy6amdar5y-Network-Indicator",
+    "sha256": "0kv93cn45l2hjffwvd9dwg7l9bb5in0702cq6wz7rffalvplyc2m",
+    "hash": "sha256-VTBP76bKuXw+N5gJcICNZa1Ez+Mttc2dk1DQQiwbaU8=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3761,11 +3761,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "e471baa0a5a55e4be4145409b1bf993f3d2de563",
-    "date": "2026-07-10T01:31:32+07:00",
-    "path": "/nix/store/fpz2aal6mbr61cynsgn6zqw438smhzb0-dms-quick-capture",
-    "sha256": "18msrylqw9j3i9fdpvyzlkjy7p7g6rldv7850940cz255y1868jw",
-    "hash": "sha256-XCKDgi9FfAZIAgWd3Wg279zj5aTf79tcikMmjqnPuqI=",
+    "rev": "c31cc2f09747e80776294cfe7df081f2cd92e063",
+    "date": "2026-07-11T08:13:06+07:00",
+    "path": "/nix/store/0k44f9dvgdk932nfcg785l97fmx5gkjn-dms-quick-capture",
+    "sha256": "0kl0nydzk2jkab3h6q475avp8jzh0783npdcgn8vi6qy4kybrf44",
+    "hash": "sha256-hLi8/CQem7iRfaxdO9AB8Et0tyqHYAPHUlOK+Zu3gE4=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4015,6 +4015,39 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-typing-sounds/main/screenshot.png"
+    }
+  },
+  "dankHermes": {
+    "url": "https://github.com/huangkaile22-prog/dankhermes",
+    "rev": "45ff545884ed3fd367bf2f0857721d1adefb0799",
+    "date": "2026-06-07T02:03:51+08:00",
+    "path": "/nix/store/6ncbsaw8ck8v90krikr00h6xx75s4k9h-dankhermes",
+    "sha256": "085cavqr94p2wjyd4pgy0ph4czzak8kg81c2l6g1lfll0nzkkdyi",
+    "hash": "sha256-0bc5vwWUOhqeoYIF9Caa6n9G4AX+XdK85OKSlPFWrCA=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankHermes",
+      "name": "Dank Hermes",
+      "capabilities": [
+        "ai-chat"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/huangkaile22-prog/dankhermes",
+      "author": "hkl",
+      "description": "AI chat sidebar powered by local Hermes agent.",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/huangkaile22-prog/dankhermes/blob/main/screenshot-chat.png"
     }
   },
   "gameControllerBattery": {
@@ -6347,11 +6380,11 @@
   },
   "ephemera": {
     "url": "https://github.com/nicolasgarcia214/Ephemera",
-    "rev": "eaadf6d933a8449f36219935520a8e9f944b4aa0",
-    "date": "2026-04-30T22:37:52-05:00",
-    "path": "/nix/store/dpvfkhg08zphzin13435w4rmkbd1sfmi-Ephemera",
-    "sha256": "0qmz4i0w26wgflwfm2dnwhmhg087biiy4gg0ax9b679k3sfimahv",
-    "hash": "sha256-G6oanR4zHbNSV+A94mNcB4EHK+S2ieo4dY8bwUEkv2I=",
+    "rev": "172783fccb37e99756f999daa737ced42aeefe4e",
+    "date": "2026-07-10T13:22:07-05:00",
+    "path": "/nix/store/hy47iw0ww214sskcyamb6qxgi3qwgbcb-Ephemera",
+    "sha256": "1526ikqmr1bxx0gmn97w446hhsplspn1cvf2blgvhxqqlxnynbps",
+    "hash": "sha256-+i7rbacYd7gfXcJtFuzV9GoIDSH8JFsf6H2FXPGMRpQ=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -7007,11 +7040,11 @@
   },
   "githubNotifier": {
     "url": "https://github.com/psyreactor/dms-githubNotifier",
-    "rev": "01c929dd8df3d4dcfe12bfa743eec5d096ae6fde",
-    "date": "2026-04-17T21:44:08-03:00",
-    "path": "/nix/store/gvrq5x2d603k35qzdqclj3qvk9vzhkbc-dms-githubNotifier",
-    "sha256": "0h1csa5bx9hjkgqa7f63k119zhqzimmimz5m7s44j6b5zcbfldwr",
-    "hash": "sha256-mTfqFvtlGUmIPrX8GmuNH8OfQpjDuKPwmxKmvorSLEA=",
+    "rev": "048bbb3f6a10b9fa51335f2de14e3fecad339af3",
+    "date": "2026-07-10T18:39:34-03:00",
+    "path": "/nix/store/99yz34fs18w5sdkfhwzl0pjn7g56hhc9-dms-githubNotifier",
+    "sha256": "1apnsd0w6c5i7zi6s231ada9l1996z6apf696q4ii3yg4gxzyv9s",
+    "hash": "sha256-Om3/+yPPjxgJNsm4q8w3KQWaVFNhCG3iP7Eww0HT9qo=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -7044,11 +7077,11 @@
   },
   "gitlabNotifier": {
     "url": "https://github.com/psyreactor/dms-gitlabNotifier",
-    "rev": "9c90c4e4869df7132cc16b827d5d14585d0e327c",
-    "date": "2026-04-17T21:45:51-03:00",
-    "path": "/nix/store/lc4m3bxm56g29ip1k2ix62qzx0ax046v-dms-gitlabNotifier",
-    "sha256": "1lwjxzykfbw0xn95y1cb96qs762gsfbs7cvfh6j0jl42cr581syn",
-    "hash": "sha256-1uuASmaCUAmkgW6zo5fTT5ijsUmLBV+S7YAvN/3vktM=",
+    "rev": "0eba0d327ebb0fcd20223ddb2599a02dc0021843",
+    "date": "2026-07-10T18:59:29-03:00",
+    "path": "/nix/store/25z3mqh3vyck1yxfsl6j9vw2pa8mdg2m-dms-gitlabNotifier",
+    "sha256": "0iq50wqvrax6qjxvrdbjbagyf2wi9hqqcrcdx5dfbvkgdbnhy28i",
+    "hash": "sha256-EQkP7Wpv7uVa6Y1lhjFMkQvnn1pytby7xKarvDEHBUc=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -7673,6 +7706,44 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/ronmurphy/dms-contrib/refs/heads/main/screenshot_session_power_menu.png"
+    }
+  },
+  "dankTranslateAI": {
+    "url": "https://github.com/SakuraToErii/dank-translate-ai",
+    "rev": "1586b2f02e49fe1ea7981e4dd1a16dd164f0bd7c",
+    "date": "2026-07-10T20:11:15+08:00",
+    "path": "/nix/store/a3dls7cdvw778hklqn9pgnrs9p0byn2h-dank-translate-ai",
+    "sha256": "11hka1xb868j1s0mhkid1qml4811idw977d0riwx3blsq5qhvf7i",
+    "hash": "sha256-8bgNccGartF5zKCdk3iLISBCKw4tTliBDhIZtHpQE4Y=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankTranslateAI",
+      "name": "Dank Translate AI",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/SakuraToErii/dank-translate-ai",
+      "author": "SakuraToErii",
+      "description": "Security-focused, shortcut-driven AI translation with one-shot input reads, local secret screening, streaming, custom OpenAI-compatible APIs, and DankBar history.",
+      "dependencies": [
+        "uv",
+        "wl-clipboard"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/SakuraToErii/dank-translate-ai/main/docs/translation-popup.png"
     }
   },
   "screenOff": {
@@ -8918,11 +8989,11 @@
   },
   "homeAssistantMonitor": {
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass",
-    "rev": "a90cda73b6e88cbe910fae45d4f12d4d42c17580",
-    "date": "2026-07-09T13:06:19+08:00",
-    "path": "/nix/store/fh1hpsfahfz88zmkbf7b9g7qncab5kx4-dms-plugin-hass",
-    "sha256": "030cqvvkx32jzd6m7zdar6arviljjs9vldc4npc13fxzv1xrcsvk",
-    "hash": "sha256-c2uWe9i/uxHYtYQ1upOWksadlcmq/VNN+1KMPvfGDAw=",
+    "rev": "2c3697e44e25bd91315a10aaa746f22289d812c1",
+    "date": "2026-07-10T13:27:04+08:00",
+    "path": "/nix/store/dqx5jgxndsdkmbxqyday677y233vssjn-dms-plugin-hass",
+    "sha256": "0qb9ljakicf56pa9njj0bhwch4j6dsrnd9zaliwz3asfnrhyf2xs",
+    "hash": "sha256-ugvnYbZOq/F5pOqnZrNuRhLIOFxASpvUNcWxOJWkaWE=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
