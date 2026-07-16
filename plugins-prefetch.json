@@ -1559,11 +1559,11 @@
   },
   "screenRecorderX": {
     "url": "https://github.com/crowforkotlin/dms-screen-recorder",
-    "rev": "44091d2da9843b070dcdec4a2850f8b9d5e5dfbd",
-    "date": "2026-07-14T18:49:18+08:00",
-    "path": "/nix/store/fz412prmirds4g366ffmgr2h269g0p6k-dms-screen-recorder",
-    "sha256": "0zrq27yjyfwjld7b0klkn5xs8425fdyy7h7avk3plnrgvny3whn8",
-    "hash": "sha256-yEI+vN0vW3rH3OrA431zRRCke7GTTrBOo5I7L/0ROH8=",
+    "rev": "0c69710538a110a647da94c4ecdfc6cd4f414e85",
+    "date": "2026-07-15T09:44:02+08:00",
+    "path": "/nix/store/m6gijqz5qhhyxxz46llcjvcdqfmwim32-dms-screen-recorder",
+    "sha256": "1avam9fzscssr6nf4s663fa1bnw0q2cpp3ly1bcjd5fl28a115qa",
+    "hash": "sha256-CpcQFBLUlSbZCp6Oe5nAgNsVlBvGaOKsyVoz/V2qaqs=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3983,11 +3983,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "4f632134a7279da078df22d4e08035ef97591758",
-    "date": "2026-07-15T00:48:31+07:00",
-    "path": "/nix/store/p9vn6n9p3hf4g9fk9ghavhzy6bxxa5ky-dms-quick-capture",
-    "sha256": "19qnpz9ywqf627k8fnmf08knayh5cbdvsj272gzy8z4a15ik1084",
-    "hash": "sha256-BIEwYwmKfOT/E0dIvdtiBXplJwKuWofmEcZh7tO/Fqc=",
+    "rev": "81d881dfcb6a4eb4476fb962586088d69720eb0d",
+    "date": "2026-07-16T07:51:44+07:00",
+    "path": "/nix/store/nwdv5dpa23s8gbzx3hxi8g1pm0cx367k-dms-quick-capture",
+    "sha256": "1jqv8xvqp5m6k861q4vx927bxcvcnhhp6wspqd6g4hlf8fhiikw8",
+    "hash": "sha256-iM8YoUOOQvJMw1dzcyG0bLO+jkh9ExwMmqaWi3dHG8s=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3998,7 +3998,9 @@
       "id": "quickCapture",
       "name": "Quick Capture",
       "capabilities": [
-        "daemon"
+        "daemon",
+        "dankbar-widget",
+        "control-center"
       ],
       "category": "utilities",
       "repo": "https://github.com/hthienloc/dms-quick-capture",
@@ -4006,10 +4008,10 @@
       "description": "A quick screen capture utility featuring screenshot tools, drawing, and annotation.",
       "requires_dms": ">=1.5.0",
       "dependencies": [
-        "dms-floaty",
-        "wl-clipboard",
         "imagemagick",
-        "img2pdf"
+        "img2pdf",
+        "tesseract",
+        "zbar"
       ],
       "compositors": [
         "any"
@@ -4495,13 +4497,48 @@
       "requires_dms": ">=1.2.0"
     }
   },
+  "cardwireManager": {
+    "url": "https://github.com/jankelemen/cardwire-manager",
+    "rev": "1513e4208d955933432650dbf0238faf5cbeaca7",
+    "date": "2026-07-15T15:00:56+02:00",
+    "path": "/nix/store/cgf7r8fs078lcv3pgc054hvkvvlj0zv8-cardwire-manager",
+    "sha256": "19kzz19y04z8dy2mjj72yf2y5d2qakhxbdjmnc0vzix1b0q7dhx4",
+    "hash": "sha256-pMN2MFihx78Bs1W21eFUWLTihfPiSFmFb+gT4FP4f6Y=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "cardwireManager",
+      "name": "Cardwire Manager",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "repo": "https://github.com/jankelemen/cardwire-manager",
+      "author": "Jan Kelemen",
+      "description": "DankBar widget for selecting Cardwire GPU modes and showing the currently active mode.",
+      "dependencies": [
+        "cardwire"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/jankelemen/cardwire-manager/master/assets/screenshot.png"
+    }
+  },
   "displayProfileManager": {
     "url": "https://github.com/jankelemen/dank-display-profile-manager",
-    "rev": "b35a6530e2e92d9d5d909f846c62a29f5c9afb5c",
-    "date": "2026-07-15T00:37:26+02:00",
-    "path": "/nix/store/yf46m2587s5zn0ynz7bcfbqcsilhmgfc-dank-display-profile-manager",
-    "sha256": "1zahx0vbf14p2jd6bkj3g5gl3pa7c0ss850rvf9fgj724drpcdc8",
-    "hash": "sha256-iDV2cyPiyOeS2xkUpDVgR91BX3lDzmWaFJcEtzboUP0=",
+    "rev": "497ea32fe48fe76835d52f7a6794d516cde15b48",
+    "date": "2026-07-15T14:33:44+02:00",
+    "path": "/nix/store/59mq3lms0jldxa2gxfcz14wf6rxwglm1-dank-display-profile-manager",
+    "sha256": "08s6crc6n27bacar906bn64k07yzd59jil65yrd61wskmfv0cc8b",
+    "hash": "sha256-CzEGtqtT82Ba9sXQKFNp3x8wibHLgJQVU+sIa1hmRiM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4893,6 +4930,42 @@
         "settings_read",
         "settings_write"
       ]
+    }
+  },
+  "dankConsoleSteam": {
+    "url": "https://github.com/JessVolet/DankConsoleModeWithSteam",
+    "rev": "cffe37530cf6ce3cc126da79e6105acb5d6cfce6",
+    "date": "2026-07-14T19:56:15-06:00",
+    "path": "/nix/store/w322lqwl2zzmx7fabvmjks6bn1v7cpyz-DankConsoleModeWithSteam",
+    "sha256": "0ksc7k75ljw9fg2gcmny1r5r3splr50zp48f6vj9kd1xxf445h73",
+    "hash": "sha256-48BCiOs9tJnkNg6R+0HJ9OqRSw7eVvbEc4lLWs48TE8=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankConsoleSteam",
+      "name": "Steam Big Picture",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/JessVolet/DankConsoleModeWithSteam",
+      "author": "JessVolet",
+      "description": "A simple widget to start steam in big picture mode with custom commands.",
+      "dependencies": [
+        "steam",
+        "gamescope"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/JessVolet/DankConsoleModeWithSteam/main/screenshot.png"
     }
   },
   "displayMirror": {
@@ -6638,11 +6711,11 @@
   },
   "ephemera": {
     "url": "https://github.com/nicolasgarcia214/Ephemera",
-    "rev": "172783fccb37e99756f999daa737ced42aeefe4e",
-    "date": "2026-07-10T13:22:07-05:00",
-    "path": "/nix/store/hy47iw0ww214sskcyamb6qxgi3qwgbcb-Ephemera",
-    "sha256": "1526ikqmr1bxx0gmn97w446hhsplspn1cvf2blgvhxqqlxnynbps",
-    "hash": "sha256-+i7rbacYd7gfXcJtFuzV9GoIDSH8JFsf6H2FXPGMRpQ=",
+    "rev": "e3ffa6b321d5b7460f45ddfc10fb2a600cd5c208",
+    "date": "2026-07-15T13:46:38-05:00",
+    "path": "/nix/store/xlcih0dnw1wb9b8gdg38xg2sfkqf1rix-Ephemera",
+    "sha256": "17rvm98nksqp0bnj7dn7918gbqd9hwang8434iv79fa00dafbkw7",
+    "hash": "sha256-h8/lVANAuXR2JIOgZxWHqeH1UEjHtiPtAhfraVGqO58=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -7550,11 +7623,11 @@
   },
   "dropdownMenu": {
     "url": "https://github.com/rdannenbring/dropdown-menu",
-    "rev": "1fd3b42b4e76eb0551e4e3b0e6183358c9460772",
-    "date": "2026-07-14T14:08:28-04:00",
-    "path": "/nix/store/xjkczmymrsnqaxf9wzxm44vl0z2rzi1h-dropdown-menu",
-    "sha256": "1qpna08js8qyyaqvkixxzqh04bqaa2xk67qc4r0mirymkkid3zk2",
-    "hash": "sha256-Yv7R4pzV51hBJgwfM7tQCi8CIP69x7mx8h4jLRFQ9uI=",
+    "rev": "00c49915c34de7f5a1829f93d2998195e164a529",
+    "date": "2026-07-15T10:05:43-04:00",
+    "path": "/nix/store/69kjb1n0w8mcming6h0b5dam5shfr6cy-dropdown-menu",
+    "sha256": "171hkbdrr76xpj52hn4i505hp15h6k8rq2wislr5n8di0v575yzp",
+    "hash": "sha256-9/tyygaxIVsy1ZELnNE0sIQLCyiRWCiKvN2cnNuaMJw=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -9213,11 +9286,11 @@
   },
   "chineseCalendar": {
     "url": "https://github.com/xxyangyoulin/dms-plugin-ccal",
-    "rev": "123e4e2a8658cc61a36284a7add94f701e60a3fb",
-    "date": "2026-03-31T13:35:13+08:00",
-    "path": "/nix/store/x1z7hl3838kbil4aldj8jb8fa67d1jhc-dms-plugin-ccal",
-    "sha256": "02rr5hgnvp2acq3gbxv2s9rx7d2ppsl1zp93njbxrdkfgm9cpfg4",
-    "hash": "sha256-5LnLUn1uttyXtCPdH6i+V7TTc9Ji9/UGZkrcbR8sOQs=",
+    "rev": "b4de8eb83d05abd83aaf90fa61de5ef6b143ee3f",
+    "date": "2026-07-15T18:01:12+08:00",
+    "path": "/nix/store/scrvvi55n376rrm1ggy927c37wfmmk6l-dms-plugin-ccal",
+    "sha256": "0ga92mwaa50dlxnk364mpgm3idx53lm0ks8l5whl411lrf1gys80",
+    "hash": "sha256-AGn/gss0BEIhLxTpCSodpbc46ruVmDFtpw0UpXgVST0=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
