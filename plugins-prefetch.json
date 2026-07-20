@@ -2542,11 +2542,11 @@
   },
   "aiAssistant": {
     "url": "https://github.com/devnullvoid/dms-ai-assistant",
-    "rev": "a65e2f7dd87241b6e49f88a34aa1f3af4542b190",
-    "date": "2026-07-18T16:13:06-04:00",
-    "path": "/nix/store/2y9rdqbl77fgbsbyxjphxr9q9fkgjqi3-dms-ai-assistant",
-    "sha256": "02fvxdnrbh3yl2jg1zpr64cql6hj6p5ybzin65wacwcscpx9w2v4",
-    "hash": "sha256-ZAue+mWacaZ4MTb+5cs1EhqKGTH5/vCkoH7AlW3r2wk=",
+    "rev": "48c0ad9390c34ac43556ca39c8e4e938d6d3e2c6",
+    "date": "2026-07-19T21:57:53-04:00",
+    "path": "/nix/store/6g0diyxq5jgx4pfkp0b3k24da10zbvfr-dms-ai-assistant",
+    "sha256": "0sadvkjir6bskf6nc3ggcdnazlf7q96lwhaizgv785rpgwhwh95k",
+    "hash": "sha256-syTIIX83F3T2+1FBTk3Cx9GvbGPvDWaNm3qZHOXcTWk=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3910,11 +3910,11 @@
   },
   "niriDS": {
     "url": "https://github.com/hthienloc/dms-niri-display-settings",
-    "rev": "0b9d963d9557b924d6c43c9d6e16850429f56d76",
-    "date": "2026-06-21T12:24:41+07:00",
-    "path": "/nix/store/kxqg3ipkpn8kwy9swz1jvfjab7ridzc1-dms-niri-display-settings",
-    "sha256": "1ilnc4ka5qxk4hjivplpbpim0sp04sw16sg55584v9124vgn0s7p",
-    "hash": "sha256-92hg3yYipE1QKeVpE7gm4GpQ412X3h0lJLPjoiZhlsY=",
+    "rev": "d67b1bc7ec07a92053fa16274fa025c223bf4c0f",
+    "date": "2026-07-19T15:56:51+07:00",
+    "path": "/nix/store/b9jldbmyrwknx7kmmj4by84q98098mcm-dms-niri-display-settings",
+    "sha256": "076i1lxkxs2wxzshd8np3fg1x5n6a0mxj0514jf48l9v3qyzpdqa",
+    "hash": "sha256-Crf7PR47UUScJKEA2StQxpYenhvXogb171zoPjsN0Rw=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4018,11 +4018,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "7e406a7fc7433d13231c75a62c3ee573648112ef",
-    "date": "2026-07-19T08:15:34+07:00",
-    "path": "/nix/store/awxwwyq7nkd9h9d01m9n7hq5vsnzdkz6-dms-quick-capture",
-    "sha256": "0qpw92fiq5h9bcacawyi2wxa954pbxdfdz1zp15w2vbrsg97pxdf",
-    "hash": "sha256-rvV70tN5bcFLuD/85lpfl5SkOhfRc8UUWwkWHJ1I/GI=",
+    "rev": "51f552ae7a6113ece8cb23ff9722279c989e2657",
+    "date": "2026-07-20T07:56:42+07:00",
+    "path": "/nix/store/rf08ha265wplvi21bmvcqpvrw8kdc0cn-dms-quick-capture",
+    "sha256": "1y9cv54787pggs4spdi0c9gi1mig9agbk4a56bq79ls7sfdipp48",
+    "hash": "sha256-iNwbm9NH03TwMkWRuZ5KL9YQX2IgtquJfu8edEjZLPk=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4384,11 +4384,11 @@
   },
   "formatColorPicker": {
     "url": "https://github.com/Incognitux/dms-format-color-picker",
-    "rev": "6a1f828daff435cee893c644005b9a6e7948895e",
-    "date": "2026-07-18T23:45:45+05:30",
-    "path": "/nix/store/0rw4ybl0ikgi459av5qv1rr8g2jdw025-dms-format-color-picker",
-    "sha256": "0gam48cpqmzg1lsh1s2kbxj90hkkiaccr09lb9j2f6jzckr2xyhp",
-    "hash": "sha256-F/ou8mRfGidkWjSBzJiKc0KQZF9T6AA1De9XfBkiVT0=",
+    "rev": "7e4b9b83607487bdfabb171f44ae18f24046a0d9",
+    "date": "2026-07-19T15:40:49+05:30",
+    "path": "/nix/store/6ih2ib077n0sa31f9y2nwc3h6mbddsl6-dms-format-color-picker",
+    "sha256": "158irasnh0vrx93505hy5aah4a6axc58giy5xd7qjk1y58mm36jf",
+    "hash": "sha256-TppRKyo+TIlP68XHhwrryigClSoeFlBG6nkDaLXKEZU=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4410,8 +4410,7 @@
       "category": "utilities",
       "component": "./pickerWidget.qml",
       "compositors": [
-        "niri",
-        "hyprland"
+        "any"
       ],
       "distro": [
         "any"
@@ -4923,11 +4922,11 @@
   },
   "screenCaptureToolbar": {
     "url": "https://github.com/JDKamalakar/DMS-ScreenCapture_Toolbar",
-    "rev": "d9699eb9ec2e8344548c644c63b108a6a1aa8743",
-    "date": "2026-06-30T15:55:16+05:30",
-    "path": "/nix/store/dqhv3mxyi399c6yyrzb28r11f4m4dg1n-DMS-ScreenCapture_Toolbar",
-    "sha256": "14477i1g42zyh5ic84j1ajfy3prijwndyw9xjr67w19r4dii2688",
-    "hash": "sha256-CBkRYyM5BX5Mlj1x3yyXMd/hnVRBEsRigf4L8kI8h5A=",
+    "rev": "5a307c53362f1c347d5dad697bb33c1e6869f910",
+    "date": "2026-07-19T23:21:21+05:30",
+    "path": "/nix/store/7fd6lndrx1svqcxkj4g4h25yyjmxq8qw-DMS-ScreenCapture_Toolbar",
+    "sha256": "1x2vm11yfd431yn3zlbgq9dq35kj2hrg7if6ddm8q9mlbhpsiyga",
+    "hash": "sha256-6vmoL1y0Joxqa8bF8zIUcpaBW8Jv0T+sD4M050OoW/Q=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5142,6 +5141,41 @@
         "any"
       ],
       "screenshot": "https://github.com/jonkristian/dms-pulsar-x3/blob/main/screenshot.png?raw=true"
+    }
+  },
+  "wayfireWorkspace": {
+    "url": "https://github.com/joyanhui/dms-ext-wayfire-workspace",
+    "rev": "a56b2d4f0d892ebf15ceec043591e106725ecb9d",
+    "date": "2026-07-19T19:18:58+08:00",
+    "path": "/nix/store/k61zh3lqrcik2n5r19wn1dbikv4afky9-dms-ext-wayfire-workspace",
+    "sha256": "1p8cxv3byf9g5p2wzih21l6j4z1b0j6zfswzf25cbjzjxpgblfvg",
+    "hash": "sha256-bzu63u3yy8WKcJ9r940EK3wiDQ0Cxs/FLS85v8buDN0=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "wayfireWorkspace",
+      "name": "Wayfire Workspace",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/joyanhui/dms-ext-wayfire-workspace",
+      "author": "joyanhui",
+      "description": "Display Wayfire workspace switcher in the bar with active/occupied indicators and click-to-switch",
+      "dependencies": [
+        "python3"
+      ],
+      "compositors": [
+        "wayfire"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/joyanhui/dms-ext-wayfire-workspace/raw/main/screenshot.png"
     }
   },
   "unifiedTaskbar": {
@@ -5387,6 +5421,44 @@
         "any"
       ],
       "screenshot": "https://github.com/kmf/dms-obsidian-search/blob/main/Screenshot.png?raw=true"
+    }
+  },
+  "sitStandReminder": {
+    "url": "https://github.com/knappancash/SitStandReminder",
+    "rev": "edfdd0b86a98bcc60d3d18c4d0a1f69b6535552f",
+    "date": "2026-07-20T00:40:50+02:00",
+    "path": "/nix/store/981cnhx69mdx2b6k5jhqi9n5kdbig9mx-SitStandReminder",
+    "sha256": "12wdn9lx4l2mm3vrrpl068vx0akbmrjd7913qfgnbgzvb5fw1f73",
+    "hash": "sha256-47jAXVn7v2WfwyOk02SuayrQNzKA3pz3qFVQ0mmyjYs=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "sitStandReminder",
+      "name": "Sit/Stand Reminder",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "productivity",
+      "repo": "https://github.com/knappancash/SitStandReminder",
+      "author": "Justus",
+      "description": "Reminds you to alternate between sitting and standing with configurable, idle-aware timers.",
+      "dependencies": [
+        "notify-send"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/knappancash/SitStandReminder/main/sit-stand-reminder-preview.png"
     }
   },
   "stockManager": {
@@ -8321,6 +8393,43 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/shazzaam7/DankAsusControl/refs/heads/main/assets/popup.png"
+    }
+  },
+  "dankTodoman": {
+    "url": "https://github.com/Shochraos/dms-todoman-plugin",
+    "rev": "54e397fce9ffb88c25bc7e50c504cd3c522719f3",
+    "date": "2026-07-20T00:59:33+02:00",
+    "path": "/nix/store/57357k6il155mv2pk7ppccpwz2ypc66m-dms-todoman-plugin",
+    "sha256": "1h8sn68grfgn36ggwsk3yrn3h443iih3849gcf4z33zlrgr4cccw",
+    "hash": "sha256-nDFG8sv0j/GJYy8RNGCMgxA4bPZjav6eGfa5/JCxGsE=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankTodoman",
+      "name": "Todoman Tasks",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "productivity",
+      "repo": "https://github.com/Shochraos/dms-todoman-plugin",
+      "author": "shochraos",
+      "description": "CalDAV tasks in the bar via todoman: list, complete, and create todos with a popout.",
+      "dependencies": [
+        "todoman",
+        "python3"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Shochraos/dms-todoman-plugin/main/screenshot.png",
+      "requires_dms": ">=1.5"
     }
   },
   "polyglot": {
