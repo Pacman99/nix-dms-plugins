@@ -810,8 +810,9 @@
     "meta": {
       "id": "lastfmScrobbler",
       "name": "DMS Last.fm Scrobbler",
-      "version": "1.1.0",
+      "version": "1.4.0",
       "capabilities": [
+        "daemon",
         "dankbar-widget",
         "control-center",
         "ipc"
@@ -819,7 +820,7 @@
       "category": "media",
       "repo": "https://github.com/arqueon/dms-scrobbler",
       "author": "arqueon",
-      "description": "Scrobble MPRIS music to Last.fm, love/unlove tracks from the bar or via IPC, with media controls, album art, scrobble progress, an offline retry queue, and a live audio visualizer.",
+      "description": "Last.fm companion for the native DMS media player: scrobbling, love/unlove actions, profile links, scrobble progress, and an offline retry queue.",
       "dependencies": [
         "python3"
       ],
@@ -830,6 +831,61 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-scrobbler/main/assets/screenshot.png"
+    }
+  },
+  "ntfy": {
+    "url": "https://github.com/arqueon/dms-ntfy",
+    "rev": "8bad4132bbfb536ed48776d8e223ae992b67f495",
+    "date": "2026-07-26T02:19:50-06:00",
+    "path": "/nix/store/mvhqiq0p4098nyz74sck4bm9vcg95s1l-dms-ntfy",
+    "sha256": "10a2a33nf4kf265n0zh70rgbmcs3xwfac1jsapk0y0l6v2a1gcy7",
+    "hash": "sha256-x7MXlNiGAg/mVVoGphzvQ7O6XgYHfmCLEW4SZ8dQQoE=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "ntfy",
+      "name": "dms-ntfy",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "ipc"
+      ],
+      "category": "productivity",
+      "repo": "https://github.com/arqueon/dms-ntfy",
+      "description": "A persistent ntfy review inbox for the DankBar with All and per-topic views, unread state, local search, links, attachments, and explicit local dismissal. Supports ntfy.sh and any self-hosted instance.",
+      "version": "0.1.0",
+      "author": "arqueon",
+      "icon": "notifications",
+      "type": "composite",
+      "components": {
+        "daemon": "./NtfyDaemon.qml",
+        "widget": "./NtfyWidget.qml"
+      },
+      "settings": "./Settings.qml",
+      "startupCheck": "./StartupCheck.qml",
+      "permissions": [
+        "settings_read",
+        "settings_write",
+        "network",
+        "process"
+      ],
+      "requires_dms": ">=1.5.0",
+      "dependencies": [
+        "curl",
+        "secret-tool",
+        "base64"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-ntfy/main/assets/screenshot.png"
     }
   },
   "screenRecorder": {
@@ -949,6 +1005,44 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/arrifat346afs/mediaPlayer/refs/heads/main/screenshot_8.png"
+    }
+  },
+  "zmkBattery": {
+    "url": "https://github.com/ayaOwO/ZmkBattery",
+    "rev": "1a7337ee8d848b42fe4e34e04eb857c61ec20c31",
+    "date": "2026-07-24T19:46:29+03:00",
+    "path": "/nix/store/ibzx52wg8cbjr9yl4kh4jdv9lvyk57ja-ZmkBattery",
+    "sha256": "0k3zichi8j7q7kxshpa0p3209f251rwpvr2f8dbm1irxpj56w3a3",
+    "hash": "sha256-Qw1uirw9x1BXQ07kfXkORbgExLhAXaj7PPhIFCGLf0w=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "zmkBattery",
+      "name": "ZmkBattery",
+      "capabilities": [
+        "dankbar-widget",
+        "process"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/ayaOwO/ZmkBattery",
+      "author": "ayak",
+      "description": "Shows central and peripheral battery levels for a ZMK split keyboard",
+      "dependencies": [
+        "bash",
+        "busctl",
+        "jq"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/ayaOwO/ZmkBattery/main/screenshot.png"
     }
   },
   "tasks": {
@@ -3530,11 +3624,11 @@
   },
   "caffeine": {
     "url": "https://github.com/hthienloc/dms-caffeine",
-    "rev": "b08207b605e2a599566ebb502d3b5acc5837d2b3",
-    "date": "2026-07-04T21:02:16+07:00",
-    "path": "/nix/store/c4vr78p49ay7hyl0kzgk9i5vsnmz8pl0-dms-caffeine",
-    "sha256": "094yb4imsr4mv9zkk1aa5cskb1fhihg83n8bhbivnm5387fvdhs5",
-    "hash": "sha256-RcO23UGjVLvjggvZgR6M0IU1NStKhTl/2pVkXSNZniQ=",
+    "rev": "df16c64ec2aef7d711ead282a9fa68dd7d134d7f",
+    "date": "2026-07-26T21:20:00+07:00",
+    "path": "/nix/store/9gb27bzhgzwb6nig9khzssj91bnfv77b-dms-caffeine",
+    "sha256": "11gsa8xx3qmqarjn8gqpz0q0aipy4nxw7xhnmx5ny5jkkk1x1f9l",
+    "hash": "sha256-NLnQw5xTFm9Lrxb2w7sl/kYFMPgXP2RlVrji0TtS+oU=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4018,11 +4112,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "595dc47edd0c6f6c21bd8838f78659f115b92aea",
-    "date": "2026-07-24T23:52:38+07:00",
-    "path": "/nix/store/si59lrc5w4b8xyixvf7hp78nkllii70k-dms-quick-capture",
-    "sha256": "02r79qm4yhrdnfpzbr33qxcbyklfvnxz54s3myl55gzwkr0m217w",
-    "hash": "sha256-/ARRQZ78v1Kor0OT8rvdjk6/WMdj5PWvsy1DTypOJws=",
+    "rev": "684d535a4bb07c2e8c9e99fb0a00dd1ccb0686a0",
+    "date": "2026-07-27T01:49:36+07:00",
+    "path": "/nix/store/rk1l3mfm26ajx0456gs9mr742wjxqvrl-dms-quick-capture",
+    "sha256": "1w7w3mwi0ygqldrzadjidkfc2z306wnqsdcwa8q6bn6iq12f0xfs",
+    "hash": "sha256-2nXgRMDR2GUwUpw1jS03YHzB3GxRNvVzo/h5EHkd/PA=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8077,11 +8171,11 @@
   },
   "cpuMonitor": {
     "url": "https://github.com/rollecode/dms-cpu-monitor",
-    "rev": "8f8386d9059719cb25d71453810bbd2b8831702a",
-    "date": "2026-07-24T17:12:15+03:00",
-    "path": "/nix/store/jp6rbm0m7fk6k05izv09hbcbc4whc8mp-dms-cpu-monitor",
-    "sha256": "1km4xlpwcb1wbnm5nrrbk51q07l8zglhmv9gja1xqzi0kwd63845",
-    "hash": "sha256-haBhGp8gftyDki/tCun7iB6AQ5krZ1uqXTwsxi/tpM4=",
+    "rev": "ea041447b0ba04935fea959e4591edebbdda2b4f",
+    "date": "2026-07-26T16:00:49+03:00",
+    "path": "/nix/store/zcjdvm9sn3ak5waii72f0d244c9kd6gq-dms-cpu-monitor",
+    "sha256": "1dc25wlhnc8izdvp73i3pw8i91yx76cjcvav8f5ym2pad5aink8x",
+    "hash": "sha256-HU0bVWnqiuqLQ1ttJpk53YcUEb8jjnN3+xExCykvgrU=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8110,11 +8204,11 @@
   },
   "diskMonitor": {
     "url": "https://github.com/rollecode/dms-disk-monitor",
-    "rev": "ac4b04ec67b06c471c5cda338fc456ab03fb0675",
-    "date": "2026-07-22T17:04:46+03:00",
-    "path": "/nix/store/3hxd5mif7vr3n7lm07crb5rsmhaxzrk6-dms-disk-monitor",
-    "sha256": "0mckjgcz1k60xrjvq4hgnkzm3n9qivnf9kfvi043b6g9bpimjc7m",
-    "hash": "sha256-9TBZ413pmTUIiNvN5OyOONlR/7QPErxl7sDM8NmTk1U=",
+    "rev": "23ce1dee2886f1eb8f2c86df72c977169a878147",
+    "date": "2026-07-26T15:51:39+03:00",
+    "path": "/nix/store/aa8cs45r159p4k9pkgrdl9vw7ql1sz4z-dms-disk-monitor",
+    "sha256": "0a69gvcd4h1cfsxcaaydh15a5rs6b4dv4c07mcjlk78i45nhypv4",
+    "hash": "sha256-ZF8PbSERnUklqwcwshtZRueiSoDNK8W6dixA0th+ySg=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8143,11 +8237,11 @@
   },
   "gpuMonitor": {
     "url": "https://github.com/rollecode/dms-gpu-monitor",
-    "rev": "56f08435f6203bd5dfb2ca339bb2414b68ab45d0",
-    "date": "2026-07-17T16:22:11+03:00",
-    "path": "/nix/store/rs6975qa0m2qrczq2vcx22jr3g8m5vsx-dms-gpu-monitor",
-    "sha256": "0j4zkv5yrfn6i1pnsi0bzkpjhpfdv4fwh219gdymmphvfyr685wg",
-    "hash": "sha256-jxdksncb3lp9eykIyB3ZzV0o7/wLRG1viMa67Muen0g=",
+    "rev": "6a725d2c292c4cd8c7da38ed0e40ad77eb77ec25",
+    "date": "2026-07-26T16:00:45+03:00",
+    "path": "/nix/store/4v8c83k0mng7v6zh1799g0kb39rkxcgd-dms-gpu-monitor",
+    "sha256": "04vrq71k4gf17284bhr60kf173l6x77b8k00xlxd59s8phyl496d",
+    "hash": "sha256-zSRCPbxIp9I67QBMtM7pho4T3AQmw0WQOME9MsPBeRM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8178,11 +8272,11 @@
   },
   "ramMonitor": {
     "url": "https://github.com/rollecode/dms-ram-monitor",
-    "rev": "781e30dcbcc924a4c8b14bf8497924572c3b7659",
-    "date": "2026-07-17T18:27:12+03:00",
-    "path": "/nix/store/s5rzdd3khxcsmp5h1cahglbj0b72yg7a-dms-ram-monitor",
-    "sha256": "00c01bvpv7n9385fz6ghdlbv34jfr38aarzkk8yf7ydlwm7nq730",
-    "hash": "sha256-YBxsT+W0+eM8mvNnpdDITpKxF23wme8KGsmeffcKgAE=",
+    "rev": "f350a4f386fa8a14cd38cb20617db083fd596186",
+    "date": "2026-07-26T16:00:38+03:00",
+    "path": "/nix/store/zr0fagvahypvsgkn975kr7zbyps6c6gz-dms-ram-monitor",
+    "sha256": "156xhbbjj1chpk3ak2g455k9dy8qhkvv4jdsq9xxf3yw9yqbk7ym",
+    "hash": "sha256-1Z+5sE/cD9d7wrpJsveEGPmWZinkianGvJAFKdeC3ZQ=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8211,11 +8305,11 @@
   },
   "vramMonitor": {
     "url": "https://github.com/rollecode/dms-vram-monitor",
-    "rev": "1fd1adc2313874a10fd49667e57b4b89fce7d370",
-    "date": "2026-07-17T16:22:11+03:00",
-    "path": "/nix/store/xm152jsflzv9vdrcwhrjxkfd16sz5s27-dms-vram-monitor",
-    "sha256": "1ln2wqgdn03qwvf37kilri9g0ivmr2v4a3x7fcb67lijyqlaw6h2",
-    "hash": "sha256-AhquKPYy0mMWc6cPRbbIdUfwUsw0zjPc5ngA2x7mwtI=",
+    "rev": "136721e8d89e18aa7268a549d0c65a9493718365",
+    "date": "2026-07-26T16:00:42+03:00",
+    "path": "/nix/store/kwy8vrmxpy9j0vl2sfzdrwi0sp6hb2mn-dms-vram-monitor",
+    "sha256": "1n0x9jf156xipi7b2w5j290b7pijagzjgn3znb8kfhfzipm9bcmy",
+    "hash": "sha256-vrKV6o3fQTfRsn/YJ/9TMt6zQBKycLFOvLGbEpxMHdg=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8350,6 +8444,40 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/SakuraToErii/DmsScreenOff/main/assets/screenshot.png"
+    }
+  },
+  "nothingClock": {
+    "url": "https://github.com/samgrande/Dank-Nothing-Clock",
+    "rev": "41340c52658927030acb089bd11a9fd1c964ae52",
+    "date": "2026-07-26T18:25:25+05:30",
+    "path": "/nix/store/2r8q4qf93v5a0k4vdnm9lkdhcl7a8592-Dank-Nothing-Clock",
+    "sha256": "1qky4ds49a8pvwy1bppsmp7j5blq7cclanxk515gw3dj4l089gsq",
+    "hash": "sha256-WL+EACWyDf5KKLNbRRk7mK4iz6363hU83xepRHQjfuI=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "nothingClock",
+      "name": "Nothing Clock",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/samgrande/Dank-Nothing-Clock",
+      "path": "nothingclock",
+      "author": "Sayan",
+      "description": "Nothing OS-inspired desktop clock with 6 styles: digital, split, analog, analog classic, digital cards, and orbit.",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/samgrande/Dank-Nothing-Clock/main/assets/screenshots/preview.png"
     }
   },
   "dankObsidian": {
