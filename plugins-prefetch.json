@@ -102,11 +102,11 @@
   },
   "aiQuotas": {
     "url": "https://github.com/agneswd/dms-ai-quotas",
-    "rev": "47a80741ceaccf6dfbef4ed0c210a519bfe47fa8",
-    "date": "2026-07-13T17:47:20+02:00",
-    "path": "/nix/store/hqrm57ylldg7qbl09gf8mi29xlj6s6bp-dms-ai-quotas",
-    "sha256": "13v9ahp17a0kpj3smh3faf5knnw19kxjg6nhf998aspqmgf6szph",
-    "hash": "sha256-8H5t3Kv4aoVSctCaJ/tMgVs7i1NuwKqHvBOoEy5UaY8=",
+    "rev": "f9b2cbdeedfce6910c644b5d6865570448dbe063",
+    "date": "2026-07-27T17:41:50+02:00",
+    "path": "/nix/store/jpk8jz5n9zx5wr7px5jkb5zbi0k63mk7-dms-ai-quotas",
+    "sha256": "12z6fvr39rjbac8cmfl1k2i60kqzzjkif27vgz8a60jl4d2b9mg9",
+    "hash": "sha256-6dW0RCNUAqPQf/sIF6f8H09gopiBusoQU0vmNPJ25os=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1190,11 +1190,11 @@
   },
   "aiOverviewControl": {
     "url": "https://github.com/bernardopg/AiOverviewControl",
-    "rev": "a23eb1713be6a9abe3770cb912b802d2d090cf24",
-    "date": "2026-07-24T14:58:20-03:00",
-    "path": "/nix/store/78z7jlvirdh307vrd08wp0cj68k7hjqg-AiOverviewControl",
-    "sha256": "0vakxziwyhi3higyqzv2g0zq3flz6wd1glgx54hm0j09qg408b1c",
-    "hash": "sha256-LCwEyMMJSFAhKf3RFxo3n7qBP3hif+xfhCNCz+PvU20=",
+    "rev": "7afce99a019e22daef56bab1a8990a2d7c16152a",
+    "date": "2026-07-27T09:58:39-03:00",
+    "path": "/nix/store/c9q0lzbbgrhs0lcna72v33ff7dpbq61j-AiOverviewControl",
+    "sha256": "0z71d9nvdn9hirkfhzm5igsvmj7zji7kpyyi10idg68i545yh1i6",
+    "hash": "sha256-JgboCykRmdciCNH7O0+U/8i69YulfuhmjjDZtm1q4Xw=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4112,11 +4112,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "684d535a4bb07c2e8c9e99fb0a00dd1ccb0686a0",
-    "date": "2026-07-27T01:49:36+07:00",
-    "path": "/nix/store/rk1l3mfm26ajx0456gs9mr742wjxqvrl-dms-quick-capture",
-    "sha256": "1w7w3mwi0ygqldrzadjidkfc2z306wnqsdcwa8q6bn6iq12f0xfs",
-    "hash": "sha256-2nXgRMDR2GUwUpw1jS03YHzB3GxRNvVzo/h5EHkd/PA=",
+    "rev": "e72e105ca76071dd23721a12b250350f2f74f907",
+    "date": "2026-07-27T18:27:27+07:00",
+    "path": "/nix/store/8ki8n9zf9iqp3iw4m63c6qiakll0w74l-dms-quick-capture",
+    "sha256": "04dmjp3fx6clj2xn1dfkl9lgfmkr0l7aqd83xlv8wppz66rmsycz",
+    "hash": "sha256-n3ldszH/Xo427QM1rA4FeVb3aKLTtWC7kJSZ7saVtRE=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -7890,11 +7890,11 @@
   },
   "shellyUpdater": {
     "url": "https://github.com/rdannenbring/dms-shelly-updater",
-    "rev": "17314cc82cb3446a4fceae41abe3bde7155aed42",
-    "date": "2026-07-16T17:41:05-04:00",
-    "path": "/nix/store/ibl5x4vx1jaz9qs60942pbvyh328vcbf-dms-shelly-updater",
-    "sha256": "0vap3j4b1c67g3k0d3wrw70inpasdgq4dkib12wklhdf4grcv41l",
-    "hash": "sha256-NJDN8iOuQTq5CCvORvBrWl0bweGZjwbmeMewsIgcV20=",
+    "rev": "50a8a4bfe02c636d023785e87bf0426db3642a0b",
+    "date": "2026-07-26T23:22:37-04:00",
+    "path": "/nix/store/qmrq7sqaiy43mblwkiwxhfhai4xckksp-dms-shelly-updater",
+    "sha256": "1pdbjisv32knkid85p4kwzi9y19k5gaxv0hchabqp6c47arzmy6s",
+    "hash": "sha256-2vj6szqEmYuXggyC3dUrMwWf4ueT3IJanHaKsXWUq90=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8268,6 +8268,39 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/rollecode/dms-gpu-monitor/main/Screenshot.png"
+    }
+  },
+  "ioMonitor": {
+    "url": "https://github.com/rollecode/dms-io-monitor",
+    "rev": "cc5337bea2354825f8428dcf06b0330f813a4af3",
+    "date": "2026-07-27T18:35:09+03:00",
+    "path": "/nix/store/z0194440jj1l449hrpf6cjjmc5p5df15-dms-io-monitor",
+    "sha256": "0w4hvkyhhycw7gs6pirs7n8ylw07yrgin20i96q2siwh6xfrfg9c",
+    "hash": "sha256-LD2XXTeQRy2wSREIG1/2B3DqkT06x2v0O5x5CP3ckHA=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "ioMonitor",
+      "name": "I/O Monitor",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/rollecode/dms-io-monitor",
+      "author": "Rolle Laukkarinen",
+      "description": "Live disk read and write throughput as an animated progress bar in your DankBar",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/rollecode/dms-io-monitor/main/Screenshot.png"
     }
   },
   "ramMonitor": {
