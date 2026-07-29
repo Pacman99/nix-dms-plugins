@@ -835,11 +835,11 @@
   },
   "ntfy": {
     "url": "https://github.com/arqueon/dms-ntfy",
-    "rev": "8bad4132bbfb536ed48776d8e223ae992b67f495",
-    "date": "2026-07-26T02:19:50-06:00",
-    "path": "/nix/store/mvhqiq0p4098nyz74sck4bm9vcg95s1l-dms-ntfy",
-    "sha256": "10a2a33nf4kf265n0zh70rgbmcs3xwfac1jsapk0y0l6v2a1gcy7",
-    "hash": "sha256-x7MXlNiGAg/mVVoGphzvQ7O6XgYHfmCLEW4SZ8dQQoE=",
+    "rev": "cf817b38920549684165ea4222b472bc561fac77",
+    "date": "2026-07-28T14:47:05-06:00",
+    "path": "/nix/store/ijm0vmr1dzlqdc0gmidqy58ns71pqnn0-dms-ntfy",
+    "sha256": "0d94waa9cjxvga8fgb8wli7fprd0s7k9hv6hbysvqip13vf518a5",
+    "hash": "sha256-RaFQ3B7hRry1X9BsmObRoOXrTqQcreeQertLlpTiJDU=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1618,6 +1618,41 @@
         "any"
       ],
       "screenshot": "https://codeberg.org/claymorwan/dms-plugins/raw/branch/master/mediaFrame/screenshot.png"
+    }
+  },
+  "fwFanctrl": {
+    "url": "https://github.com/clementpoiret/dms-fwfanctrl",
+    "rev": "80015e2a8e113c473989306f2aed88ea8a1fb395",
+    "date": "2026-07-28T11:10:25+02:00",
+    "path": "/nix/store/608qfqaa945hwnr6hrdsb3f5rs5ccgjz-dms-fwfanctrl",
+    "sha256": "0vfwajpdxlk7f99npafhf6s0jrc6cdcxip4f0yy53n0w32qfkpqh",
+    "hash": "sha256-EN/psBgc2FG8B47c2FljhmUJtHHQqWtTcmfS3q5U3G0=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "fwFanctrl",
+      "name": "Framework Fan Control",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "repo": "https://github.com/clementpoiret/dms-fwfanctrl",
+      "author": "clementpoiret",
+      "description": "Monitor Framework Laptop fan status and switch fw-fanctrl strategies from DankBar",
+      "dependencies": [
+        "fw-fanctrl"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/clementpoiret/dms-fwfanctrl/main/docs/widget-preview.png"
     }
   },
   "intervalCommand": {
@@ -3624,11 +3659,11 @@
   },
   "caffeine": {
     "url": "https://github.com/hthienloc/dms-caffeine",
-    "rev": "df16c64ec2aef7d711ead282a9fa68dd7d134d7f",
-    "date": "2026-07-26T21:20:00+07:00",
-    "path": "/nix/store/9gb27bzhgzwb6nig9khzssj91bnfv77b-dms-caffeine",
-    "sha256": "11gsa8xx3qmqarjn8gqpz0q0aipy4nxw7xhnmx5ny5jkkk1x1f9l",
-    "hash": "sha256-NLnQw5xTFm9Lrxb2w7sl/kYFMPgXP2RlVrji0TtS+oU=",
+    "rev": "353c2d13216e1bf5633df0eb0b14f93bee27a753",
+    "date": "2026-07-28T17:48:54+07:00",
+    "path": "/nix/store/phaiigapgxwsqpjx7g1d2b4q7fw2h3ps-dms-caffeine",
+    "sha256": "1nsxvfb799dw8r439p9wr7dlfwkivw3h6y6kcxbz6l1l5hvq7v0k",
+    "hash": "sha256-E+yDNyw0UPNXZ9N4AwffcXJH28k83TRIRryldJbbXds=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
