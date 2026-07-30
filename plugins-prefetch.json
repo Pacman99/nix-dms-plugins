@@ -3413,6 +3413,77 @@
       "requires_dms": ">=1.5.0"
     }
   },
+  "spotifyMatugen": {
+    "url": "https://github.com/Grant07/dms-spotify-matugen",
+    "rev": "38bbc6fb78fa68713884f171ad3e741d73d85ceb",
+    "date": "2026-07-29T16:32:18+03:00",
+    "path": "/nix/store/rbwzqi31axpj09caxaq33nwbzip0s4l1-dms-spotify-matugen",
+    "sha256": "1dkca2d7r0svlvbz26rjpvj0q4n8gw0f6zjbzarbj29g19wicihb",
+    "hash": "sha256-C0YWeQovCbmy+kt+4wB/yBIM5L4yG/HXpluDfJpQbLY=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "spotifyMatugen",
+      "name": "Spotify Matugen",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "appearance",
+      "repo": "https://github.com/Grant07/dms-spotify-matugen",
+      "author": "Grant Mosha",
+      "description": "Lock DMS dynamic colors to Spotify album art while music is playing",
+      "dependencies": [
+        "spotify",
+        "matugen"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Grant07/dms-spotify-matugen/main/assets/screenshot.png"
+    }
+  },
+  "svglSearch": {
+    "url": "https://github.com/Grant07/dms-svgl-search",
+    "rev": "ed6ece4f83b7cfe90b6142cb7a271abf844a92d3",
+    "date": "2026-07-29T16:31:55+03:00",
+    "path": "/nix/store/xbpm14mv31ipr25kl83p2glhl86jc41a-dms-svgl-search",
+    "sha256": "1lwm2d4b8kawybmyicg8afkf566ksk9rjv56mdinzs1d3cfdkbfi",
+    "hash": "sha256-0a3ZHBst6G9jq6ZsmdPU05jiplPosejr8lxNtEgTldM=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "svglSearch",
+      "name": "SVGL Search",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/Grant07/dms-svgl-search",
+      "author": "Grant Mosha",
+      "description": "Search and copy SVGL brand logos directly from the DMS launcher",
+      "dependencies": [
+        "wl-copy"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Grant07/dms-svgl-search/main/assets/screenshot.png"
+    }
+  },
   "deepseekWidget": {
     "url": "https://github.com/gylove1994/deepseek-dms-widget",
     "rev": "31548fbe001c4ab122ec0d5e558bda7687db6d4b",
@@ -3587,11 +3658,11 @@
   },
   "bongoCat": {
     "url": "https://github.com/hthienloc/dms-bongo-cat",
-    "rev": "92690f8041f636bfa40029179e8c9f577d50a6c7",
-    "date": "2026-07-03T13:28:28+07:00",
-    "path": "/nix/store/jmjrdz3190y08nq9dxqgycc4mprzyn3l-dms-bongo-cat",
-    "sha256": "03hhhhg7rq6fwcd6hdxki9a88gw1971lz7l2cz2w7c9m25g5salg",
-    "hash": "sha256-jypdXhE1scPFZ4KeT8NJgT+EVIqzN2ga487gfB6EEA4=",
+    "rev": "237b1a34b2fb8d90e4f4c8656af758c3d7dab638",
+    "date": "2026-07-29T09:45:26+07:00",
+    "path": "/nix/store/jyfbw9khbz4g4w5pnajxg0j79kxjy5yx-dms-bongo-cat",
+    "sha256": "078b8c0a9v3mf34v3rxmsf4c08rwyvkc8ap8mdxw9vqxbh24cq5w",
+    "hash": "sha256-vGBGBFwd78R7q+gqxOb2PCPAiNO157HJcHXspABDCx0=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4147,11 +4218,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "e72e105ca76071dd23721a12b250350f2f74f907",
-    "date": "2026-07-27T18:27:27+07:00",
-    "path": "/nix/store/8ki8n9zf9iqp3iw4m63c6qiakll0w74l-dms-quick-capture",
-    "sha256": "04dmjp3fx6clj2xn1dfkl9lgfmkr0l7aqd83xlv8wppz66rmsycz",
-    "hash": "sha256-n3ldszH/Xo427QM1rA4FeVb3aKLTtWC7kJSZ7saVtRE=",
+    "rev": "a50c37e3bf19751e7d1667875dcb447ba6550e9c",
+    "date": "2026-07-30T07:38:49+07:00",
+    "path": "/nix/store/qrjpp9zbi8ypnhsdjzgfjfdw7kjncrld-dms-quick-capture",
+    "sha256": "1ajkvdbs87zzmcj7w57bmzys3ysqlvs9qa63qaldhpaa8dfb5zy2",
+    "hash": "sha256-wv+yXENKXdiowsMonPSmWPuh/a/rFH4kq/8fpFfbU6o=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -7824,11 +7895,11 @@
   },
   "acerSense": {
     "url": "https://github.com/raphamzn/dms-acer-sense",
-    "rev": "5a3a21f1bfa4b24ec1c14d6ef237ea44dbe3ea47",
-    "date": "2026-05-31T22:59:51-03:00",
-    "path": "/nix/store/fsnn9gzhrkhv9s8rfvcb95ffzrj1d5rx-dms-acer-sense",
-    "sha256": "1pb3sh1ssr1m8chsdqrxcywx6bik374izg9ksqnrlqnicr359q76",
-    "hash": "sha256-5uBURmbRYpot1jO9H8kZMy7TuWc946YhQzVkrQPUY90=",
+    "rev": "f75a62bbe5c0e7772569d16e1dd05ec4e54a6f95",
+    "date": "2026-07-29T01:04:56-03:00",
+    "path": "/nix/store/jw9jq858fb35kil9pnw44sinbw302yq8-dms-acer-sense",
+    "sha256": "0bwg2ymgg2znxb0yvadf8ads00hyh7kkg1cp0casfr5cfjnn4cbi",
+    "hash": "sha256-cTFirXSsZKcVA5eFN+eBHgKgm0Kuqe3B6vaL96oXjy8=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -7925,11 +7996,11 @@
   },
   "shellyUpdater": {
     "url": "https://github.com/rdannenbring/dms-shelly-updater",
-    "rev": "50a8a4bfe02c636d023785e87bf0426db3642a0b",
-    "date": "2026-07-26T23:22:37-04:00",
-    "path": "/nix/store/qmrq7sqaiy43mblwkiwxhfhai4xckksp-dms-shelly-updater",
-    "sha256": "1pdbjisv32knkid85p4kwzi9y19k5gaxv0hchabqp6c47arzmy6s",
-    "hash": "sha256-2vj6szqEmYuXggyC3dUrMwWf4ueT3IJanHaKsXWUq90=",
+    "rev": "c35d601959ecece4134e97edb7b1f02fec19f732",
+    "date": "2026-07-29T19:22:40-04:00",
+    "path": "/nix/store/h4g9pcng0mrkvha6ffgw1pgg630wdaz7-dms-shelly-updater",
+    "sha256": "0ydn40i10sczr6y9bqchrmp45k798r9h9kspli02xb3v3ipjgyhx",
+    "hash": "sha256-Hfonbxx7rC5ApFfPBFNG6cxCbs2Q4ZW8yZ9pECIgtnk=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
