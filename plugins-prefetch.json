@@ -4218,11 +4218,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "a50c37e3bf19751e7d1667875dcb447ba6550e9c",
-    "date": "2026-07-30T07:38:49+07:00",
-    "path": "/nix/store/qrjpp9zbi8ypnhsdjzgfjfdw7kjncrld-dms-quick-capture",
-    "sha256": "1ajkvdbs87zzmcj7w57bmzys3ysqlvs9qa63qaldhpaa8dfb5zy2",
-    "hash": "sha256-wv+yXENKXdiowsMonPSmWPuh/a/rFH4kq/8fpFfbU6o=",
+    "rev": "5b963300d63a9621a5eac2a3fe3000c5697ac5b0",
+    "date": "2026-07-30T22:05:36+07:00",
+    "path": "/nix/store/nqw83pqzb4pm4q2mi5s1jndimmyxy70x-dms-quick-capture",
+    "sha256": "0vrzz0ykcbrzx5naclhzwm1536ksv258qyd6n72f6ydkhk5m4rkp",
+    "hash": "sha256-d2ZSy4SzeePEsaZ5jIrYeppRQuUfUqZs6T8vNj34P28=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8011,15 +8011,16 @@
       "id": "shellyUpdater",
       "name": "Shelly Updater",
       "capabilities": [
-        "dankbar-widget"
+        "dankbar-widget",
+        "control-center"
       ],
       "category": "system",
       "repo": "https://github.com/rdannenbring/dms-shelly-updater",
       "screenshot": "https://raw.githubusercontent.com/rdannenbring/dms-shelly-updater/main/preview/updates.png",
       "author": "rdannenbring",
-      "description": "Comprehensive system update widget backed by the Shelly (ALPM) CLI — pacman, AUR, Flatpak and AppImage in one DankBar pill with a detailed updates view and an action menu.",
+      "description": "Comprehensive system update widget backed by the Shelly (ALPM) CLI — pacman, AUR, Flatpak and AppImage in one DankBar pill with a detailed updates view, action menu, and control-center panel. Requires Shelly v3+.",
       "dependencies": [
-        "shelly"
+        "shelly>=3"
       ],
       "compositors": [
         "any"
@@ -8060,6 +8061,41 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/rdannenbring/widget-group/main/assets/group-expanded.png"
+    }
+  },
+  "cursorHighlight": {
+    "url": "https://github.com/ReyArlena/dms-cursor-highlight",
+    "rev": "b17c59973f34eb1c7598ae985ebaaef5f2c30d8a",
+    "date": "2026-07-30T21:04:14+01:00",
+    "path": "/nix/store/72cn9hp8h0x3xgmfaddi56glwikmwnvr-dms-cursor-highlight",
+    "sha256": "118fznn10h7amg9dzpbchlf0zrdkma2j49m8fhx4bh611vylcf4k",
+    "hash": "sha256-kzhG/Q7BwEU6dKgmIoWqs+UPHIVs3d/Sq+pAEKz9DoU=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "cursorHighlight",
+      "name": "Cursor Highlight",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/ReyArlena/dms-cursor-highlight",
+      "author": "ReyArlena",
+      "description": "Cursor highlight for presentations, screen sharing or gaming. Rainbow mode, per-style settings, IPC keybind support.",
+      "dependencies": [
+        "python3"
+      ],
+      "compositors": [
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/ReyArlena/dms-cursor-highlight/main/assets/screenshot.png"
     }
   },
   "animeCalendar": {
@@ -8619,6 +8655,40 @@
       "screenshot": "https://raw.githubusercontent.com/samgrande/Dank-Nothing-Clock/main/assets/screenshots/preview.png"
     }
   },
+  "pokeDash": {
+    "url": "https://github.com/samgrande/PokeDash",
+    "rev": "6ff39df9c05704a05956d124cc0627627fbf9798",
+    "date": "2026-07-30T23:56:00+05:30",
+    "path": "/nix/store/lzqd7wx1h1i2xg548dcn9618sv461n7n-PokeDash",
+    "sha256": "09z5c8jz6rq8pzz14dpw2kivyqdkyj7fbiqds886csx84714v001",
+    "hash": "sha256-AYBNwiGoa2YQ0g3H5Y70s2G/4xT8NhL+vwhn8yVi5Sc=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "pokeDash",
+      "name": "PokeDash",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/samgrande/PokeDash",
+      "path": "pokedash",
+      "author": "Sayan",
+      "description": "Pick your favorite pokemon, plop it on your desktop, and watch it idle menacingly (or adorably) while you actually get work done.",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/samgrande/PokeDash/main/assets/screenshots/preview.png"
+    }
+  },
   "dankObsidian": {
     "url": "https://github.com/Samoggino/dankObsidian",
     "rev": "a31c335d2ba83921fdc105ab3128d5cf3ca3d8cc",
@@ -8975,11 +9045,11 @@
   },
   "sathiAi": {
     "url": "https://github.com/ss44/sathi.ai",
-    "rev": "92ffa151fd4780e904bda9f3e6d336c046f61fd5",
-    "date": "2026-02-18T21:29:24-05:00",
-    "path": "/nix/store/063r6p8zdjvqinhrdnr0wkpn66kpn28m-sathi.ai",
-    "sha256": "1w11pddiq2rs7slc14n599vrgiyn9xhdrf0zgmn4hcf7ndpxr5zx",
-    "hash": "sha256-/Zfcb7PHMUhsfR+43GBP1seXd0rFksCoPjoLHFu7IfA=",
+    "rev": "a9beb2e3e3967ed0410f318e68066d9aaaadd4a9",
+    "date": "2026-07-30T11:43:33-04:00",
+    "path": "/nix/store/ahvj3icpjx23451ky15l899qy4g75zig-sathi.ai",
+    "sha256": "1588iij282jz3fvxpa223r1kd9bp6km33pzqpyvf3k3jyjchjmmj",
+    "hash": "sha256-slYJmfRyzOG2v/jfMeo0d6U2Qx5CqNu3G18KJGSMCJU=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
