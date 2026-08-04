@@ -1480,6 +1480,39 @@
       "screenshot": "https://raw.githubusercontent.com/BrendonJL/dms-rss-widget/main/screenshot.png"
     }
   },
+  "splayerDesktopLyrics": {
+    "url": "https://github.com/brkp/DMS_splayerLyrics",
+    "rev": "d171db3575462b557715fc46e6462fdc9ba9046f",
+    "date": "2026-08-02T16:31:46+08:00",
+    "path": "/nix/store/3r40srxwff37155yg815h5dhwj5a6gfk-DMS_splayerLyrics",
+    "sha256": "1j54rdharklhkdmkxwm4n9pba1i86i53lgxv0h89gz63c2pz4lpq",
+    "hash": "sha256-+FLyr2DD/JcQBLs/Oko0KAa1brKk8j5rm5DOrGDLpMg=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "splayerDesktopLyrics",
+      "name": "SPlayer Lyrics (Desktop)",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "media",
+      "repo": "https://github.com/brkp/DMS_splayerLyrics",
+      "author": "brkpt",
+      "description": "Desktop lyrics widget for SPlayer, fetches lyrics from SPlayer's local Netease API",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/brkp/DMS_splayerLyrics/main/screenshot.png"
+    }
+  },
   "audioSwitcher": {
     "url": "https://github.com/CD-Z/dms-plugins",
     "rev": "c510ed4f29c5128512130051100e5c86464c95a6",
@@ -1583,6 +1616,41 @@
       "distro": [
         "any"
       ]
+    }
+  },
+  "systemMonitor": {
+    "url": "https://github.com/chr314/dms-system-monitor",
+    "rev": "b78934887dedbf8b944725071f8f6f9d0b80ab17",
+    "date": "2026-08-04T02:33:33+03:00",
+    "path": "/nix/store/5b546bky59i8w78isbmbx5awi9ks1v3g-dms-system-monitor",
+    "sha256": "0n0izi4dpg8agig2qr57nvg6gia7m7zhk2a4slzdyhdglfmblvcg",
+    "hash": "sha256-j226qqOvQd8+1USJCf+pR8Vn3ranZCxefAq920j8EVg=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "systemMonitor",
+      "name": "System Monitor",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/chr314/dms-system-monitor",
+      "author": "Christoforos Aslanov",
+      "description": "Real-time CPU, temperature, RAM, network, disk and GPU line charts for the DankBar",
+      "dependencies": [
+        "dgop"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/chr314/dms-system-monitor/refs/heads/master/screenshots/popup.png"
     }
   },
   "mediaFrame": {
@@ -3623,11 +3691,11 @@
   },
   "appLauncher": {
     "url": "https://github.com/hthienloc/dms-app-launcher",
-    "rev": "b8296a20f42593631db93c01d01e7a9706647acb",
-    "date": "2026-07-03T03:41:36+07:00",
-    "path": "/nix/store/h1cg296264n5gwprwklr6bqrzyd2s2za-dms-app-launcher",
-    "sha256": "1bwp7isgmrdn886i0lshbb85m9viwby9y8ljyfai0108gzrqcxmi",
-    "hash": "sha256-sXaG838IBBCV85Iin/zicada0FpQUxANQrbl+nQ8l68=",
+    "rev": "b190f6070da9be8fac579dd1da8b5651a42f034a",
+    "date": "2026-08-03T14:19:33+07:00",
+    "path": "/nix/store/ai0sghq9lpwqh4r6vcp6x8x8bqk56s12-dms-app-launcher",
+    "sha256": "1axfkypb4pkjh0nc6pj4k7kcq7l6mjlcasmkiidgqns5q4hbc44l",
+    "hash": "sha256-lBC2IMFFW/xajLNqxaishh7M5plEXsMsgHJesq6frqs=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4218,11 +4286,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "05c629a9d5b698892ad4bdc8af2a5dfb4cd13ad3",
-    "date": "2026-08-02T07:08:03+07:00",
-    "path": "/nix/store/iyfq3yba4mmhxj9p57xp3wh17pp8xlwm-dms-quick-capture",
-    "sha256": "07v5i11v5ld9301rpygbmrpr4g5d27hm05f5w26bpzksmb3nlxnf",
-    "hash": "sha256-znZqx6p6/ruM4MUVUOERrTySb67r+ZsDGKnRskOIZR8=",
+    "rev": "14c0d618dff4d42db1d501607d9d1816bf8d8292",
+    "date": "2026-08-04T08:01:10+07:00",
+    "path": "/nix/store/hvkz6mxd607splz5pf4r4rc17jav69gw-dms-quick-capture",
+    "sha256": "0rkwpgm71zr853g5013s462z1s068m2sz44f8p0i76vxzh2psw3n",
+    "hash": "sha256-dnB9Bfx9mxPBRY6Qr0VFBujwhSF6BFDeKCj/cOq7fGY=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4661,6 +4729,43 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/insecure/dms-audio-inhibit/refs/heads/main/screenshot.png"
+    }
+  },
+  "voxTypeOsd": {
+    "url": "https://github.com/irisblur17/dms-voxtype-osd",
+    "rev": "80fbcdbf375d56e090bf560b58ec774b7ef756b4",
+    "date": "2026-08-02T11:24:16+08:00",
+    "path": "/nix/store/sm1pvjcyn1iyl3kqvy5rjvkw6ddj17b9-dms-voxtype-osd",
+    "sha256": "10i56759s6k7gigzm29kbsjzpil0vsmq61p0x29n0a65l69ag4i8",
+    "hash": "sha256-KJKnkqHFKGCT6OAGg6vegMb7pV4zifpffGcancoxJYI=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "voxTypeOsd",
+      "name": "VoxType OSD",
+      "capabilities": [
+        "monitoring"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/irisblur17/dms-voxtype-osd",
+      "author": "Iris Blur",
+      "description": "VoxType recording and transcription waveform OSD",
+      "dependencies": [
+        "voxtype",
+        "voxtype-audio-bridge"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/irisblur17/dms-voxtype-osd/main/screenshot.png",
+      "requires_dms": ">=1.5.0"
     }
   },
   "hostnameWidget": {
@@ -5550,6 +5655,44 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/kerojiang/dms-transBin/refs/heads/main/images/bin-full.png"
+    }
+  },
+  "latex2svg": {
+    "url": "https://github.com/KinnariyaMamaTanha/latex2svg",
+    "rev": "2e63a953e42f79a74907026d0e6f2342292d9f30",
+    "date": "2026-08-03T19:27:20+08:00",
+    "path": "/nix/store/aqks6hpgwp25jwaql4fi3nadhvbx8sj6-latex2svg",
+    "sha256": "07bikzf2gs1skbm12x1cw1kd2jgrczkq5vdnw5lwhw0mmcnspn7m",
+    "hash": "sha256-9dirLasVcMhp4bbtgudn+UnRZuAsdBHqmjroJ9yfcR0=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "latex2svg",
+      "name": "LaTeX to SVG",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/KinnariyaMamaTanha/latex2svg",
+      "author": "KinnariyaMamaTanha",
+      "description": "Convert LaTeX formulas to portable SVG from Dank Bar, with a sharp preview, configurable saving, and image clipboard copy.",
+      "dependencies": [
+        "python3",
+        "latex",
+        "dvisvgm"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/KinnariyaMamaTanha/latex2svg/main/assets/screenshot.png",
+      "requires_dms": ">=1.5.0"
     }
   },
   "dmsJira": {
@@ -7928,6 +8071,39 @@
       "screenshot": "https://raw.githubusercontent.com/raphamzn/dms-acer-sense/main/screenshot.png"
     }
   },
+  "persianCalendar": {
+    "url": "https://github.com/rassoulshah/dms-persian-calendar",
+    "rev": "e98ed38cad57f91e358bd5e3f3c78b2f61ec6858",
+    "date": "2026-08-03T12:04:35+03:30",
+    "path": "/nix/store/990qzx7pxyfwa4s1l4rcda69x1phyljw-dms-persian-calendar",
+    "sha256": "0vn7nnnnahshwwxpny09676gfhi30cj54dwjyngna8py7qkd816i",
+    "hash": "sha256-0QTUJj7+ImWf9ZI3UiQDI0L3zDEJeHs751BDZa21x24=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "persianCalendar",
+      "name": "Persian Calendar Pro",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/rassoulshah/dms-persian-calendar",
+      "author": "Rassoul Shahsanaii",
+      "description": "A bilingual Persian Jalali calendar with holidays, occasions, custom events, configurable date formats, and a full month popup.",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/rassoulshah/dms-persian-calendar/main/screenshots/popup.png"
+    }
+  },
   "dropdownMenu": {
     "url": "https://github.com/rdannenbring/dropdown-menu",
     "rev": "9f8a51c17b249fe681b51d9731ec48832c4840cf",
@@ -8030,13 +8206,51 @@
       ]
     }
   },
+  "voxtypeOverlay": {
+    "url": "https://github.com/rdannenbring/voxtype-dms-overlay",
+    "rev": "c1be466e170adcbf4dc4ee1e9fa94d37b53e0955",
+    "date": "2026-08-02T01:04:53-04:00",
+    "path": "/nix/store/5jgsfy51nwkhwi67w6a791r459kq8lla-voxtype-dms-overlay",
+    "sha256": "02yqi0r39vpy407xamqxg3025gilvy3m3w0cn0m55zpfd9140y1c",
+    "hash": "sha256-LHhAQmru/lIqsAzwUYffNL4iwHgdV9UPIP7uNDKI2As=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "voxtypeOverlay",
+      "name": "VoxType Recording Overlay",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "control-center",
+        "ipc"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/rdannenbring/voxtype-dms-overlay",
+      "screenshot": "https://raw.githubusercontent.com/rdannenbring/voxtype-dms-overlay/main/assets/overlay.png",
+      "author": "rdannenbring",
+      "description": "VoxType for DMS: a recording overlay (dim + active-window cutout + pulsing mic) and a bar/tray control widget — start/stop the daemon, switch output mode, pick your mic, switch engine, and run meetings from your DMS bar.",
+      "dependencies": [
+        "voxtype"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ]
+    }
+  },
   "widgetGroup": {
     "url": "https://github.com/rdannenbring/widget-group",
-    "rev": "cd748fb105375629bf32378c7d05d10e50c51281",
-    "date": "2026-06-26T16:54:43-04:00",
-    "path": "/nix/store/csiba65aqqckv8zfdzd3wc076nyx9nb7-widget-group",
-    "sha256": "0rkysq9jhk82z2nhgm2dmyib54k6whx9rffzpm4gxj6w2576y2pq",
-    "hash": "sha256-+ApvThHcyP5Ivd+5nDrkZpKyoq9N1Aet+AJNKBPWfmY=",
+    "rev": "c421dadd596e34917eb16e477de3086059485f76",
+    "date": "2026-08-03T00:47:02-04:00",
+    "path": "/nix/store/zwg0fpwc9a2j9wairg49v00ffxd0ygzz-widget-group",
+    "sha256": "1h2hk6pgklglnpnvaji68piswkayfjzp3kimnarjk3xs60zm29q0",
+    "hash": "sha256-ACdRPzC6jymzsjXOcb90Xk2u40UmSrXttfTR+a6ZUMA=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8623,11 +8837,11 @@
   },
   "nothingClock": {
     "url": "https://github.com/samgrande/Dank-Nothing-Clock",
-    "rev": "0ae52d366ac66b4ca3612d2693caafda778f928a",
-    "date": "2026-07-31T07:52:26+05:30",
-    "path": "/nix/store/j8vx3slq8kmiw4mwi00rvzmj844l8blm-Dank-Nothing-Clock",
-    "sha256": "0bvk83jdv3asc1c5fczg5f6r2mwsbhyxhhaswrld5rnh9fxpy03l",
-    "hash": "sha256-dAB/u0vQ5tJo5lpB2D1cmleRjSvvM1dYYFqN3eRAcy8=",
+    "rev": "36a04d4073b8b741cfd28055897387fd54b2fd61",
+    "date": "2026-08-03T23:44:09+05:30",
+    "path": "/nix/store/009vb29az1j09x3cnmpaqn76kljf4rrq-Dank-Nothing-Clock",
+    "sha256": "0php9l19g556mkh87h6icbjk53yvqa1ly66zc6bd0npgkhajc93a",
+    "hash": "sha256-aiQmFZzvWtCWYd8YT4PC248y5WLRwIPgrKaUlwJNF14=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
