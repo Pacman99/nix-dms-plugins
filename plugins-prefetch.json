@@ -681,11 +681,11 @@
   },
   "dmsThemeSync": {
     "url": "https://github.com/arqueon/dms-theme-sync",
-    "rev": "1acf0b03d4298b17ec063dbc63cf3724657ae5a1",
-    "date": "2026-07-25T14:44:45-06:00",
-    "path": "/nix/store/dgj381dwv9l8r32jyh74gwdpp9xbs65b-dms-theme-sync",
-    "sha256": "171vyxf371kk7ma93bsv663mkjc0vcpiyihkz6mpwbby2lj8gk4g",
-    "hash": "sha256-j8yHJBV+LX6r+RNGHy/bgMlZhzFbr5FUPXOGM1z3O5w=",
+    "rev": "294aa4a56019fc11dbe7154ab9b993e7caa1d5f2",
+    "date": "2026-08-04T13:30:04-06:00",
+    "path": "/nix/store/1lpb6xp5199zzg1j75izkvqzwkbf6ili-dms-theme-sync",
+    "sha256": "0sbp8nadm8dgv7f0zzfjpb2bjm3nwyr6snx0i0zwzkjqf2nvb3v8",
+    "hash": "sha256-aI+1rXBYzs8/iKBbbbLndlS5xLrS/Q/c2a+h2pRFd2k=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -835,11 +835,11 @@
   },
   "ntfy": {
     "url": "https://github.com/arqueon/dms-ntfy",
-    "rev": "13bf0f876ed3ddd97f43b485882b5367468cc98b",
-    "date": "2026-08-01T17:24:26-06:00",
-    "path": "/nix/store/kx4n0ms0jg99v1i9ykkyjdc8hprb0hjy-dms-ntfy",
-    "sha256": "1ql3cda62anlsyz5rbcjw72s9vv34mj0cm99858c8v93clpndzf5",
-    "hash": "sha256-xf1mL2UjbcRQQSlVBmQlY++kxeGSrVy+19QqYVRjg+I=",
+    "rev": "ee9364ac261932018bed1059cf9e4d5a1596c578",
+    "date": "2026-08-04T13:59:12-06:00",
+    "path": "/nix/store/nrgkvy1v9a2kkf2p37gryzf95i8qkn9c-dms-ntfy",
+    "sha256": "1ng533cm8d3002hq7rnwbf4v33vwgkrnbyipvdwiqhhdqrlgw2mn",
+    "hash": "sha256-tgr+aMYNQhx52zf6ZfN8fI+xiVvc5oOhAGA0VNkY5dk=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1620,11 +1620,11 @@
   },
   "systemMonitor": {
     "url": "https://github.com/chr314/dms-system-monitor",
-    "rev": "b78934887dedbf8b944725071f8f6f9d0b80ab17",
-    "date": "2026-08-04T02:33:33+03:00",
-    "path": "/nix/store/5b546bky59i8w78isbmbx5awi9ks1v3g-dms-system-monitor",
-    "sha256": "0n0izi4dpg8agig2qr57nvg6gia7m7zhk2a4slzdyhdglfmblvcg",
-    "hash": "sha256-j226qqOvQd8+1USJCf+pR8Vn3ranZCxefAq920j8EVg=",
+    "rev": "de03f72155c17455c810bb6eda677c85dd38df5c",
+    "date": "2026-08-05T00:31:41+03:00",
+    "path": "/nix/store/64cb65kwwrz7y91ibcqbkiycb4lncah4-dms-system-monitor",
+    "sha256": "1kmj32c9rlsgr6w3dh5d8hdfppjc96nf5a666li0xnycwydjx08x",
+    "hash": "sha256-HYEum+fM2w4iNcao4qxJTN7rGkStwDa4yU/TnJgYss4=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3098,6 +3098,40 @@
       "screenshot": "https://raw.githubusercontent.com/EienWolf/dms-displayprofile/refs/heads/master/screenshot.png"
     }
   },
+  "niriWorkspaces": {
+    "url": "https://github.com/Embers-of-the-Fire/dank-niri-workspaces",
+    "rev": "c6699c6a2cfc8f6a3f22f6ea6b3bee9e2d43d582",
+    "date": "2026-08-04T14:31:54+08:00",
+    "path": "/nix/store/hvfy3gl2l2qj6v240vsnbrgnxzfwrdwy-dank-niri-workspaces",
+    "sha256": "0r5k4dpqyxbdj3gpp6mv0xx56llf87da2c0bax559jk1bn91j6d7",
+    "hash": "sha256-pxkZkl1hylRKVwswodpBjlJTege7mnvfkG11j28js2Q=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "niriWorkspaces",
+      "name": "Niri Workspaces",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/Embers-of-the-Fire/dank-niri-workspaces",
+      "author": "Embers-of-the-Fire",
+      "description": "Search and switch to Niri workspaces by name from the launcher",
+      "dependencies": [],
+      "compositors": [
+        "niri"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://github.com/Embers-of-the-Fire/dank-niri-workspaces/raw/main/screenshot.png",
+      "requires_dms": ">0.1.18"
+    }
+  },
   "cavaVisualizer": {
     "url": "https://github.com/ernestowgg/cava-visualizer",
     "rev": "2d08bef95bc7cd170ad5730a27791c9af6d80a52",
@@ -4286,11 +4320,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "14c0d618dff4d42db1d501607d9d1816bf8d8292",
-    "date": "2026-08-04T08:01:10+07:00",
-    "path": "/nix/store/hvkz6mxd607splz5pf4r4rc17jav69gw-dms-quick-capture",
-    "sha256": "0rkwpgm71zr853g5013s462z1s068m2sz44f8p0i76vxzh2psw3n",
-    "hash": "sha256-dnB9Bfx9mxPBRY6Qr0VFBujwhSF6BFDeKCj/cOq7fGY=",
+    "rev": "ec41990cb2d778395dd6318d0f3bcfb3db7915fd",
+    "date": "2026-08-04T23:03:57+07:00",
+    "path": "/nix/store/y4r9sa89r631qfij5iim1rnn61ywx5rb-dms-quick-capture",
+    "sha256": "1qawxjxvnvlkgb0inicdxif0ypdckn5320w38ljw4fxgwp712sg6",
+    "hash": "sha256-5mkRzuWvO8IlRYMDMYqdrF0PXOyNRRvBepNuu7vsXOE=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5485,11 +5519,11 @@
   },
   "unifiedTaskbar": {
     "url": "https://github.com/jslandau/dms-unified-taskbar",
-    "rev": "0e54bd7be92267c6028e606a20c84a0cddfbbae3",
-    "date": "2026-07-17T22:49:18-04:00",
-    "path": "/nix/store/87376i3a27axr8mc0y3jfa7j8k32bhk3-dms-unified-taskbar",
-    "sha256": "1d5mwmxmgrs17j2m11bb2csn3lrrkl9wnfqzxb1z83yxx61hhp7g",
-    "hash": "sha256-71wIg+ndD/TD6h87yxOdOdNhNRNrhVCFPEHnV3vltbQ=",
+    "rev": "6b1787f61f297a3ce5a14cbc7c425fc2314ad4a0",
+    "date": "2026-08-04T18:57:57-04:00",
+    "path": "/nix/store/0m3kr7lz01fii0i4xr7967k0lgfddish-dms-unified-taskbar",
+    "sha256": "0n30i0zbayrxsnpa2gl3c1ij3aq7zjvcrgy7ly3z8d0qf3dlk4hv",
+    "hash": "sha256-G5JJ23AYNPSHp8e/zLb8B6shY2CDPqGu1T17tT6IYFg=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5659,11 +5693,11 @@
   },
   "latex2svg": {
     "url": "https://github.com/KinnariyaMamaTanha/latex2svg",
-    "rev": "2e63a953e42f79a74907026d0e6f2342292d9f30",
-    "date": "2026-08-03T19:27:20+08:00",
-    "path": "/nix/store/aqks6hpgwp25jwaql4fi3nadhvbx8sj6-latex2svg",
-    "sha256": "07bikzf2gs1skbm12x1cw1kd2jgrczkq5vdnw5lwhw0mmcnspn7m",
-    "hash": "sha256-9dirLasVcMhp4bbtgudn+UnRZuAsdBHqmjroJ9yfcR0=",
+    "rev": "f0a4e5cb6b51b57c49f9ad4350daa157d52c2240",
+    "date": "2026-08-04T09:37:45+08:00",
+    "path": "/nix/store/000p6xm2hjbymsbi746qcxnxxnyg6nsl-latex2svg",
+    "sha256": "1pdwgkzpdzgayqj9a0lqyia56c3z2q182zfshv6iyx2d455xw8f5",
+    "hash": "sha256-xSHeSyFNdB/Nhtp9gQIWfzBTVPSYApUk9ur9dv98vN0=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -6808,11 +6842,11 @@
   },
   "amdGpuMonitor": {
     "url": "https://github.com/navidagz/dms-amd-gpu-monitor",
-    "rev": "1ab6a486f36e540668d72bc0217acacc0a3b24e1",
-    "date": "2026-07-12T14:55:08+02:00",
-    "path": "/nix/store/4ygavp81qakipvvyl8vffwplrnh1n9kv-dms-amd-gpu-monitor",
-    "sha256": "0436w549q00ppqcpy6qs2j44afqy5crafqzlmygdpqwjrl1505pz",
-    "hash": "sha256-/xZQAs2S49uer/RjpzIrHjtFiBQaG38ZvhcAnEjhZhA=",
+    "rev": "2084a650e5369a1f8a9e421e855cc199a12c6a07",
+    "date": "2026-08-04T22:23:15+02:00",
+    "path": "/nix/store/lfydjg2pg8li095d0izadxmkggffi2aj-dms-amd-gpu-monitor",
+    "sha256": "0ph5smf4xy5k31il41448ldl4c9djlig5dnp02ms55pcz6i5q7fh",
+    "hash": "sha256-0B1covnslqKrANe28iKVLTFCG0WEBEJjGLP4TlzVBV4=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8763,6 +8797,42 @@
       "screenshot": "https://raw.githubusercontent.com/ronmurphy/dms-contrib/refs/heads/main/screenshot_session_power_menu.png"
     }
   },
+  "sysmon": {
+    "url": "https://github.com/rtabulov/dms-sysmon",
+    "rev": "76def966ddb66464cb04539638e074818011210a",
+    "date": "2026-08-04T10:28:50+05:00",
+    "path": "/nix/store/v3pkmmrq4n88m8qhri14zc8ifyim7g4d-dms-sysmon",
+    "sha256": "1rkh6zscx458vdra29x0h8g1ha2nsmv08azavnx3hjj33hmfmgrk",
+    "hash": "sha256-M7/qKhxDSji63eorBHbVVigYHoKgJ6Fy26iQzvQ3cOY=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "sysmon",
+      "name": "Sysmon",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/rtabulov/dms-sysmon",
+      "path": "plugin",
+      "author": "rassul",
+      "description": "Compact DankBar Pill of system resource Items with a graph Popout",
+      "dependencies": [
+        "dgop"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/rtabulov/dms-sysmon/main/plugin/assets/popout.png"
+    }
+  },
   "dankTranslateAI": {
     "url": "https://github.com/SakuraToErii/dank-translate-ai",
     "rev": "81c7c40fd1be57f36f4b18d6b98ac4a3315364e1",
@@ -9259,11 +9329,11 @@
   },
   "sathiAi": {
     "url": "https://github.com/ss44/sathi.ai",
-    "rev": "d1a386d083f15b827d258b5ea59f3ba4154b59f1",
-    "date": "2026-08-02T15:42:47-04:00",
-    "path": "/nix/store/b6ypj0x803xr945fvi46fg2hk63xaqx2-sathi.ai",
-    "sha256": "16y85skvnm2mxyz0kiia3ga592ml3pir5zvx7fy4vmayrx5r9bsq",
-    "hash": "sha256-WK+US89e1U28O33/kuMdtIpU1Bsqxgm+71VUu6cuyJs=",
+    "rev": "1d656040fb2a4a08656ac9bcd4df2dc859456e99",
+    "date": "2026-08-04T20:51:40-04:00",
+    "path": "/nix/store/zhs6xs4hzd3agcg2rfcq3j30p62pvwlw-sathi.ai",
+    "sha256": "03m83inaj1mc8ndban83ipxh31r25dlpsgly3g8rrjh44j1dqgy7",
+    "hash": "sha256-xz/cgiQEypzRG54+fWkrIocB+40DWbWaRawGqWwcqA4=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -10188,11 +10258,11 @@
   },
   "homeAssistantMonitor": {
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass",
-    "rev": "60c4acf5f06c0036a69193c40d3c77dc67da7467",
-    "date": "2026-07-23T16:39:11+08:00",
-    "path": "/nix/store/s81fj4cpikj5fix0l8q7q10ihj17cxq8-dms-plugin-hass",
-    "sha256": "09h5f2adl9lfwy0r6mjcv3nriksvhzahwgxbvg66jpm8ap7vxwwb",
-    "hash": "sha256-i/O+z1WoXmnM26s/DtWHW8+Y7dhMVpOB544m2pRwBSY=",
+    "rev": "fcc931b057faac50ab03a722682f73f08ae82c86",
+    "date": "2026-08-04T16:36:08+08:00",
+    "path": "/nix/store/k1qjzqm3znmyafqgrr5wyhpxgqjx1927-dms-plugin-hass",
+    "sha256": "0iqg7k2xcxl10zc8dyxscf8h2273dqnhrb7ijknaagnm5qffyj2g",
+    "hash": "sha256-T0jvHC7VPqXslPGsDC1u4wgBkWO6+4bYB4F21sU8D0c=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
