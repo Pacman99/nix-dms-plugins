@@ -4320,11 +4320,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "ec41990cb2d778395dd6318d0f3bcfb3db7915fd",
-    "date": "2026-08-04T23:03:57+07:00",
-    "path": "/nix/store/y4r9sa89r631qfij5iim1rnn61ywx5rb-dms-quick-capture",
-    "sha256": "1qawxjxvnvlkgb0inicdxif0ypdckn5320w38ljw4fxgwp712sg6",
-    "hash": "sha256-5mkRzuWvO8IlRYMDMYqdrF0PXOyNRRvBepNuu7vsXOE=",
+    "rev": "7a4c66255f16c8c7995730a81f95cb4ab72eca5c",
+    "date": "2026-08-06T08:08:39+07:00",
+    "path": "/nix/store/b8iaggf04fnddnyrbp3m0fxgxawrvvd2-dms-quick-capture",
+    "sha256": "03ibhk3yaw5m29ygllkmzd0h0jgn9m2vyh9s1l1sgj917i3gj12i",
+    "hash": "sha256-UQT5RjwhyacDDTpBv0VN9kkAQft1Uvp8ErVw5ceEKw4=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4682,6 +4682,41 @@
         "any"
       ],
       "screenshot": "https://github.com/iahccc/NixPackageRunner/raw/main/screenshot.png"
+    }
+  },
+  "djobs": {
+    "url": "https://github.com/TabelaDev/dank-jobs-plugin",
+    "rev": "429ea7a7972940e773974b77a953675a7746a7ca",
+    "date": "2026-08-04T16:37:36-03:00",
+    "path": "/nix/store/mddb956aj602pvx8fk5s48h32ds7l1gr-dank-jobs-plugin",
+    "sha256": "1wci33nwrzj5adjccnnc9k4sqgk7py113q4lk152ai6ki1kf5pvs",
+    "hash": "sha256-et/iZojTRCVKmJTgEYK/Zz6syUzMWsZkU0X+zO0YkfE=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "djobs",
+      "name": "Dank Jobs",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/TabelaDev/dank-jobs-plugin",
+      "author": "Ian Soares",
+      "description": "Shows the next pending djobs job in the bar and lists all pending jobs in a popout, with status dots and auto-refresh.",
+      "dependencies": [
+        "djobs"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/TabelaDev/dank-jobs-plugin/main/plugin-screenshot.png"
     }
   },
   "formatColorPicker": {
@@ -9011,11 +9046,11 @@
   },
   "linuxWallpaperEngine": {
     "url": "https://github.com/sgtaziz/dms-wallpaperengine",
-    "rev": "92f5d1be3989cf49cdb5e180323125f996977db2",
-    "date": "2026-07-31T17:40:58+03:00",
-    "path": "/nix/store/3c8gp3dvbild8j9a4c0alip02b592hza-dms-wallpaperengine",
-    "sha256": "01srp62d8gzpccjdsqprf6k6q4xb64h289zyfkbfvg8ndx7hcndw",
-    "hash": "sha256-vFkGT28Wve3WdP4nJCAxqxNspnH5Yt0kY/c/1IS5WQc=",
+    "rev": "3c63881418ddac81ab640aeba39362338a1e1169",
+    "date": "2026-08-05T20:13:31+03:00",
+    "path": "/nix/store/p4s4y14f5r64s1s8li0qpv4xdwcry2jh-dms-wallpaperengine",
+    "sha256": "1i03bdrh7q5jp363ppqsdbgqz7ihzhikvzw41w44ysgx24n2d78a",
+    "hash": "sha256-Cp0mLBH9aU8ID4T/PSP8MJ6P32oa3zvMuLLgA3NbA8Q=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -10046,6 +10081,45 @@
       ],
       "version": "0.1.0",
       "screenshot": "https://raw.githubusercontent.com/viewerofall-labs/weather-viewer/main/weather.png"
+    }
+  },
+  "dankSoftwareDepot": {
+    "url": "https://github.com/vinceecniv/DankSoftwareDepot",
+    "rev": "490a67aa644dd03bf5320911803dae798cf65fa8",
+    "date": "2026-08-05T18:22:38+02:00",
+    "path": "/nix/store/v91yf9b1jbriwmkliipiwnp057i406x3-DankSoftwareDepot",
+    "sha256": "0ylg8yddra7nn0mb44klhkvkgkh613slwzlnc4avxgz9x3ijr64w",
+    "hash": "sha256-nJgs4+jpv74VYZZ+TvUIBs4394R0ErIqsPao3JpHj3o=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankSoftwareDepot",
+      "name": "Dank Software Depot",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
+      "author": "Vincent Blok",
+      "description": "Software & updates center: rich update cards with release notes, app store for Fedora/Flathub/AppImage with ratings and reviews, installed-software management, firmware updates and an action log",
+      "dependencies": [
+        "python3",
+        "python3-gobject",
+        "flatpak",
+        "dnf5"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "fedora"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
+      "requires_dms": ">=1.5.0"
     }
   },
   "wienerLinien": {
