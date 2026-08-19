@@ -179,11 +179,11 @@
   },
   "voxtypeActivityOverlay": {
     "url": "https://github.com/agneswd/dms-voxtype-activity-overlay",
-    "rev": "942e9d745fd041aa5ca68f9cc0b16d23f2967981",
-    "date": "2026-08-10T16:58:22+02:00",
-    "path": "/nix/store/z188mw265rbxhla7c727yl01iiddb607-dms-voxtype-activity-overlay",
-    "sha256": "0p9il2fhamy5w80j4qwjhfn926q6spfk857lgzvvkpvja82zxprw",
-    "hash": "sha256-PN/+BVJy37n3f/QUNN3VBhuRrIOSYyIB4sVXBZ2gMV0=",
+    "rev": "84d0f3ec6a2ac376ad534f666a47c23dc7488771",
+    "date": "2026-08-18T09:27:27+02:00",
+    "path": "/nix/store/amk1da5hi70wr2b2bcvysm5dj905z1wb-dms-voxtype-activity-overlay",
+    "sha256": "0nj42vlcjnsflmi4szbcgchrdzwxdjl4pdw6irx48jjva7yvy4yq",
+    "hash": "sha256-2BO//VFbSkR6joa3S6hsnf+WIXtsfU1ipU5byegWRFo=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -687,11 +687,11 @@
   },
   "dankmailUnread": {
     "url": "https://github.com/arqueon/dankmail",
-    "rev": "eef087387cbdccbde9a8da98c955ef53bb2eca90",
-    "date": "2026-08-17T17:36:19-06:00",
-    "path": "/nix/store/gzd6q7s99fa7zrnyvmixl1j02bfj4mg0-dankmail",
-    "sha256": "1ygk5zna19109m4r8w9nvav7j67yjvss6zik2rdmmq7if7fwa78a",
-    "hash": "sha256-Ch3F3XHx4FpbFjN+o/WW/hh5tto2cZRJTSCkoOwv8/k=",
+    "rev": "175016cecf4b060dbb059a05b0eab7382d62bd98",
+    "date": "2026-08-18T14:57:50-06:00",
+    "path": "/nix/store/baczv4kkn7n5knshmzckknpd3k4s1ck3-dankmail",
+    "sha256": "00bldzkyjzfx34yz0w7cwqshiar4gnfhjp1d58wiz4ikgl57p4fx",
+    "hash": "sha256-3ZF7Cn0zkh85Ki1cCZ19JKsINebscPA9Gd196edvdAE=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3522,6 +3522,44 @@
       "screenshot": "https://github.com/fishman/dms-khal-calendar/raw/master/screenshot.png"
     }
   },
+  "scratchpadHelper": {
+    "url": "https://github.com/fluxwrk/dms-scratchpad-helper",
+    "rev": "09d03255c1f65f65914738602dded245b6329ad6",
+    "date": "2026-08-18T13:00:10-05:00",
+    "path": "/nix/store/kbjhf5nl91cwfgc06pl7g02kiw6m79yj-dms-scratchpad-helper",
+    "sha256": "0dj11apqikmbc75fzbggd04dqka1p0mwx50wky5r7k0jd9xlz07n",
+    "hash": "sha256-9oBPe2oSzJOLnxyUziu4QU3cCGjvre/KYavOiK8KQTY=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "scratchpadHelper",
+      "name": "Scratchpad Helper",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/fluxwrk/dms-scratchpad-helper",
+      "author": "fluxwrk",
+      "description": "A visual scratchpad picker for MangoWM with cached previews and optional managed named scratchpads",
+      "dependencies": [
+        "mmsg"
+      ],
+      "compositors": [
+        "mangowc"
+      ],
+      "distro": [
+        "any"
+      ],
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/fluxwrk/dms-scratchpad-helper/main/assets/scratchpad-picker.png"
+    }
+  },
   "dmsAgent": {
     "url": "https://github.com/Francisdelca/dms-agent",
     "rev": "926cded9025f1bc981072b7e0f60e3cc9178b379",
@@ -4320,11 +4358,11 @@
   },
   "ipIndicator": {
     "url": "https://github.com/hthienloc/dms-ipIndicator",
-    "rev": "f9761382c4b8504615e749dea48fd545e24e8fd9",
-    "date": "2026-06-25T01:52:04+07:00",
-    "path": "/nix/store/ji52033p9z3p4br35kx5sv1iksfq95f8-dms-ipIndicator",
-    "sha256": "1gw2cr3axy8f4g5wdxmqjaqsicfpj8afzy0ldggj4jw28p9m5cwx",
-    "hash": "sha256-nbNS00WCSyLfaxT47xSS17GosZK49sbLIw75rkZmgr8=",
+    "rev": "20f891771029f0ab0841898a50a8a902a9038c9d",
+    "date": "2026-08-19T07:28:51+07:00",
+    "path": "/nix/store/89y4mjsksnjb765pff3v87w4qbsp7v05-dms-ipIndicator",
+    "sha256": "1384akdmh073z73gxk3wbpcrjjh8z6w2y6k451q3xfdbafq8rqlc",
+    "hash": "sha256-jOKMsFOruT5wKGQaL7j5CEqZ2V18zP7G+eMAWNtUBI0=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4569,11 +4607,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "b4814dab5a0f4c8dc641aefd1548e7891c57d21d",
-    "date": "2026-08-17T19:17:07+07:00",
-    "path": "/nix/store/ph97fw0mbv9rl4g5rq6m7masiwfjcy8h-dms-quick-capture",
-    "sha256": "0kxhs6s6y1h2dbdwla3h0whsw4c8f71z9wc3z3r3nvyf05hpwb54",
-    "hash": "sha256-pCx+YQHObzvy+IPx9MNxiBGuIQdwKMrbagIGb7TRsE8=",
+    "rev": "46e90a7cf1a1e95178c6b6da2d26481019ed5d3b",
+    "date": "2026-08-18T23:11:38+07:00",
+    "path": "/nix/store/j4h63b71cjkbr9acby7md0qrwd3lhya5-dms-quick-capture",
+    "sha256": "12vhd2ixm8nn5zj40v6zc6wz3dshrxrhv9v49ab1d2mm1jsa4lvs",
+    "hash": "sha256-elOitAy1ihaWSmSnDXPPULfxuWHfbEDkL9ai2qNocIs=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -6436,6 +6474,39 @@
       "screenshot": "https://raw.githubusercontent.com/leonardofranco01/dms-sessionizer/refs/heads/main/assets/screenshot.png"
     }
   },
+  "pureLyrics": {
+    "url": "https://github.com/lildengzi/pureLyrics",
+    "rev": "6a803e11110a858779da0be20eeb2f724ed28441",
+    "date": "2026-08-18T14:43:09+08:00",
+    "path": "/nix/store/ngl6gcsxg58csflg8nfw5khgxp6gk8bj-pureLyrics",
+    "sha256": "1crbqphccdrlq62lk6qjx36qcrdfvpsim2x1zmad1y919c0pxa58",
+    "hash": "sha256-qKh+AUsh+dBU/aGLGvXdrmWGzegSm0mFwTQ3xuDFK7M=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "pureLyrics",
+      "name": "Pure Lyrics",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "media",
+      "repo": "https://github.com/lildengzi/pureLyrics",
+      "author": "lildengzi",
+      "description": "A minimal floating desktop widget that displays real-time synced lyrics from multiple sources.",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/lildengzi/pureLyrics/main/screenshot.png"
+    }
+  },
   "dmsPass": {
     "url": "https://github.com/LouisKottmann/dms-pass",
     "rev": "be247a2029efc0df07d57236bad09754384cfb2f",
@@ -7190,11 +7261,11 @@
   },
   "attentionBadges": {
     "url": "https://github.com/mkoester/dms-attention-badges",
-    "rev": "032525b52c82d8432ba26726916b42a51a27eae4",
-    "date": "2026-08-16T08:40:12+02:00",
-    "path": "/nix/store/lxxm2mb7srw6pk5bvd2gvcp8s0h41anr-dms-attention-badges",
-    "sha256": "1nyl687l0wjz8wlpsfbfkyra9879mgcfpq7s8fv9gwjj158l8af3",
-    "hash": "sha256-wylEUQlS8pe2Q/rg69ir6aCksp9uOX0pR19yQA8y1Ns=",
+    "rev": "42c19d8a202bb39e4ea036b01942d633857a1bfe",
+    "date": "2026-08-18T20:56:13+02:00",
+    "path": "/nix/store/ir81y4mpy6hy0al90ny1dc0n7i7kzas3-dms-attention-badges",
+    "sha256": "1q6b6nxqnnza5scsgz1z7pm7gb7fajrs7skvvmgp6sb0blnyij9f",
+    "hash": "sha256-LsnoLV1gaXNf3Xvqo7NU7qx36j0//KeZLupbi7s1y+A=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -7327,6 +7398,45 @@
       "screenshot": "https://raw.githubusercontent.com/Murilo-Gotardo/dms-image-converter/refs/heads/main/screenshots/converter.png"
     }
   },
+  "modemManager": {
+    "url": "https://github.com/NaClwww/dms-modem-plugin",
+    "rev": "5b3dddd3bb4a785c7d1aa6cce9f79beb2c15a304",
+    "date": "2026-08-18T11:30:28+08:00",
+    "path": "/nix/store/fm1ggjpjw5qzmh10iyngyycn4h16lb7q-dms-modem-plugin",
+    "sha256": "1ifphs7dnb2rnsjzqgzwl43jcnh0gw6bszsqzsf67mfpfi6gmn0h",
+    "hash": "sha256-ENj6THTX1WOc/lh/vQx/AFomB6H8P/yltlks246G18U=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "modemManager",
+      "name": "Mobile Network",
+      "capabilities": [
+        "daemon",
+        "control-center"
+      ],
+      "category": "networking",
+      "repo": "https://github.com/NaClwww/dms-modem-plugin",
+      "author": "NaClwww",
+      "description": "Manage mobile broadband with NetworkManager: toggle the WWAN radio, view live modem, operator, and signal status, and create, edit, and activate APN profiles from the Control Center.",
+      "version": "0.2.0",
+      "icon": "signal_cellular_alt",
+      "dependencies": [
+        "nmcli",
+        "mmcli"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/NaClwww/dms-modem-plugin/main/assets/control-center.png"
+    }
+  },
   "brSoccer": {
     "url": "https://github.com/Nadoutti/nadotti-br-soccer-plugin",
     "rev": "992f7046f32bca0a25441696869e111481f90b91",
@@ -7366,11 +7476,11 @@
   },
   "amdGpuMonitor": {
     "url": "https://github.com/navidagz/dms-amd-gpu-monitor",
-    "rev": "ebd5564c4a9b070c405e88e36ca1d465f1dd6436",
-    "date": "2026-08-07T20:50:55Z",
-    "path": "/nix/store/wn5b3z3x71ppivnxz4qd9d98x3lm2vyv-dms-amd-gpu-monitor",
-    "sha256": "1zgil6y179ylchm7q75iyvp3b426ldpszhyl4r6g1ihks951za5q",
-    "hash": "sha256-uKgfStITxvBMJtTDr2+jRpA17vaxHHwqZNSnE7yh8f0=",
+    "rev": "d0f87efb534b86dc07107288c5f86cfeb7ad9cd2",
+    "date": "2026-08-18T21:55:31+02:00",
+    "path": "/nix/store/31pwqx36dm444izzqrvcqd8c7fsyig5c-dms-amd-gpu-monitor",
+    "sha256": "0bd6vdg559dm2xv4apz49xx52ik0asp06y93zfg7ph77nvnn6y06",
+    "hash": "sha256-Bnhj7bbnwHue+yN5A65WYEZRek/kX0V2F7WlUl7bpi0=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -10720,11 +10830,11 @@
   },
   "dankSoftwareDepot": {
     "url": "https://github.com/vinceecniv/DankSoftwareDepot",
-    "rev": "46571464ccb9709be438f4b8c2ef4b8b63ca8ada",
-    "date": "2026-08-17T21:02:12+02:00",
-    "path": "/nix/store/bnn9mrr9fvzwawyl6pkn808a8n2g66sa-DankSoftwareDepot",
-    "sha256": "13xi4pl0kj21l2xqjxjv9kkrdb6b3rwdca5nxw1ldd67xr5x683c",
-    "hash": "sha256-bCDTS+7HtEYD77Yo1ngey6yW50xbdom7oEHICeglsY8=",
+    "rev": "b447a84f30034954288cff37b79efcc50bb0914d",
+    "date": "2026-08-18T21:58:25+02:00",
+    "path": "/nix/store/zfg2459jvc7g562c3i1jzdjw7bjqwkdd-DankSoftwareDepot",
+    "sha256": "07wljjlfrg9wm9gzh83igbiqbddpw51vp450kl5wzifbqdvlx6p1",
+    "hash": "sha256-4ZpOd8PLxc8LnaCQu0Pht7WF43pxIPhfqjy97KiUlB8=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -11112,6 +11222,41 @@
       "featured": true,
       "screenshot": "https://github.com/yayuuu/desktopCommand/raw/main/assets/screenshot.jpg",
       "requires_dms": ">=1.2.0"
+    }
+  },
+  "storageMonitor": {
+    "url": "https://github.com/YoungJurry/dms-storage-monitor",
+    "rev": "8dbf7f2484b0f81683add744664b3bb17c1389e5",
+    "date": "2026-08-18T15:06:28+08:00",
+    "path": "/nix/store/py7naak17wwa5p68nz1nh8ja977ady7p-dms-storage-monitor",
+    "sha256": "0najcf26rkrc4dy8fwd2hg0c7dgqrd21qhr564zbsrfc3a65la51",
+    "hash": "sha256-oShajBrMZb0+MSVDHETL+LXDwIOicYd8IyzPbIRjUlk=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "storageMonitor",
+      "name": "Storage Monitor",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "repo": "https://github.com/YoungJurry/dms-storage-monitor",
+      "author": "youngshine",
+      "description": "Monitor total and per-partition storage usage with progress bars, and mount or unmount internal and removable drives via udisks2.",
+      "dependencies": [
+        "udisks2"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/YoungJurry/dms-storage-monitor/main/assets/screenshot.png"
     }
   },
   "dankRazer": {
