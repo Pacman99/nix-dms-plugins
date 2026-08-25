@@ -1441,11 +1441,11 @@
   },
   "colorPickerDms": {
     "url": "https://github.com/bernardopg/color-picker-dms",
-    "rev": "ab8d78fef1fb45a2d5ec94caaf69f81ae43b0032",
-    "date": "2026-08-08T00:02:43-03:00",
-    "path": "/nix/store/y9g3k8hdbc0dfm2w1a6kwcjza48zadxg-color-picker-dms",
-    "sha256": "09akbmzkryiifr6fklnk0dxkil4f5l6s1mp4cgkyy2wqyiz43f84",
-    "hash": "sha256-BLlBfvSYC+/nY+TWoA0tjtA4ewPT0ulMdjH6PH9dUyU=",
+    "rev": "f4f0d759a177178f6acabb00e520602d5ea43a78",
+    "date": "2026-08-24T14:17:06-03:00",
+    "path": "/nix/store/y2158d1v504z57a6p0frj6yxsvsdhrjl-color-picker-dms",
+    "sha256": "18y85bjglzvq4lpllzlghvc7hvv9272dlxpiw5h2pm8m0gfw0syx",
+    "hash": "sha256-3WvA3QMV1Stg4fF22sQRaW942IaPfkovJXh/+uQqyKM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4253,6 +4253,41 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-desktop-widget-toggle/master/screenshot.png"
+    }
+  },
+  "emojiPicker": {
+    "url": "https://github.com/hthienloc/dms-emoji-picker",
+    "rev": "53fb27442c5b48ab2ab0ea37e7c2bcf72da0902a",
+    "date": "2026-08-24T12:31:09+07:00",
+    "path": "/nix/store/y0i71s4xdyspa6rjh1gqmhpb4pybw2m4-dms-emoji-picker",
+    "sha256": "0xhfh8w7f1iv3nz49lf0apwrbljxsa27lb5chbkwrgxi3mk01n8m",
+    "hash": "sha256-FdkAZh2xv8zngqwseoTSXdKV+VXA0US+HTsGdziCDnY=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "emojiPicker",
+      "name": "Emoji Picker",
+      "capabilities": [
+        "daemon",
+        "ipc"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/hthienloc/dms-emoji-picker",
+      "author": "Loc Huynh",
+      "description": "Search, copy, and paste emoji from a centered picker.",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-emoji-picker/main/screenshot.png"
     }
   },
   "floaty": {
@@ -10131,7 +10166,7 @@
       "repo": "https://github.com/sitolam/dms-plugins",
       "path": "plugins/dankmenu",
       "author": "sitolam",
-      "description": "Omarchy-style root menu: one key to every command, with built-in search",
+      "description": "Omarchy-style root menu: one key to every command, with built-in search, conditional rows and live labels",
       "dependencies": [],
       "compositors": [
         "any"
@@ -11114,11 +11149,11 @@
   },
   "dankSoftwareDepot": {
     "url": "https://github.com/vinceecniv/DankSoftwareDepot",
-    "rev": "7a74acb98fb53c567ee6feafde69bb8016c5623b",
-    "date": "2026-08-23T19:46:27+02:00",
-    "path": "/nix/store/wlhcb7sxc8fvf4pmygfw9fnb5br00r7a-DankSoftwareDepot",
-    "sha256": "03k3wx22pkg1i0bzbn5dkhaz5yqakyydw4pqnzfq2kxfpvkj1jil",
-    "hash": "sha256-NMog576uT4Hdt/gS3ryfCvvyFZyt2PUXiOHNK0TnYw4=",
+    "rev": "4f91ced1bafdc8e9a89b36eeda72c0c242adbdb0",
+    "date": "2026-08-24T19:39:01+02:00",
+    "path": "/nix/store/b87pz50290p76l2k3b0wm4iv8nxlyv9d-DankSoftwareDepot",
+    "sha256": "0m4payg64i1bl682m6a7fv8pjx7pzwy9qvjfh9wrh9qmzjlfiyqm",
+    "hash": "sha256-FfvoqPwVJ5h5gk5unDz/93R50XZHmSqQoStEYp5Xl1Q=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
