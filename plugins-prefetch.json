@@ -102,11 +102,11 @@
   },
   "aiQuotas": {
     "url": "https://github.com/agneswd/dms-ai-quotas",
-    "rev": "1f90e8724403cf18259c8d8a7cd0cac2c4aae4af",
-    "date": "2026-08-22T14:15:28+02:00",
-    "path": "/nix/store/hxhk5i08lkhwcrs91xy5ppv2k6xiazrg-dms-ai-quotas",
-    "sha256": "02cmvn920d5p5wxs7nza6wy5mbgyr2bkdhx3yc8v3jizq44c9bxr",
-    "hash": "sha256-ua/ECME/yrER86PDNpfI/q1aPDfq26M7L7c0IJLdlQk=",
+    "rev": "1cf9f9565420fe4c54a8fb4aca1ffca28594f267",
+    "date": "2026-08-28T21:49:56+02:00",
+    "path": "/nix/store/fvv419d9f8pkkzj4kcdywj1wv2v2w00f-dms-ai-quotas",
+    "sha256": "0zcsn0nki99ihrx6zbv8zrghd3dk0sgjjyrmx0ibhlhp8nm6zyw0",
+    "hash": "sha256-gPtvqkUXUrgi6DV7KZ8Gs40GX/5or296hjGlOC2wmn0=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4785,11 +4785,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "8e923d1604fd860007f0d5a3a3088011f253f2c1",
-    "date": "2026-08-21T10:03:54+07:00",
-    "path": "/nix/store/gd4zqbm7lk1qgl89dzpnm5lcnjjchdqi-dms-quick-capture",
-    "sha256": "12v2lhv7hrlci238i5l0qckqcblqn9z97938pgl1h5jn6qia5900",
-    "hash": "sha256-AKSiIjZWFhjou2ikk36ymC6GJ8OAloiGiIxmeDakYos=",
+    "rev": "8e8c5822ba5a3029ce7723db39b05628d60f7f49",
+    "date": "2026-08-28T20:32:21+07:00",
+    "path": "/nix/store/2wajr0qklwbnvk31q8wsnwpzl5z413ix-dms-quick-capture",
+    "sha256": "1ipj5bk5lmczpvqwskkwjgyh9fil4hhilsi1lpbsp9b8axkpjjqd",
+    "hash": "sha256-DUt5Z1dopavXpSFqGiEkNLoE/ZN8Ts3xvp9VWuYq8sY=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -6654,6 +6654,76 @@
       "requires_dms": ">=1.2.0"
     }
   },
+  "lyricsEmbed": {
+    "url": "https://github.com/Lemon-mon-254/dms-plugin-Lyrics",
+    "rev": "37f735a26dbb0b4460d4fb6488eb826eb8394328",
+    "date": "2026-08-28T23:30:40+08:00",
+    "path": "/nix/store/xnrrw1anrm8drwhpgqwml4vapmddzfzh-dms-plugin-Lyrics",
+    "sha256": "1np296gw8s8djdfadv7w0h7z9mi8pmk6pd9riv5fx3i0pn7sbanx",
+    "hash": "sha256-3aqlj70gju7Kjjm1a2a9KNb0DwT87KZckw1pxJ9J4to=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "lyricsEmbed",
+      "name": "LyricsEmbed",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/Lemon-mon-254/dms-plugin-Lyrics",
+      "author": "lemonmon",
+      "description": "An embedded-lyrics-first synced lyrics plugin for DMS: embedded LRC extraction, multi-source lyrics, bilingual split view, per-song offset tuning, zh/en interface.",
+      "dependencies": [
+        "ffprobe"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Lemon-mon-254/dms-plugin-Lyrics/main/docs/screenshot.png"
+    }
+  },
+  "proxyTraffic": {
+    "url": "https://github.com/Lemon-mon-254/dms-proxy-traffic",
+    "rev": "d7e1b11954db032cb5d3300e0a26144297b2733f",
+    "date": "2026-08-28T16:02:50+08:00",
+    "path": "/nix/store/n2sv9xx8x4xabw87jz23izl9h4pc19rz-dms-proxy-traffic",
+    "sha256": "1lh37mvixwx7ylz3yl0ngc8k4iqcgn0d10132krwh5bb9mf1v65s",
+    "hash": "sha256-upgdXE1rFcjzFCOA0IB9DEcyEXsWUD8+9afzHnc9A9I=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "proxyTraffic",
+      "name": "Proxy Traffic",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/Lemon-mon-254/dms-proxy-traffic",
+      "author": "lemonmon",
+      "description": "Realtime throughput and cumulative traffic of your local proxy, tracked via nftables",
+      "dependencies": [
+        "nft"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Lemon-mon-254/dms-proxy-traffic/main/screenshots/1.png"
+    }
+  },
   "dcalUpcoming": {
     "url": "https://github.com/leoamaro01/dms-dcal",
     "rev": "8a140c03231a06cbf2cc3754312477c4e9aaadaa",
@@ -6937,11 +7007,11 @@
   },
   "dankCalendarPlus": {
     "url": "https://github.com/luckjokerwang/dms-dankcalendar",
-    "rev": "b4d5ac4faa19d0433564ff3feb1c834724b83933",
-    "date": "2026-08-27T10:05:50+08:00",
-    "path": "/nix/store/48kc284y7sc1by6hx6k9mnjmpy224x32-dms-dankcalendar",
-    "sha256": "1f4wmwn543jxxi2bj5xyfw3wcrpklz6f0d8y9v469zciafzzvfk9",
-    "hash": "sha256-abr9v1OR/WTITh414Myn82bGB3e+F7lE7F0OUiyvnLg=",
+    "rev": "bd6ff339476e437a94468eae751dfb946a7e3403",
+    "date": "2026-08-29T00:05:09+08:00",
+    "path": "/nix/store/lvb5jkjhdwk3ik0wrcnd81iz9yh6jscq-dms-dankcalendar",
+    "sha256": "13n5diwlyvrn21kyydpggml61pirpww21djl2b94g3r5n94ag2q9",
+    "hash": "sha256-CYunSLIlj0fSElS2IDi/Od5gaH3vNu9nEDZvT3lsxY4=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8919,11 +8989,11 @@
   },
   "awcc": {
     "url": "https://github.com/psyreactor/dms-awcc",
-    "rev": "8bd2f0369b07c21632e41ad17829508ddc762e74",
-    "date": "2026-08-27T11:24:32-03:00",
-    "path": "/nix/store/03gw6m76dnxk2fb4v5hkqi89wr31kv5w-dms-awcc",
-    "sha256": "1mj7zcd56jxvvi0c534yflc2aklqwni2f1xrr0c7p3dwamc0aw5l",
-    "hash": "sha256-tHAFWFW8jXsYyLkHJ6LlmE4lGHWejMJA3LtLUxr7R9Y=",
+    "rev": "9a0d0f889a0703b244f2680257f5812ee4005870",
+    "date": "2026-08-28T22:51:30-03:00",
+    "path": "/nix/store/5djwlq28ngfm1r5i2vyq6m5vgnl2cnz3-dms-awcc",
+    "sha256": "0i956jg682zh4r7vjhk7wp62agzdgfdqh0gavprdbmi1253af5yc",
+    "hash": "sha256-zBenRhEh1tXy3eoBiJt77T8lzOVnQrlPJvALZJ40JUU=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8953,11 +9023,11 @@
   },
   "dolarBlue": {
     "url": "https://github.com/psyreactor/dms-dolarBlue",
-    "rev": "9e5551524376927ef0eaf3a7ffbd00f97084e514",
-    "date": "2026-08-27T11:08:13-03:00",
-    "path": "/nix/store/qs9j84076wnjgc9hwhm38s3zns2x7p3r-dms-dolarBlue",
-    "sha256": "1xclb4b6s43x89sg7za8z317fabja60lhglrsgcflrl0mbdd324r",
-    "hash": "sha256-mYjR2qqAZurY05k+SIFRcil3wvhI/fN0Qn0QbRZZlPU=",
+    "rev": "651de2072c83b8e092097b5a25666160c15ca461",
+    "date": "2026-08-28T22:51:26-03:00",
+    "path": "/nix/store/gvsbgicj97s4mjbxvram0zg313yml5nb-dms-dolarBlue",
+    "sha256": "0iknlp5hlpsn2n4nkkqin8hpcpi2c387ss5fni23b612n39lm4jq",
+    "hash": "sha256-WJJK07AimDVEtK5ofdBgIl52IbIRz2mJFVZfCsuldkY=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -9338,11 +9408,11 @@
   },
   "shellyUpdater": {
     "url": "https://github.com/rdannenbring/dms-shelly-updater",
-    "rev": "e665cafb3f8a31365e401f851d59e9134df37bd7",
-    "date": "2026-07-31T16:09:11-04:00",
-    "path": "/nix/store/dwmd7mq004p4ska3xb7892y6iiw97rza-dms-shelly-updater",
-    "sha256": "03s0w0jc98rc3rqy5hmrqg84ikbj12yaxia3zjwa85fsxrvrl7ns",
-    "hash": "sha256-2h6ad+7aFaS4/EPFrrwIcs1I0MO5wuJxHiyjxCTgQA8=",
+    "rev": "98b16b41c7622c7e3f739afac43d33e01c92e227",
+    "date": "2026-08-28T20:42:29-04:00",
+    "path": "/nix/store/i7akclnm3d7rzzsqq75z7i3g9f3rvq71-dms-shelly-updater",
+    "sha256": "12asw3hnnrdc1vhdsa6bk8qr6glclqk40h1wmpskpyig5vfrknlz",
+    "hash": "sha256-n9qZ3S4v+jv1rTxAQCamjD6TMZrLKN3gDqxla+HgWok=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -9360,7 +9430,7 @@
       "repo": "https://github.com/rdannenbring/dms-shelly-updater",
       "screenshot": "https://raw.githubusercontent.com/rdannenbring/dms-shelly-updater/main/preview/updates.png",
       "author": "rdannenbring",
-      "description": "Comprehensive system update widget backed by the Shelly (ALPM) CLI — pacman, AUR, Flatpak and AppImage in one DankBar pill with a detailed updates view, action menu, and control-center panel. Requires Shelly v3+.",
+      "description": "Comprehensive system update widget backed by the Shelly (ALPM) CLI — pacman, AUR, Flatpak and AppImage in one DankBar pill with a detailed updates view, action menu, and control-center panel. Also counts DMS plugin and device firmware updates, plus any other tool you describe in a config file (mise and Rust toolchains ship as worked examples). Requires Shelly v3+.",
       "dependencies": [
         "shelly>=3"
       ],
@@ -10253,13 +10323,53 @@
       "screenshot": "https://raw.githubusercontent.com/shazzaam7/DankAsusControl/refs/heads/main/assets/popup.png"
     }
   },
+  "gamechatMix": {
+    "url": "https://github.com/Shochraos/game-chat-mix",
+    "rev": "2d73f5f595491d942136cd72f97593eea9c9e6e7",
+    "date": "2026-08-27T20:01:36+02:00",
+    "path": "/nix/store/vh9fc9wi6drxy6ayk6mnw1368qcl2pr1-game-chat-mix",
+    "sha256": "0xhh524jqrg636p3rx9gwc8skd8m5lilxhv654acv5q1x91c7q0y",
+    "hash": "sha256-HuDDQuoBl80UKWbDTiMtFbWpEeMv9TyuGeZlLIkoEHY=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "gamechatMix",
+      "name": "Game / Chat Mix",
+      "capabilities": [
+        "dankbar-widget",
+        "daemon",
+        "audio"
+      ],
+      "category": "audio",
+      "repo": "https://github.com/Shochraos/game-chat-mix",
+      "path": "dms",
+      "author": "Shochraos",
+      "description": "Balance game audio against Discord/chat audio with a single slider, with the routing daemon built in",
+      "dependencies": [
+        "pactl",
+        "gawk",
+        "flock"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Shochraos/game-chat-mix/main/assets/screenshot.png"
+    }
+  },
   "dankTodoman": {
     "url": "https://github.com/Shochraos/dms-todoman-plugin",
-    "rev": "6a0763355433233c1c0bf1d1cc1780dc897a0c47",
-    "date": "2026-08-27T20:01:49+02:00",
-    "path": "/nix/store/pmq3j4nr2v1m2mb37dxl0lnr3qkljrdk-dms-todoman-plugin",
-    "sha256": "1z71k0ls1zvzync69frwa6j2x2swacmzvpbswwia1kkwqfpc6ljh",
-    "hash": "sha256-UFLDrsN8zqAi53rd/StTXIsupFE8u2SY9X//oCmY4fw=",
+    "rev": "f50f643df364201f326e9f36d9520e7d5b3a1d58",
+    "date": "2026-08-28T15:18:23+02:00",
+    "path": "/nix/store/vqlh8qxyzvmnfdfh36iay3lfm7bz7dy0-dms-todoman-plugin",
+    "sha256": "0hfz5pd76zrflnmizw52hqqk9vkxk9flb9nz2408af3hv6gzxy5v",
+    "hash": "sha256-u/j+n9lwOIUAEd+mRV2afe40MYai8B+rpS5/c9ot30E=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -10327,7 +10437,7 @@
   },
   "barDropdown": {
     "url": "https://github.com/sitolam/dms-plugins",
-    "rev": "04ac2410c1666ddcdabfe012d2a6a7d197d83913",
+    "rev": "e8cd810cb3563128ab6b7f49f001a50267d7186b",
     "date": "2026-08-28T00:17:32+02:00",
     "path": "/nix/store/sqvrc75qi2331l094yqp85nax9p9js32-dms-plugins",
     "sha256": "0swwqp5c7v2dw1jpx7hsqp4i97h9d6jy7dkqmw5ky83jijblq95y",
@@ -10361,7 +10471,7 @@
   },
   "dankMenu": {
     "url": "https://github.com/sitolam/dms-plugins",
-    "rev": "04ac2410c1666ddcdabfe012d2a6a7d197d83913",
+    "rev": "e8cd810cb3563128ab6b7f49f001a50267d7186b",
     "date": "2026-08-28T00:17:32+02:00",
     "path": "/nix/store/sqvrc75qi2331l094yqp85nax9p9js32-dms-plugins",
     "sha256": "0swwqp5c7v2dw1jpx7hsqp4i97h9d6jy7dkqmw5ky83jijblq95y",
@@ -10396,7 +10506,7 @@
   },
   "mouthGuard": {
     "url": "https://github.com/sitolam/dms-plugins",
-    "rev": "04ac2410c1666ddcdabfe012d2a6a7d197d83913",
+    "rev": "e8cd810cb3563128ab6b7f49f001a50267d7186b",
     "date": "2026-08-28T00:17:32+02:00",
     "path": "/nix/store/sqvrc75qi2331l094yqp85nax9p9js32-dms-plugins",
     "sha256": "0swwqp5c7v2dw1jpx7hsqp4i97h9d6jy7dkqmw5ky83jijblq95y",
@@ -10436,7 +10546,7 @@
   },
   "virtualKeyboard": {
     "url": "https://github.com/sitolam/dms-plugins",
-    "rev": "04ac2410c1666ddcdabfe012d2a6a7d197d83913",
+    "rev": "e8cd810cb3563128ab6b7f49f001a50267d7186b",
     "date": "2026-08-28T00:17:32+02:00",
     "path": "/nix/store/sqvrc75qi2331l094yqp85nax9p9js32-dms-plugins",
     "sha256": "0swwqp5c7v2dw1jpx7hsqp4i97h9d6jy7dkqmw5ky83jijblq95y",
@@ -10646,6 +10756,42 @@
       ],
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/smithyyang/dms-screen-recorder/main/assets/screenshot.png"
+    }
+  },
+  "cliproxyQuota": {
+    "url": "https://github.com/SpyrosPsarras/dms-cliproxy-quota",
+    "rev": "17c33cd6a8a7cf5fe2fba58461217e911fb1abb9",
+    "date": "2026-08-28T21:44:24+02:00",
+    "path": "/nix/store/wk82mm1gpca3hwlg351wn7852lcr8rfm-dms-cliproxy-quota",
+    "sha256": "0rz716kij60l8fnalqdhjn9clqasadwwn11wdj9y8wfh71gyg7nz",
+    "hash": "sha256-357nXzjQceSTbDwEy3lTWmHKkpWwYaqsQxQYGacJ52c=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "cliproxyQuota",
+      "name": "CLIProxyAPI Quota",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/SpyrosPsarras/dms-cliproxy-quota",
+      "author": "Spyros Psarras",
+      "description": "Remaining AI provider quota (Claude, Codex, Copilot and more) from a CLIProxyAPI server: per-provider rings, pace, reset countdowns and daily activity. Requires the pi-bridge plugin on the server.",
+      "dependencies": [
+        "curl",
+        "jq"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/SpyrosPsarras/dms-cliproxy-quota/main/screenshot.png"
     }
   },
   "vscodeLauncher": {
