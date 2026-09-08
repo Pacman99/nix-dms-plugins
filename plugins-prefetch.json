@@ -318,6 +318,45 @@
       ]
     }
   },
+  "portWatch": {
+    "url": "https://github.com/alamin147/PortWatch",
+    "rev": "c689b30e5b9aabf4e06e9fe71ede71ab4338af7d",
+    "date": "2026-09-08T00:10:30+06:00",
+    "path": "/nix/store/iqh50dmnvgh8z928h7qdm7ynvx6cm4xy-PortWatch",
+    "sha256": "1kp1w56ckiph81pc3rxdzygd461m3jp1d26b6szi9acfmc49cp1q",
+    "hash": "sha256-OFyWCKuOqRS/NsuIFq4cNRjSnv+t58FuQPDGyUzh4c4=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "portWatch",
+      "name": "PortWatch",
+      "capabilities": [
+        "dankbar-widget",
+        "monitoring"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/alamin147/PortWatch",
+      "author": "Al Amin",
+      "description": "Shows local listening ports and development servers in DankBar, with a popout to stop them safely.",
+      "dependencies": [
+        "bash",
+        "ss",
+        "hyprctl"
+      ],
+      "compositors": [
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/alamin147/PortWatch/main/main/docs/portwatch.png",
+      "requires_dms": ">=1.5.0"
+    }
+  },
   "radioAtlasLite": {
     "url": "https://github.com/alamin147/RadioAtlasLite",
     "rev": "812a26c5a9900976c0c442484c490c974b9a7d8a",
@@ -351,6 +390,44 @@
         "any"
       ],
       "screenshot": "https://github.com/alamin147/RadioAtlasLite/blob/main/main/docs/screenshot.png"
+    }
+  },
+  "dankAIUsage": {
+    "url": "https://github.com/alcxyz/DankAIUsage",
+    "rev": "a21bf3ae832c48d3a37e32e5eda88a4ce3d6dece",
+    "date": "2026-09-08T03:09:34+02:00",
+    "path": "/nix/store/z4ip1bqainkgjq20z1ami52k79f5my24-DankAIUsage",
+    "sha256": "0gdfb1wj3fz9mcbb81q52kard6vfnni814khrw8xlq1dw3jp17g2",
+    "hash": "sha256-4p1w5eAtYNoRz3CSgKK1bpuW1RQFB7QWq+m7IXlYrj0=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankAIUsage",
+      "name": "AI Usage",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/alcxyz/DankAIUsage",
+      "author": "alcxyz",
+      "description": "Monitor Codex and Claude subscription quotas, extra-usage credits, and local token history with switchable used/remaining views and quick bar controls",
+      "dependencies": [
+        "dankaiusage",
+        "codex",
+        "claude",
+        "sqlite3"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/alcxyz/DankAIUsage/main/docs/screenshot.png"
     }
   },
   "dankCalendar": {
@@ -455,6 +532,43 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankQuickSearch/main/docs/screenshot.png"
+    }
+  },
+  "dankSession": {
+    "url": "https://github.com/alcxyz/DankSession",
+    "rev": "685ab95a425a9334d310d00429ee833aba575b89",
+    "date": "2026-09-07T15:37:47+02:00",
+    "path": "/nix/store/nryq5zql15r6lab465v5zs4bkfq1p465-DankSession",
+    "sha256": "1qm6mbdxjk32xjj3dgpybbpa5qxmr1xazw6728s21jyi4hb6accv",
+    "hash": "sha256-mzFlFiTRyyA0Esfwr3rIteOi7lr+vjak7GJM2duqpuI=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankSession",
+      "name": "DankSession",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "repo": "https://github.com/alcxyz/DankSession",
+      "author": "alcxyz",
+      "description": "Save and restore Hyprland application sessions, workspaces, and window sizes, with automatic saving, login restoration, and app exclusions",
+      "dependencies": [
+        "danksession",
+        "hyprctl",
+        "systemd-run"
+      ],
+      "compositors": [
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/alcxyz/DankSession/main/assets/screenshot.png"
     }
   },
   "dankSpotify": {
@@ -563,6 +677,42 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankVault/main/docs/screenshot.png"
+    }
+  },
+  "workspaceOsdFlash": {
+    "url": "https://github.com/AleBles/dms-workspace-osd",
+    "rev": "fa224f0305443079004fca0a7e67cb48aed873e7",
+    "date": "2026-09-07T22:34:56+02:00",
+    "path": "/nix/store/3dkaaz44nr35mwkmd01jdx1cv8s7snwq-dms-workspace-osd",
+    "sha256": "0wp8dxiwnad4prw73mz5jn7nh4gyxf2sbspcq2q40r17nh04qs0m",
+    "hash": "sha256-FWhMALQnZECwwOzqpYXr/hFoj5Xl13F4vqQpy2Nv6HI=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "workspaceOsdFlash",
+      "name": "Workspace OSD Flash",
+      "capabilities": [
+        "daemon",
+        "ipc"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/AleBles/dms-workspace-osd",
+      "author": "Ale Bles",
+      "description": "Briefly shows the id and name of the workspace you just switched to, centered on that screen.",
+      "dependencies": [],
+      "compositors": [
+        "hyprland",
+        "niri"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/AleBles/dms-workspace-osd/main/assets/screenshot.png",
+      "requires_dms": ">=1.6.0"
     }
   },
   "animationRotate": {
@@ -1545,11 +1695,11 @@
   },
   "aiOverviewControl": {
     "url": "https://github.com/bernardopg/AiOverviewControl",
-    "rev": "f2d0fc19493539c3134da3090b0887538ecbdfb0",
-    "date": "2026-08-26T14:27:53-03:00",
-    "path": "/nix/store/d1mdv14l2i2ydhnrasrmd8gg5myc63p7-AiOverviewControl",
-    "sha256": "0wrl3hpiqldmy52vghjrqxd15rlsmgmylfclzmvzfx6z0yrfwp6p",
-    "hash": "sha256-11zusgffdPd3/ZQ56uurmuYSWsdZwrdF8bVRHC8cNHM=",
+    "rev": "d7586dc93208ef4b9494b3b293897f2fc042f144",
+    "date": "2026-09-07T18:36:06-03:00",
+    "path": "/nix/store/ywj6dhnxxcwd42ff4acfzwslgwwjqs9f-AiOverviewControl",
+    "sha256": "1dxw2ny47za02fhp4z92pv016vspiq0lr112by00wmpdlmcdn0kc",
+    "hash": "sha256-bALbWKXtVg6AXyKETAGOV28TwL4ifXKhE0D9Q7wVvLc=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1804,11 +1954,11 @@
   },
   "dankRssWidget": {
     "url": "https://github.com/BrendonJL/dms-rss-widget",
-    "rev": "99cd03ee5607389d585df647e223e53fa6591065",
-    "date": "2026-09-05T12:26:01-04:00",
-    "path": "/nix/store/sr9dn53261k4wwwvr4ghdr7cfff2zinw-dms-rss-widget",
-    "sha256": "1g7c9sh74hsa10m19xwzza8scyh5cjca733z80qv46a25i3kch1z",
-    "hash": "sha256-P0A2RyxCGbIxQH+Mo5hkBXqmkfqf9xQqCEpDcqBO7Lw=",
+    "rev": "3d277abd34db8f9efb28a75924d7b28aa0851eab",
+    "date": "2026-09-07T21:01:47-04:00",
+    "path": "/nix/store/4r2w09wdis7hqvpnpqs95v0q0i73xvb0-dms-rss-widget",
+    "sha256": "0vfkjaxlgw0gj88y59y6d7vp3fij6kmx655whk398wmlsdk6ypll",
+    "hash": "sha256-lF5vZtO0cpTGhLwU0+s0Mrpx92nGp+IRkg/wR7uS020=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1823,9 +1973,11 @@
       ],
       "category": "utilities",
       "repo": "https://github.com/BrendonJL/dms-rss-widget",
-      "author": "BrendonJL",
-      "description": "Desktop widget that displays RSS/Atom feeds with auto-refresh",
-      "dependencies": [],
+      "author": "BrendonJL, Xn4m3d, Alessandro Ianne",
+      "description": "Desktop widget that displays RSS/Atom feeds with auto-refresh, plus full Miniflux integration with bidirectional read/unread/starred sync",
+      "dependencies": [
+        "curl"
+      ],
       "compositors": [
         "any"
       ],
@@ -2568,11 +2720,11 @@
   },
   "dankActions": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "2a0f6c57207545433f26b2af32b7d4e72b4c09e2",
-    "date": "2026-09-04T10:11:09-04:00",
-    "path": "/nix/store/2h20ydcg3xldyxc73pz4prwrnxcj6m3a-dms-plugins",
-    "sha256": "030blkmk038pzlnwfc2jsnq2yz3y67a2z1bixmj2havw3h9wzj5g",
-    "hash": "sha256-r8jPExx8Kyhk7XGFL9QxfnwvsNVSMMct/RcNMOukCww=",
+    "rev": "6fc7f25bfb24f93b6488fb8a36ed67b5f242abdb",
+    "date": "2026-09-07T20:36:18-04:00",
+    "path": "/nix/store/8cp1ibbldnbz9zhj9qgq32fzwlinaidz-dms-plugins",
+    "sha256": "0fzcm0aiic55fy3b3wgibf7jfs7rswrf7rmjij67ikbz2f1lssi8",
+    "hash": "sha256-KGpNgxN/zXiMjLLm4zLX+Wgnj1vx8bGGd6WwGBWo7Ds=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2603,11 +2755,11 @@
   },
   "dankBatteryAlerts": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "2a0f6c57207545433f26b2af32b7d4e72b4c09e2",
-    "date": "2026-09-04T10:11:09-04:00",
-    "path": "/nix/store/2h20ydcg3xldyxc73pz4prwrnxcj6m3a-dms-plugins",
-    "sha256": "030blkmk038pzlnwfc2jsnq2yz3y67a2z1bixmj2havw3h9wzj5g",
-    "hash": "sha256-r8jPExx8Kyhk7XGFL9QxfnwvsNVSMMct/RcNMOukCww=",
+    "rev": "6fc7f25bfb24f93b6488fb8a36ed67b5f242abdb",
+    "date": "2026-09-07T20:36:18-04:00",
+    "path": "/nix/store/8cp1ibbldnbz9zhj9qgq32fzwlinaidz-dms-plugins",
+    "sha256": "0fzcm0aiic55fy3b3wgibf7jfs7rswrf7rmjij67ikbz2f1lssi8",
+    "hash": "sha256-KGpNgxN/zXiMjLLm4zLX+Wgnj1vx8bGGd6WwGBWo7Ds=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2639,11 +2791,11 @@
   },
   "dankClight": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "2a0f6c57207545433f26b2af32b7d4e72b4c09e2",
-    "date": "2026-09-04T10:11:09-04:00",
-    "path": "/nix/store/2h20ydcg3xldyxc73pz4prwrnxcj6m3a-dms-plugins",
-    "sha256": "030blkmk038pzlnwfc2jsnq2yz3y67a2z1bixmj2havw3h9wzj5g",
-    "hash": "sha256-r8jPExx8Kyhk7XGFL9QxfnwvsNVSMMct/RcNMOukCww=",
+    "rev": "6fc7f25bfb24f93b6488fb8a36ed67b5f242abdb",
+    "date": "2026-09-07T20:36:18-04:00",
+    "path": "/nix/store/8cp1ibbldnbz9zhj9qgq32fzwlinaidz-dms-plugins",
+    "sha256": "0fzcm0aiic55fy3b3wgibf7jfs7rswrf7rmjij67ikbz2f1lssi8",
+    "hash": "sha256-KGpNgxN/zXiMjLLm4zLX+Wgnj1vx8bGGd6WwGBWo7Ds=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2678,11 +2830,11 @@
   },
   "dankDesktopWeather": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "2a0f6c57207545433f26b2af32b7d4e72b4c09e2",
-    "date": "2026-09-04T10:11:09-04:00",
-    "path": "/nix/store/2h20ydcg3xldyxc73pz4prwrnxcj6m3a-dms-plugins",
-    "sha256": "030blkmk038pzlnwfc2jsnq2yz3y67a2z1bixmj2havw3h9wzj5g",
-    "hash": "sha256-r8jPExx8Kyhk7XGFL9QxfnwvsNVSMMct/RcNMOukCww=",
+    "rev": "6fc7f25bfb24f93b6488fb8a36ed67b5f242abdb",
+    "date": "2026-09-07T20:36:18-04:00",
+    "path": "/nix/store/8cp1ibbldnbz9zhj9qgq32fzwlinaidz-dms-plugins",
+    "sha256": "0fzcm0aiic55fy3b3wgibf7jfs7rswrf7rmjij67ikbz2f1lssi8",
+    "hash": "sha256-KGpNgxN/zXiMjLLm4zLX+Wgnj1vx8bGGd6WwGBWo7Ds=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2714,11 +2866,11 @@
   },
   "dankGifSearch": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "2a0f6c57207545433f26b2af32b7d4e72b4c09e2",
-    "date": "2026-09-04T10:11:09-04:00",
-    "path": "/nix/store/2h20ydcg3xldyxc73pz4prwrnxcj6m3a-dms-plugins",
-    "sha256": "030blkmk038pzlnwfc2jsnq2yz3y67a2z1bixmj2havw3h9wzj5g",
-    "hash": "sha256-r8jPExx8Kyhk7XGFL9QxfnwvsNVSMMct/RcNMOukCww=",
+    "rev": "6fc7f25bfb24f93b6488fb8a36ed67b5f242abdb",
+    "date": "2026-09-07T20:36:18-04:00",
+    "path": "/nix/store/8cp1ibbldnbz9zhj9qgq32fzwlinaidz-dms-plugins",
+    "sha256": "0fzcm0aiic55fy3b3wgibf7jfs7rswrf7rmjij67ikbz2f1lssi8",
+    "hash": "sha256-KGpNgxN/zXiMjLLm4zLX+Wgnj1vx8bGGd6WwGBWo7Ds=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2754,11 +2906,11 @@
   },
   "dankHooks": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "2a0f6c57207545433f26b2af32b7d4e72b4c09e2",
-    "date": "2026-09-04T10:11:09-04:00",
-    "path": "/nix/store/2h20ydcg3xldyxc73pz4prwrnxcj6m3a-dms-plugins",
-    "sha256": "030blkmk038pzlnwfc2jsnq2yz3y67a2z1bixmj2havw3h9wzj5g",
-    "hash": "sha256-r8jPExx8Kyhk7XGFL9QxfnwvsNVSMMct/RcNMOukCww=",
+    "rev": "6fc7f25bfb24f93b6488fb8a36ed67b5f242abdb",
+    "date": "2026-09-07T20:36:18-04:00",
+    "path": "/nix/store/8cp1ibbldnbz9zhj9qgq32fzwlinaidz-dms-plugins",
+    "sha256": "0fzcm0aiic55fy3b3wgibf7jfs7rswrf7rmjij67ikbz2f1lssi8",
+    "hash": "sha256-KGpNgxN/zXiMjLLm4zLX+Wgnj1vx8bGGd6WwGBWo7Ds=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2789,11 +2941,11 @@
   },
   "dankHyprlandWindows": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "2a0f6c57207545433f26b2af32b7d4e72b4c09e2",
-    "date": "2026-09-04T10:11:09-04:00",
-    "path": "/nix/store/2h20ydcg3xldyxc73pz4prwrnxcj6m3a-dms-plugins",
-    "sha256": "030blkmk038pzlnwfc2jsnq2yz3y67a2z1bixmj2havw3h9wzj5g",
-    "hash": "sha256-r8jPExx8Kyhk7XGFL9QxfnwvsNVSMMct/RcNMOukCww=",
+    "rev": "6fc7f25bfb24f93b6488fb8a36ed67b5f242abdb",
+    "date": "2026-09-07T20:36:18-04:00",
+    "path": "/nix/store/8cp1ibbldnbz9zhj9qgq32fzwlinaidz-dms-plugins",
+    "sha256": "0fzcm0aiic55fy3b3wgibf7jfs7rswrf7rmjij67ikbz2f1lssi8",
+    "hash": "sha256-KGpNgxN/zXiMjLLm4zLX+Wgnj1vx8bGGd6WwGBWo7Ds=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2825,11 +2977,11 @@
   },
   "dankKDEConnect": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "2a0f6c57207545433f26b2af32b7d4e72b4c09e2",
-    "date": "2026-09-04T10:11:09-04:00",
-    "path": "/nix/store/2h20ydcg3xldyxc73pz4prwrnxcj6m3a-dms-plugins",
-    "sha256": "030blkmk038pzlnwfc2jsnq2yz3y67a2z1bixmj2havw3h9wzj5g",
-    "hash": "sha256-r8jPExx8Kyhk7XGFL9QxfnwvsNVSMMct/RcNMOukCww=",
+    "rev": "6fc7f25bfb24f93b6488fb8a36ed67b5f242abdb",
+    "date": "2026-09-07T20:36:18-04:00",
+    "path": "/nix/store/8cp1ibbldnbz9zhj9qgq32fzwlinaidz-dms-plugins",
+    "sha256": "0fzcm0aiic55fy3b3wgibf7jfs7rswrf7rmjij67ikbz2f1lssi8",
+    "hash": "sha256-KGpNgxN/zXiMjLLm4zLX+Wgnj1vx8bGGd6WwGBWo7Ds=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2866,11 +3018,11 @@
   },
   "dankLauncherKeys": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "2a0f6c57207545433f26b2af32b7d4e72b4c09e2",
-    "date": "2026-09-04T10:11:09-04:00",
-    "path": "/nix/store/2h20ydcg3xldyxc73pz4prwrnxcj6m3a-dms-plugins",
-    "sha256": "030blkmk038pzlnwfc2jsnq2yz3y67a2z1bixmj2havw3h9wzj5g",
-    "hash": "sha256-r8jPExx8Kyhk7XGFL9QxfnwvsNVSMMct/RcNMOukCww=",
+    "rev": "6fc7f25bfb24f93b6488fb8a36ed67b5f242abdb",
+    "date": "2026-09-07T20:36:18-04:00",
+    "path": "/nix/store/8cp1ibbldnbz9zhj9qgq32fzwlinaidz-dms-plugins",
+    "sha256": "0fzcm0aiic55fy3b3wgibf7jfs7rswrf7rmjij67ikbz2f1lssi8",
+    "hash": "sha256-KGpNgxN/zXiMjLLm4zLX+Wgnj1vx8bGGd6WwGBWo7Ds=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2902,11 +3054,11 @@
   },
   "dankNotepadModule": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "2a0f6c57207545433f26b2af32b7d4e72b4c09e2",
-    "date": "2026-09-04T10:11:09-04:00",
-    "path": "/nix/store/2h20ydcg3xldyxc73pz4prwrnxcj6m3a-dms-plugins",
-    "sha256": "030blkmk038pzlnwfc2jsnq2yz3y67a2z1bixmj2havw3h9wzj5g",
-    "hash": "sha256-r8jPExx8Kyhk7XGFL9QxfnwvsNVSMMct/RcNMOukCww=",
+    "rev": "6fc7f25bfb24f93b6488fb8a36ed67b5f242abdb",
+    "date": "2026-09-07T20:36:18-04:00",
+    "path": "/nix/store/8cp1ibbldnbz9zhj9qgq32fzwlinaidz-dms-plugins",
+    "sha256": "0fzcm0aiic55fy3b3wgibf7jfs7rswrf7rmjij67ikbz2f1lssi8",
+    "hash": "sha256-KGpNgxN/zXiMjLLm4zLX+Wgnj1vx8bGGd6WwGBWo7Ds=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2940,11 +3092,11 @@
   },
   "dankPomodoroTimer": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "2a0f6c57207545433f26b2af32b7d4e72b4c09e2",
-    "date": "2026-09-04T10:11:09-04:00",
-    "path": "/nix/store/2h20ydcg3xldyxc73pz4prwrnxcj6m3a-dms-plugins",
-    "sha256": "030blkmk038pzlnwfc2jsnq2yz3y67a2z1bixmj2havw3h9wzj5g",
-    "hash": "sha256-r8jPExx8Kyhk7XGFL9QxfnwvsNVSMMct/RcNMOukCww=",
+    "rev": "6fc7f25bfb24f93b6488fb8a36ed67b5f242abdb",
+    "date": "2026-09-07T20:36:18-04:00",
+    "path": "/nix/store/8cp1ibbldnbz9zhj9qgq32fzwlinaidz-dms-plugins",
+    "sha256": "0fzcm0aiic55fy3b3wgibf7jfs7rswrf7rmjij67ikbz2f1lssi8",
+    "hash": "sha256-KGpNgxN/zXiMjLLm4zLX+Wgnj1vx8bGGd6WwGBWo7Ds=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2975,11 +3127,11 @@
   },
   "dankStickerSearch": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "2a0f6c57207545433f26b2af32b7d4e72b4c09e2",
-    "date": "2026-09-04T10:11:09-04:00",
-    "path": "/nix/store/2h20ydcg3xldyxc73pz4prwrnxcj6m3a-dms-plugins",
-    "sha256": "030blkmk038pzlnwfc2jsnq2yz3y67a2z1bixmj2havw3h9wzj5g",
-    "hash": "sha256-r8jPExx8Kyhk7XGFL9QxfnwvsNVSMMct/RcNMOukCww=",
+    "rev": "6fc7f25bfb24f93b6488fb8a36ed67b5f242abdb",
+    "date": "2026-09-07T20:36:18-04:00",
+    "path": "/nix/store/8cp1ibbldnbz9zhj9qgq32fzwlinaidz-dms-plugins",
+    "sha256": "0fzcm0aiic55fy3b3wgibf7jfs7rswrf7rmjij67ikbz2f1lssi8",
+    "hash": "sha256-KGpNgxN/zXiMjLLm4zLX+Wgnj1vx8bGGd6WwGBWo7Ds=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4962,11 +5114,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "3e42f2d59950beb610b7b748d16568aee167af28",
-    "date": "2026-09-06T22:34:03+07:00",
-    "path": "/nix/store/18n1kb0g4bqcimcpjwmq1mm68yk9xl0v-dms-quick-capture",
-    "sha256": "0q0v0gryaaxj0yrl71g2mk6k8vff778rc2flgq3am3jr43yb3q8j",
-    "hash": "sha256-EuGx/CBZjqoGftQJltE5zm00zazihUOzB7Ir5fMDG2A=",
+    "rev": "511e6b84213a8344406832fc7facd9ee0c33fbdd",
+    "date": "2026-09-08T07:57:53+07:00",
+    "path": "/nix/store/q7vyip0zi8zwqv69xd5d4p94v61a2skg-dms-quick-capture",
+    "sha256": "01xirw1dmj3djpwac2y4pvs0313fzyf0hwn37kjcc03dchimbzpy",
+    "hash": "sha256-/v5VI2RtAMbkPMNyCJz/boQB9L7EC6b4lW3I2gLPsQc=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4984,13 +5136,15 @@
       "category": "utilities",
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "author": "Loc Huynh",
-      "description": "A quick screen capture utility featuring screenshot tools, drawing, and annotation.",
-      "requires_dms": ">=1.5.0",
+      "description": "Screenshot annotation and screen recording plugin.",
+      "requires_dms": ">=1.6.0",
       "dependencies": [
         "imagemagick",
         "img2pdf",
         "tesseract",
-        "zbar"
+        "zbar",
+        "gpu-screen-recorder",
+        "ffmpeg"
       ],
       "compositors": [
         "any"
@@ -4998,6 +5152,7 @@
       "distro": [
         "any"
       ],
+      "i18n": true,
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png"
     }
   },
@@ -5621,11 +5776,11 @@
   },
   "amdGpuMonitorRevive": {
     "url": "https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive",
-    "rev": "d99d4f0673635a7e71bc457fbbd3319f84c18b52",
-    "date": "2026-05-31T17:40:44+05:30",
-    "path": "/nix/store/g478m0lbj1sa8s7zwnmckl7flsz5y106-DMS-AMD_GPU_Monitor_Revive",
-    "sha256": "1ll2knqa2719mgqqdcrzq5q6qj44rsdv0a8gwywiiamh4w71xmzw",
-    "hash": "sha256-/NceDiewqhi55w8psJvOhEhscME/s4bxqykcobCdgtI=",
+    "rev": "ffc1f27c9278bccf282692bd75fa1a6c8e6d7d3c",
+    "date": "2026-09-08T00:04:49+05:30",
+    "path": "/nix/store/a55db3mndmfaw1b575fadwh1s9rmgvsy-DMS-AMD_GPU_Monitor_Revive",
+    "sha256": "0wa25xx560k7djh1vvkhgpr13xi9k43ch05r32z816yfd5v3zyj8",
+    "hash": "sha256-SPo/dmnOm4C+GLkAyAaZKfYR8n1w7h2gbGcCU3ovQnE=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5667,11 +5822,11 @@
   },
   "caffeineRedesigned": {
     "url": "https://github.com/JDKamalakar/DMS-Caffeine",
-    "rev": "0ce109e5984d3e8b7a31433ab09bbb682bf47d79",
-    "date": "2026-08-08T12:16:39+05:30",
-    "path": "/nix/store/j19ghn06lq5q7vnsnzn588yih7ix08af-DMS-Caffeine",
-    "sha256": "0fqnadrxiw73aak9vdh2wff1m5h7774awjiqka4mdl02mdqnvyp9",
-    "hash": "sha256-6fptcasC0FaJmjhKrsg5B5YanOMCtp2mUuPw2HNTFjs=",
+    "rev": "8d2e19bc1cde57aa7339b055d2bb385b36e00928",
+    "date": "2026-09-07T23:44:27+05:30",
+    "path": "/nix/store/8d00d3schb166d0pd8kbbsyn60w3l70r-DMS-Caffeine",
+    "sha256": "19xp5gzck0ia63ff4z73rniqlvhvixfw942jz2d1pykg80k54wxd",
+    "hash": "sha256-rXNSJkBv+hua+FKQxF2PG26Ko83jfOLcMCqCyf4rt6c=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5710,11 +5865,11 @@
   },
   "dmsScreenshot": {
     "url": "https://github.com/JDKamalakar/DMS-Screenshot",
-    "rev": "663eecc48d8532143c5995148aa561122d6bfd7e",
-    "date": "2026-08-08T12:43:49+05:30",
-    "path": "/nix/store/hbhgk201x2m3fgn83n0fp0rhr1kfnbrd-DMS-Screenshot",
-    "sha256": "13kc2vyz0111dz8l6msk43nvbxqayqq950jizpzmyvhxq6czwdaf",
-    "hash": "sha256-TjX+mcEdbl///VGCkjD2Cve17SBTV0PRbyEE8P0WbI4=",
+    "rev": "d31161eaa4420ba3f54631956bf13bc35e3d46d5",
+    "date": "2026-09-07T23:56:57+05:30",
+    "path": "/nix/store/4j7prjr0kf9vwbjb1p19s3dqs6pr6vw7-DMS-Screenshot",
+    "sha256": "0n3prwly1s85jsdyrfrznrqq1abnh5c89rjcm99rkhb67f3kk7zy",
+    "hash": "sha256-/p85hztmwZlTqkzmhFiBdqmAcbY/u+yblgXp4CnPd1g=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5754,11 +5909,11 @@
   },
   "dnsSwitcher": {
     "url": "https://github.com/JDKamalakar/DMS-DNS_Switcher",
-    "rev": "b03cac0aaa9c70cf8c91896775459b5cada52144",
-    "date": "2026-08-08T12:31:19+05:30",
-    "path": "/nix/store/0pnvj46vrxmi8mw24j6d260ls9pf96bg-DMS-DNS_Switcher",
-    "sha256": "1yfbnjzr5lhrf27yws4vl23qrww89zb17y4h73p42gvsckdjd946",
-    "hash": "sha256-hqQm22R6P0HuOJD4E9ZPiPOMh6CbaO6PcBnSkr+0y/k=",
+    "rev": "a36f41d93e3ced7aa0787f5b8287532cb3aaeabc",
+    "date": "2026-09-07T23:53:29+05:30",
+    "path": "/nix/store/qk4x21bp4mwpfnh636wa8sdlsa2h5536-DMS-DNS_Switcher",
+    "sha256": "0h51y90r4pj2h6f7g498h0pwjywhiqwa1cy7dvnginw7f9g5ahnd",
+    "hash": "sha256-zUJVXnKH2/jsbsezoDiOkHvJL4AokXecgUJekkHyoUA=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5798,11 +5953,11 @@
   },
   "fullscreenPowerMenu": {
     "url": "https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu",
-    "rev": "b474d69cff7564ea4999a9f78ce30027fbac07d2",
-    "date": "2026-08-08T12:30:16+05:30",
-    "path": "/nix/store/pan11nrcqp64irh3y8blmwfjf21zflh1-DMS-Fullscreen_Power_Menu",
-    "sha256": "02mghl95ybyn82f6wx38nwxsgzd9dykwcnn1b3w5khq3g44ylki8",
-    "hash": "sha256-KE7qCXkDw1n4WMFaxqdvqf2nO7dodG6cQNYvXxKFrwo=",
+    "rev": "d6a184c979696ad6ae24e98579d7ca9ba7c9268b",
+    "date": "2026-09-08T00:02:21+05:30",
+    "path": "/nix/store/azjwds2cyyx042dirvjgglj20ss7qrag-DMS-Fullscreen_Power_Menu",
+    "sha256": "0mlqx28vz4pldnha4b67c89qcc70w9m6dihyccqhy6nzdikmk7a8",
+    "hash": "sha256-SJ1ZZ2zfGg8xYx7GZmri4DCGE2LHLKKgbfSSv5HomFY=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5842,11 +5997,11 @@
   },
   "githubHeatmapRevive": {
     "url": "https://github.com/JDKamalakar/DMS-GitHub_HeatMap",
-    "rev": "bafa478178631b3f0cd9b6acd4dcd2f2b1f2a744",
-    "date": "2026-08-08T12:18:03+05:30",
-    "path": "/nix/store/3r6wa7k21cdrri0wpmx4s0s64h431g2y-DMS-GitHub_HeatMap",
-    "sha256": "1lkgh5nj3sqdn6h5cmwgnyxfvz1gs2yx2p7hxcnrmsyxsqkksys1",
-    "hash": "sha256-QXs9J9bd65ot6/Bc0b3QL/zturePV1agsQ3rIW2Bb9I=",
+    "rev": "2d61d19eb078563029d50c15be02c2be24050c40",
+    "date": "2026-09-07T23:44:09+05:30",
+    "path": "/nix/store/wndhdagdq6dfsh8h8ji4mlv3y628lmjm-DMS-GitHub_HeatMap",
+    "sha256": "0ly3bwzc7hxmiq7yjlhclq5hi58bg8nhdz6lybik0g2azq6r3dx2",
+    "hash": "sha256-oreRDf5KPDDj8tT8Bi16C5UIC6YMUukPjrXDwz5fw1M=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5885,11 +6040,11 @@
   },
   "liveChartSchedule": {
     "url": "https://github.com/JDKamalakar/DMS-LiveChart.me",
-    "rev": "d924c66f64da93edf76319249148d7ca04ef0686",
-    "date": "2026-08-08T12:31:38+05:30",
-    "path": "/nix/store/dkz10rac56v791n352zvh4xkxhl20s4k-DMS-LiveChart.me",
-    "sha256": "1cpgkh7yc7ag6zvvahhd873fbh4yxkni08153y7ypmfj527lkqx8",
-    "hash": "sha256-qONJjyjS1euPHyUgEO3snsDlxkENQrX3N08d5g+c77I=",
+    "rev": "62b0b0d79c8fc5fbc856e12eda9b680eb66fa615",
+    "date": "2026-09-07T23:49:32+05:30",
+    "path": "/nix/store/p59miwl9f0qr9c54w2djcikk1fr6j7hv-DMS-LiveChart.me",
+    "sha256": "115vryqrwxip2i1972jjv64ghk7sc1w1l88ih46v3dwsi33ljw9d",
+    "hash": "sha256-LXFJx4iat7ENgREhGnhg+kz4iNlSipNCFDd2nrHPu4Q=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5931,11 +6086,11 @@
   },
   "niriDSA": {
     "url": "https://github.com/jdkamalakar/DMS-Niri_Display_Settings",
-    "rev": "389d72890fac145448669775af5f28d5bbc8e878",
-    "date": "2026-08-07T00:02:22+05:30",
-    "path": "/nix/store/qvssql72aham1is2r35dkva1lfgbih52-DMS-Niri_Display_Settings",
-    "sha256": "01jznlr77hg6pr6578szb2wshspyrqnky84jrj6fk1lyajk6nsj6",
-    "hash": "sha256-RmprplSehumMzJIgPy3O/mqouVhfo1NMvubBczK1XwY=",
+    "rev": "0ac7b6ff093e5f14d2157a2aae463cc338ed97ed",
+    "date": "2026-09-07T23:42:54+05:30",
+    "path": "/nix/store/mp8m89619dpidsckm461x4y6rz7pd775-DMS-Niri_Display_Settings",
+    "sha256": "1mq4lav6yp63hpd4j7pg3ij0c0m7scbmabwabxac63binncmcxjj",
+    "hash": "sha256-UnZWmbVxDcNUX4ovVRfTpwIGZBzvHknahcNcb7aiBNc=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -6023,11 +6178,11 @@
   },
   "quickTote": {
     "url": "https://github.com/JDKamalakar/DMS-Quick_Tote",
-    "rev": "38b1c061ec08a525a28594cb4ebcf8b0c3f166ba",
-    "date": "2026-08-23T00:46:47+05:30",
-    "path": "/nix/store/cd1gm4b3mv9kl3g0bfdf40lyjbqxj006-DMS-Quick_Tote",
-    "sha256": "1pc3c4y8vffi8bsxlji6xc3ddb6hkah8v5jqkkn2ma2bkvkdbrhb",
-    "hash": "sha256-C+bV5p5LqCrsnFiWjaCa0KzWBusmStr1QtG5jTxhg90=",
+    "rev": "5c32375e37da1246eec1bd8bcee3e1c85c14aeed",
+    "date": "2026-09-08T00:00:05+05:30",
+    "path": "/nix/store/wb99r9aj81ki8c7hvqvhvz7dsl8r7dan-DMS-Quick_Tote",
+    "sha256": "0p38ijsxxx3xz3b5l6wf74l01sxb5z2804pa0p2g7w38pa4x1dbd",
+    "hash": "sha256-bbXQibpo8PPEBeoSgMQvq+sAKDmOG1rW+H303rWMaFw=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -6066,11 +6221,11 @@
   },
   "screenCaptureToolbar": {
     "url": "https://github.com/JDKamalakar/DMS-ScreenCapture_Toolbar",
-    "rev": "2b923cc95faa36876d790df6fc1ed575388e966d",
-    "date": "2026-08-23T00:44:02+05:30",
-    "path": "/nix/store/pvvpwfawk33ihx8nr8w8kfhmsmsyp6v1-DMS-ScreenCapture_Toolbar",
-    "sha256": "0xwpjrfxssbzw94x36cnnrmcmpf1b862088kgq7r0qakj2bpxpq4",
-    "hash": "sha256-BN9+l5BTYZAPfhMhIAxawd3KaraWmdFJ4n9p3V2Wl3c=",
+    "rev": "332ea98c0fb2e2d26d55a0cda14c3c9b3cd28505",
+    "date": "2026-09-07T23:58:22+05:30",
+    "path": "/nix/store/s014067f34q5q159iszkg2lbpi4fk4bk-DMS-ScreenCapture_Toolbar",
+    "sha256": "0iwdwrb3d6vb4r8qkzfnnmlzn4x49dgivgxrxr71xz815ibr83p0",
+    "hash": "sha256-4A6UVywB/R5O7rm/HV9LpBP7abXW/YlRJmubNlbmjUc=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -6365,11 +6520,11 @@
   },
   "unifiedTaskbar": {
     "url": "https://github.com/jslandau/dms-unified-taskbar",
-    "rev": "6b1787f61f297a3ce5a14cbc7c425fc2314ad4a0",
-    "date": "2026-08-04T18:57:57-04:00",
-    "path": "/nix/store/0m3kr7lz01fii0i4xr7967k0lgfddish-dms-unified-taskbar",
-    "sha256": "0n30i0zbayrxsnpa2gl3c1ij3aq7zjvcrgy7ly3z8d0qf3dlk4hv",
-    "hash": "sha256-G5JJ23AYNPSHp8e/zLb8B6shY2CDPqGu1T17tT6IYFg=",
+    "rev": "eba5b385cfbbda85587fa0a4feefe293563617ff",
+    "date": "2026-09-07T00:51:36-04:00",
+    "path": "/nix/store/fjrsf260aw1k9daw56rqp24brrg25mrx-dms-unified-taskbar",
+    "sha256": "16n1097qkiz9gdfm5n3k1f1v6cdkqin7bna07ymb2ajc7jky5ql0",
+    "hash": "sha256-gOLipzxMKrGqP0DZdWzEszGzgwtz2FJde+nHiU8CwZo=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -6756,11 +6911,11 @@
   },
   "mihomoVpn": {
     "url": "https://github.com/korbash/mihomo-dms-widget",
-    "rev": "c8ce12ae82f74bcbaf176bbec12405a9eb40888a",
-    "date": "2026-08-29T09:28:31+03:00",
-    "path": "/nix/store/9skrnhkr8irz951p676y8b5iij2y6fz8-mihomo-dms-widget",
-    "sha256": "05vp3svwkr4jr9ll5pz6bzfqzw5zwr0d9c00ws278r1b57g8fmsr",
-    "hash": "sha256-WVeH3ikrZHSE5gCw1EDmv/CP3V/m30JpypLkybcedxc=",
+    "rev": "063debedd366a2df338f9b67fb88de709632335a",
+    "date": "2026-09-07T14:14:23+03:00",
+    "path": "/nix/store/srkwd1iknxpiyi9bhngzpvbmfr43yhg7-mihomo-dms-widget",
+    "sha256": "099yq6g47mim7bhgwnzkckw3mimdrk3297qqdz5kgmvx4vdnxa5x",
+    "hash": "sha256-vahu2yZ91zfLbxifJMbMrcY6+GTzW/7gOjXWQ57BPiU=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -9905,6 +10060,40 @@
       "screenshot": "https://github.com/RiceaRaul/DMS-PangolinPlugin/blob/main/docs/screenshots/popout.png?raw=true"
     }
   },
+  "niriWorkspaceBar": {
+    "url": "https://github.com/robwilkerson/dms-niri-workspace-bar",
+    "rev": "a79921a312bd252b87de19db38732b42358d3913",
+    "date": "2026-09-06T17:30:42-04:00",
+    "path": "/nix/store/s0v5h1kn9r33rxa40798yyvdqmwp2z66-dms-niri-workspace-bar",
+    "sha256": "0n1hq0dhv9fxsl0azypk5czls7zyh1lfa7hysgz1ybwc77c3c3kd",
+    "hash": "sha256-bQ422DmMLx/+0x4e5WiA/h9NPyvz+q8A1d2lDRvAMFg=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "niriWorkspaceBar",
+      "name": "Niri Workspace Bar",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "repo": "https://github.com/robwilkerson/dms-niri-workspace-bar",
+      "author": "Rob Wilkerson",
+      "description": "The focused niri workspace as a pill segmented to match its column count, plus a grouped switcher for every named workspace.",
+      "dependencies": [],
+      "compositors": [
+        "niri"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/robwilkerson/dms-niri-workspace-bar/main/docs/screenshot.png",
+      "requires_dms": ">=1.4.0"
+    }
+  },
   "calculator": {
     "url": "https://github.com/rochacbruno/DankCalculator",
     "rev": "1db5865419a40a33171a475855a59e0b8bf7187f",
@@ -11083,11 +11272,11 @@
   },
   "cliproxyQuota": {
     "url": "https://github.com/SpyrosPsarras/dms-cliproxy-quota",
-    "rev": "57c278e13ca7ad1a429f536886e8b3f0136bf324",
-    "date": "2026-09-03T14:13:38+02:00",
-    "path": "/nix/store/5a2qg9apcy89368ys25q1k21apvjr0m9-dms-cliproxy-quota",
-    "sha256": "01s2s2a38a22w7shnzvrnin0j6v4lcxdsrxljn8qa2hbmdqf84qj",
-    "hash": "sha256-EhPkcKsLCoWRlbRn3TqjZBsJbLR5fwv14UIoNJTQQgc=",
+    "rev": "e70109e11ba3a786de539473302f87348862177c",
+    "date": "2026-09-07T18:46:36+02:00",
+    "path": "/nix/store/zwznrk6x6ycmpprj2wf5al9720p026x8-dms-cliproxy-quota",
+    "sha256": "1ik5j468ckq27kcfs6algfsvqznja50ymdblmbxdw5ky885ddpa4",
+    "hash": "sha256-RN3WCkJ+Ft76qnS16kFR0n68tXtUGe3YPAJPhgyRZcY=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -11666,11 +11855,11 @@
   },
   "mpvpaper": {
     "url": "https://github.com/tokisak1kurum1/mpvpaper-plugin",
-    "rev": "f0f83ad6fb034a02a9073bd7a2036cc879f78413",
-    "date": "2026-07-14T18:49:00+08:00",
-    "path": "/nix/store/kgp27n2rqziih8r6z03f74lysrca7dz3-mpvpaper-plugin",
-    "sha256": "0ij0k89jjfa7d7xx27qi4n90qkhr96r1vff8mz53xklp80kx7xq9",
-    "hash": "sha256-CffTJ0CXzj7Kr8i5HbJJGU4MkiURH9H7aUc5KROaQEY=",
+    "rev": "bb4371cfbaab8ea7667ff4f63a35780fb5fa1615",
+    "date": "2026-09-07T19:12:09+08:00",
+    "path": "/nix/store/nafnyzpf844idmw0b93sy284ma0w20bw-mpvpaper-plugin",
+    "sha256": "0jyv9602aa1f4xvcyhg0qbxqj4cs2d4psh8ij5brxb6kcajhjl6v",
+    "hash": "sha256-21AJpWLTrJ5XkRFBfUkTmhGJ+8LgQc92Jy4oJYBJ20s=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -12082,6 +12271,76 @@
         "any"
       ],
       "screenshot": "https://github.com/xi-ve/dms-plugin-registry/blob/add-cat-widget/assets/cat-widget.png"
+    }
+  },
+  "dankNewsRssTickerPill": {
+    "url": "https://github.com/Xn4m3d/dms-rss-widget",
+    "rev": "518f6235a5d1e044c8dfa25e5852c2365d4bcf26",
+    "date": "2026-09-07T16:28:55+02:00",
+    "path": "/nix/store/njk301n0bcdaqczfh4in8valif3blqcl-dms-rss-widget",
+    "sha256": "15jaxh7l7psdkw5q9rjlk9mspkfc1zgmc3wfrxd48q8k62g76s46",
+    "hash": "sha256-hmhznjATYURaz44PVt8PzM2ra5pU5oQLn03fQw/sSpY=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankNewsRssTickerPill",
+      "name": "Dank News RSS & Ticker Pill",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/Xn4m3d/dms-rss-widget",
+      "path": "dankNewsRssTickerPill",
+      "author": "Xn4m3d",
+      "description": "Bar companion for Dank News RSS & Ticker: the same scrolling headlines as a compact pill inside the DankBar",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Xn4m3d/dms-rss-widget/main/screenshots/pill-plugin.png"
+    }
+  },
+  "dankNewsRssTicker": {
+    "url": "https://github.com/Xn4m3d/dms-rss-widget",
+    "rev": "518f6235a5d1e044c8dfa25e5852c2365d4bcf26",
+    "date": "2026-09-07T16:28:55+02:00",
+    "path": "/nix/store/njk301n0bcdaqczfh4in8valif3blqcl-dms-rss-widget",
+    "sha256": "15jaxh7l7psdkw5q9rjlk9mspkfc1zgmc3wfrxd48q8k62g76s46",
+    "hash": "sha256-hmhznjATYURaz44PVt8PzM2ra5pU5oQLn03fQw/sSpY=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankNewsRssTicker",
+      "name": "Dank News RSS & Ticker",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/Xn4m3d/dms-rss-widget",
+      "path": "dankNewsRssTicker",
+      "author": "Xn4m3d",
+      "description": "RSS/Atom feeds as a desktop card plus a full-width scrolling news ticker that docks under your bar, follows a bottom bar, or floats",
+      "dependencies": [
+        "curl"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Xn4m3d/dms-rss-widget/main/screenshots/screen1.png"
     }
   },
   "chineseCalendar": {
