@@ -418,8 +418,7 @@
       "dependencies": [
         "dankaiusage",
         "codex",
-        "claude",
-        "sqlite3"
+        "claude"
       ],
       "compositors": [
         "any"
@@ -1732,11 +1731,11 @@
   },
   "colorPickerDms": {
     "url": "https://github.com/bernardopg/color-picker-dms",
-    "rev": "e874c1cbb7980b4e5bd2b9e795c08da5b4cba05a",
-    "date": "2026-08-31T17:04:06-03:00",
-    "path": "/nix/store/gmizc7hw55miaq9w9z9dis1dl406wklk-color-picker-dms",
-    "sha256": "0vcsnfymfdd8hqz32hqf86w76dy2z0x26smsijzggs9arlmaanhh",
-    "hash": "sha256-EFqlKs0q6fe+jLpqIzr4wjdzuEEOQzE+hqg1V72zmm0=",
+    "rev": "71b99e446de0e4a37ac7fcae1dc8cb571da3d7d6",
+    "date": "2026-09-09T00:44:03-03:00",
+    "path": "/nix/store/2vkjxj5whbbv1cbp089bfv7wgpg2fk8x-color-picker-dms",
+    "sha256": "0qcv23wssh3xnaidld602i2a80shqzlxq7nsd1gf5q1nzhv7lxl0",
+    "hash": "sha256-gHZ6Nvw24OJeaNoe3OnHUAOkRBTANNqisn1ArfkQm2E=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5114,11 +5113,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "543628dcf770c59afa47fae76aa4b05bba1f061e",
-    "date": "2026-09-09T08:05:53+07:00",
-    "path": "/nix/store/0qrs8zv8drxznjk4shwa09jvc4dsf7r0-dms-quick-capture",
-    "sha256": "0ajhffv7j3mbkwdwyp89b7ffj5p0k533vhj5idr8psa4jrqn2vk2",
-    "hash": "sha256-Ym5hcZZE6Ytyi0XCPUaZ4Bbp3FkJXc8bn6sOebZzUCo=",
+    "rev": "f908845cb949be182257f77d88f21c53c3c38bce",
+    "date": "2026-09-09T14:31:40+07:00",
+    "path": "/nix/store/gv7ri0h8i6lc884pkks45fn4dzz8f3qj-dms-quick-capture",
+    "sha256": "0imcd9i2kdrpgis5qry7dl3a0dggykhsdnhcn70ayp6bfzsxbpl8",
+    "hash": "sha256-iN7V9XfLXK/AsQzapuH07zWgBm3HZ1x0fDe3KWJqrEY=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8661,6 +8660,41 @@
       "screenshot": "https://github.com/nicolasgarcia214/Ephemera/blob/master/screenshots/screenshot.jpg?raw=true"
     }
   },
+  "netStatus": {
+    "url": "https://github.com/noahm-05/dms-net-status",
+    "rev": "511b19a95caee10831ff5accbdcdd211f3ca1b2c",
+    "date": "2026-09-08T22:36:36-07:00",
+    "path": "/nix/store/0dgzb6y6gr96s03aym0f8hdw9vbhj5z3-dms-net-status",
+    "sha256": "13acarb3fz3njkmqriy441xwdcr2gfs2yp77xsrsbzvfgf5v2f18",
+    "hash": "sha256-KDixi3tu/6Wz7udcL7R7IrPGeyDEx4zrlHZ8N1ZWTI0=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "netStatus",
+      "name": "Network Status",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/noahm-05/dms-net-status",
+      "author": "Noah",
+      "description": "Shows your local machine IP, active VPN tunnel IP, and optional Tailscale IP in the bar. Right-click to cycle between them.",
+      "dependencies": [
+        "iproute2"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/noahm-05/dms-net-status/main/screenshot.png"
+    }
+  },
   "liveLyrics": {
     "url": "https://gitlab.com/noahpolimon/dms-plugin-livelyrics",
     "rev": "143e7b8d64f1ab49b18175f2634c157a83029f36",
@@ -10131,11 +10165,11 @@
   },
   "niriWindows": {
     "url": "https://github.com/rochacbruno/DankNiriWindows",
-    "rev": "f2c0b0fc0325e3299257cc5d1895069a3d49247f",
-    "date": "2026-06-22T17:38:56+01:00",
-    "path": "/nix/store/27pfwbx1i7iz7na4d4v794sarmrs6x21-DankNiriWindows",
-    "sha256": "154i0s679ir5dgikqm16z43q5xh43z0smhg3fny7v2f3pym658xq",
-    "hash": "sha256-uKNiqr/DiX28dePBqsEfBPaCB/kmVDzjayXHdIwGkZQ=",
+    "rev": "411d5ee9f7707029f4c12c824ec3b24ca6756a0d",
+    "date": "2026-09-09T11:46:54+01:00",
+    "path": "/nix/store/h6cbw026vj0dr9mbd1j92pjib2sqacla-DankNiriWindows",
+    "sha256": "0j10dvlg0q2ynqj3w14pv8h27nadwxgad1mdv2b6bj9mpiqvr6zq",
+    "hash": "sha256-+Ju8cbw1yWWW2K2Gpl7nTdkjINqXBD4ktl5g8OhuIEg=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -11412,11 +11446,11 @@
   },
   "dmsconky": {
     "url": "https://github.com/suruibin/dms-conky",
-    "rev": "82d874e870125addafd4dde774833b6fb1bde7da",
-    "date": "2026-09-05T17:53:15+08:00",
-    "path": "/nix/store/7mzrwy72fczdr9pwjljlhifn47ssng2y-dms-conky",
-    "sha256": "1zdyyp6s2yqh8gx62xpg2gc1v9z3qfxk4z3w4kq1ip4qk2mkvrcn",
-    "hash": "sha256-luU9q5iY3BjwJHx8MrvD46cd2BPvdmH6QxB7oc31vv0=",
+    "rev": "b88ec1551e8c24c95011f85108370717a4cef199",
+    "date": "2026-09-09T12:51:43+08:00",
+    "path": "/nix/store/f3m68cah5hqk28wkk6gv72dig9lyl3hz-dms-conky",
+    "sha256": "1ih5dfrvnxbsx1dws80462nrswwqlgw0naqgl3bidi1panlqv84x",
+    "hash": "sha256-naCNqVU3xBbXoA8rC/ijmHOdrTAEIM1b6Hp1u7NrBcY=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -11445,11 +11479,11 @@
   },
   "dmsfilemanager": {
     "url": "https://github.com/suruibin/dms-filemanager",
-    "rev": "a3ad812290812a43840a86d1dc96d8ccd474243b",
-    "date": "2026-09-05T16:18:26+08:00",
-    "path": "/nix/store/prnrnqlikcqjmar972fh189016gzp6ya-dms-filemanager",
-    "sha256": "1sma7hw37fyclj5nalncpdf3zv3a62ps7y4lggk9x3l47y966isz",
-    "hash": "sha256-X0djkj+Ejp7me5T4o68wauw/XLvMUmWLpMy7Mzg8quo=",
+    "rev": "c888576f19e552c997f30c379a14caa2c50d73ba",
+    "date": "2026-09-09T12:36:45+08:00",
+    "path": "/nix/store/cckf2kfvr83433qi9j47ri8yk1l9qlkz-dms-filemanager",
+    "sha256": "196b22wgxq8kk9kcqqn0r0sn7hx2mxzy8f13lvd5rd132sl6bm0r",
+    "hash": "sha256-GdRlqBYjtFzapiM45H+vosNjNcjAYsxmmhPh/rgQy6Q=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -11855,11 +11889,11 @@
   },
   "mpvpaper": {
     "url": "https://github.com/tokisak1kurum1/mpvpaper-plugin",
-    "rev": "bb4371cfbaab8ea7667ff4f63a35780fb5fa1615",
-    "date": "2026-09-07T19:12:09+08:00",
-    "path": "/nix/store/nafnyzpf844idmw0b93sy284ma0w20bw-mpvpaper-plugin",
-    "sha256": "0jyv9602aa1f4xvcyhg0qbxqj4cs2d4psh8ij5brxb6kcajhjl6v",
-    "hash": "sha256-21AJpWLTrJ5XkRFBfUkTmhGJ+8LgQc92Jy4oJYBJ20s=",
+    "rev": "a14fcee73e3e91c48664241d5bf78c4e173a6cea",
+    "date": "2026-09-09T20:24:35+08:00",
+    "path": "/nix/store/kxyd0rq9kwfkczrq96szqjhl5wxl7ihx-mpvpaper-plugin",
+    "sha256": "1j1dqz6dm8cx15gy2c8icvijh6wbd6q6afaahfhv6pky5j5h4s7l",
+    "hash": "sha256-9GgCiyx+XrOhg0o5ZbBpixso42YRMeFfCZ2h2szHLcg=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
