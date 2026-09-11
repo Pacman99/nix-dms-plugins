@@ -6986,11 +6986,11 @@
   },
   "lyricsEmbed": {
     "url": "https://github.com/Lemon-mon-254/dms-plugin-Lyrics",
-    "rev": "48f0690a570a406b72dece582ef23cc13e031fff",
-    "date": "2026-08-31T02:00:05+08:00",
-    "path": "/nix/store/jkbwxqi6a5ki8szgzvdbmd66c9rsvnjl-dms-plugin-Lyrics",
-    "sha256": "06b0l7yq0wh0dczcf6y1dx5fm4saq72gwalq451maxww0q2rhb6c",
-    "hash": "sha256-zCyYBQacd1VDIZgq/sTBSpPqSm/BG8c+awBygP2hYBk=",
+    "rev": "56270e04574b316e5b58f03cf217aabb7ca67447",
+    "date": "2026-09-10T17:51:49+08:00",
+    "path": "/nix/store/r9mmam4zsswcjwzcxyqvba73vndgmdxf-dms-plugin-Lyrics",
+    "sha256": "1jsrf9cv3ypbv773hy51px7lyjacbzlmcryyz1hlkp08cq5wzysi",
+    "hash": "sha256-UfvPC2YI3Elh+N5nVulfTElPT7+heDjO2ev6sVlyWcs=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -7052,6 +7052,41 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/Lemon-mon-254/dms-proxy-traffic/main/screenshots/1.png"
+    }
+  },
+  "tsMonitor": {
+    "url": "https://github.com/Lemon-mon-254/dms-plugin-TS6Monitor",
+    "rev": "b0b427f263d34ea7b29fe4a4cc1b98b9c2853ce7",
+    "date": "2026-09-10T14:52:37+08:00",
+    "path": "/nix/store/d0ikfq658lzqx6yblgllmmvvalv6kgxs-dms-plugin-TS6Monitor",
+    "sha256": "0db0p3a3kr3yc2n0rb465931mng6p464979wds94y2h88y9hmb4l",
+    "hash": "sha256-lKwKk0cICk+SbjydRAy55tkaRiqGrAysYH7kOdS4YDU=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "tsMonitor",
+      "name": "TS6 Monitor",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/Lemon-mon-254/dms-plugin-TS6Monitor",
+      "author": "Lemon-mon-254",
+      "description": "TeamSpeak 6 voice status monitor for the bar: live mic/mute/away state, channel members with avatars and volume bars, one-click virtual-key controls, and an on-screen volume OSD via TS6 Remote Apps.",
+      "dependencies": [
+        "pactl"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Lemon-mon-254/dms-plugin-TS6Monitor/main/screenshots/ts.png"
     }
   },
   "dcalUpcoming": {
@@ -7337,11 +7372,11 @@
   },
   "dankCalendarPlus": {
     "url": "https://github.com/luckjokerwang/dms-dankcalendar",
-    "rev": "642107731b7b2d8deeb2607482c389cab3e9dc0b",
-    "date": "2026-09-05T11:36:24+08:00",
-    "path": "/nix/store/smbnfswids0m9xxk1bmyg0b5ah4r8fcc-dms-dankcalendar",
-    "sha256": "0awzzcj2si5jcncm2ksdjj6y8270a2b59fl3gplp66gvxx00mshs",
-    "hash": "sha256-GuoKQO/7GXPpfYO6VJZQ4AjkjZRNT1GZZbJELST7nys=",
+    "rev": "e3b6e44f68bf91355fd9aec8ec56a1eafdb3080e",
+    "date": "2026-09-11T00:06:05+08:00",
+    "path": "/nix/store/9zdl7q645kllh8ly8p4bmdw0nvv4b4hq-dms-dankcalendar",
+    "sha256": "0c3d3n0kwlargw7cd5kqavdqnmznlfkaqz1cjnpcrlsb2ya8mvqv",
+    "hash": "sha256-G++KlBdL08yulSx8rKaj9leL21Z4lsYOf1lRPoEdbTA=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -7374,11 +7409,11 @@
   },
   "dockerManager": {
     "url": "https://github.com/LuckShiba/DmsDockerManager",
-    "rev": "255f46794b6e3a5f5e842fe1330db3869deddc09",
-    "date": "2026-07-03T17:31:06-03:00",
-    "path": "/nix/store/3nqyg4jfrif3kwq6aj6zdx4085ind2h5-DmsDockerManager",
-    "sha256": "1v9k4zhryabal2w291g4ycawg9wl1gwjms5vsdrf7jhxbmfb0c30",
-    "hash": "sha256-YDCwXF0dyuNy07voKvkLlKfHFfPkhSS4oGopn+EnM+0=",
+    "rev": "9e6a01283e169c46eff7a157202b1b8ab48577b1",
+    "date": "2026-09-10T21:26:54-03:00",
+    "path": "/nix/store/dqirrmhd0yvbp6l6v1hxivvzi2800ps0-DmsDockerManager",
+    "sha256": "1a4j9s7ldl1bcy8bzyn7m8445nwqbx706233i2gj5qpcxdlwk65l",
+    "hash": "sha256-tJjJaevs4iKfiGMIA05fmNtCCKrH+r+QZyvQRo9Okqg=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -7947,6 +7982,41 @@
         "any"
       ],
       "screenshot": "https://codeberg.org/MezoAhmedII/quranWidget/raw/branch/main/screenshot.png"
+    }
+  },
+  "codexUsage": {
+    "url": "https://github.com/mir4zul/codex-usage",
+    "rev": "badbe628d386cb30a6622f71e1986c11c2e9b6cb",
+    "date": "2026-09-10T22:03:20+06:00",
+    "path": "/nix/store/a576lwqp66r1fnq5n9xiql3kh0kb144d-codex-usage",
+    "sha256": "0jdwd643c83rncz6mg6s2cs91dk9y39symv2ghdixrddyj5gnwab",
+    "hash": "sha256-S3H7ivSt5R4bfGJXr9PwabaQNBPavGo+s3kgNohpvEk=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "codexUsage",
+      "name": "Codex Usage",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "repo": "https://github.com/mir4zul/codex-usage",
+      "author": "mir4zul",
+      "description": "Two progress rings for locally recorded Codex five-hour and weekly usage, with remaining percentages and reset countdowns.",
+      "dependencies": [
+        "python3"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/mir4zul/codex-usage/main/assets/screenshot.png"
     }
   },
   "processList": {
@@ -11201,11 +11271,11 @@
   },
   "mailReader": {
     "url": "https://github.com/smithyyang/dms-mail-reader",
-    "rev": "9290c174cf04ed319d9b28947cd8def2193d709f",
-    "date": "2026-06-22T21:50:03+08:00",
-    "path": "/nix/store/hlnyr7ai1xxymwhd9rkg5yyyx5rr0qvy-dms-mail-reader",
-    "sha256": "146611hip3q958c1d23qjdi13xnb2q1ym75v820w9lhq630ds377",
-    "hash": "sha256-5wzdwDAY0sSBQLuc6gMWy/YRYpN4iBYYKgmPG2EIxpA=",
+    "rev": "dd6c08e3c930a308e5ada8e783156b70b2f76b75",
+    "date": "2026-09-10T22:54:31+08:00",
+    "path": "/nix/store/9x5qrq2ibfxl86ln10pnsxk2qajy5n3f-dms-mail-reader",
+    "sha256": "12dyzrc1bnn2bcpvxcn5xz8gzzcaz5yk87yp6zhkvfp1bvqx32jd",
+    "hash": "sha256-TYrR8V7huj3hN9cfNH35iv3/0O/Fsr4vW8LaFVj+vok=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -11306,11 +11376,11 @@
   },
   "cliproxyQuota": {
     "url": "https://github.com/SpyrosPsarras/dms-cliproxy-quota",
-    "rev": "e70109e11ba3a786de539473302f87348862177c",
-    "date": "2026-09-07T18:46:36+02:00",
-    "path": "/nix/store/zwznrk6x6ycmpprj2wf5al9720p026x8-dms-cliproxy-quota",
-    "sha256": "1ik5j468ckq27kcfs6algfsvqznja50ymdblmbxdw5ky885ddpa4",
-    "hash": "sha256-RN3WCkJ+Ft76qnS16kFR0n68tXtUGe3YPAJPhgyRZcY=",
+    "rev": "a0bec37bdf5ca5965b0bfc7b6c3a954cb32776c8",
+    "date": "2026-09-10T20:58:55+02:00",
+    "path": "/nix/store/qnhzqdpmgla8cd2kalcq5pgjqlvvp7vx-dms-cliproxy-quota",
+    "sha256": "0jsfmgkggyifc8522mjc3nkj42q0dfzdpybrs4dhk0gq9gnnb5ib",
+    "hash": "sha256-K5Zl7Uv4gQkb0Xn5275rAAsipx1MViEKYi769+arTks=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -12379,11 +12449,11 @@
   },
   "chineseCalendar": {
     "url": "https://github.com/xxyangyoulin/dms-plugin-ccal",
-    "rev": "0d43ddcd0dfc96bc72dc7d31200a386f329c0417",
-    "date": "2026-08-20T15:46:25+08:00",
-    "path": "/nix/store/5sig1apgbzp14xdlyq5cmylg4vs8wmr9-dms-plugin-ccal",
-    "sha256": "05f5nzac2w77clispb32hifzp0ryshamm8clqzmgw7i0zf77hvag",
-    "hash": "sha256-T214jvsgHv7qx5ShWhXUPoP7XYRirKsjZedwwdS3xRU=",
+    "rev": "4288531735f3be389715857478c8ace2662fd191",
+    "date": "2026-09-10T15:06:52+08:00",
+    "path": "/nix/store/2z56i74mhhb1rmi0g4l2x7jpilz6m1qg-dms-plugin-ccal",
+    "sha256": "01yd2588iia1x9rws2lycgdjnhjys848vl5ix9lf51r6sp7vkmcq",
+    "hash": "sha256-mNW5z9Umh+Jo6rHQjQjSXkIr22OeCs1z6kHFiFARzQc=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
