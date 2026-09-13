@@ -394,11 +394,11 @@
   },
   "dankAIUsage": {
     "url": "https://github.com/alcxyz/DankAIUsage",
-    "rev": "8afff94acc36e82f9c7f6702dab57d0e102580cb",
-    "date": "2026-09-08T14:58:42+02:00",
-    "path": "/nix/store/7wm7qxg12l3rai9i19lg8h5nw53hfd47-DankAIUsage",
-    "sha256": "0kr1didbmylp1h7vx2qacz0a1vb4lszgydnfkzwp2k51426rgbzx",
-    "hash": "sha256-/a+XjSChTHH5n842/76mZO2gwGcKi74PDJf6ulpsIU8=",
+    "rev": "ddc9181e6e58ce3255d8e1c640e4ccb231be026a",
+    "date": "2026-09-11T10:47:06+02:00",
+    "path": "/nix/store/zywgfymkvjgajkkyxwzgawzhm5c0paga-DankAIUsage",
+    "sha256": "0jqvk423wlgp0s40y20ngv4ffgw5fh5i5sjjnvwlc1nkbgzg3rjf",
+    "hash": "sha256-Tubx/lvTBkb5tlLqEgt0hT/nyH4WCA+IBvdRPgSZG0s=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1953,11 +1953,11 @@
   },
   "dankRssWidget": {
     "url": "https://github.com/BrendonJL/dms-rss-widget",
-    "rev": "3022120bfe6b6e80ec8d72523d51fb0c8995168c",
-    "date": "2026-09-08T20:36:44-04:00",
-    "path": "/nix/store/jjz8m91xf93fzv6xj6sixvcd143wl3i0-dms-rss-widget",
-    "sha256": "082wnfir5l38qjrqi6hxjiknavk841bjz9b9kkvmdvcx0wnv168l",
-    "hash": "sha256-FJmwLQed7Vb3nGmlL1cgaG5lZ5QdmoizxGjQkqOzXCA=",
+    "rev": "7e9cdc0771168d17057891cde40c8690aa9c537a",
+    "date": "2026-09-11T06:27:12-04:00",
+    "path": "/nix/store/zv5hsgg7g4gx2jm4cf8b2aa8fcvay8pp-dms-rss-widget",
+    "sha256": "1qazw1v2gmq7g2pmi11frd0ph1ngxzn8rr09ch5k12cpf2b8yvb0",
+    "hash": "sha256-YG2PlnCXiTALZAnkjOzvzwZ4QcsuhFiveAfXJ3bgX+E=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -1973,7 +1973,7 @@
       "category": "utilities",
       "repo": "https://github.com/BrendonJL/dms-rss-widget",
       "author": "BrendonJL, Xn4m3d, Alessandro Ianne",
-      "description": "Desktop widget that displays RSS/Atom feeds with auto-refresh, plus full Miniflux integration with bidirectional read/unread/starred sync",
+      "description": "Desktop widget for RSS/Atom feeds with keyboard navigation, plus Miniflux and Google Reader sync (FreshRSS, Tiny Tiny RSS, Inoreader) with bidirectional read/unread and starred state",
       "dependencies": [
         "curl"
       ],
@@ -2017,6 +2017,46 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/brkp/DMS_splayerLyrics/main/screenshot.png"
+    }
+  },
+  "clipboardRunner": {
+    "url": "https://github.com/by-architect/DMS-Plugins",
+    "rev": "c77b20194d5c1d51c78fadc4f275e4382e54a41e",
+    "date": "2026-09-12T21:45:24+03:00",
+    "path": "/nix/store/r4fw8bfrbyy9i3ah79hzfq0dyr2cymdn-DMS-Plugins",
+    "sha256": "0rzffysnjfqf0mhyyn50n913fkzi6ar1b1csiviv58c379snqwg5",
+    "hash": "sha256-5XFsdTqDobLjjpqFFbIy8U83QrKgWO9hBQ47abV37mc=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "clipboardRunner",
+      "name": "Clipboard Runner",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/by-architect/DMS-Plugins",
+      "path": "clipboardRunner",
+      "author": "by-architect",
+      "description": "Run your own commands against whatever you just copied. Each action is filed under a content type -- link, colour, file or text -- and only the ones that fit the clipboard are offered, so typing 'clip' never shows an action that cannot apply.",
+      "dependencies": [
+        "ffmpeg",
+        "imagemagick",
+        "python3",
+        "xdg-utils",
+        "curl"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/clipboardRunner/docs/screenshot.png"
     }
   },
   "audioSwitcher": {
@@ -5113,11 +5153,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "f908845cb949be182257f77d88f21c53c3c38bce",
-    "date": "2026-09-09T14:31:40+07:00",
-    "path": "/nix/store/gv7ri0h8i6lc884pkks45fn4dzz8f3qj-dms-quick-capture",
-    "sha256": "0imcd9i2kdrpgis5qry7dl3a0dggykhsdnhcn70ayp6bfzsxbpl8",
-    "hash": "sha256-iN7V9XfLXK/AsQzapuH07zWgBm3HZ1x0fDe3KWJqrEY=",
+    "rev": "7394909c44a75c12d6f331609cf06c46271ae842",
+    "date": "2026-09-12T12:54:25+07:00",
+    "path": "/nix/store/ppmir4gi2n70frglj362vf7k0dgvh539-dms-quick-capture",
+    "sha256": "1cpba8li44xpjpnwj07ipjl4w3vsjqkh2nhmbd9qkiqgv4ad7c3y",
+    "hash": "sha256-frDTFNkPx4lTWxVaASeWeg9OqLzxAMntlbcTEilS67I=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -7056,11 +7096,11 @@
   },
   "tsMonitor": {
     "url": "https://github.com/Lemon-mon-254/dms-plugin-TS6Monitor",
-    "rev": "b0b427f263d34ea7b29fe4a4cc1b98b9c2853ce7",
-    "date": "2026-09-10T14:52:37+08:00",
-    "path": "/nix/store/d0ikfq658lzqx6yblgllmmvvalv6kgxs-dms-plugin-TS6Monitor",
-    "sha256": "0db0p3a3kr3yc2n0rb465931mng6p464979wds94y2h88y9hmb4l",
-    "hash": "sha256-lKwKk0cICk+SbjydRAy55tkaRiqGrAysYH7kOdS4YDU=",
+    "rev": "158b92d8f523ca150e25fff670d1cb02c72366a2",
+    "date": "2026-09-12T12:19:18+08:00",
+    "path": "/nix/store/ak9w3s9an8csd8yizalwcfq51vhp3myl-dms-plugin-TS6Monitor",
+    "sha256": "12skb2r7h6rfmg88g1gqdfbwx56cfx8097igkhb7kwk1f91c7r2f",
+    "hash": "sha256-TuTDQnJh8nkWnC+eBFB3zJTOl2v4hYfQqy4beLJYU4s=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -7372,11 +7412,11 @@
   },
   "dankCalendarPlus": {
     "url": "https://github.com/luckjokerwang/dms-dankcalendar",
-    "rev": "e3b6e44f68bf91355fd9aec8ec56a1eafdb3080e",
-    "date": "2026-09-11T00:06:05+08:00",
-    "path": "/nix/store/9zdl7q645kllh8ly8p4bmdw0nvv4b4hq-dms-dankcalendar",
-    "sha256": "0c3d3n0kwlargw7cd5kqavdqnmznlfkaqz1cjnpcrlsb2ya8mvqv",
-    "hash": "sha256-G++KlBdL08yulSx8rKaj9leL21Z4lsYOf1lRPoEdbTA=",
+    "rev": "8fa7cdb3c09be5d90aef2ea896d9419d59b5f3cc",
+    "date": "2026-09-11T22:55:21+08:00",
+    "path": "/nix/store/yygw19jffbjcmnxfazd803r74i0g4i61-dms-dankcalendar",
+    "sha256": "1w1b3hs8c5chhgi8999ll2jycnl5m9i164vyy8rxdw779wfnqnjw",
+    "hash": "sha256-XFpsHU/n8NYz8n4TE2KqhVrmpaA0pYTig5AVhjQcK/A=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -8162,11 +8202,11 @@
   },
   "prayerTimes": {
     "url": "https://github.com/muadzmo/prayertimes",
-    "rev": "82b16b235d3f06101d79f04529a1a32b4d32fe2c",
-    "date": "2026-04-14T11:53:20+07:00",
-    "path": "/nix/store/r72mxh028wjkbqydqdmvlgi6qlb37lkd-prayertimes",
-    "sha256": "0j42h9p3yz9cvcm6j0zcpkggdcvxjg3gsgk1hvp0xazivyw3bw05",
-    "hash": "sha256-BfA1uN/xqw7uhmE+/caTfbP23rzsA2kq2yx9P26Cgkg=",
+    "rev": "d9ee1b1d51152b1d9ae792281d8e6a9a7f39a86a",
+    "date": "2026-09-12T01:00:06+07:00",
+    "path": "/nix/store/mcy44z4mjva97va6nwgilmsbfibfkfpd-prayertimes",
+    "sha256": "1zxz6j83vcasf5qg37limcmssg1hxgh49ldnjkvih2si80ivda0k",
+    "hash": "sha256-E6i2I0BRCxj3lLbRRODrMDytK6uRnvFwcVqxPZA0v/8=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -9421,6 +9461,40 @@
       "requires_dms": ">=1.4.0",
       "version": "0.1.0",
       "screenshot": "https://raw.githubusercontent.com/payprays/codeIsland-dms/main/preview/screenshots/task-running.png"
+    }
+  },
+  "screenshotPlus": {
+    "url": "https://github.com/pcmid/dms-screenshot-plus",
+    "rev": "5af404e4c5c4f766880a49fa0eb0ceb16f81b24f",
+    "date": "2026-09-12T01:50:52+08:00",
+    "path": "/nix/store/bmxhrv1v40kwxd8y5mlninl2axvn3kqk-dms-screenshot-plus",
+    "sha256": "0g365liwzbcawchqckwwh3kb3a4mrybmc0xv77vw94sidf6c19h3",
+    "hash": "sha256-A6bAjGtRk8T3ObsDVpfPlaix5oCcT4Yh44qtzyMtZjw=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "screenshotPlus",
+      "name": "Screenshot+",
+      "capabilities": [
+        "daemon",
+        "ipc"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/pcmid/dms-screenshot-plus",
+      "author": "pcmid",
+      "description": "Region screenshot with live annotation: draw while you select. Rectangle, ellipse, line, arrow, pen, highlighter, text, mosaic and numbered markers. The selection stays movable and resizable with the toolbar following it; the result is copied to the clipboard or saved to a file at native resolution.",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/pcmid/dms-screenshot-plus/main/screenshots/screenshot.png"
     }
   },
   "tlpPowerProfile": {
@@ -11959,11 +12033,11 @@
   },
   "mpvpaper": {
     "url": "https://github.com/tokisak1kurum1/mpvpaper-plugin",
-    "rev": "a14fcee73e3e91c48664241d5bf78c4e173a6cea",
-    "date": "2026-09-09T20:24:35+08:00",
-    "path": "/nix/store/kxyd0rq9kwfkczrq96szqjhl5wxl7ihx-mpvpaper-plugin",
-    "sha256": "1j1dqz6dm8cx15gy2c8icvijh6wbd6q6afaahfhv6pky5j5h4s7l",
-    "hash": "sha256-9GgCiyx+XrOhg0o5ZbBpixso42YRMeFfCZ2h2szHLcg=",
+    "rev": "84776f6a7c53c6b3d1d8fde48b2a0b528dd3eedd",
+    "date": "2026-09-11T21:33:23+08:00",
+    "path": "/nix/store/wbd1x2k7fr2p2k3p2b2k4dj10902zp7w-mpvpaper-plugin",
+    "sha256": "004b4ljwi8mkdf2358f0skds3wi0csa3ssm99pz90qs13ab2lrnh",
+    "hash": "sha256-0GYqlhpBY5D+TalqPZRmIPKh29TAoTKEa7OiyCUliwA=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -12166,11 +12240,11 @@
   },
   "dankSoftwareDepot": {
     "url": "https://github.com/vinceecniv/DankSoftwareDepot",
-    "rev": "4d0485988904e8f3da5825bbffee9da2c9de1d39",
-    "date": "2026-09-03T08:26:50+02:00",
-    "path": "/nix/store/isy8k01s9vm9lkpn1cmnq24xja3j9bdj-DankSoftwareDepot",
-    "sha256": "0mahkkhazdxsbncpmlnr93v0s2ymhqclrrixqbvhcz2h36249p3l",
-    "hash": "sha256-dNxEhBlQfAb3wj3mTBmG1QsN9kjZ0nqZXbq3r+CcUFU=",
+    "rev": "7850df038fa992b1e81b5f470b2922fa771d14f4",
+    "date": "2026-09-12T16:24:12+02:00",
+    "path": "/nix/store/4hhzw6fg9xmz7hja4jx43g1v89mg99pj-DankSoftwareDepot",
+    "sha256": "0fsnh2lvxnqb92h2naa9vlb3ciqn2gl0pyjg3gfk4s58yqrpnxcv",
+    "hash": "sha256-m3V7M/aoaDLdG0/6C+gTFkc2Ft1JKSugSAvbvqmAVjs=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
