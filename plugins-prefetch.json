@@ -284,6 +284,39 @@
       "screenshot": "https://raw.githubusercontent.com/agneswd/dms-voxtype-activity-overlay/main/assets/screenshot-pill.png"
     }
   },
+  "hyprSubmap": {
+    "url": "https://github.com/agussantos023/hyprSubmap",
+    "rev": "0d874c862c2e592943471a9eedc088eba41beaa4",
+    "date": "2026-09-14T13:28:30+02:00",
+    "path": "/nix/store/lg80q75gdva1w2ip84jm5k7jn2g81k3j-hyprSubmap",
+    "sha256": "1hsmj65a3iwsx2xl0bb227ly70iwym2y7sz45zym0rfsakknxd59",
+    "hash": "sha256-qbRu51TaZVD9L+Tr40X1PILj6RFiLUC76JrHoYqRVcM=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "hyprSubmap",
+      "name": "Hyprland Submap Bar",
+      "capabilities": [
+        "widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/agussantos023/hyprSubmap",
+      "author": "agussantos023",
+      "description": "Shows the current Hyprland submap on the DMS bar",
+      "dependencies": [],
+      "compositors": [
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/agussantos023/hyprSubmap/main/screenshot/screenshot.png"
+    }
+  },
   "warpToggle": {
     "url": "https://github.com/ahmed-mekky/dms-warp-toggle",
     "rev": "3bee1e952c626071167c4e0aedad6241f7f624e0",
@@ -2482,6 +2515,88 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/clementpoiret/dms-fwfanctrl/main/docs/widget-preview.png"
+    }
+  },
+  "bitwarden": {
+    "url": "https://github.com/coldi1337/dms-bitwarden-cli",
+    "rev": "a1ea09dbdef418f52cd4a628171c4bc7baaf6fff",
+    "date": "2026-09-14T07:08:15+02:00",
+    "path": "/nix/store/higrf40vardlqivwcapz3ppdw57zwqgy-dms-bitwarden-cli",
+    "sha256": "1wjwfx0yziszsn5wh6dx45k4k3ixnr04wyl3cmvi4f57vs99nlyp",
+    "hash": "sha256-11Obkt6nOBJ3ZYN6TkC2PY5JZiG9GciL1V/H70F3XPI=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "bitwarden",
+      "name": "Bitwarden Dankbar",
+      "capabilities": [
+        "dankbar-widget",
+        "ipc"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/coldi1337/dms-bitwarden-cli",
+      "author": "coldi1337",
+      "description": "Search and manage Bitwarden or Vaultwarden using the official Bitwarden CLI, with optional PIN and fingerprint unlock.",
+      "dependencies": [
+        "bitwarden-cli",
+        "jq",
+        "wl-clipboard"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/coldi1337/dms-bitwarden-cli/main/docs/screenshots/dms-vault-preview.png",
+      "requires_dms": ">=1.6.0"
+    }
+  },
+  "dankChat": {
+    "url": "https://github.com/coldi1337/DankChat",
+    "rev": "abbcda0e30f4774440676ac105136a6b60e51674",
+    "date": "2026-09-14T20:41:24+02:00",
+    "path": "/nix/store/pvi9jccbgqafcmrhkllhm3lz2l91r5vz-DankChat",
+    "sha256": "0dal6zlynk6ylc66wgj9c773np4r9wb1hhjn885ck2rvl4c13hi1",
+    "hash": "sha256-IcIRGKE7i8kKQlZCGBZPmVw7zmFJPm4Mo95M6+k3VDU=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankChat",
+      "name": "DankChat",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/coldi1337/DankChat",
+      "author": "coldi1337",
+      "description": "Native Telegram and WhatsApp chats with a bar dropdown, tiling window, clipboard attachments, emoji reactions and unread filters.",
+      "dependencies": [
+        "python3",
+        "python-telethon",
+        "python-qrcode",
+        "python-pillow",
+        "wacli 0.17.1",
+        "qt6-multimedia",
+        "qt6-imageformats",
+        "systemd",
+        "wl-clipboard"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/coldi1337/DankChat/v0.3.0/docs/preview.png"
     }
   },
   "intervalCommand": {
@@ -5331,11 +5446,11 @@
   },
   "quickCapture": {
     "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "b073c1640d0ee0525912158af32e42816aea1075",
-    "date": "2026-09-13T15:35:47-04:00",
-    "path": "/nix/store/7ib5snw317zacxmn046mc0zrdc65r3bc-dms-quick-capture",
-    "sha256": "11z65jvfad6qgk8hxmlb0imj5850shj4zg58ri2ijj5naq9nrrgd",
-    "hash": "sha256-7eVsE1a2SBlFzKi8TyTUoKAiawSL1g7RfNg05bYs5oc=",
+    "rev": "c48ba0cc72c1d7690c76dcb9bcc5ae3e262ecf8f",
+    "date": "2026-09-14T11:01:11-04:00",
+    "path": "/nix/store/pb6vmgganijdgg4m5n7rb65kngb14isx-dms-quick-capture",
+    "sha256": "1dwcn0hnh7kb3ikcfpclj0z1mmr5gs9d1ln2bl8nxy229z9dg5s1",
+    "hash": "sha256-QZfX0k9C+G4RXcLS0JJ+JdcaPpCUXcdmHGseaCGwjLc=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5486,11 +5601,11 @@
   },
   "takeABreak": {
     "url": "https://github.com/hthienloc/dms-take-a-break",
-    "rev": "38e5a1cc12cd797a0d55d26d47c905fab9fa180b",
-    "date": "2026-08-23T16:26:20+07:00",
-    "path": "/nix/store/r07vrmp81gl92nk42lphzh42fy6mqhsd-dms-take-a-break",
-    "sha256": "08kskr4nyh4xwf99c1nwckzlhvp9cvxv3q47h1p91m3ifkswcrfb",
-    "hash": "sha256-y2XG9XRx1JBugIfgsftm6W5I/2TcBpaS451Ab0meeiI=",
+    "rev": "a35c114f364cd02f7500dbdf9caa145ee1520364",
+    "date": "2026-09-14T21:19:22+07:00",
+    "path": "/nix/store/zm69py77d0kj0l3hh1aa85i4w9vj16y0-dms-take-a-break",
+    "sha256": "1cbk9w4lkqyqwi865mhxjwinrd9qg4y6fb9q3ggqxd33nk80x7c7",
+    "hash": "sha256-h50O0LRjtI7fGzgtZzx5OLVsI5cd1mJQ5NjjSQlPc7E=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -11802,11 +11917,11 @@
   },
   "dmsconky": {
     "url": "https://github.com/suruibin/dms-conky",
-    "rev": "9eaefc9077cddc5b260159b1ccbb73e2037573b6",
-    "date": "2026-09-14T01:30:29+08:00",
-    "path": "/nix/store/hm0xjnisw91xrl5j6dj5zyma97hb2w8w-dms-conky",
-    "sha256": "0syj1z4dx6pf7243b3j7rmg7sgw9ddvc05a29llcvm495nj08zy0",
-    "hash": "sha256-wH8EpC2J1M0oTUIVwHZriT99Xs1HjjWIOO6a3sgP0ms=",
+    "rev": "493e4d9191df0ef0c0e03fb7319d4ff19697f3f7",
+    "date": "2026-09-14T13:29:44+08:00",
+    "path": "/nix/store/dfm20f3rj3ll77w3fnm7r2s4iir9bj2y-dms-conky",
+    "sha256": "1in4zak46xwrg0kmbxr22payfyi2cf49q2g9xgjbhbdpg8m8h6s0",
+    "hash": "sha256-QBuIKnq3Lbjk6+kJnIhjInrn1RUi91UneJl3Q6b6xMY=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -11835,11 +11950,11 @@
   },
   "dmsfilemanager": {
     "url": "https://github.com/suruibin/dms-filemanager",
-    "rev": "c7439d44a04dab6161b4a5889bd7a0da107d500f",
-    "date": "2026-09-14T01:47:09+08:00",
-    "path": "/nix/store/cckmkbkgg02h22s9zx5ssqvnfp25x3ik-dms-filemanager",
-    "sha256": "0wb39ygidyq5zwikh6hpk388cz4wi4schkq174nyq8q59i6a6r51",
-    "hash": "sha256-oWSjTEwFI+wtOQFPyDSJnHyG0JgXGjgj/wX7Fp9PY3E=",
+    "rev": "712154f3eb5dae789ce03f0700488163928395fa",
+    "date": "2026-09-14T13:29:41+08:00",
+    "path": "/nix/store/yvxnj5a9zlm8hwmnyr7p15ybgf11y397-dms-filemanager",
+    "sha256": "1rg886wl2mxkkxa4pjb4kwmz65988lzc0k340wa4ksr8mgdkm6nd",
+    "hash": "sha256-zZo626so60kUB2RMwD5FKBXzK59kyUtUn7NXQblB6OU=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
