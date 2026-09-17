@@ -4642,6 +4642,42 @@
       "screenshot": "https://raw.githubusercontent.com/Grant07/dms-svgl-search/main/assets/screenshot.png"
     }
   },
+  "aven": {
+    "url": "https://github.com/gtheys/dms-aven",
+    "rev": "ab122457ff7763afdf7fbeea3c765dd64ee35220",
+    "date": "2026-09-16T09:56:36+07:00",
+    "path": "/nix/store/bc67ss4qiy4jgrizhwhxx29lfb9cvkwl-dms-aven",
+    "sha256": "00gr3bagd4kzig3nvhsazi1yhz6g1k8sd11xhm6ibxhzmkaja199",
+    "hash": "sha256-KQUl1awf9hVNhT2EptEMz3zoQ/xKw23Hi3+S9tQa+QE=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "aven",
+      "name": "Aven Tasks",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "productivity",
+      "repo": "https://github.com/gtheys/dms-aven",
+      "author": "Geert Theys",
+      "description": "Quick-add tasks to the aven todo manager from DankLauncher. Pick a project from any aven workspace, or create one on the fly.",
+      "dependencies": [
+        "aven"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/gtheys/dms-aven/main/screenshot.png",
+      "requires_dms": ">=1.2.0"
+    }
+  },
   "codeburn": {
     "url": "https://github.com/gtheys/dms-codeburn",
     "rev": "51a0f8ad9b733ac7d3f7d5da7fd5383b04987788",
