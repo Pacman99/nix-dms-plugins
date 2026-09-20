@@ -713,11 +713,11 @@
   },
   "workspaceOsdFlash": {
     "url": "https://github.com/AleBles/dms-workspace-osd",
-    "rev": "8e48bc69e356a3fbf82672d6a5323de6bff890ed",
-    "date": "2026-09-17T15:45:29+02:00",
-    "path": "/nix/store/xgbmzchc1xvwpl0a03vb4jig5f9prqpy-dms-workspace-osd",
-    "sha256": "13janwza6bgwc5bba0zp73b89ai5m1b1f8xkxb30pc54rs4pn2lj",
-    "hash": "sha256-kgp7ic6ksAvG6rMjF1aoJaqE1jj3A7VWYfwtoz63So4=",
+    "rev": "759b8e55e6d07dedd10183a87666f73a25ef6646",
+    "date": "2026-09-19T13:22:29+02:00",
+    "path": "/nix/store/97pzw3yb9rbjz7l1zb5ai6d1q00lfv44-dms-workspace-osd",
+    "sha256": "1n57k96p4bikrgcxibq46pyvr2vyqqncc1x9jmdajz2bbhabv6pz",
+    "hash": "sha256-/5q9FFxLfKlalakHxizGfou8/TUEr9jZyzMuck2ap9g=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2523,11 +2523,11 @@
   },
   "bitwarden": {
     "url": "https://github.com/coldi1337/dms-bitwarden-cli",
-    "rev": "a1ea09dbdef418f52cd4a628171c4bc7baaf6fff",
-    "date": "2026-09-14T07:08:15+02:00",
-    "path": "/nix/store/higrf40vardlqivwcapz3ppdw57zwqgy-dms-bitwarden-cli",
-    "sha256": "1wjwfx0yziszsn5wh6dx45k4k3ixnr04wyl3cmvi4f57vs99nlyp",
-    "hash": "sha256-11Obkt6nOBJ3ZYN6TkC2PY5JZiG9GciL1V/H70F3XPI=",
+    "rev": "22073d695d7d96a540daca8e0482b2a7bad75056",
+    "date": "2026-09-19T20:17:02+02:00",
+    "path": "/nix/store/4n5k6lkhfmp33lqvlkp41dcahbn1cmb8-dms-bitwarden-cli",
+    "sha256": "0npq9vghydm1f8s98hax635ar3jq027arpla6adx75k42hway0sa",
+    "hash": "sha256-SgOvOBRkltObMorerI4AWI6syjBdQZQ0cqE2D99O+Fo=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -3023,39 +3023,6 @@
       "screenshot": "https://github.com/Daniel-42-z/dms-power-usage/raw/main/screenshot.png"
     }
   },
-  "wallpaperShufflerPlugin": {
-    "url": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler",
-    "rev": "8c6758cb1bb91ef226b070d859bedd5c4b2ce9d0",
-    "date": "2026-05-10T20:33:06+08:00",
-    "path": "/nix/store/dqv85hvra7ild8sbzrzbjf8kv68fv26v-dms-wallpaper-shuffler",
-    "sha256": "02kygwc227naa6cngr1k8kfklpdh73b4jafkxdx4rz06fddvs0ck",
-    "hash": "sha256-kwG9W3MG/Ex669MpSdY4sF063UQz5GeZUcoeIRh/fgo=",
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "deepClone": false,
-    "fetchTags": false,
-    "leaveDotGit": false,
-    "rootDir": "",
-    "meta": {
-      "id": "wallpaperShufflerPlugin",
-      "name": "Wallpaper Shuffler",
-      "capabilities": [
-        "set-wallpaper"
-      ],
-      "category": "appearance",
-      "repo": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler",
-      "author": "Daniel-42-z",
-      "description": "Shuffles wallpapers with a given time interval, finds wallpapers recursively inside the specified folder",
-      "dependencies": [],
-      "compositors": [
-        "any"
-      ],
-      "distro": [
-        "any"
-      ],
-      "screenshot": "https://raw.githubusercontent.com/Daniel-42-z/dms-wallpaper-shuffler/refs/heads/main/screenshot.png"
-    }
-  },
   "dankActions": {
     "url": "https://github.com/AvengeMedia/dms-plugins",
     "rev": "bb90a1db7d540e64ae049c5906afba9b24baa865",
@@ -3089,42 +3056,6 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-actions.png"
-    }
-  },
-  "dankBatteryAlerts": {
-    "url": "https://github.com/AvengeMedia/dms-plugins",
-    "rev": "bb90a1db7d540e64ae049c5906afba9b24baa865",
-    "date": "2026-09-15T18:33:03-04:00",
-    "path": "/nix/store/q28nj2ii9qiy3rm4hwymv8yyzqhiihaj-dms-plugins",
-    "sha256": "0hdiwg1cbldc6naf70j01g1kjyqdik9a2p2waf6h4q4r03dv129m",
-    "hash": "sha256-NYmw2wCZYAKNU1xcodKMDXs5wwtAguOUNazRxcLjsUE=",
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "deepClone": false,
-    "fetchTags": false,
-    "leaveDotGit": false,
-    "rootDir": "",
-    "meta": {
-      "id": "dankBatteryAlerts",
-      "name": "Dank Battery Alerts",
-      "capabilities": [
-        "watch-events",
-        "notify"
-      ],
-      "category": "utilities",
-      "repo": "https://github.com/AvengeMedia/dms-plugins",
-      "path": "DankBatteryAlerts",
-      "author": "Avenge Media",
-      "firstParty": true,
-      "description": "Notify on low battery levels.",
-      "dependencies": [],
-      "compositors": [
-        "any"
-      ],
-      "distro": [
-        "any"
-      ],
-      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-batteryalerts.png"
     }
   },
   "dankClight": {
@@ -3620,11 +3551,11 @@
   },
   "hueManager": {
     "url": "https://github.com/derethil/dms-hue-manager",
-    "rev": "e0877d7c9bc7260e6a2eb124d150846e7a4d40e3",
-    "date": "2026-05-18T09:56:54-06:00",
-    "path": "/nix/store/rh7m0fp2c3vxvh9gc866khyxksj8nbjn-dms-hue-manager",
-    "sha256": "09r142fak0mq7yjwg5d6cyd4066gzkx8yrzl0vnzqywpkf0y8yvc",
-    "hash": "sha256-bHvkgZuXe/ztBvRnj/r8zxhAmmemlcelP7iCqZwgISc=",
+    "rev": "44929395bd170e57f542239dd122ab7887cebdaa",
+    "date": "2026-09-19T18:11:00-06:00",
+    "path": "/nix/store/2a2ma2vyxcg2l6dflnkhzilmyl9j9pid-dms-hue-manager",
+    "sha256": "06mkh1abzccansjh8p67bjp4whfpiz2739liprkkc6ik4jnrmzas",
+    "hash": "sha256-Wv2arSQzGjZnvpGmccSP10FOrlzHXASltoqxv1SAsxo=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4263,11 +4194,11 @@
   },
   "displayManager": {
     "url": "https://github.com/felri/display-manager-plugin-niri-dank-linux",
-    "rev": "f789f12a06793212ece407377ad53668b63f76b4",
-    "date": "2026-07-13T09:05:34-03:00",
-    "path": "/nix/store/m7jp1waqyd8dq3s4i99qdbiqp7dwdgq9-display-manager-plugin-niri-dank-linux",
-    "sha256": "1d9b6z56i6d47pkg9v39pr7jiqylg9iqji39yw4fakbh6qv3wlsl",
-    "hash": "sha256-VFM+NjZwTeUI92lEiWN61OMoT75p7PTmPaSZaMo3K7U=",
+    "rev": "64348e6ecf09737de75328c3f38f2d5c8c5fa313",
+    "date": "2026-09-19T12:59:51-03:00",
+    "path": "/nix/store/g1fb8a62h1n7yc1vmz5mq259vmslh9yb-display-manager-plugin-niri-dank-linux",
+    "sha256": "098711wd299i9af11l4jsi8jy3rsgmz33q5iwn9mxhdnr1p0c9ng",
+    "hash": "sha256-zyYGbsi2wV6T5bHgMX59Og8vUdSS0BCcSjEl0XgIByU=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4788,12 +4719,12 @@
     }
   },
   "activateLinux": {
-    "url": "https://github.com/hthienloc/dms-activate-linux",
-    "rev": "34f359aedcac9d27ff5df51d43cc41031ea00f80",
-    "date": "2026-06-21T12:24:31+07:00",
-    "path": "/nix/store/as2ky91j5q4ss37f30s26vyxmcyk80pp-dms-activate-linux",
-    "sha256": "0c7wqjg4cny0fi8rdjay9x9rrrhsaqib6864kva244ksc7nz0rw9",
-    "hash": "sha256-iWfw7WF6EiLUnsQgsyJWGuacU09eyZZRdMBbRp7E/DA=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4807,7 +4738,7 @@
         "desktop-widget"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-activate-linux",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "Adds a watermark to the bottom-right of the screen",
       "dependencies": [],
@@ -4817,16 +4748,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-activate-linux/master/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/activateLinux/screenshot.png",
+      "path": "activateLinux"
     }
   },
   "ambientSound": {
-    "url": "https://github.com/hthienloc/dms-ambient-sound",
-    "rev": "83fae75429af7e5eaf9d34b832dd6d2c6f569769",
-    "date": "2026-08-28T13:09:36+07:00",
-    "path": "/nix/store/ybxa90ldd0j79mkbsgrb31m0v99k0lq9-dms-ambient-sound",
-    "sha256": "0245bgqkk2m6xi2vrqpnd56ln5xp3ayrciyy7jrk07ff3x1fxs8x",
-    "hash": "sha256-HenuQh/OHTCzPN5Hlr0atxdLTWn24rxF7KaKOfFbhQg=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4840,7 +4772,7 @@
         "dankbar-widget"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-ambient-sound",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "Play ambient focus sounds with integrated sleep timer and volume control.",
       "dependencies": [
@@ -4853,51 +4785,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ambient-sound/master/screenshot.png"
-    }
-  },
-  "appLauncher": {
-    "url": "https://github.com/hthienloc/dms-app-launcher",
-    "rev": "b190f6070da9be8fac579dd1da8b5651a42f034a",
-    "date": "2026-08-03T14:19:33+07:00",
-    "path": "/nix/store/ai0sghq9lpwqh4r6vcp6x8x8bqk56s12-dms-app-launcher",
-    "sha256": "1axfkypb4pkjh0nc6pj4k7kcq7l6mjlcasmkiidgqns5q4hbc44l",
-    "hash": "sha256-lBC2IMFFW/xajLNqxaishh7M5plEXsMsgHJesq6frqs=",
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "deepClone": false,
-    "fetchTags": false,
-    "leaveDotGit": false,
-    "rootDir": "",
-    "meta": {
-      "id": "appLauncher",
-      "name": "App Launcher",
-      "capabilities": [
-        "desktop-widget"
-      ],
-      "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-app-launcher",
-      "author": "Loc Huynh",
-      "description": "Desktop widget to search, filter, and launch applications by categories.",
-      "dependencies": [
-        "python3"
-      ],
-      "compositors": [
-        "any"
-      ],
-      "distro": [
-        "any"
-      ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-app-launcher/main/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/ambientSound/screenshot.png",
+      "path": "ambientSound"
     }
   },
   "bongoCat": {
-    "url": "https://github.com/hthienloc/dms-bongo-cat",
-    "rev": "237b1a34b2fb8d90e4f4c8656af758c3d7dab638",
-    "date": "2026-07-29T09:45:26+07:00",
-    "path": "/nix/store/jyfbw9khbz4g4w5pnajxg0j79kxjy5yx-dms-bongo-cat",
-    "sha256": "078b8c0a9v3mf34v3rxmsf4c08rwyvkc8ap8mdxw9vqxbh24cq5w",
-    "hash": "sha256-vGBGBFwd78R7q+gqxOb2PCPAiNO157HJcHXspABDCx0=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4911,7 +4809,7 @@
         "dankbar-widget"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-bongo-cat",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "A reactive animated cat that taps along with your keyboard input.",
       "dependencies": [
@@ -4924,16 +4822,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-bongo-cat/main/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/bongoCat/screenshot.png",
+      "path": "bongoCat"
     }
   },
   "breathing": {
-    "url": "https://github.com/hthienloc/dms-breathing",
-    "rev": "224453de4b13803b182b0fc86c593f9e2a782b1f",
-    "date": "2026-07-03T12:30:42+07:00",
-    "path": "/nix/store/gg5iysqmp4874zwazxclzdcg5jlfq92s-dms-breathing",
-    "sha256": "1gxzcshsh8fqipxz5dadzd888gj91gmlxf1dfafznjxv2vykm1z2",
-    "hash": "sha256-4oc6/Ra7S/udci24TusLST6EUPtNtfL7jdghqKFmv78=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4947,7 +4846,7 @@
         "dankbar-widget"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-breathing",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "A guided breathing exercise tool for mindfulness and relaxation.",
       "dependencies": [
@@ -4960,16 +4859,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-breathing/master/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/breathing/screenshot.png",
+      "path": "breathing"
     }
   },
   "caffeine": {
-    "url": "https://github.com/hthienloc/dms-caffeine",
-    "rev": "353c2d13216e1bf5633df0eb0b14f93bee27a753",
-    "date": "2026-07-28T17:48:54+07:00",
-    "path": "/nix/store/phaiigapgxwsqpjx7g1d2b4q7fw2h3ps-dms-caffeine",
-    "sha256": "1nsxvfb799dw8r439p9wr7dlfwkivw3h6y6kcxbz6l1l5hvq7v0k",
-    "hash": "sha256-E+yDNyw0UPNXZ9N4AwffcXJH28k83TRIRryldJbbXds=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -4983,7 +4883,7 @@
         "dankbar-widget"
       ],
       "category": "system",
-      "repo": "https://github.com/hthienloc/dms-caffeine",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "Keep your screen awake and prevent idle sleep with a single click.",
       "dependencies": [],
@@ -4993,16 +4893,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-caffeine/master/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/caffeine/screenshot.png",
+      "path": "caffeine"
     }
   },
   "desktopWidgetToggle": {
-    "url": "https://github.com/hthienloc/dms-desktop-widget-toggle",
-    "rev": "be6556d8f70e990fcc2cfa4a0125e2a1423c717c",
-    "date": "2026-06-09T19:17:34+07:00",
-    "path": "/nix/store/ma2c5bgyf2mnd56w2qiwnky1raw2chn5-dms-desktop-widget-toggle",
-    "sha256": "1sb7bpl6m2mj6y4fzvyc1j1h7196qibjmvm9w8bdhgi7jg6327sx",
-    "hash": "sha256-XR8xzJMnPtgW4qnuKlfEJoUDgwzM7++IN7KKauhdZ+k=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5018,7 +4919,7 @@
         "ipc"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-desktop-widget-toggle",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "Toggle visibility of desktop widget groups as overlay",
       "dependencies": [],
@@ -5028,16 +4929,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-desktop-widget-toggle/master/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/desktopWidgetToggle/screenshot.png",
+      "path": "desktopWidgetToggle"
     }
   },
   "emojiPicker": {
-    "url": "https://github.com/hthienloc/dms-emoji-picker",
-    "rev": "dca1751fa8086098edd552e1299ad3caeff3cc07",
-    "date": "2026-08-28T14:03:15+07:00",
-    "path": "/nix/store/7vd1zqm984pjfyrwx58fjy7zb8cynv82-dms-emoji-picker",
-    "sha256": "1b6lzb36gcff6cdc00wn91ncx1xmz59n3al13fb8zb8xbslxp6gc",
-    "hash": "sha256-7JnbqV4drY+WG4GqYVP5tYfObEiWA8AaM86xZ8b61Kw=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5052,7 +4954,7 @@
         "ipc"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-emoji-picker",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "Search, copy, and paste emoji from a centered picker.",
       "dependencies": [],
@@ -5063,88 +4965,17 @@
         "any"
       ],
       "requires_dms": ">=1.5.0",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-emoji-picker/main/screenshot.png"
-    }
-  },
-  "floaty": {
-    "url": "https://github.com/hthienloc/dms-floaty",
-    "rev": "114c20e60dfaab06553696b55c8f2f501a4d7fcb",
-    "date": "2026-06-06T22:21:41+07:00",
-    "path": "/nix/store/cakgmjgsg3pnq06agy6h66fspd2mfal2-dms-floaty",
-    "sha256": "0hcvak2rvml2qhjzb1lkyapdggq115sa31l01950javbnpy2gg6q",
-    "hash": "sha256-2Lwn/LVrKwlKCoCGoXQJAb/XrvKThvUlxILWncVUm0E=",
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "deepClone": false,
-    "fetchTags": false,
-    "leaveDotGit": false,
-    "rootDir": "",
-    "meta": {
-      "id": "floaty",
-      "name": "Floaty",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-floaty",
-      "author": "Loc Huynh",
-      "description": "A feature-rich reference image tool to float images, screenshots, and vector graphics on top of all windows.",
-      "dependencies": [
-        "poppler-utils"
-      ],
-      "compositors": [
-        "any"
-      ],
-      "distro": [
-        "any"
-      ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-floaty/main/screenshot.png"
-    }
-  },
-  "folderView": {
-    "url": "https://github.com/hthienloc/dms-folder-view",
-    "rev": "3c0c68305aad7b93da68bbab0d0e0a7aaf38a97e",
-    "date": "2026-07-22T18:11:19+07:00",
-    "path": "/nix/store/ypwjqa1rjvhq44nqa5w4w0rgirj5fkqm-dms-folder-view",
-    "sha256": "1bdd478sw504ckyhxjqaskzfcskgkzq71xy586yc60fvk8rnvigh",
-    "hash": "sha256-8MVtM5rbAcO8QcX3cPCfb2rm/tQKyw79ZAQUrtEhra0=",
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "deepClone": false,
-    "fetchTags": false,
-    "leaveDotGit": false,
-    "rootDir": "",
-    "meta": {
-      "id": "folderView",
-      "name": "Folder View",
-      "capabilities": [
-        "desktop-widget"
-      ],
-      "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-folder-view",
-      "author": "Loc Huynh",
-      "description": "A folder viewer widget that displays and manages files and directories on your screen.",
-      "dependencies": [
-        "wl-clipboard",
-        "glib2",
-        "dms-floaty"
-      ],
-      "compositors": [
-        "any"
-      ],
-      "distro": [
-        "any"
-      ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-folder-view/main/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/emojiPicker/screenshot.png",
+      "path": "emojiPicker"
     }
   },
   "handMirror": {
-    "url": "https://github.com/hthienloc/dms-hand-mirror",
-    "rev": "d746d14f624bdd8fc00053ea0dca2b6af84fa21a",
-    "date": "2026-06-21T12:24:37+07:00",
-    "path": "/nix/store/37dlmynpbgn0g28l1pwbhbyck5y4yg3a-dms-hand-mirror",
-    "sha256": "08001vl8vbxiwx0mj4cji5b8dag32vj001n45sr3pzhnkb6lwn3v",
-    "hash": "sha256-e1hOzZoW/juyLsQGAOQW46mGVomSEVlB57GvjegOACA=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5158,7 +4989,7 @@
         "dankbar-widget"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-hand-mirror",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "Cozy camera preview with digital zoom, snapshots, and a pinnable floating window.",
       "dependencies": [],
@@ -5168,16 +4999,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-hand-mirror/main/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/handMirror/screenshot.png",
+      "path": "handMirror"
     }
   },
   "hiddenBar": {
-    "url": "https://github.com/hthienloc/dms-hidden-bar",
-    "rev": "21b127f44bb5ee42621df94f509a0410ec803e55",
-    "date": "2026-07-03T04:44:07+07:00",
-    "path": "/nix/store/0xb1499xyw8bn7afrs8d94rkr217fxgb-dms-hidden-bar",
-    "sha256": "1740rhz4fcggm4bab6nzjldhv64iq8han2dm19adkkqxhbv8lac0",
-    "hash": "sha256-gCmK9oIdz9lUCrUJqyDCkZgNG5XfmqUWqe8xRz7MgJw=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5191,7 +5023,7 @@
         "dankbar-widget"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-hidden-bar",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "Hide/Show bar widgets with a click or hover",
       "dependencies": [],
@@ -5201,16 +5033,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-hidden-bar/master/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/hiddenBar/screenshot.png",
+      "path": "hiddenBar"
     }
   },
   "hydrate": {
-    "url": "https://github.com/hthienloc/dms-hydrate",
-    "rev": "5a7059e9b95fe346d9ac60a95560d7c9790c92d1",
-    "date": "2026-06-21T12:24:38+07:00",
-    "path": "/nix/store/v33qh91bk29wwyzdm7ipfg4q1r7nw3ay-dms-hydrate",
-    "sha256": "0allc8jc8h9lgl4pic466gldr45qhynkj0bll5kl7gwhfxrpcagm",
-    "hash": "sha256-9Sl2c3eQv0NnoXQBOa2HuJDc6DOGsHgJfTRBxCRilCo=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5224,7 +5057,7 @@
         "dankbar-widget"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-hydrate",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "Drink water reminder and tracker.",
       "dependencies": [],
@@ -5234,16 +5067,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-hydrate/master/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/hydrate/screenshot.png",
+      "path": "hydrate"
     }
   },
   "ipIndicator": {
-    "url": "https://github.com/hthienloc/dms-ipIndicator",
-    "rev": "988aeadbdcece2484d64806b16c9546642185674",
-    "date": "2026-08-19T07:40:05+07:00",
-    "path": "/nix/store/2hrsyl4gwaycv171g9xq7sffjdnpxrb4-dms-ipIndicator",
-    "sha256": "0xkbkdbswabj8d87bk0pc0l7hvavx2drs5dcl4d21r7vxif24vzw",
-    "hash": "sha256-/G8iXOz75CAaoawVnZvoW214KGAXzHVQQ3Iprleba3Y=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5257,7 +5091,7 @@
         "dankbar-widget"
       ],
       "category": "system",
-      "repo": "https://github.com/hthienloc/dms-ipIndicator",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "Display public IP address, ISP, and location with a privacy-focused toggle.",
       "dependencies": [
@@ -5269,16 +5103,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ipIndicator/master/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/ipIndicator/screenshot.png",
+      "path": "ipIndicator"
     }
   },
   "kaomojiPicker": {
-    "url": "https://github.com/hthienloc/dms-kaomoji-picker",
-    "rev": "037729fd24f02efecf56d7dc7f44499b0ca29fc3",
-    "date": "2026-06-21T12:24:39+07:00",
-    "path": "/nix/store/pwa2kg338qgdfnjbg0ibrs9ychg1ig6f-dms-kaomoji-picker",
-    "sha256": "0h6a4r8pcidlgk8ymyhlwyihpsyxcc84lb3dwd4zj8wafq4v6aln",
-    "hash": "sha256-liqzCXaKI/lJ420sShBj3esLo+cU+urRfLRFdlEmykA=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5292,7 +5127,7 @@
         "launcher"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-kaomoji-picker",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "A lightweight launcher for browsing and copying kaomojis to the clipboard.",
       "dependencies": [
@@ -5304,16 +5139,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-kaomoji-picker/master/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/kaomojiPicker/screenshot.png",
+      "path": "kaomojiPicker"
     }
   },
   "lutrisLauncher": {
-    "url": "https://github.com/hthienloc/dms-lutris-launcher",
-    "rev": "30e82450289959969eb802770744bb0ebaa094bf",
-    "date": "2026-06-21T12:24:40+07:00",
-    "path": "/nix/store/mvml310vq3mhf5iahp6y1bidqa70b47m-dms-lutris-launcher",
-    "sha256": "158jxs6a8a0c7ghvz5fsx8lxa039grfd2xj3gr94gvgb0zjyiys9",
-    "hash": "sha256-Sfvo5Qfr7UdSfkN20Vx+aQDVKeralb/hOwwopIzuEpU=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5327,7 +5163,7 @@
         "dankbar-widget"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-lutris-launcher",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "Quickly browse and launch games from your Lutris library.",
       "dependencies": [
@@ -5339,16 +5175,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-lutris-launcher/master/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/lutrisLauncher/screenshot.png",
+      "path": "lutrisLauncher"
     }
   },
   "mediaDownloader": {
-    "url": "https://github.com/hthienloc/dms-media-downloader",
-    "rev": "e4f5c92e67ede329d91d608e4d6974b7f3133f2f",
-    "date": "2026-06-21T12:24:41+07:00",
-    "path": "/nix/store/m900diq4r6pj6nbmshjzv4aqxckc5y5w-dms-media-downloader",
-    "sha256": "1h4l12prlsb7mpa6g8dnlmidalgvw14dylymnv4fl1zxjd7s2404",
-    "hash": "sha256-BBChT5P9B+rIttVT30jg+1HVYqW2oWfUrWdpmq8IlMA=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5362,7 +5199,7 @@
         "dankbar-widget"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-media-downloader",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "Download audio and video from web links using yt-dlp",
       "dependencies": [
@@ -5375,16 +5212,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-media-downloader/main/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/mediaDownloader/screenshot.png",
+      "path": "mediaDownloader"
     }
   },
   "niriDS": {
-    "url": "https://github.com/hthienloc/dms-niri-display-settings",
-    "rev": "c8aa9c494c3bd60689835b856b407cc6198088cf",
-    "date": "2026-09-01T13:55:59+07:00",
-    "path": "/nix/store/bbx8vrm4y6mynmwn2ssgfcg4b4l5pvsr-dms-niri-display-settings",
-    "sha256": "0mxnkks7qwjkh5sv7kdymxp0xjvd8s882g2i7plzpcrnfj00vy2y",
-    "hash": "sha256-XvgNgHQ2s/vpPVE8gZBGbcsObq++zbN1gVNyfPSctlc=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5398,7 +5236,7 @@
         "daemon"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-niri-display-settings",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "Quickly toggle and configure display outputs in the Niri Wayland compositor.",
       "dependencies": [
@@ -5411,16 +5249,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-niri-display-settings/master/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/niriDS/screenshot.png",
+      "path": "niriDS"
     }
   },
   "ocrScanner": {
-    "url": "https://github.com/hthienloc/dms-ocr-scanner",
-    "rev": "268a7fca154edaf2f05ed12700fa968a0f8b75bc",
-    "date": "2026-06-21T12:24:42+07:00",
-    "path": "/nix/store/2shbwbqda8l1a5j08bg0sqapycahjqhw-dms-ocr-scanner",
-    "sha256": "1abqhbaxc0r2pp1232n9k68b0ixihxv7aq104vppvrhgpabm04zl",
-    "hash": "sha256-9BNQl7oP5n3vJiBgdXaHsUewkJnJiiHCvSID1tWCeKk=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5434,7 +5273,7 @@
         "dankbar-widget"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-ocr-scanner",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "Extract text from clipboard images or local files using Tesseract OCR.",
       "dependencies": [
@@ -5446,53 +5285,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ocr-scanner/main/screenshot.png"
-    }
-  },
-  "qrGenerator": {
-    "url": "https://github.com/hthienloc/dms-qr-generator",
-    "rev": "361fde5f62d91bcbdaebf36b7984f91c0abaf027",
-    "date": "2026-06-21T12:24:43+07:00",
-    "path": "/nix/store/fkhxaavkqa2iahan1v78z3c2xi7ldpg6-dms-qr-generator",
-    "sha256": "09q4gvc6l6vhn5f223398y5bh3igc68kn8cf3ghh98yhkrgsmicq",
-    "hash": "sha256-mMWqX57QowThG44hO5FhLw64ikdpDCFcsXAbath+BCc=",
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "deepClone": false,
-    "fetchTags": false,
-    "leaveDotGit": false,
-    "rootDir": "",
-    "meta": {
-      "id": "qrGenerator",
-      "name": "QR Generator",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-qr-generator",
-      "author": "Loc Huynh",
-      "description": "Generate and scan QR codes from clipboard text, manual input, or dropped images.",
-      "dependencies": [
-        "qrencode",
-        "wl-clipboard",
-        "zbar"
-      ],
-      "compositors": [
-        "any"
-      ],
-      "distro": [
-        "any"
-      ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-qr-generator/master/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/ocrScanner/screenshot.png",
+      "path": "ocrScanner"
     }
   },
   "quickCapture": {
-    "url": "https://github.com/hthienloc/dms-quick-capture",
-    "rev": "e00d21eb3e14f7e5c3cb24562fa71fa481ceb540",
-    "date": "2026-09-18T07:49:06+07:00",
-    "path": "/nix/store/3q4l7l03pjma9f730b4hsvy5mfz9ss33-dms-quick-capture",
-    "sha256": "13bl0gqsjsznsn4b0m2sc4xf71jakap1x6r1sc5r0gkq3yxh5vbj",
-    "hash": "sha256-cu0Cux94PpAL0yGbHq6aSobjOmFaVLCI1fZrqfEDdI0=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5508,7 +5311,7 @@
         "control-center"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-quick-capture",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "Screenshot annotation and screen recording plugin.",
       "requires_dms": ">=1.6.0",
@@ -5527,56 +5330,17 @@
         "any"
       ],
       "i18n": true,
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png"
-    }
-  },
-  "screenRecorderLH": {
-    "url": "https://github.com/hthienloc/dms-screen-recorder",
-    "rev": "440a71f1bdd275f3d662beaae38593b68a605dd2",
-    "date": "2026-06-25T11:18:55+07:00",
-    "path": "/nix/store/fqx4wswlss30h7xi8spn1d3g220a39yv-dms-screen-recorder",
-    "sha256": "0z2j2vqi8vfrw9agx49c4ygyxhqh4lmcgj62wrh1y5wsi2kn49fc",
-    "hash": "sha256-zCVip4iaFx9g5sLIxyolEMPunycskf5U4tltFPEWUnw=",
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "deepClone": false,
-    "fetchTags": false,
-    "leaveDotGit": false,
-    "rootDir": "",
-    "meta": {
-      "id": "screenRecorderLH",
-      "name": "Screen Recorder LH",
-      "capabilities": [
-        "daemon",
-        "control-center",
-        "ipc"
-      ],
-      "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-screen-recorder",
-      "author": "Loc Huynh",
-      "description": "GPU-accelerated screen recorder with multi-monitor support and smart notifications.",
-      "dependencies": [
-        "gpu-screen-recorder",
-        "ffmpeg",
-        "libnotify"
-      ],
-      "compositors": [
-        "any"
-      ],
-      "distro": [
-        "any"
-      ],
-      "requires_dms": ">=1.5.0",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-screen-recorder/master/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/quickCapture/screenshot.png",
+      "path": "quickCapture"
     }
   },
   "screenkey": {
-    "url": "https://github.com/hthienloc/dms-screenkey",
-    "rev": "526c08eeab486ca3b5b5fc88a99bfcc0c0007ec9",
-    "date": "2026-08-07T19:05:36+07:00",
-    "path": "/nix/store/yawrwrfv05qxygd4p12vkk6rbdqdl39g-dms-screenkey",
-    "sha256": "0y9h24bk156fiawaw39pqgypzdmzqdp1snlaz37hwwamak468i09",
-    "hash": "sha256-CURkyFRVcQ7P+IpaHW7Dv7Z//cM3Da64is6UMBcRMHk=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5591,7 +5355,7 @@
         "control-center"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-screenkey",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "An always-on-top keystroke and mouse click visualizer for tutorials.",
       "dependencies": [
@@ -5605,49 +5369,17 @@
         "any"
       ],
       "requires_dms": ">=1.5.0",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-screenkey/main/screenshot.png"
-    }
-  },
-  "stopwatch": {
-    "url": "https://github.com/hthienloc/dms-stopwatch",
-    "rev": "28a9d3e25a16f688f50af7222814e735edb739ac",
-    "date": "2026-06-21T12:24:45+07:00",
-    "path": "/nix/store/7l9430n2sz9qi1cpvxfqwgyg5i0i3pja-dms-stopwatch",
-    "sha256": "0w1ws4ak38nv2m1rrcp4m9rnmjbalbfblszv7sb13jzpnm3ggz9h",
-    "hash": "sha256-MP33RrX3yxGWPvtrutyiaslqc6rkspxDFduiMRXRPHA=",
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "deepClone": false,
-    "fetchTags": false,
-    "leaveDotGit": false,
-    "rootDir": "",
-    "meta": {
-      "id": "stopwatch",
-      "name": "Stopwatch",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-stopwatch",
-      "author": "Loc Huynh",
-      "description": "A high-precision stopwatch for time tracking.",
-      "dependencies": [],
-      "compositors": [
-        "any"
-      ],
-      "distro": [
-        "any"
-      ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-stopwatch/main/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/screenkey/screenshot.png",
+      "path": "screenkey"
     }
   },
   "takeABreak": {
-    "url": "https://github.com/hthienloc/dms-take-a-break",
-    "rev": "a35c114f364cd02f7500dbdf9caa145ee1520364",
-    "date": "2026-09-14T21:19:22+07:00",
-    "path": "/nix/store/zm69py77d0kj0l3hh1aa85i4w9vj16y0-dms-take-a-break",
-    "sha256": "1cbk9w4lkqyqwi865mhxjwinrd9qg4y6fb9q3ggqxd33nk80x7c7",
-    "hash": "sha256-h50O0LRjtI7fGzgtZzx5OLVsI5cd1mJQ5NjjSQlPc7E=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5663,7 +5395,7 @@
         "ipc"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-take-a-break",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "A gentle companion that reminds you to rest your eyes with short and long breaks.",
       "dependencies": [],
@@ -5673,16 +5405,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-take-a-break/master/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/takeABreak/screenshot.png",
+      "path": "takeABreak"
     }
   },
   "timer": {
-    "url": "https://github.com/hthienloc/dms-timer",
-    "rev": "73fade01762bd88a19e45bf5d1d663b93ce79fcf",
-    "date": "2026-08-13T08:31:51+07:00",
-    "path": "/nix/store/djpxq2bbm9wzyc3lmjn3az5nhin2a1fv-dms-timer",
-    "sha256": "0pw3d04j1ymhrfn9z9vsfmhh5vdph7xgm607z576a71fd99skzi5",
-    "hash": "sha256-Jf6pU2ouHGVO+QeY+vqBt+0CYXV6p5+sy7D6IAlog18=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5696,7 +5429,7 @@
         "dankbar-widget"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-timer",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "A countdown timer with notification support and audio alerts.",
       "dependencies": [
@@ -5709,16 +5442,17 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-timer/master/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/timer/screenshot.png",
+      "path": "timer"
     }
   },
   "typingSounds": {
-    "url": "https://github.com/hthienloc/dms-typing-sounds",
-    "rev": "0d61da952116aa18942128ca216bffc558684fdf",
-    "date": "2026-08-23T16:11:28+07:00",
-    "path": "/nix/store/75skzshs7z3a4cjn8zhfnws49p3agj36-dms-typing-sounds",
-    "sha256": "04njgln4384h7mhlfj8ndz203sd3y8a9igs6zrmbig6hwjnv4rx5",
-    "hash": "sha256-pWeyreTQvLhq/ka/mBTyo+kBxG8WSUdhPZCgQSx90hI=",
+    "url": "https://github.com/hthienloc/dms-plugins",
+    "rev": "1a718071a45f512ba5d2c62cae608469692649d5",
+    "date": "2026-09-19T10:27:00+07:00",
+    "path": "/nix/store/bafsdjaxrax2cp2ca2kfv10shkhfmrzi-dms-plugins",
+    "sha256": "00wfny9qm3nnjadbv887dnrynckml5xpfd1nxy082ncbvc5h7si1",
+    "hash": "sha256-IeoDC9uLWYGA7zY0d3uhdTLrs20Hob2aktaOipO3jgM=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -5732,7 +5466,7 @@
         "daemon"
       ],
       "category": "utilities",
-      "repo": "https://github.com/hthienloc/dms-typing-sounds",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "author": "Loc Huynh",
       "description": "Play mechanical keyboard sounds as you type",
       "dependencies": [
@@ -5746,7 +5480,8 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-typing-sounds/main/screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/typingSounds/screenshot.png",
+      "path": "typingSounds"
     }
   },
   "dankHermes": {
@@ -8789,40 +8524,6 @@
       "screenshot": "https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshots/screenshot.png"
     }
   },
-  "powerOptions": {
-    "url": "https://github.com/Nazahim/PowerOptions",
-    "rev": "95fa7949fd9614a21bcc7a14ff8cc917a7208cf8",
-    "date": "2026-01-24T09:07:53+01:00",
-    "path": "/nix/store/yr4vqy8c4rp2ik84mnicjgzrgmnz4d2j-PowerOptions",
-    "sha256": "06pvdqcln2m8qic5d1rwq3ziq2gpwrcl53s5awdfddd46lh50a9x",
-    "hash": "sha256-PSlQIDWkteYaV0WPQlnm9wkc/8A8h1ZYxKgKSxlu+xo=",
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "deepClone": false,
-    "fetchTags": false,
-    "leaveDotGit": false,
-    "rootDir": "",
-    "meta": {
-      "id": "powerOptions",
-      "name": "Power Options",
-      "capabilities": [
-        "command-execution"
-      ],
-      "category": "utilities",
-      "repo": "https://github.com/Nazahim/PowerOptions",
-      "path": "",
-      "author": "Nazahim",
-      "description": "Access power options like shutdown and reboot from the launcher",
-      "dependencies": [],
-      "compositors": [
-        "any"
-      ],
-      "distro": [
-        "any"
-      ],
-      "screenshot": "https://raw.githubusercontent.com/Nazahim/PowerOptions/edf8a49fceadf61e208151e6f4d38480eb831878/screenshot.png"
-    }
-  },
   "hyprlandSubmapIndicator": {
     "url": "https://github.com/nderscore/dms-plugins",
     "rev": "568fd7682a53ef07482799b91f81dc3383a91967",
@@ -11276,6 +10977,39 @@
       "screenshot": "https://raw.githubusercontent.com/Samoggino/dankObsidian/main/screenshot.png"
     }
   },
+  "sessionEdge": {
+    "url": "https://github.com/satoshoe-dev/dms-sessionedge",
+    "rev": "f11473df1e236dc8210c49376a375be8ec82c112",
+    "date": "2026-09-19T14:30:39-05:00",
+    "path": "/nix/store/99abi3lg6r751afl8ybmjkiya4i4rf8y-dms-sessionedge",
+    "sha256": "05fa1hrvgpvcyqfa0snjanc3yp6014zxpqvy44k5sp11fz5fmi9v",
+    "hash": "sha256-O8XqynchXF0mIX7j2z8JwFw/mFXSaqAc9mzftzMMyhU=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "sessionEdge",
+      "name": "SessionEdge",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "system",
+      "repo": "https://github.com/satoshoe-dev/dms-sessionedge",
+      "author": "satoshoe",
+      "description": "Session actions (lock, suspend, log out, reboot, power off, restart shell) in a slim strip that slides out of the DMS frame when you hover a screen edge. Actions that end the session need a click and hold.",
+      "dependencies": [],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-sessionedge/main/assets/screenshot.png"
+    }
+  },
   "dankGearyMail": {
     "url": "https://github.com/schneik80/dms-geary-mail",
     "rev": "1a26c98dd482cb8e0d03c849b6b27e6fe0befe64",
@@ -12478,6 +12212,81 @@
       "requires_dms": ">=1.5.0"
     }
   },
+  "depthscape": {
+    "url": "https://github.com/Tz-slayer/depthscape",
+    "rev": "87cc9aa6082098ff3ee9198e0e560d0e860910c2",
+    "date": "2026-09-19T16:54:55+08:00",
+    "path": "/nix/store/6zyimfr90ppn6ycx4rlmkm66rh70gyxy-depthscape",
+    "sha256": "1dg0r5mia32hwlh2pmdgkz4vb66whn6x0gq59qb97c47sn5n7bs1",
+    "hash": "sha256-Qa9ji9WHsJMWTgU/0I2F3Ji1yZ+v1Ssg5VAMFWvJ4LU=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "depthscape",
+      "name": "Depthscape",
+      "capabilities": [
+        "daemon",
+        "desktop-widget",
+        "ai"
+      ],
+      "category": "appearance",
+      "repo": "https://github.com/Tz-slayer/depthscape",
+      "author": "Tz-slayer",
+      "description": "AI depth-aware wallpapers: the near part of your wallpaper is redrawn above desktop widgets, so scenery and characters occlude your clock and cards like an iOS depth-effect lock screen.",
+      "dependencies": [
+        "curl",
+        "qt6-5compat"
+      ],
+      "compositors": [
+        "niri"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Tz-slayer/depthscape/main/assets/screenshot.jpg"
+    }
+  },
+  "keystrokes": {
+    "url": "https://github.com/Tz-slayer/keystrokes",
+    "rev": "3ec7e44774e4aaf1adfa7eb49d32451e5708b79d",
+    "date": "2026-09-20T02:13:28+08:00",
+    "path": "/nix/store/ngbb81g010lvxk0maij5sw9q5s9khgsp-keystrokes",
+    "sha256": "0di86g42wikjzwgy6mdynv0j6m24zp4m46v08zw1azk1wmps8iz8",
+    "hash": "sha256-6Eekb+VhfhX4R2AbUsn9RFQjwba+VeMf/3JGLsgzKDY=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "keystrokes",
+      "name": "Keystrokes",
+      "capabilities": [
+        "daemon",
+        "control-center"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/Tz-slayer/keystrokes",
+      "author": "Tz-slayer",
+      "description": "Shows every key you press as on-screen keycaps, with press counts and keystroke history. Ported from keyviz, for screencasts and tutorials.",
+      "dependencies": [
+        "libinput",
+        "python3"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Tz-slayer/keystrokes/main/docs/cover.png"
+    }
+  },
   "converter": {
     "url": "https://github.com/viewerofall-labs/weather-viewer",
     "rev": "45ab60d67079d23b5c1fbac506aec825e9d3178c",
@@ -12648,11 +12457,11 @@
   },
   "dankSoftwareDepot": {
     "url": "https://github.com/vinceecniv/DankSoftwareDepot",
-    "rev": "7850df038fa992b1e81b5f470b2922fa771d14f4",
-    "date": "2026-09-12T16:24:12+02:00",
-    "path": "/nix/store/4hhzw6fg9xmz7hja4jx43g1v89mg99pj-DankSoftwareDepot",
-    "sha256": "0fsnh2lvxnqb92h2naa9vlb3ciqn2gl0pyjg3gfk4s58yqrpnxcv",
-    "hash": "sha256-m3V7M/aoaDLdG0/6C+gTFkc2Ft1JKSugSAvbvqmAVjs=",
+    "rev": "5588c93678ed1dc193c9a9e436df14805a205d29",
+    "date": "2026-09-19T16:13:18+02:00",
+    "path": "/nix/store/0cyhi2c80mqdl1d26b5257kiwlkqqqmh-DankSoftwareDepot",
+    "sha256": "1c6xhrs7d9lv02mkikn5i6kinkwa504v6wvwcxcz638w5k0rq1ma",
+    "hash": "sha256-qgacwSwcDfNZZ3xzswkoik8bp4nFzjirAJumdnSG3bA=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
