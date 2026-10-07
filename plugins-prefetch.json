@@ -1838,11 +1838,14 @@
       "category": "monitoring",
       "repo": "https://github.com/bernardopg/AiOverviewControl",
       "author": "Bernardo Gomes",
-      "description": "Monitor AI subscription and API usage for Claude, Copilot, Codex, Gemini, and OpenRouter from DankBar",
+      "description": "Quota, billing and usage for 37 AI providers, including Claude, Codex, Copilot and Gemini, from DankBar",
       "dependencies": [
         "bash",
         "jq",
-        "curl"
+        "curl",
+        "sqlite3",
+        "flock",
+        "secret-tool"
       ],
       "compositors": [
         "any"
@@ -1888,6 +1891,43 @@
         "any"
       ],
       "screenshot": "https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/assets/screenshot.png"
+    }
+  },
+  "dankMullvadVpn": {
+    "url": "https://github.com/bernardopg/dms-mullvad-vpn-plugin",
+    "rev": "70b13e94bc25aedc4988da6b577510a148bb2b07",
+    "date": "2026-10-06T18:34:37-03:00",
+    "path": "/nix/store/k11z9wd0pq0dp0dmfk8g0l2i10d3wmcq-dms-mullvad-vpn-plugin",
+    "sha256": "14as4ag1hnzg870k3n39zc996qwp0jamx06zidsjp5v1wxynq85j",
+    "hash": "sha256-siBsfedhlyt1i9+AXpUEl2OTEvtp2DHBQe9bGJ4iWpE=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "dankMullvadVpn",
+      "name": "Dank Mullvad VPN",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "repo": "https://github.com/bernardopg/dms-mullvad-vpn-plugin",
+      "author": "Bernardo Gomes",
+      "description": "The full Mullvad VPN CLI in your DankBar: live status, 88 typed forms for relays, DAITA, multihop, DNS and split tunneling, command preview and safe confirmations.",
+      "dependencies": [
+        "mullvad-vpn",
+        "python"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/bernardopg/dms-mullvad-vpn-plugin/main/assets/screenshot.png",
+      "requires_dms": ">=1.6.2"
     }
   },
   "dmsNothingX": {
@@ -2317,6 +2357,48 @@
       ]
     }
   },
+  "simNetwork": {
+    "url": "https://github.com/chenshifanjian/dms-sim-network",
+    "rev": "c122c3a4cc0edfbdda1b8380db7d3d4f9b8a34ce",
+    "date": "2026-10-03T12:30:21+08:00",
+    "path": "/nix/store/243vlir95m57njngkzvl5v1mqva8h0dp-dms-sim-network",
+    "sha256": "0929x56ya1vmhjbdizf4f33k49ysmhcrnqxk49dhm3izd105f4yj",
+    "hash": "sha256-0hNXQGg/jgpbIrNjmxms2icyx3DE/diWhHUH5U3pSSQ=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "simNetwork",
+      "name": "SIM Network",
+      "capabilities": [
+        "daemon",
+        "control-center",
+        "dankbar-widget"
+      ],
+      "category": "networking",
+      "repo": "https://github.com/chenshifanjian/dms-sim-network",
+      "author": "chenshifanjian",
+      "description": "Manage a 4G modem: live data usage and speed, SMS and MMS send/receive with desktop notifications, Obsidian archiving, GPS, and a monthly data-quota check. Built for Quectel EG25-G on China Telecom; receiving MMS needs mmsd-tng. The optional extras/ helpers need python3 + pyserial, a hand-added NOPASSWD sudoers rule limited to systemctl start/stop ModemManager, and one manual request to api64.ipify.org.",
+      "dependencies": [
+        "mmcli",
+        "nmcli",
+        "ip",
+        "curl",
+        "zenity"
+      ],
+      "compositors": [
+        "niri"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/chenshifanjian/dms-sim-network/main/docs/screenshot.png",
+      "requires_dms": ">=1.6.0"
+    }
+  },
   "systemMonitor": {
     "url": "https://github.com/chr314/dms-system-monitor",
     "rev": "c7cb5fbbd393ff8c1d76bf73633abd9fe9859236",
@@ -2500,11 +2582,11 @@
   },
   "dankChat": {
     "url": "https://github.com/coldi1337/DankChat",
-    "rev": "f99b17ed4177566c1ac7bbd5344a87002d0ece86",
-    "date": "2026-09-28T12:28:13+02:00",
-    "path": "/nix/store/h5phhbcp4jjd5nz8vds56zc435dmmx03-DankChat",
-    "sha256": "0wr6ajzijxn0kgvf842kf9rlvyi4dwcmr9z2qwhbfh4kywz9xcw7",
-    "hash": "sha256-h7OePveTQLcgx+KnXBlvJPpNc3JTEOT2m8B2Gb9UJnM=",
+    "rev": "6aeff5f879e1a3621a4f065ec1fd0ad74eb071a3",
+    "date": "2026-10-06T07:47:42+02:00",
+    "path": "/nix/store/5j01m8p98m6qd0izm739f848r299zcb7-DankChat",
+    "sha256": "0p888v1snql0b8zaq3rpavp9pzrx6v6pk2ragxc8wzwykxh9a5ky",
+    "hash": "sha256-fhaVYJ+ef45YfyqLec02Pf+b7lY3D6w+WoBiq8NGCF0=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -2515,7 +2597,9 @@
       "id": "dankChat",
       "name": "DankChat",
       "capabilities": [
-        "dankbar-widget"
+        "dankbar-widget",
+        "daemon",
+        "ipc"
       ],
       "category": "utilities",
       "repo": "https://github.com/coldi1337/DankChat",
@@ -2539,7 +2623,8 @@
       "distro": [
         "any"
       ],
-      "screenshot": "https://raw.githubusercontent.com/coldi1337/DankChat/v0.5.0/docs/preview.png"
+      "requires_dms": ">=1.6.1",
+      "screenshot": "https://raw.githubusercontent.com/coldi1337/DankChat/v0.6.0/docs/preview.png"
     }
   },
   "intervalCommand": {
@@ -6783,6 +6868,88 @@
       "screenshot": "https://raw.githubusercontent.com/jslandau/dms-unified-taskbar/master/screenshot.png"
     }
   },
+  "absPlayer": {
+    "url": "https://github.com/jtcarrasco/audiobookshelf-player",
+    "rev": "74f56887d9dfcc4884297d602ab0b8bd1cd8db3b",
+    "date": "2026-10-05T20:14:46Z",
+    "path": "/nix/store/widhw993j3bg7iqv356xf67jiznngh88-audiobookshelf-player",
+    "sha256": "0pk06ssxbyfwrpsynjjj6a40skc540mk6hy664k2kr7jjskb5c74",
+    "hash": "sha256-5LCyppby5CkmMcZDMysghU0NiDJSSuv1zdz51bU2YF4=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "absPlayer",
+      "name": "Audiobookshelf",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget"
+      ],
+      "category": "media",
+      "repo": "https://github.com/jtcarrasco/audiobookshelf-player",
+      "path": "dms",
+      "author": "Jason Carrasco",
+      "description": "Audiobookshelf client for DankBar: books and podcasts, resume and progress sync, chapters, covers, and a themed popout player.",
+      "dependencies": [
+        "mpv",
+        "python3",
+        "secret-tool",
+        "gnome-keyring"
+      ],
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/jtcarrasco/audiobookshelf-player/main/screenshots/dms.png"
+    }
+  },
+  "freshrssReader": {
+    "url": "https://github.com/jtcarrasco/freshrss-reader",
+    "rev": "123ec9dbeeda2be9a46704dd06473a9beabb1f4d",
+    "date": "2026-10-05T20:14:47Z",
+    "path": "/nix/store/qrx6yxl6w6cfwbhc0lf6mlzzdv6d125g-freshrss-reader",
+    "sha256": "1nxypakxag0pxyw5dmd6hz0m53md8as8w5f24h6l12f7v04mqiak",
+    "hash": "sha256-U0VcCdjHiUANJMIVjrRCrY5SwYem1Va47xc81ae6vts=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "freshrssReader",
+      "name": "FreshRSS",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/jtcarrasco/freshrss-reader",
+      "path": "dms",
+      "author": "Jason Carrasco",
+      "description": "FreshRSS client for DankBar: unread count on the bar, categories, article list with thumbnails, and read/star state that syncs with your server. Keyboard-driven, with FreshRSS's own shortcuts.",
+      "dependencies": [
+        "python3",
+        "secret-tool",
+        "gnome-keyring"
+      ],
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/jtcarrasco/freshrss-reader/main/screenshots/dms.png",
+      "requires_dms": ">=1.6.0"
+    }
+  },
   "deepseekBalance": {
     "url": "https://github.com/juliuswms/dms-deepseekbalance",
     "rev": "00249849187f4920d4f888df80f1a0803aa387a0",
@@ -9889,6 +10056,45 @@
       "screenshot": "https://raw.githubusercontent.com/peturh/tlp-power-profile/main/assets/screenshot1.jpg"
     }
   },
+  "lactProfiles": {
+    "url": "https://github.com/philipplinux/dms-lact-profiles-widget",
+    "rev": "df28d45e3bbdb7d52445b93dd3b910514f343a93",
+    "date": "2026-10-06T05:35:43+01:00",
+    "path": "/nix/store/mx6l2ia0v3h5apddw643dq34r4i6x5qq-dms-lact-profiles-widget",
+    "sha256": "174cqqy4cpzipmr5jq801zqgswp62dnjsfkyqpcbyzj3pak7abbp",
+    "hash": "sha256-dy11prpDfr/YxX46LW0T5nL98A8AYVlyvfFfRjzGjJw=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "lactProfiles",
+      "name": "LACT Profiles",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "repo": "https://github.com/philipplinux/dms-lact-profiles-widget",
+      "path": "lactProfiles",
+      "author": "philipplinux",
+      "description": "Switch LACT GPU power profiles from the bar and see each profile's power limit per GPU. Applying a profile stops and masks lactd (LACT runs only for a few seconds per switch), which disables LACT fan curves, automatic profile switching and the GUI while it is masked. Needs manual setup of the bundled lact-apply script and a sudoers rule (see README).",
+      "dependencies": [
+        "lact",
+        "python3-pyyaml",
+        "lact-apply (manual install, see README)"
+      ],
+      "requires_dms": ">=1.2.0",
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/philipplinux/dms-lact-profiles-widget/main/docs/screenshot.png"
+    }
+  },
   "awcc": {
     "url": "https://github.com/psyreactor/dms-awcc",
     "rev": "e7273f3f7c277e074ee423bc0663669dc67a7cf7",
@@ -11915,11 +12121,11 @@
   },
   "cliproxyQuota": {
     "url": "https://github.com/SpyrosPsarras/dms-cliproxy-quota",
-    "rev": "ce5d03f459ba9006e8d478a7bc8f29b537f5b6d1",
-    "date": "2026-10-02T15:49:15Z",
-    "path": "/nix/store/rpj18ywil63ywjn46v2syszdkxisnbl9-dms-cliproxy-quota",
-    "sha256": "0q9nb6mx9385hbd8y5g7yj3yz6s1gxyb8ir5ksiw75a8ydccqgx3",
-    "hash": "sha256-oz/MWPNIlcOjniVHtHx/QZvvh/TnFY/aggWN1KtZNmE=",
+    "rev": "43af43cfaa69e600876cf345ba9420822f21d69e",
+    "date": "2026-10-06T17:22:35Z",
+    "path": "/nix/store/gkqpbx39jpkiqwpsxyvlcga757d6lgkd-dms-cliproxy-quota",
+    "sha256": "1mdjc6gdf73k82705chk9sic1534yvanacmb2dsmvnzqhnxa6hbf",
+    "hash": "sha256-bkGjuoX42111E6syZdX2ZJTAok4TsgKOQHMc155hstU=",
     "fetchLFS": false,
     "fetchSubmodules": false,
     "deepClone": false,
@@ -12743,6 +12949,45 @@
       ],
       "version": "0.1.0",
       "screenshot": "https://raw.githubusercontent.com/viewerofall-labs/weather-viewer/main/weather.png"
+    }
+  },
+  "mise": {
+    "url": "https://github.com/Villoh/dms-mise",
+    "rev": "aec30b7c100aa4d815c1dfcf391a7796ecf064d8",
+    "date": "2026-10-07T00:22:13+02:00",
+    "path": "/nix/store/3fg02j556mr2zykmnv6k09srn9cpmlmw-dms-mise",
+    "sha256": "0dr262bn7m2v5y35wvyfddkfkk9l4jc4a0qjfgvi8yry8i9gn478",
+    "hash": "sha256-6BD7UkQ+exT3cxIDRZgkNM3pZmvOb16GL1vUY5cwIjc=",
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "fetchTags": false,
+    "leaveDotGit": false,
+    "rootDir": "",
+    "meta": {
+      "id": "mise",
+      "name": "mise",
+      "capabilities": [
+        "dankbar-widget",
+        "launcher",
+        "daemon",
+        "ipc"
+      ],
+      "category": "utilities",
+      "repo": "https://github.com/Villoh/dms-mise",
+      "author": "Villoh",
+      "description": "Install, update, bump and remove mise tools from a DankBar widget, a keybind panel and the launcher.",
+      "dependencies": [
+        "mise"
+      ],
+      "compositors": [
+        "any"
+      ],
+      "distro": [
+        "any"
+      ],
+      "screenshot": "https://raw.githubusercontent.com/Villoh/dms-mise/main/preview/updates.png",
+      "requires_dms": ">=1.6.2"
     }
   },
   "dankSoftwareDepot": {
